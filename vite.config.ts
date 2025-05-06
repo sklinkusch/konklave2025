@@ -4,6 +4,5 @@ import react from '@vitejs/plugin-react'
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: "https://sklinkusch.github.io/konklave2025/",
-  assetsInclude: ["**/*.json", "**/*.ts", "**/*.js", "**/*.jpg"]
+  base: "https://sklinkusch.github.io/konklave2025/"
 })
