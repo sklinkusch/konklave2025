@@ -2,7 +2,7 @@ export const themeOptions = {
   colorSchemes: {
     light: {
       palette: {
-        mode: "light",
+        // mode: "light",
         primary: {
           main: "#3f51b5",
         },
@@ -73,7 +73,7 @@ export const themeOptions = {
     },
     dark: {
       palette: {
-        mode: "dark",
+        // mode: "dark",
         primary: {
           main: "#ffffff",
         },
