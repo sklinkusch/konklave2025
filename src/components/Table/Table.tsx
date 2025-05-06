@@ -1,4 +1,10 @@
-import { Table, TableHead, TableRow, TableCell, TableBody } from "@mui/material";
+import {
+  Table,
+  TableHead,
+  TableRow,
+  TableCell,
+  TableBody,
+} from "@mui/material";
 
 type CustomTableProps = {
   data: {
@@ -7,8 +13,8 @@ type CustomTableProps = {
     lastName: string;
     nation: string;
     function: string;
-  }[]
-}
+  }[];
+};
 
 const CustomTable = ({ data }: CustomTableProps) => {
   return (
@@ -34,7 +40,7 @@ const CustomTable = ({ data }: CustomTableProps) => {
         ))}
       </TableBody>
     </Table>
-  )
-}
+  );
+};
 
 export { CustomTable as Table };
