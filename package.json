@@ -2,7 +2,7 @@
   "name": "konklave2025",
   "private": true,
   "version": "0.0.0",
-  "type": "module",
+  "type": "commonjs",
   "scripts": {
     "dev": "vite --open",
     "build": "tsc -b && vite build",
@@ -15,12 +15,15 @@
     "@emotion/styled": "^11.14.0",
     "@mui/material": "^7.0.2",
     "react": "^19.0.0",
-    "react-dom": "^19.0.0"
+    "react-dom": "^19.0.0",
+    "react-world-flags": "^1.6.0"
   },
   "devDependencies": {
     "@eslint/js": "^9.22.0",
+    "@types/node": "^22.15.14",
     "@types/react": "^19.0.10",
     "@types/react-dom": "^19.0.4",
+    "@types/react-world-flags": "^1.6.0",
     "@vitejs/plugin-react": "^4.3.4",
     "eslint": "^9.22.0",
     "eslint-plugin-prettier": "^5.4.0",
