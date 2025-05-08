@@ -5,6 +5,7 @@ import {
   TableCell,
   TableBody,
 } from "@mui/material";
+import Flag from "react-world-flags";
 
 type CustomTableProps = {
   data: {
@@ -29,15 +30,23 @@ const CustomTable = ({ data }: CustomTableProps) => {
         </TableRow>
       </TableHead>
       <TableBody>
-        {data.map((row, index) => (
-          <TableRow key={index}>
-            <TableCell>{row.latin}</TableCell>
-            <TableCell>{row.firstName}</TableCell>
-            <TableCell>{row.lastName}</TableCell>
-            <TableCell>{row.nation}</TableCell>
-            <TableCell>{row.function}</TableCell>
-          </TableRow>
-        ))}
+        {data.map((row, index) => {
+          return (
+            <TableRow key={index}>
+              <TableCell>{row.latin}</TableCell>
+              <TableCell>{row.firstName}</TableCell>
+              <TableCell>{row.lastName}</TableCell>
+              {row.nation.length === 2 ? (
+                <TableCell>
+                  <Flag code={row.nation} />
+                </TableCell>
+              ) : (
+                <TableCell>{row.nation}</TableCell>
+              )}
+              <TableCell>{row.function}</TableCell>
+            </TableRow>
+          );
+        })}
       </TableBody>
     </Table>
   );

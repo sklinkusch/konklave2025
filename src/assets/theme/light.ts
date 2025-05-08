@@ -66,6 +66,12 @@ export const themeOptions = {
           styleOverrides: {
             root: {
               width: "20%",
+              "&:nth-child(4)": {
+                "& > img": {
+                  height: "1rem",
+                  border: "1px solid black",
+                },
+              },
             },
           },
         },
@@ -137,6 +143,12 @@ export const themeOptions = {
           styleOverrides: {
             root: {
               width: "20%",
+              "&:nth-child(4)": {
+                "& > img": {
+                  height: "1rem",
+                  border: "1px solid white",
+                },
+              },
             },
           },
         },

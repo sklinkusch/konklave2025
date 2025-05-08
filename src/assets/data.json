@@ -6,14 +6,14 @@
         "latin": "Albertus",
         "firstName": "Adalberto",
         "lastName": "Martínez Flores",
-        "nation": "Paraguay",
+        "nation": "PY",
         "function": "Erzbischof von Asunción"
       },
       {
         "latin": "Albertus Milcolumbus",
         "firstName": "Patabendige Albert Malcolm",
         "lastName": "Ranjith",
-        "nation": "Sri Lanka",
+        "nation": "LK",
         "function": "Erzbischof von Colombo"
       }
     ]
@@ -25,7 +25,7 @@
         "latin": "Alvarus Leonellus",
         "firstName": "Álvaro Leonel",
         "lastName": "Ramazzini Imeri",
-        "nation": "Guatemala",
+        "nation": "GT",
         "function": "Bischof von Huehuetenango"
       }
     ]
@@ -37,7 +37,7 @@
         "latin": "Americus Immanuel",
         "firstName": "Américo Manuel",
         "lastName": "Alves Aguiar",
-        "nation": "Portugal",
+        "nation": "PT",
         "function": "Erzbischof von Setúbal"
       }
     ]
@@ -49,21 +49,21 @@
         "latin": "Angelus",
         "firstName": "Angelo",
         "lastName": "De Donatis",
-        "nation": "Italien",
+        "nation": "IT",
         "function": "Kurienkardinal"
       },
       {
         "latin": "Angelus",
         "firstName": "Ángel",
         "lastName": "Fernández Artime",
-        "nation": "Spanien",
+        "nation": "ES",
         "function": "Kurienkardinal"
       },
       {
         "latin": "Angelus Sixtus",
         "firstName": "Ángel Sixto",
         "lastName": "Rossi",
-        "nation": "Argentinien",
+        "nation": "AR",
         "function": "Erzbischof von Córdoba"
       }
     ]
@@ -75,7 +75,7 @@
         "latin": "Anscharius",
         "firstName": "Oscar",
         "lastName": "Cantoni",
-        "nation": "Italien",
+        "nation": "IT",
         "function": "Erzbischof von Como"
       }
     ]
@@ -87,21 +87,21 @@
         "latin": "Antonius",
         "firstName": "Antoine",
         "lastName": "Kambanda",
-        "nation": "Ruanda",
+        "nation": "RW",
         "function": "Erzbischof von Kigali"
       },
       {
         "latin": "Antonius Augustus",
         "firstName": "António Augusto",
         "lastName": "dos Santos Marto",
-        "nation": "Portugal",
+        "nation": "PT",
         "function": "emeritierter Bischof von Leiria-Fatima"
       },
       {
         "latin": "Antonius",
         "firstName": "Anthony",
         "lastName": "Poola",
-        "nation": "Indien",
+        "nation": "IN",
         "function": "Erzbischof von Hyderabad"
       }
     ]
@@ -113,7 +113,7 @@
         "latin": "Arlindus",
         "firstName": "Arlindo",
         "lastName": "Gomes Furtado",
-        "nation": "Cabo Verde",
+        "nation": "CV",
         "function": "Bischof von Santiago de Cabo Verde"
       }
     ]
@@ -125,7 +125,7 @@
         "latin": "Arthurus",
         "firstName": "Arthur",
         "lastName": "Roche",
-        "nation": "Vereinigtes Königreich",
+        "nation": "GB",
         "function": "Kurienkardinal"
       }
     ]
@@ -137,7 +137,7 @@
         "latin": "Augustus Paulus",
         "firstName": "Augusto Paolo",
         "lastName": "Lojudice",
-        "nation": "Italien",
+        "nation": "IT",
         "function": "Erzbischof von Siena-Colle di Val d'Elsa-Montalcino"
       }
     ]
@@ -149,7 +149,7 @@
         "latin": "Baltasar",
         "firstName": "Baldassare",
         "lastName": "Reina",
-        "nation": "Italien",
+        "nation": "IT",
         "function": "Kurienkardinal"
       }
     ]
@@ -161,7 +161,7 @@
         "latin": "Basilius Cleemis",
         "firstName": "Baselios Cleemis",
         "lastName": "Thottunkal",
-        "nation": "Indien",
+        "nation": "IN",
         "function": "Großerzbischof von Trivandrum"
       }
     ]
@@ -173,7 +173,7 @@
         "latin": "Berhaneyesus Demerew",
         "firstName": "Berhaneyesus Demerew",
         "lastName": "Souraphiel",
-        "nation": "Äthiopien",
+        "nation": "ET",
         "function": "Erzbischof von Addis Abeba"
       }
     ]
@@ -185,7 +185,7 @@
         "latin": "Blasius Iosephus",
         "firstName": "Blase Joseph",
         "lastName": "Cupich",
-        "nation": "Vereinigte Staaten",
+        "nation": "US",
         "function": "Erzbischof von Chicago"
       }
     ]
@@ -197,7 +197,7 @@
         "latin": "Coemgenus Iosephus",
         "firstName": "Kevin Joseph",
         "lastName": "Farrell",
-        "nation": "Vereinigte Staaten",
+        "nation": "US",
         "function": "Camerlengo"
       }
     ]
@@ -209,28 +209,28 @@
         "latin": "Carolus",
         "firstName": "Carlos",
         "lastName": "Aguilar Retes",
-        "nation": "Mexiko",
+        "nation": "MX",
         "function": "Erzbischof von Mexiko-Stadt"
       },
       {
         "latin": "Carolus",
         "firstName": "Charles Maung",
         "lastName": "Bo",
-        "nation": "Myanmar",
+        "nation": "MM",
         "function": "Erzbischof von Yangon"
       },
       {
         "latin": "Carolus Gustavus",
         "firstName": "Carlos Gustavo",
         "lastName": "Castillo Mattasoglio",
-        "nation": "Peru",
+        "nation": "PE",
         "function": "Erzbischof von Lima"
       },
       {
         "latin": "Carolus",
         "firstName": "Carlos",
         "lastName": "Osoro Sierra",
-        "nation": "Spanien",
+        "nation": "ES",
         "function": "emeritierter Erzbischof von Madrid"
       }
     ]
@@ -242,7 +242,7 @@
         "latin": "Casimirus",
         "firstName": "Kazimierz",
         "lastName": "Nycz",
-        "nation": "Polen",
+        "nation": "PL",
         "function": "emeritierter Erzbischof von Warschau"
       }
     ]
@@ -254,7 +254,7 @@
         "latin": "Chiblius",
         "firstName": "Chibly",
         "lastName": "Langlois",
-        "nation": "Haiti",
+        "nation": "HT",
         "function": "Bischof von Les Cayes"
       }
     ]
@@ -266,14 +266,14 @@
         "latin": "Christophorus",
         "firstName": "Cristóbal",
         "lastName": "López Romero",
-        "nation": "Marokko",
+        "nation": "MA",
         "function": "Erzbischof von Rabat"
       },
       {
         "latin": "Christophorus Ludovicus Ivo Georgius",
         "firstName": "Christophe Louis Yves Georges",
         "lastName": "Pierre",
-        "nation": "Frankreich",
+        "nation": "FR",
         "function": "Kurienkardinal"
       }
     ]
@@ -285,7 +285,7 @@
         "latin": "Claudius",
         "firstName": "Claudio",
         "lastName": "Gugerotti",
-        "nation": "Italien",
+        "nation": "IT",
         "function": "Kurienkardinal"
       }
     ]
@@ -297,14 +297,14 @@
         "latin": "Conradus",
         "firstName": "Kurt",
         "lastName": "Koch",
-        "nation": "Schweiz",
+        "nation": "CH",
         "function": "Kurienkardinal"
       },
       {
         "latin": "Conradus",
         "firstName": "Konrad",
         "lastName": "Krajewski",
-        "nation": "Polen",
+        "nation": "PL",
         "function": "Kurienkardinal"
       }
     ]
@@ -316,14 +316,14 @@
         "latin": "Daniel Nicolaus",
         "firstName": "Daniel Nicholas",
         "lastName": "DiNardo",
-        "nation": "Vereinigte Staaten",
+        "nation": "US",
         "function": "emeritierter Erzbischof von Galveston-Houston"
       },
       {
         "latin": "Daniel Ferdinandus",
         "firstName": "Daniel Fernando",
         "lastName": "Sturla Berhouet",
-        "nation": "Uruguay",
+        "nation": "UY",
         "function": "Erzbischof von Montevideo"
       }
     ]
@@ -335,7 +335,7 @@
         "latin": "Deodatus",
         "firstName": "Dieudonné",
         "lastName": "Nzapalainga",
-        "nation": "Zentralafrikanische Republik",
+        "nation": "CF",
         "function": "Erzbischof von Bangui"
       }
     ]
@@ -347,7 +347,7 @@
         "latin": "Desiderius",
         "firstName": "Désiré",
         "lastName": "Tsarahazana",
-        "nation": "Madagaskar",
+        "nation": "MG",
         "function": "Erzbischof von Toamasina"
       }
     ]
@@ -359,21 +359,21 @@
         "latin": "Dominicus",
         "firstName": "Domenico",
         "lastName": "Battaglia",
-        "nation": "Italien",
+        "nation": "IT",
         "function": "Erzbischof von Neapel"
       },
       {
         "latin": "Dominicus Franciscus Iosephus",
         "firstName": "Dominique François Joseph",
         "lastName": "Mamberti",
-        "nation": "Frankreich",
+        "nation": "FR",
         "function": "Kardinalprotodiakon"
       },
       {
         "latin": "Dominicus Iosephus",
         "firstName": "Dominique Joseph",
         "lastName": "Mathieu",
-        "nation": "Iran",
+        "nation": "IR",
         "function": "Erzbischof von Teheran-Isfahan"
       }
     ]
@@ -385,7 +385,7 @@
         "latin": "Emilius Paulus",
         "firstName": "Emil Paul",
         "lastName": "Tscherrig",
-        "nation": "Schweiz",
+        "nation": "CH",
         "function": "emeritierter Kurienkardinal"
       }
     ]
@@ -397,7 +397,7 @@
         "latin": "Fabius",
         "firstName": "Fabio",
         "lastName": "Baggio",
-        "nation": "Italien",
+        "nation": "IT",
         "function": "Kurienkardinal"
       }
     ]
@@ -409,14 +409,14 @@
         "latin": "Ferdinadus Natalius",
         "firstName": "Fernando Natalio",
         "lastName": "Chomalí Garib",
-        "nation": "Chile",
+        "nation": "CL",
         "function": "Erzbischof von Santiago de Chile"
       },
       {
         "latin": "Ferdinandus",
         "firstName": "Fernando",
         "lastName": "Filoni",
-        "nation": "Italien",
+        "nation": "IT",
         "function": "Kurienkardinal"
       }
     ]
@@ -428,35 +428,35 @@
         "latin": "Franciscus Xaverius",
         "firstName": "François-Xavier",
         "lastName": "Bustillo",
-        "nation": "Frankreich",
+        "nation": "FR",
         "function": "Erzbischof von Ajaccio"
       },
       {
         "latin": "Franciscus Xaverius",
         "firstName": "Francis Xavier Kriengsak",
         "lastName": "Kovitvanit",
-        "nation": "Thailand",
+        "nation": "TH",
         "function": "emeritierter Erzbischof von Bangkok"
       },
       {
         "latin": "Franciscus",
         "firstName": "Frank",
         "lastName": "Leo",
-        "nation": "Kanada",
+        "nation": "CA",
         "function": "Erzbischof von Toronto"
       },
       {
         "latin": "Franciscus",
         "firstName": "Francesco",
         "lastName": "Montenegro",
-        "nation": "Italien",
+        "nation": "IT",
         "function": "emeritierter Erzbischof von Agrigent"
       },
       {
         "latin": "Franciscus",
         "firstName": "Francisco",
         "lastName": "Robles Ortega",
-        "nation": "Mexiko",
+        "nation": "MX",
         "function": "Erzbischof von Guadalajara"
       }
     ]
@@ -468,7 +468,7 @@
         "latin": "Fridolinus",
         "firstName": "Fridolin",
         "lastName": "Ambongo Besungu",
-        "nation": "Demokratische Republik Kongo",
+        "nation": "CD",
         "function": "Erzbischof von Kinshasa"
       }
     ]
@@ -480,14 +480,14 @@
         "latin": "Georgius Iacobus",
         "firstName": "George Jacob",
         "lastName": "Koovakad",
-        "nation": "Indien",
+        "nation": "IN",
         "function": "Kurienkardinal"
       },
       {
         "latin": "Georgius",
         "firstName": "Giorgio",
         "lastName": "Marengo",
-        "nation": "Mongolei",
+        "nation": "MN",
         "function": "Präfekt von Ulaanbaatar"
       }
     ]
@@ -499,14 +499,14 @@
         "latin": "Giraldus Cyprianus",
         "firstName": "Gérald Cyprien",
         "lastName": "Lacroix",
-        "nation": "Kanada",
+        "nation": "CA",
         "function": "Erzbischof von Québec"
       },
       {
         "latin": "Giraldus Ludovicus",
         "firstName": "Gerhard Ludwig",
         "lastName": "Müller",
-        "nation": "Deutschland",
+        "nation": "DE",
         "function": "Kurienkardinal"
       }
     ]
@@ -518,7 +518,7 @@
         "latin": "Gregorius Albertus",
         "firstName": "Grzegorz Wojciech",
         "lastName": "Ryś",
-        "nation": "Polen",
+        "nation": "PL",
         "function": "Erzbischof von Łódź"
       }
     ]
@@ -530,21 +530,21 @@
         "latin": "Gulielmus Iacobus",
         "firstName": "Willem Jacobus",
         "lastName": "Eijk",
-        "nation": "Niederlande",
+        "nation": "NL",
         "function": "Erzbischof von Utrecht"
       },
       {
         "latin": "Gulielmus Daniel",
         "firstName": "Wilton Daniel",
         "lastName": "Gregory",
-        "nation": "Vereinigte Staaten",
+        "nation": "US",
         "function": "Erzbischof von Washington"
       },
       {
         "latin": "Gulielmus",
         "firstName": "William",
         "lastName": "Goh Seng Chye",
-        "nation": "Singapur",
+        "nation": "SG",
         "function": "Erzbischof von Singapur"
       }
     ]
@@ -556,14 +556,14 @@
         "latin": "Iacobus Michael",
         "firstName": "James Michael",
         "lastName": "Harvey",
-        "nation": "Vereinigte Staaten",
+        "nation": "US",
         "function": "Kurienkardinal"
       },
       {
         "latin": "Iacobus",
         "firstName": "Jaime",
         "lastName": "Spengler",
-        "nation": "Brasilien",
+        "nation": "BR",
         "function": "Erzbischof von Porto Alegre"
       }
     ]
@@ -575,14 +575,14 @@
         "latin": "Ignatius",
         "firstName": "Ignace",
         "lastName": "Bessi Dogbo",
-        "nation": "Elfenbeinküste",
+        "nation": "CI",
         "function": "Erzbischof von Abidjan"
       },
       {
         "latin": "Ignatius",
         "firstName": "Ignatius",
         "lastName": "Suharyo Hardjoatmodjo",
-        "nation": "Indonesien",
+        "nation": "ID",
         "function": "Erzbischof von Jakarta"
       }
     ]
@@ -594,7 +594,7 @@
         "latin": "Immanuel Iosephus Macarius",
         "firstName": "Manuel José Macário",
         "lastName": "do Nascimento Clemente",
-        "nation": "Portugal",
+        "nation": "PT",
         "function": "emeritierter Patriarch von Lissabon"
       }
     ]
@@ -606,63 +606,63 @@
         "latin": "Ioannes Marcus",
         "firstName": "Jean-Marc",
         "lastName": "Aveline",
-        "nation": "Frankreich",
+        "nation": "FR",
         "function": "Erzbischof von Marseille"
       },
       {
         "latin": "Ioannes",
         "firstName": "João",
         "lastName": "Braz de Aviz",
-        "nation": "Brasilien",
+        "nation": "BR",
         "function": "emeritierter Kurienkardinal"
       },
       {
         "latin": "Ioannes",
         "firstName": "John Atcherley",
         "lastName": "Dew",
-        "nation": "Neuseeland",
+        "nation": "NZ",
         "function": "emeritierter Erzbischof von Wellington"
       },
       {
         "latin": "Ioannes",
         "firstName": "Juan de la Caridad",
         "lastName": "García Rodríguez",
-        "nation": "Kuba",
+        "nation": "CU",
         "function": "Erzbischof von San Cristóbal de la Habana"
       },
       {
         "latin": "Ioannes Claudius",
         "firstName": "Jean-Claude",
         "lastName": "Hollerich",
-        "nation": "Luxemburg",
+        "nation": "LU",
         "function": "Erzbischof von Luxemburg"
       },
       {
         "latin": "Ioannes Petrus",
         "firstName": "Jean-Pierre",
         "lastName": "Kutwa",
-        "nation": "Elfenbeinküste",
+        "nation": "CI",
         "function": "emeritierter Erzbischof von Abidjan"
       },
       {
         "latin": "Ioannes Iosephus",
         "firstName": "Juan José",
         "lastName": "Omella Omella",
-        "nation": "Spanien",
+        "nation": "ES",
         "function": "Erzbischof von Barcelona"
       },
       {
         "latin": "Ioannes",
         "firstName": "John",
         "lastName": "Ribat",
-        "nation": "Papua-Neuguinea",
+        "nation": "PG",
         "function": "Erzbischof von Port Moresby"
       },
       {
         "latin": "Ioannes Paulus",
         "firstName": "Jean-Paul",
         "lastName": "Vesco",
-        "nation": "Algerien",
+        "nation": "DZ",
         "function": "Erzbischof von Algier"
       }
     ]
@@ -674,63 +674,63 @@
         "latin": "Iosephus",
         "firstName": "José Fuerte",
         "lastName": "Advincula",
-        "nation": "Philippinen",
+        "nation": "PH",
         "function": "Erzbischof von Manila"
       },
       {
         "latin": "Iosephus",
         "firstName": "Giuseppe",
         "lastName": "Betori",
-        "nation": "Italien",
+        "nation": "IT",
         "function": "emeritierter Erzbischof von Florenz"
       },
       {
         "latin": "Iosephus",
         "firstName": "Josip",
         "lastName": "Bozanić",
-        "nation": "Kroatien",
+        "nation": "HR",
         "function": "emeritierter Erzbischof von Zagreb"
       },
       {
         "latin": "Iosephus Tolentinus",
         "firstName": "José Tolentino",
         "lastName": "Calaça de Mendonça",
-        "nation": "Portugal",
+        "nation": "PT",
         "function": "Kurienkardinal"
       },
       {
         "latin": "Iosephus",
         "firstName": "José",
         "lastName": "Cobo Cano",
-        "nation": "Spanien",
+        "nation": "ES",
         "function": "Erzbischof von Madrid"
       },
       {
         "latin": "Iosephus",
         "firstName": "Joseph",
         "lastName": "Coutts",
-        "nation": "Pakistan",
+        "nation": "PK",
         "function": "emeritierter Erzbischof von Karatschi"
       },
       {
         "latin": "Iosephus",
         "firstName": "Jozef",
         "lastName": "De Kesel",
-        "nation": "Belgien",
+        "nation": "BE",
         "function": "emeritierter Erzbischof von Mecheln-Brüssel"
       },
       {
         "latin": "Iosephus",
         "firstName": "Giuseppe",
         "lastName": "Petrocchi",
-        "nation": "Italien",
+        "nation": "IT",
         "function": "emeritierter Erzbischof von L'Aquila"
       },
       {
         "latin": "Iosephus Gulielmus",
         "firstName": "Joseph William",
         "lastName": "Tobin",
-        "nation": "Vereinigte Staaten",
+        "nation": "US",
         "function": "Erzbischof von Newark"
       }
     ]
@@ -742,7 +742,7 @@
         "latin": "Ladislaus",
         "firstName": "László",
         "lastName": "Német",
-        "nation": "Serbien",
+        "nation": "RS",
         "function": "Erzbischof von Belgrad"
       }
     ]
@@ -754,7 +754,7 @@
         "latin": "Laurentius Andreas",
         "firstName": "Lars Anders",
         "lastName": "Arborelius",
-        "nation": "Schweden",
+        "nation": "SE",
         "function": "Erzbischof von Stockholm"
       }
     ]
@@ -766,7 +766,7 @@
         "latin": "Lazarus",
         "firstName": "Lazarus",
         "lastName": "You Heung-sik",
-        "nation": "Südkorea",
+        "nation": "KR",
         "function": "Kurienkardinal"
       }
     ]
@@ -778,7 +778,7 @@
         "latin": "Leonardus Ulricus",
         "firstName": "Leonardo Ulrich",
         "lastName": "Steiner",
-        "nation": "Brasilien",
+        "nation": "BR",
         "function": "Erzbischof von Manaus"
       }
     ]
@@ -790,7 +790,7 @@
         "latin": "Leopoldus Iosephus",
         "firstName": "Leopoldo José",
         "lastName": "Brenes Solórzano",
-        "nation": "Nicaragua",
+        "nation": "NI",
         "function": "Erzbischof von Managua"
       }
     ]
@@ -802,28 +802,28 @@
         "latin": "Ludovicus Giraldus",
         "firstName": "Luis Gerardo",
         "lastName": "Cabrera Herrera",
-        "nation": "Ecuador",
+        "nation": "EC",
         "function": "Erzbischof von Guayaquil"
       },
       {
         "latin": "Ludovicus Iosephus",
         "firstName": "Luis José",
         "lastName": "Rueda Aparicio",
-        "nation": "Kolumbien",
+        "nation": "CO",
         "function": "Erzbischof von Bogotá"
       },
       {
         "latin": "Ludovicus Raphaelus",
         "firstName": "Louis Raphaël",
         "lastName": "Sako",
-        "nation": "Irak",
+        "nation": "IQ",
         "function": "Patriarch von Bagdad"
       },
       {
         "latin": "Ludovicus Antonius Gokim",
         "firstName": "Luis Antonio Gokim",
         "lastName": "Tagle",
-        "nation": "Philippinen",
+        "nation": "PH",
         "function": "Kurienkardinal"
       }
     ]
@@ -835,7 +835,7 @@
         "latin": "Marcellus",
         "firstName": "Marcello",
         "lastName": "Semeraro",
-        "nation": "Italien",
+        "nation": "IT",
         "function": "Kurienkardinal"
       }
     ]
@@ -847,21 +847,21 @@
         "latin": "Marius",
         "firstName": "Mario",
         "lastName": "Grech",
-        "nation": "Malta",
+        "nation": "MT",
         "function": "Kurienkardinal"
       },
       {
         "latin": "Marius Aurelius",
         "firstName": "Mario Aurelio",
         "lastName": "Poli",
-        "nation": "Argentinien",
+        "nation": "AR",
         "function": "emeritierter Erzbischof von Buenos Aires"
       },
       {
         "latin": "Marius",
         "firstName": "Mario",
         "lastName": "Zenaru",
-        "nation": "Italien",
+        "nation": "IT",
         "function": "Kurienkardinal"
       }
     ]
@@ -873,7 +873,7 @@
         "latin": "Matthaeus Maria",
         "firstName": "Matteo Maria",
         "lastName": "Zuppi",
-        "nation": "Italien",
+        "nation": "IT",
         "function": "Erzbischof von Bologna"
       }
     ]
@@ -885,7 +885,7 @@
         "latin": "Maurus Maria",
         "firstName": "Mauro Maria",
         "lastName": "Gambetti",
-        "nation": "Italien",
+        "nation": "IT",
         "function": "Kurienkardinal"
       }
     ]
@@ -897,7 +897,7 @@
         "latin": "Michael",
         "firstName": "Michael F.",
         "lastName": "Czerny",
-        "nation": "Kanada",
+        "nation": "CA",
         "function": "Kurienkardinal"
       }
     ]
@@ -909,7 +909,7 @@
         "latin": "Nicolaus",
         "firstName": "Mykola",
         "lastName": "Byczok",
-        "nation": "Australien",
+        "nation": "AU",
         "function": "Erzbischof von Melbourne"
       }
     ]
@@ -921,7 +921,7 @@
         "latin": "Odilo Petrus",
         "firstName": "Odilo Pedro",
         "lastName": "Scherer",
-        "nation": "Brasilien",
+        "nation": "BR",
         "function": "Erzbischof von São Paulo"
       }
     ]
@@ -933,7 +933,7 @@
         "latin": "Orani Ioannes",
         "firstName": "Orani João",
         "lastName": "Tempesta",
-        "nation": "Brasilien",
+        "nation": "BR",
         "function": "Erzbischof von Rio de Janeiro"
       }
     ]
@@ -945,14 +945,14 @@
         "latin": "Paulus Caesar",
         "firstName": "Paulo Cezar",
         "lastName": "Costa",
-        "nation": "Brasilien",
+        "nation": "BR",
         "function": "Erzbischof von Brasilia"
       },
       {
         "latin": "Paulus Virgilius",
         "firstName": "Pablo Virgilio Siongco",
         "lastName": "David",
-        "nation": "Philippinen",
+        "nation": "PH",
         "function": "Erzbischof von Kalookan"
       }
     ]
@@ -964,35 +964,35 @@
         "latin": "Petrus",
         "firstName": "Péter",
         "lastName": "Erdő",
-        "nation": "Ungarn",
+        "nation": "HU",
         "function": "Erzbischof von Esztergom-Budapest"
       },
       {
         "latin": "Petrus Ebere",
         "firstName": "Peter Ebere",
         "lastName": "Okpaleke",
-        "nation": "Nigeria",
+        "nation": "NG",
         "function": "Bischof von Ekwulobia"
       },
       {
         "latin": "Petrus",
         "firstName": "Pietro",
         "lastName": "Parolin",
-        "nation": "Italien",
+        "nation": "IT",
         "function": "Kardinalstaatssekretär"
       },
       {
         "latin": "Petrus Battista",
         "firstName": "Pierbattista",
         "lastName": "Pizzaballa",
-        "nation": "Israel",
+        "nation": "IL",
         "function": "Patriarch von Jerusalem"
       },
       {
         "latin": "Petrus Kodwo Appiah",
         "firstName": "Peter Kodwo Appiah",
         "lastName": "Turkson",
-        "nation": "Ghana",
+        "nation": "GH",
         "function": "Kurienkardinal"
       }
     ]
@@ -1004,22 +1004,22 @@
         "latin": "Philippus Xaverius Christianus Ignatius",
         "firstName": "Philippe Xavier Christian Ignace",
         "lastName": "Barbarin",
-        "nation": "Frankreich",
+        "nation": "FR",
         "function": "emeritierter Erzbischof von Lyon"
       },
       {
         "latin": "Philippus Nakellentuba",
         "firstName": "Philippe Nakellentuba",
         "lastName": "Ouédraogo",
-        "nation": "Burkina Faso",
+        "nation": "BF",
         "function": "emeritierter Erzbischof von Ouagadougou"
       },
       {
         "latin": "Philippus Neri Antonius Sebastianus",
         "firstName": "Filipe Neri António Sebastião",
         "lastName": "do Rosário Ferrão",
-        "nation": "Indien",
-        "function": "Patriarch von Ostindien"
+        "nation": "IN",
+        "function": "Patriarch von OstIN"
       }
     ]
   },
@@ -1030,7 +1030,7 @@
         "latin": "Protase",
         "firstName": "Protase",
         "lastName": "Rugambwa",
-        "nation": "Tansania",
+        "nation": "TZ",
         "function": "Erzbischof von Tabora"
       }
     ]
@@ -1042,7 +1042,7 @@
         "latin": "Raimundus Leo",
         "firstName": "Raymund Leo",
         "lastName": "Burke",
-        "nation": "Vereinigte Staaten",
+        "nation": "US",
         "function": "emeritierter Kurienkardinal"
       }
     ]
@@ -1054,7 +1054,7 @@
         "latin": "Rainerius Maria",
         "firstName": "Rainer Maria",
         "lastName": "Woelki",
-        "nation": "Deutschland",
+        "nation": "DE",
         "function": "Erzbischof von Köln"
       }
     ]
@@ -1066,7 +1066,7 @@
         "latin": "Reinhardus",
         "firstName": "Reinhard",
         "lastName": "Marx",
-        "nation": "Deutschland",
+        "nation": "DE",
         "function": "Erzbischof von München und Freising"
       }
     ]
@@ -1078,28 +1078,28 @@
         "latin": "Robertus Gualterius",
         "firstName": "Robert Walter",
         "lastName": "McElroy",
-        "nation": "Vereinigte Staaten",
+        "nation": "US",
         "function": "Erzbischof von Washington"
       },
       {
         "latin": "Robertus Franciscus",
         "firstName": "Robert Francis",
         "lastName": "Prevost",
-        "nation": "Vereinigte Staaten",
+        "nation": "US",
         "function": "Kurienkardinal"
       },
       {
         "latin": "Robertus",
         "firstName": "Roberto",
         "lastName": "Repole",
-        "nation": "Italien",
+        "nation": "IT",
         "function": "Erzbischof von Turin"
       },
       {
         "latin": "Robertus",
         "firstName": "Robert",
         "lastName": "Sarah",
-        "nation": "Guinea",
+        "nation": "GN",
         "function": "emeritierter Kurienkardinal"
       }
     ]
@@ -1111,7 +1111,7 @@
         "latin": "Rolandus",
         "firstName": "Rolandas",
         "lastName": "Makrickas",
-        "nation": "Litauen",
+        "nation": "LT",
         "function": "Kurienkardinal"
       }
     ]
@@ -1123,7 +1123,7 @@
         "latin": "Sebastianus",
         "firstName": "Sebastian",
         "lastName": "Francis",
-        "nation": "Malaysia",
+        "nation": "MY",
         "function": "Bischof von Penang"
       }
     ]
@@ -1135,7 +1135,7 @@
         "latin": "Sergius",
         "firstName": "Sérgio",
         "lastName": "da Rocha",
-        "nation": "Brasilien",
+        "nation": "BR",
         "function": "Erzbischof von São Salvador da Bahia"
       }
     ]
@@ -1147,7 +1147,7 @@
         "latin": "Soanus Patita",
         "firstName": "Soane Patita Paini",
         "lastName": "Mafi",
-        "nation": "Tonga",
+        "nation": "TO",
         "function": "Bischof von Tonga"
       }
     ]
@@ -1159,7 +1159,7 @@
         "latin": "Stanislaus Marianus",
         "firstName": "Stanisław Marian",
         "lastName": "Ryłko",
-        "nation": "Polen",
+        "nation": "PL",
         "function": "Kurienkardinal"
       }
     ]
@@ -1171,21 +1171,21 @@
         "latin": "Stephanus",
         "firstName": "Stephen",
         "lastName": "Brislin",
-        "nation": "Südafrika",
+        "nation": "ZA",
         "function": "Erzbischof von Johannesburg"
       },
       {
         "latin": "Stephanus",
         "firstName": "Stephen",
         "lastName": "Chow Sau-yan",
-        "nation": "Volksrepublik China",
+        "nation": "HK",
         "function": "Erzbischof von Hongkong"
       },
       {
         "latin": "Stephanus Ameyu Martinus",
         "firstName": "Stephen Ameyu Martin",
         "lastName": "Mulla",
-        "nation": "Südsudan",
+        "nation": "SS",
         "function": "Erzbischof von Juba"
       }
     ]
@@ -1197,7 +1197,7 @@
         "latin": "Tarcisius",
         "firstName": "Tarcisio Isao",
         "lastName": "Kikuchi",
-        "nation": "Japan",
+        "nation": "JP",
         "function": "Erzbischof von Tokio"
       }
     ]
@@ -1209,14 +1209,14 @@
         "latin": "Thomas Christophorus",
         "firstName": "Thomas Christopher",
         "lastName": "Collins",
-        "nation": "Kanada",
+        "nation": "CA",
         "function": "emeritierter Erzbischof von Toronto"
       },
       {
         "latin": "Thomas Aquinus",
         "firstName": "Thomas Aquino Man'yo",
         "lastName": "Maeda",
-        "nation": "Japan",
+        "nation": "JP",
         "function": "Erzbischof von Osaka-Takamatsu"
       }
     ]
@@ -1228,14 +1228,14 @@
         "latin": "Timotheus Michael",
         "firstName": "Timothy Michael",
         "lastName": "Dolan",
-        "nation": "Vereinigte Staaten",
+        "nation": "US",
         "function": "Erzbischof von New York"
       },
       {
         "latin": "Timotheus Petrus Iosephus",
         "firstName": "Timothy Peter Joseph",
         "lastName": "Radcliffe",
-        "nation": "Vereinigtes Königreich",
+        "nation": "GB",
         "function": "Kurienkardinal"
       }
     ]
@@ -1247,7 +1247,7 @@
         "latin": "Victor Immanuel",
         "firstName": "Víctor Manuel",
         "lastName": "Fernández",
-        "nation": "Argentinien",
+        "nation": "AR",
         "function": "Kurienkardinal"
       }
     ]
@@ -1259,14 +1259,14 @@
         "latin": "Vincentius",
         "firstName": "Vicente",
         "lastName": "Bokalic Iglic",
-        "nation": "Argentinien",
+        "nation": "AR",
         "function": "Erzbischof von Santiago del Estero"
       },
       {
         "latin": "Vincentius Giraldus",
         "firstName": "Vincent Gerard",
         "lastName": "Nichols",
-        "nation": "Vereinigtes Königreich",
+        "nation": "GB",
         "function": "Erzbischof von Westminster"
       }
     ]
@@ -1278,7 +1278,7 @@
         "latin": "Vinko",
         "firstName": "Vinko",
         "lastName": "Puljić",
-        "nation": "Bosnien und Herzegowina",
+        "nation": "BA",
         "function": "emeritierter Erzbischof von Vrhbosna (Sarajevo)"
       }
     ]
@@ -1290,7 +1290,7 @@
         "latin": "Virgilius",
         "firstName": "Virgílio",
         "lastName": "do Carmo da Silva",
-        "nation": "Timor-Leste",
+        "nation": "TL",
         "function": "Erzbischof von Dili"
       }
     ]
