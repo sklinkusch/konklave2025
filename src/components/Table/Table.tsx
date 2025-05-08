@@ -16,6 +16,7 @@ type CustomTableProps = {
     lastName: string;
     nation: string[];
     function: string;
+    elected?: boolean;
   }[];
 };
 
@@ -33,13 +34,17 @@ const CustomTable = ({ data }: CustomTableProps) => {
       </TableHead>
       <TableBody>
         {data.map((row, index) => {
+          const sxCell = {
+            color: row.elected ? "gold" : "unset",
+            fontWeight: row.elected ? "bold" : "normal",
+          };
           return (
             <TableRow key={index}>
-              <TableCell>{row.latin}</TableCell>
-              <TableCell>{row.firstName}</TableCell>
-              <TableCell>{row.lastName}</TableCell>
+              <TableCell sx={sxCell}>{row.latin}</TableCell>
+              <TableCell sx={sxCell}>{row.firstName}</TableCell>
+              <TableCell sx={sxCell}>{row.lastName}</TableCell>
               {typeof row.nation === "object" && Array.isArray(row.nation) && (
-                <TableCell>
+                <TableCell sx={sxCell}>
                   {row.nation.map((singleCountry: string) => {
                     const countryObject = countries.hasOwnProperty(
                       singleCountry,
@@ -51,16 +56,12 @@ const CustomTable = ({ data }: CustomTableProps) => {
                         <Flag code={singleCountry} key={singleCountry} />
                       </Tooltip>
                     ) : (
-                      <Flag
-                        code={singleCountry}
-                        key={singleCountry}
-                        {...countryObject}
-                      />
+                      <Flag code={singleCountry} key={singleCountry} />
                     );
                   })}
                 </TableCell>
               )}
-              <TableCell>{row.function}</TableCell>
+              <TableCell sx={sxCell}>{row.function}</TableCell>
             </TableRow>
           );
         })}

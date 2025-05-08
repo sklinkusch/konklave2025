@@ -1085,8 +1085,9 @@
         "latin": "Robertus Franciscus",
         "firstName": "Robert Francis",
         "lastName": "Prevost",
-        "nation": ["US", "VA"],
-        "function": "Kurienkardinal"
+        "nation": ["US", "PE", "VA"],
+        "function": "Kurienkardinal",
+        "elected": true
       },
       {
         "latin": "Robertus",

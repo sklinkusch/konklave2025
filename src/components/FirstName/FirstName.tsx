@@ -7,8 +7,9 @@ type FirstNameProps = {
     latin: string;
     firstName: string;
     lastName: string;
-    nation: string;
+    nation: string[];
     function: string;
+    elected?: boolean;
   }[];
 };
 
