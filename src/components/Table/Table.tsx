@@ -4,15 +4,17 @@ import {
   TableRow,
   TableCell,
   TableBody,
+  Tooltip,
 } from "@mui/material";
 import Flag from "react-world-flags";
+import { countries } from "../../assets/countries";
 
 type CustomTableProps = {
   data: {
     latin: string;
     firstName: string;
     lastName: string;
-    nation: string;
+    nation: string[];
     function: string;
   }[];
 };
@@ -36,12 +38,27 @@ const CustomTable = ({ data }: CustomTableProps) => {
               <TableCell>{row.latin}</TableCell>
               <TableCell>{row.firstName}</TableCell>
               <TableCell>{row.lastName}</TableCell>
-              {row.nation.length === 2 ? (
+              {typeof row.nation === "object" && Array.isArray(row.nation) && (
                 <TableCell>
-                  <Flag code={row.nation} />
+                  {row.nation.map((singleCountry: string) => {
+                    const countryObject = countries.hasOwnProperty(
+                      singleCountry,
+                    )
+                      ? { title: countries[singleCountry] }
+                      : {};
+                    return Object.keys(countryObject).includes("title") ? (
+                      <Tooltip title={countryObject.title}>
+                        <Flag code={singleCountry} key={singleCountry} />
+                      </Tooltip>
+                    ) : (
+                      <Flag
+                        code={singleCountry}
+                        key={singleCountry}
+                        {...countryObject}
+                      />
+                    );
+                  })}
                 </TableCell>
-              ) : (
-                <TableCell>{row.nation}</TableCell>
               )}
               <TableCell>{row.function}</TableCell>
             </TableRow>
