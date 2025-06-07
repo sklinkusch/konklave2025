@@ -35,11 +35,13 @@ const CustomTable = ({ data }: CustomTableProps) => {
       <TableBody>
         {data.map((row, index) => {
           const sxCell = {
-            color: row.elected ? "gold" : "unset",
+            color: "black",
             fontWeight: row.elected ? "bold" : "normal",
           };
           return (
-            <TableRow key={index}>
+            <TableRow
+              key={index}
+              sx={{ backgroundColor: row.elected ? "gold" : "transparent" }}>
               <TableCell sx={sxCell}>{row.latin}</TableCell>
               <TableCell sx={sxCell}>{row.firstName}</TableCell>
               <TableCell sx={sxCell}>{row.lastName}</TableCell>
