@@ -4,5 +4,13 @@ import react from "@vitejs/plugin-react";
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: "https://sklinkusch.github.io/konklave2025/",
+  server: {
+    proxy: {
+      "/api": {
+        target: "https://konklave2025.vercel.app",
+        changeOrigin: true,
+        rewrite: (path) => path.replace(/^\/api/, ""),
+      },
+    },
+  },
 });
