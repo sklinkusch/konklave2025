@@ -2,25 +2,6 @@ import { useEffect } from "react";
 import { Typography } from "@mui/material";
 import { FirstName } from "@components/FirstName/FirstName";
 
-type Cardinal = {
-  latin: string;
-  firstName: string;
-  lastName: string;
-  nation: string[];
-  function: string;
-  elected?: boolean;
-};
-
-type LatinName = {
-  name: string;
-  data: Cardinal[];
-};
-
-type KonklaveProps = {
-  year: number;
-  cardinals: LatinName[];
-};
-
 function Konklave({ year, cardinals }: KonklaveProps) {
   useEffect(() => {
     document.title = `Konklave ${year}`;

@@ -1,18 +1,6 @@
 import { Typography } from "@mui/material";
 import { Table } from "../Table/Table";
 
-type FirstNameProps = {
-  name: string;
-  data: {
-    latin: string;
-    firstName: string;
-    lastName: string;
-    nation: string[];
-    function: string;
-    elected?: boolean;
-  }[];
-};
-
 const FirstName = ({ name, data }: FirstNameProps) => {
   return (
     <div style={{ marginBlock: "1rem" }}>

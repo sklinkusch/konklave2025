@@ -7,18 +7,7 @@ import {
   Tooltip,
 } from "@mui/material";
 import Flag from "react-world-flags";
-import { countries } from "../../assets/countries";
-
-type CustomTableProps = {
-  data: {
-    latin: string;
-    firstName: string;
-    lastName: string;
-    nation: string[];
-    function: string;
-    elected?: boolean;
-  }[];
-};
+import { countries } from "@assets/countries";
 
 const CustomTable = ({ data }: CustomTableProps) => {
   return (

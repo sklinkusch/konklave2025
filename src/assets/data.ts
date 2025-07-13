@@ -1,33 +1,5 @@
 import { allFirstNames } from "./allFirstNames";
 
-interface Cardinal {
-  latin: string;
-  firstName: string;
-  lastName: string;
-  nation: { [key: string]: string[] };
-  function: { [key: string]: string };
-  elected?: { [key: string]: boolean };
-}
-
-interface NewCardinal {
-  latin: string;
-  firstName: string;
-  lastName: string;
-  nation: string[];
-  function: string;
-  elected: boolean;
-}
-
-interface FirstName {
-  name: string;
-  data: Cardinal[];
-}
-
-interface NewFirstName {
-  name: string;
-  data: NewCardinal[];
-}
-
 export const getCardinals = (year: string) => {
   return allFirstNames.reduce(
     (firstNames: NewFirstName[], firstName: FirstName) => {

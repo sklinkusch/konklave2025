@@ -1,17 +1,3 @@
-interface Cardinal {
-  latin: string;
-  firstName: string;
-  lastName: string;
-  nation: { [key: string]: string[] };
-  function: { [key: string]: string };
-  elected?: { [key: string]: boolean };
-}
-
-interface FirstName {
-  name: string;
-  data: Cardinal[];
-}
-
 export const allFirstNames: FirstName[] = [
   {
     name: "Albertus",
