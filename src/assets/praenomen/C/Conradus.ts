@@ -1,8 +1,8 @@
-export const Curtius: FirstName = {
-  name: "Curtius",
+export const Conradus: FirstName = {
+  name: "Conradus",
   data: [
     {
-      latin: "Curtius",
+      latin: "Conradus",
       firstName: "Kurt",
       lastName: "Koch",
       nation: {
@@ -12,6 +12,17 @@ export const Curtius: FirstName = {
       function: {
         2013: "Präsident des Päpstlichen Rates zur Förderung der Einheit der Christen",
         2025: "emeritierter Präfekt des Dikasteriums zur Förderung der Einheit der Christen",
+      },
+    },
+    {
+      latin: "Conradus",
+      firstName: "Konrad",
+      lastName: "Krajewski",
+      nation: {
+        2025: ["PL", "VA"],
+      },
+      function: {
+        2025: "Präfekt des Dikasteriums für den Dienst der Nächstenliebe",
       },
     },
   ],

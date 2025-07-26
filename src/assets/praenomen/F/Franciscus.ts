@@ -13,6 +13,28 @@ export const Franciscus: FirstName = {
       },
     },
     {
+      latin: "Franciscus",
+      firstName: "Frank",
+      lastName: "Leo",
+      nation: {
+        2025: ["CA"],
+      },
+      function: {
+        2025: "Erzbischof von Toronto",
+      },
+    },
+    {
+      latin: "Franciscus",
+      firstName: "Francesco",
+      lastName: "Montenegro",
+      nation: {
+        2025: ["IT"],
+      },
+      function: {
+        2025: "emeritierter Erzbischof von Agrigent",
+      },
+    },
+    {
       latin: "Fraciscus",
       firstName: "Francesco",
       lastName: "Monterisi",
@@ -62,6 +84,17 @@ export const Franciscus: FirstName = {
     },
     {
       latin: "Franciscus Xaverius",
+      firstName: "François-Xavier",
+      lastName: "Bustillo",
+      nation: {
+        2025: ["ES", "FR"],
+      },
+      function: {
+        2025: "Erzbischof von Ajaccio",
+      },
+    },
+    {
+      latin: "Franciscus Xaverius",
       firstName: "Francisco Javier",
       lastName: "Errázuriz Ossa",
       nation: {
@@ -71,6 +104,17 @@ export const Franciscus: FirstName = {
       function: {
         2005: "Erzbischof von Santiago de Chile",
         2013: "emeritierter Erzbischof von Santiago de Chile",
+      },
+    },
+    {
+      latin: "Franciscus Xaverius Kriengsak",
+      firstName: "Francis Xavier Kriengsak",
+      lastName: "Kovitvanit",
+      nation: {
+        2025: ["TH"],
+      },
+      function: {
+        2025: "emeritierter Erzbischof von Bangkok",
       },
     },
   ],

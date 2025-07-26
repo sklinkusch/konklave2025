@@ -12,5 +12,16 @@ export const Laurentius: FirstName = {
         2013: "Erzbischof von Kinshasa",
       },
     },
+    {
+      latin: "Laurentius Andreas",
+      firstName: "Lars Anders",
+      lastName: "Arborelius",
+      nation: {
+        2025: ["SE"],
+      },
+      function: {
+        2025: "Erzbischof von Stockholm",
+      },
+    },
   ],
 };

@@ -14,6 +14,17 @@ export const Antonius: FirstName = {
     },
     {
       latin: "Antonius",
+      firstName: "Antoine",
+      lastName: "Kambanda",
+      nation: {
+        2025: ["RW"],
+      },
+      function: {
+        2025: "Erzbischof von Kigali",
+      },
+    },
+    {
+      latin: "Antonius",
       firstName: "Antonios",
       lastName: "Naguib",
       nation: {
@@ -21,6 +32,28 @@ export const Antonius: FirstName = {
       },
       function: {
         2013: "Patriarch von Alexandrien",
+      },
+    },
+    {
+      latin: "Antonius",
+      firstName: "Anthony",
+      lastName: "Poola",
+      nation: {
+        2025: ["IN"],
+      },
+      function: {
+        2025: "Erzbischof von Hyderabad",
+      },
+    },
+    {
+      latin: "Antonius Augustus",
+      firstName: "António Augusto",
+      lastName: "dos Santos Marto",
+      nation: {
+        2025: ["PT"],
+      },
+      function: {
+        2025: "emeritierter Bischof von Leiria-Fatima",
       },
     },
     {

@@ -14,5 +14,16 @@ export const Daniel: FirstName = {
         2025: "emeritierter Erzbischof von Galveston-Houston",
       },
     },
+    {
+      latin: "Daniel Ferdinandus",
+      firstName: "Daniel Fernando",
+      lastName: "Sturla Berhouet",
+      nation: {
+        2025: ["UY"],
+      },
+      function: {
+        2025: "Erzbischof von Montevideo",
+      },
+    },
   ],
 };

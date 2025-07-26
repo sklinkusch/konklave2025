@@ -2,6 +2,28 @@ export const Gulielmus: FirstName = {
   name: "Gulielmus",
   data: [
     {
+      latin: "Gulielmus",
+      firstName: "William",
+      lastName: "Goh Seng Chye",
+      nation: {
+        2025: ["SG"],
+      },
+      function: {
+        2025: "Erzbischof von Singapur",
+      },
+    },
+    {
+      latin: "Gulielmus Daniel",
+      firstName: "Wilton Daniel",
+      lastName: "Gregory",
+      nation: {
+        2025: ["US"],
+      },
+      function: {
+        2025: "emeritierter Erzbischof von Washington",
+      },
+    },
+    {
       latin: "Gulielmus Iacobus",
       firstName: "Willem Jacobus",
       lastName: "Eijk",

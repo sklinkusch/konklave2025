@@ -16,6 +16,17 @@ export const Carolus: FirstName = {
     },
     {
       latin: "Carolus",
+      firstName: "Carlos",
+      lastName: "Aguilar Retes",
+      nation: {
+        2025: ["MX"],
+      },
+      function: {
+        2025: "Erzbischof von Mexiko-Stadt",
+      },
+    },
+    {
+      latin: "Carolus",
       firstName: "Carlo",
       lastName: "Caffarra",
       nation: {
@@ -34,6 +45,39 @@ export const Carolus: FirstName = {
       },
       function: {
         2013: "Bischof von Mainz",
+      },
+    },
+    {
+      latin: "Carolus",
+      firstName: "Carlos",
+      lastName: "Osoro Sierra",
+      nation: {
+        2025: ["ES"],
+      },
+      function: {
+        2025: "emeritierter Erzbischof von Madrid",
+      },
+    },
+    {
+      latin: "Carolus Gustavus",
+      firstName: "Carlos Gustavo",
+      lastName: "Castillo Mattasoglio",
+      nation: {
+        2025: ["PE"],
+      },
+      function: {
+        2025: "Erzbischof von Lima",
+      },
+    },
+    {
+      latin: "Carolus Maung",
+      firstName: "Charles Maung",
+      lastName: "Bo",
+      nation: {
+        2025: ["MM"],
+      },
+      function: {
+        2025: "Erzbischof von Yangon",
       },
     },
   ],

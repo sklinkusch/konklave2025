@@ -12,5 +12,16 @@ export const Maurus: FirstName = {
         2013: "Präfekt der Kongregation für den Klerus",
       },
     },
+    {
+      latin: "Maurus Maria",
+      firstName: "Mauro Maria",
+      lastName: "Gambetti",
+      nation: {
+        2025: ["IT", "VA"],
+      },
+      function: {
+        2025: "Erzpriester des Petersdoms",
+      },
+    },
   ],
 };

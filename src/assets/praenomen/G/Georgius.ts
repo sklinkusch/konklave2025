@@ -14,6 +14,17 @@ export const Georgius: FirstName = {
     },
     {
       latin: "Georgius",
+      firstName: "Giorgio",
+      lastName: "Marengo",
+      nation: {
+        2025: ["IT", "MN"],
+      },
+      function: {
+        2025: "Präfekt von Ulaanbaatar",
+      },
+    },
+    {
+      latin: "Georgius",
       firstName: "George",
       lastName: "Pell",
       nation: {
@@ -23,6 +34,17 @@ export const Georgius: FirstName = {
       function: {
         2005: "Erzbischof von Sydney",
         2013: "Erzbischof von Sydney",
+      },
+    },
+    {
+      latin: "Georgius Iacobus",
+      firstName: "George Jacob",
+      lastName: "Koovakad",
+      nation: {
+        2025: ["IN", "VA"],
+      },
+      function: {
+        2025: "Präfelt des Dikasteriums für den interreligiösen Dialog",
       },
     },
     {

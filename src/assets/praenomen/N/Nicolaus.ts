@@ -2,6 +2,17 @@ export const Nicolaus: FirstName = {
   name: "Nicolaus",
   data: [
     {
+      latin: "Nicolaus",
+      firstName: "Mykola",
+      lastName: "Byczok",
+      nation: {
+        2025: ["UA", "AU"],
+      },
+      function: {
+        2025: "Erzbischof von Melbourne",
+      },
+    },
+    {
       latin: "Nicolaus ab Iesu",
       firstName: "Nicolás de Jesús",
       lastName: "López Rodríguez",

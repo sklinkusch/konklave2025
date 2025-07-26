@@ -1,15 +1,17 @@
 import { Carolus } from "./Carolus";
 import { Casimirus } from "./Casimirus";
-import { Christopherus } from "./Christopherus";
+import { Chiblius } from "./Chiblius";
+import { Christophorus } from "./Christophorus";
 import { Claudius } from "./Claudius";
+import { Conradus } from "./Conradus";
 import { Crescentius } from "./Crescentius";
-import { Curtius } from "./Curtius";
 
 export const C: FirstName[] = [
   Carolus,
   Casimirus,
-  Christopherus,
+  Chiblius,
+  Christophorus,
   Claudius,
+  Conradus,
   Crescentius,
-  Curtius,
 ];

@@ -2,6 +2,17 @@ export const Thomas: FirstName = {
   name: "Thomas",
   data: [
     {
+      latin: "Thomas Aquinus",
+      firstName: "Thomas Aquino Man'yo",
+      lastName: "Maeda",
+      nation: {
+        2025: ["JP"],
+      },
+      function: {
+        2025: "Erzbischof von Osaka-Takamatsu",
+      },
+    },
+    {
       latin: "Thomas Christophorus",
       firstName: "Thomas Christopher",
       lastName: "Collins",

@@ -2,6 +2,17 @@ export const Iacobus: FirstName = {
   name: "Iacobus",
   data: [
     {
+      latin: "Iacobus",
+      firstName: "Jaime",
+      lastName: "Spengler",
+      nation: {
+        2025: ["BR"],
+      },
+      function: {
+        2025: "Erzbischof von Porto Alegre",
+      },
+    },
+    {
       latin: "Iacobus Lucas",
       firstName: "Jaime Lucas",
       lastName: "Ortega y Alamino",

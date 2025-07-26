@@ -14,5 +14,16 @@ export const Ferdinandus: FirstName = {
         2025: "Großmeister des Ritterordens vom Heiligen Grab zu Jerusalem",
       },
     },
+    {
+      latin: "Ferdinadus Natalius",
+      firstName: "Fernando Natalio",
+      lastName: "Chomalí Garib",
+      nation: {
+        2025: ["CL"],
+      },
+      function: {
+        2025: "Erzbischof von Santiago de Chile",
+      },
+    },
   ],
 };

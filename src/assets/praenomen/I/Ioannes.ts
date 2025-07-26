@@ -38,6 +38,17 @@ export const Ioannes: FirstName = {
     },
     {
       latin: "Ioannes",
+      firstName: "John",
+      lastName: "Ribat",
+      nation: {
+        2025: ["PG"],
+      },
+      function: {
+        2025: "Erzbischof von Port Moresby",
+      },
+    },
+    {
+      latin: "Ioannes",
       firstName: "Juan",
       lastName: "Sandoval Íñiguez",
       nation: {
@@ -58,6 +69,28 @@ export const Ioannes: FirstName = {
       },
       function: {
         2013: "Erzbischof von Hongkong",
+      },
+    },
+    {
+      latin: "Ioannes a Caritate",
+      firstName: "Juan de la Caridad",
+      lastName: "García Rodríguez",
+      nation: {
+        2025: ["CU"],
+      },
+      function: {
+        2025: "Erzbischof von San Cristóbal de la Habana",
+      },
+    },
+    {
+      latin: "Ioannes Atcherley",
+      firstName: "John Atcherley",
+      lastName: "Dew",
+      nation: {
+        2025: ["NZ"],
+      },
+      function: {
+        2025: "emeritierter Erzbischof von Wellington",
       },
     },
     {
@@ -100,6 +133,17 @@ export const Ioannes: FirstName = {
     {
       latin: "Ioannes Claudius",
       firstName: "Jean-Claude",
+      lastName: "Hollerich",
+      nation: {
+        2025: ["LU"],
+      },
+      function: {
+        2025: "Erzbischof von Luxemburg",
+      },
+    },
+    {
+      latin: "Ioannes Claudius",
+      firstName: "Jean-Claude",
       lastName: "Turcotte",
       nation: {
         2005: ["CA"],
@@ -135,6 +179,17 @@ export const Ioannes: FirstName = {
       },
     },
     {
+      latin: "Ioannes Iosephus",
+      firstName: "Juan José",
+      lastName: "Omella Omella",
+      nation: {
+        2025: ["ES"],
+      },
+      function: {
+        2025: "Erzbischof von Barcelona",
+      },
+    },
+    {
       latin: "Ioannes Ludovicus",
       firstName: "Juan Luis",
       lastName: "Cipriani Thorne",
@@ -161,6 +216,17 @@ export const Ioannes: FirstName = {
       },
     },
     {
+      latin: "Ioannes Marcus",
+      firstName: "Jean-Marc",
+      lastName: "Aveline",
+      nation: {
+        2025: ["FR"],
+      },
+      function: {
+        2025: "Erzbischof von Marseille",
+      },
+    },
+    {
       latin: "Ioannes Olorunfemi",
       firstName: "John Olorunfemi",
       lastName: "Onaiyekan",
@@ -180,6 +246,28 @@ export const Ioannes: FirstName = {
       },
       function: {
         2013: "Erzbischof von Boston",
+      },
+    },
+    {
+      latin: "Ioannes Paulus",
+      firstName: "Jean-Paul",
+      lastName: "Vesco",
+      nation: {
+        2025: ["FR", "DZ"],
+      },
+      function: {
+        2025: "Erzbischof von Algier",
+      },
+    },
+    {
+      latin: "Ioannes Petrus",
+      firstName: "Jean-Pierre",
+      lastName: "Kutwa",
+      nation: {
+        2025: ["CI"],
+      },
+      function: {
+        2025: "emeritierter Erzbischof von Abidjan",
       },
     },
     {

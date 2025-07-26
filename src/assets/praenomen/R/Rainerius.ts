@@ -6,8 +6,8 @@ export const Rainerius: FirstName = {
       firstName: "Rainer Maria",
       lastName: "Woelki",
       nation: {
-        2005: ["DE"],
         2013: ["DE"],
+        2025: ["DE"],
       },
       function: {
         2013: "Erzbischof von Berlin",

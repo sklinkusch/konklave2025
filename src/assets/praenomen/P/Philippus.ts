@@ -16,5 +16,27 @@ export const Philippus: FirstName = {
         2025: "emeritierter Erzbischof von Lyon",
       },
     },
+    {
+      latin: "Philippus Nakellentuba",
+      firstName: "Philippe Nakellentuba",
+      lastName: "Ouédraogo",
+      nation: {
+        2025: ["BF"],
+      },
+      function: {
+        2025: "emeritierter Erzbischof von Ouagadougou",
+      },
+    },
+    {
+      latin: "Philippus Neri Antonius Sebastianus",
+      firstName: "Filipe Neri António Sebastião",
+      lastName: "do Rosário Ferrão",
+      nation: {
+        2025: ["IN"],
+      },
+      function: {
+        2025: "Patriarch von Ostindien",
+      },
+    },
   ],
 };

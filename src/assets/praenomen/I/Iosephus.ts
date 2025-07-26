@@ -42,6 +42,50 @@ export const Iosephus: FirstName = {
     },
     {
       latin: "Iosephus",
+      firstName: "José",
+      lastName: "Cobo Cano",
+      nation: {
+        2025: ["ES"],
+      },
+      function: {
+        2025: "Erzbischof von Madrid",
+      },
+    },
+    {
+      latin: "Iosephus",
+      firstName: "Joseph",
+      lastName: "Coutts",
+      nation: {
+        2025: ["PK"],
+      },
+      function: {
+        2025: "emeritierter Erzbischof von Karatschi",
+      },
+    },
+    {
+      latin: "Iosephus",
+      firstName: "Jozef",
+      lastName: "De Kesel",
+      nation: {
+        2025: ["BE"],
+      },
+      function: {
+        2025: "emeritierter Erzbischof von Mecheln-Brüssel",
+      },
+    },
+    {
+      latin: "Iosephus",
+      firstName: "Giuseppe",
+      lastName: "Petrocchi",
+      nation: {
+        2025: ["IT"],
+      },
+      function: {
+        2025: "emeritierter Erzbischof von L'Aquila",
+      },
+    },
+    {
+      latin: "Iosephus",
       firstName: "Giuseppe",
       lastName: "Versaldi",
       nation: {
@@ -52,7 +96,7 @@ export const Iosephus: FirstName = {
       },
     },
     {
-      latin: "Iosephus da Cruz",
+      latin: "Iosephus de Cruce",
       firstName: "José da Cruz",
       lastName: "Policarpo",
       nation: {
@@ -62,6 +106,39 @@ export const Iosephus: FirstName = {
       function: {
         2005: "Patriarch von Lissabon",
         2013: "Patriarch von Lissabon",
+      },
+    },
+    {
+      latin: "Iosephus Fuerte",
+      firstName: "José Fuerte",
+      lastName: "Advincula",
+      nation: {
+        2025: ["PH"],
+      },
+      function: {
+        2025: "Erzbischof von Manila",
+      },
+    },
+    {
+      latin: "Iosephus Gulielmus",
+      firstName: "Joseph William",
+      lastName: "Tobin",
+      nation: {
+        2025: ["US"],
+      },
+      function: {
+        2025: "Erzbischof von Newark",
+      },
+    },
+    {
+      latin: "Iosephus Tolentinus",
+      firstName: "José Tolentino",
+      lastName: "Calaça de Mendonça",
+      nation: {
+        2025: ["PT", "VA"],
+      },
+      function: {
+        2025: "Präfekt des Dikasteriums für die Kultur und die Bildung",
       },
     },
   ],

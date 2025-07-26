@@ -12,5 +12,16 @@ export const Leonardus: FirstName = {
         2013: "Präfekt der Kongregation für die orientalischen Kirchen",
       },
     },
+    {
+      latin: "Leonardus Ulricus",
+      firstName: "Leonardo Ulrich",
+      lastName: "Steiner",
+      nation: {
+        2025: ["BR"],
+      },
+      function: {
+        2025: "Erzbischof von Manaus",
+      },
+    },
   ],
 };

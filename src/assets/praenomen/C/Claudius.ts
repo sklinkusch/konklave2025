@@ -3,6 +3,17 @@ export const Claudius: FirstName = {
   data: [
     {
       latin: "Claudius",
+      firstName: "Claudio",
+      lastName: "Gugerotti",
+      nation: {
+        2025: ["IT", "VA"],
+      },
+      function: {
+        2025: "Präfekt des Dikasteriums für die orientalischen Kirchen",
+      },
+    },
+    {
+      latin: "Claudius",
       firstName: "Cláudio",
       lastName: "Hummes",
       nation: {
