@@ -5,6 +5,7 @@ export const Raimundus: FirstName = {
       latin: "Raimundus",
       firstName: "Raymundo",
       lastName: "Damasceno Assis",
+      birthday: "1937-02-15",
       nation: {
         2013: ["BR"],
       },
@@ -16,6 +17,7 @@ export const Raimundus: FirstName = {
       latin: "Raimundus Leo",
       firstName: "Raymond Leo",
       lastName: "Burke",
+      birthday: "1948-06-30",
       nation: {
         2013: ["US", "VA"],
         2025: ["US", "VA"],

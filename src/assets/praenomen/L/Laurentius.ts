@@ -5,6 +5,7 @@ export const Laurentius: FirstName = {
       latin: "Laurentius",
       firstName: "Laurent",
       lastName: "Monsengwo Pasinya",
+      birthday: "1939-10-07",
       nation: {
         2013: ["CD"],
       },
@@ -16,6 +17,7 @@ export const Laurentius: FirstName = {
       latin: "Laurentius Andreas",
       firstName: "Lars Anders",
       lastName: "Arborelius",
+      birthday: "1949-09-24",
       nation: {
         2025: ["SE"],
       },

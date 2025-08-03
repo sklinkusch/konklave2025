@@ -5,6 +5,7 @@ export const Emanuel: FirstName = {
       latin: "Emanuel",
       firstName: "Manuel",
       lastName: "Monteiro de Castro",
+      birthday: "1938-03-29",
       nation: {
         2013: ["PT", "VA"],
       },
@@ -16,6 +17,7 @@ export const Emanuel: FirstName = {
       latin: "Emanuel Iosephus Macarius",
       firstName: "Manuel José Macário",
       lastName: "do Nascimento Clemente",
+      birthday: "1948-07-16",
       nation: {
         2025: ["PT"],
       },

@@ -5,6 +5,7 @@ export const Vilfridus: FirstName = {
       latin: "Vilfridus Fox",
       firstName: "Wilfrid Fox",
       lastName: "Napier",
+      birthday: "1941-03-08",
       nation: {
         2005: ["ZA"],
         2013: ["ZA"],

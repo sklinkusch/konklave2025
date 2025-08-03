@@ -5,6 +5,7 @@ export const Franciscus: FirstName = {
       latin: "Franciscus",
       firstName: "Francesco",
       lastName: "Coccopalmerio",
+      birthday: "1938-03-06",
       nation: {
         2013: ["IT", "VA"],
       },
@@ -16,6 +17,7 @@ export const Franciscus: FirstName = {
       latin: "Franciscus",
       firstName: "Frank",
       lastName: "Leo",
+      birthday: "1971-06-30",
       nation: {
         2025: ["CA"],
       },
@@ -27,6 +29,7 @@ export const Franciscus: FirstName = {
       latin: "Franciscus",
       firstName: "Francesco",
       lastName: "Montenegro",
+      birthday: "1946-05-22",
       nation: {
         2025: ["IT"],
       },
@@ -38,6 +41,7 @@ export const Franciscus: FirstName = {
       latin: "Fraciscus",
       firstName: "Francesco",
       lastName: "Monterisi",
+      birthday: "1934-05-28",
       nation: {
         2013: ["IT", "VA"],
       },
@@ -49,6 +53,7 @@ export const Franciscus: FirstName = {
       latin: "Franciscus",
       firstName: "Francisco",
       lastName: "Robles Ortega",
+      birthday: "1949-03-02",
       nation: {
         2013: ["MX"],
         2025: ["MX"],
@@ -62,6 +67,7 @@ export const Franciscus: FirstName = {
       latin: "Franciscus",
       firstName: "Franc",
       lastName: "Rodé",
+      birthday: "1934-09-23",
       nation: {
         2013: ["SI", "VA"],
       },
@@ -73,6 +79,7 @@ export const Franciscus: FirstName = {
       latin: "Franciscus Eugenius",
       firstName: "Francis Eugene",
       lastName: "George",
+      birthday: "1937-01-16",
       nation: {
         2005: ["US"],
         2013: ["US"],
@@ -86,6 +93,7 @@ export const Franciscus: FirstName = {
       latin: "Franciscus Xaverius",
       firstName: "François-Xavier",
       lastName: "Bustillo",
+      birthday: "1968-11-23",
       nation: {
         2025: ["ES", "FR"],
       },
@@ -97,6 +105,7 @@ export const Franciscus: FirstName = {
       latin: "Franciscus Xaverius",
       firstName: "Francisco Javier",
       lastName: "Errázuriz Ossa",
+      birthday: "1933-09-05",
       nation: {
         2005: ["CL"],
         2013: ["CL"],
@@ -110,6 +119,7 @@ export const Franciscus: FirstName = {
       latin: "Franciscus Xaverius Kriengsak",
       firstName: "Francis Xavier Kriengsak",
       lastName: "Kovitvanit",
+      birthday: "1949-06-27",
       nation: {
         2025: ["TH"],
       },

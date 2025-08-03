@@ -5,6 +5,7 @@ export const Maurus: FirstName = {
       latin: "Maurus",
       firstName: "Mauro",
       lastName: "Piacenza",
+      birthday: "1944-09-15",
       nation: {
         2013: ["IT", "VA"],
       },
@@ -16,6 +17,7 @@ export const Maurus: FirstName = {
       latin: "Maurus Maria",
       firstName: "Mauro Maria",
       lastName: "Gambetti",
+      birthday: "1965-10-27",
       nation: {
         2025: ["IT", "VA"],
       },

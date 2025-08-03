@@ -5,6 +5,7 @@ export const Antonius: FirstName = {
       latin: "Antonius",
       firstName: "Antonio",
       lastName: "Cañizares Llovera",
+      birthday: "1945-10-15",
       nation: {
         2013: ["ES", "VA"],
       },
@@ -16,6 +17,7 @@ export const Antonius: FirstName = {
       latin: "Antonius",
       firstName: "Antoine",
       lastName: "Kambanda",
+      birthday: "1958-11-10",
       nation: {
         2025: ["RW"],
       },
@@ -27,6 +29,7 @@ export const Antonius: FirstName = {
       latin: "Antonius",
       firstName: "Antonios",
       lastName: "Naguib",
+      birthday: "1935-03-18",
       nation: {
         2013: ["EG"],
       },
@@ -38,6 +41,7 @@ export const Antonius: FirstName = {
       latin: "Antonius",
       firstName: "Anthony",
       lastName: "Poola",
+      birthday: "1961-11-15",
       nation: {
         2025: ["IN"],
       },
@@ -49,6 +53,7 @@ export const Antonius: FirstName = {
       latin: "Antonius Augustus",
       firstName: "António Augusto",
       lastName: "dos Santos Marto",
+      birthday: "1947-05-05",
       nation: {
         2025: ["PT"],
       },
@@ -60,6 +65,7 @@ export const Antonius: FirstName = {
       latin: "Antonius Maria",
       firstName: "Antonio María",
       lastName: "Rouco Varela",
+      birthday: "1936-08-20",
       nation: {
         2005: ["ES"],
         2013: ["ES"],
@@ -73,6 +79,7 @@ export const Antonius: FirstName = {
       latin: "Antonius Maria",
       firstName: "Antonio Maria",
       lastName: "Vegliò",
+      birthday: "1938-02-03",
       nation: {
         2013: ["IT", "VA"],
       },
@@ -84,6 +91,7 @@ export const Antonius: FirstName = {
       latin: "Antonius Olubunmi",
       firstName: "Anthony Olubunmi",
       lastName: "Okogie",
+      birthday: "1936-06-16",
       nation: {
         2005: ["NG"],
         2013: ["NG"],

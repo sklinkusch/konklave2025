@@ -5,6 +5,7 @@ export const Stanislaus: FirstName = {
       latin: "Stanislaus Ioannes",
       firstName: "Stanisław Jan",
       lastName: "Dziwisz",
+      birthday: "1939-04-27",
       nation: {
         2013: ["PL"],
       },
@@ -16,6 +17,7 @@ export const Stanislaus: FirstName = {
       latin: "Stanislaus Marianus",
       firstName: "Stanisław Marian",
       lastName: "Ryłko",
+      birthday: "1945-07-04",
       nation: {
         2013: ["PL", "VA"],
         2025: ["PL", "VA"],

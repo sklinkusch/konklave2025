@@ -5,6 +5,7 @@ export const Anscharius: FirstName = {
       latin: "Anscharius",
       firstName: "Oscar",
       lastName: "Cantoni",
+      birthday: "1950-09-01",
       nation: {
         2025: ["IT"],
       },
@@ -16,6 +17,7 @@ export const Anscharius: FirstName = {
       latin: "Anscharius Andreas",
       firstName: "Óscar Andrés",
       lastName: "Rodríguez Maradiaga",
+      birthday: "1942-12-29",
       nation: {
         2005: ["HN"],
         2013: ["HN"],

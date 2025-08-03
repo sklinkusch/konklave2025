@@ -5,6 +5,7 @@ export const Iacobus: FirstName = {
       latin: "Iacobus",
       firstName: "Jaime",
       lastName: "Spengler",
+      birthday: "1960-09-06",
       nation: {
         2025: ["BR"],
       },
@@ -16,6 +17,7 @@ export const Iacobus: FirstName = {
       latin: "Iacobus Lucas",
       firstName: "Jaime Lucas",
       lastName: "Ortega y Alamino",
+      birthday: "1936-10-18",
       nation: {
         2005: ["CU"],
         2013: ["CU"],
@@ -29,6 +31,7 @@ export const Iacobus: FirstName = {
       latin: "Iacobus Michael",
       firstName: "James Michael",
       lastName: "Harvey",
+      birthday: "1949-10-20",
       nation: {
         2013: ["US", "VA"],
         2025: ["US", "VA"],

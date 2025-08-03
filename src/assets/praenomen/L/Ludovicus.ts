@@ -5,6 +5,7 @@ export const Ludovicus: FirstName = {
       latin: "Ludovicus",
       firstName: "Lluís",
       lastName: "Martínez Sistach",
+      birthday: "1937-04-29",
       nation: {
         2013: ["ES"],
       },
@@ -16,6 +17,7 @@ export const Ludovicus: FirstName = {
       latin: "Ludovicus Antonius Gokim",
       firstName: "Luis Antonio Gokim",
       lastName: "Tagle",
+      birthday: "1957-06-21",
       nation: {
         2013: ["PH"],
         2025: ["PH", "VA"],
@@ -29,6 +31,7 @@ export const Ludovicus: FirstName = {
       latin: "Ludovicus Giraldus",
       firstName: "Luis Gerardo",
       lastName: "Cabrera Herrera",
+      birthday: "1955-10-11",
       nation: {
         2025: ["EC"],
       },
@@ -40,6 +43,7 @@ export const Ludovicus: FirstName = {
       latin: "Ludovicus Iosephus",
       firstName: "Luis José",
       lastName: "Rueda Aparicio",
+      birthday: "1962-03-03",
       nation: {
         2025: ["CO"],
       },
@@ -51,6 +55,7 @@ export const Ludovicus: FirstName = {
       latin: "Ludovicus Raphael primus",
       firstName: "Louis Raphaël I.",
       lastName: "Sako",
+      birthday: "1949-07-04",
       nation: {
         2025: ["IQ"],
       },

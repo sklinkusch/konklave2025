@@ -5,6 +5,7 @@ export const Telesphorus: FirstName = {
       latin: "Telesphorus Placidus",
       firstName: "Telesphore Placidus",
       lastName: "Toppo",
+      birthday: "1939-10-15",
       nation: {
         2005: ["IN"],
         2013: ["IN"],

@@ -5,6 +5,7 @@ export const Gulielmus: FirstName = {
       latin: "Gulielmus",
       firstName: "William",
       lastName: "Goh Seng Chye",
+      birthday: "1957-06-25",
       nation: {
         2025: ["SG"],
       },
@@ -16,6 +17,7 @@ export const Gulielmus: FirstName = {
       latin: "Gulielmus Daniel",
       firstName: "Wilton Daniel",
       lastName: "Gregory",
+      birthday: "1947-12-07",
       nation: {
         2025: ["US"],
       },
@@ -27,6 +29,7 @@ export const Gulielmus: FirstName = {
       latin: "Gulielmus Iacobus",
       firstName: "Willem Jacobus",
       lastName: "Eijk",
+      birthday: "1953-06-22",
       nation: {
         2013: ["NL"],
         2025: ["NL"],
@@ -40,6 +43,7 @@ export const Gulielmus: FirstName = {
       latin: "Gulielmus Iosephus",
       firstName: "William Joseph",
       lastName: "Levada",
+      birthday: "1936-06-15",
       nation: {
         2013: ["US", "VA"],
       },

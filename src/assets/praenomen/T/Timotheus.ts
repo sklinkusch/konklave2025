@@ -5,10 +5,13 @@ export const Timotheus: FirstName = {
       latin: "Timotheus Michael",
       firstName: "Timothy Michael",
       lastName: "Dolan",
+      birthday: "1950-02-06",
       nation: {
+        2013: ["US"],
         2025: ["US"],
       },
       function: {
+        2013: "Erzbischof von New York",
         2025: "Erzbischof von New York",
       },
     },
@@ -16,6 +19,7 @@ export const Timotheus: FirstName = {
       latin: "Timotheus Petrus Iosephus",
       firstName: "Timothy Peter Joseph",
       lastName: "Radcliffe",
+      birthday: "1945-08-22",
       nation: {
         2025: ["GB", "VA"],
       },

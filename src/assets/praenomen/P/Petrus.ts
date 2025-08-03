@@ -5,6 +5,7 @@ export const Petrus: FirstName = {
       latin: "Petrus",
       firstName: "Péter",
       lastName: "Erdő",
+      birthday: "1952-06-25",
       nation: {
         2005: ["HU"],
         2013: ["HU"],
@@ -20,6 +21,7 @@ export const Petrus: FirstName = {
       latin: "Petrus",
       firstName: "Pietro",
       lastName: "Parolin",
+      birthday: "1955-01-17",
       nation: {
         2025: ["IT", "VA"],
       },
@@ -31,6 +33,7 @@ export const Petrus: FirstName = {
       latin: "Petrus Battista",
       firstName: "Pierbattista",
       lastName: "Pizzaballa",
+      birthday: "1965-04-21",
       nation: {
         2025: ["IT", "IL", "PS"],
       },
@@ -42,6 +45,7 @@ export const Petrus: FirstName = {
       latin: "Petrus Ebere",
       firstName: "Peter Ebere",
       lastName: "Okpaleke",
+      birthday: "1963-03-01",
       nation: {
         2025: ["NG"],
       },
@@ -53,6 +57,7 @@ export const Petrus: FirstName = {
       latin: "Petrus Kodwo Appiah",
       firstName: "Peter Kudwo Appiah",
       lastName: "Turkson",
+      birthday: "1948-10-11",
       nation: {
         2005: ["GH"],
         2013: ["GH", "VA"],

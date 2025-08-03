@@ -5,6 +5,7 @@ export const Ioannes: FirstName = {
       latin: "Ioannes",
       firstName: "João",
       lastName: "Braz de Aviz",
+      birthday: "1947-04-24",
       nation: {
         2013: ["BR", "VA"],
         2025: ["BR", "VA"],
@@ -18,6 +19,7 @@ export const Ioannes: FirstName = {
       latin: "Ioannes",
       firstName: "Giovanni",
       lastName: "Lajolo",
+      birthday: "1935-01-03",
       nation: {
         2013: ["IT", "VA"],
       },
@@ -29,6 +31,7 @@ export const Ioannes: FirstName = {
       latin: "Ioannes",
       firstName: "John",
       lastName: "Njue",
+      birthday: "1946-01-01",
       nation: {
         2013: ["KE"],
       },
@@ -40,6 +43,7 @@ export const Ioannes: FirstName = {
       latin: "Ioannes",
       firstName: "John",
       lastName: "Ribat",
+      birthday: "1957-02-09",
       nation: {
         2025: ["PG"],
       },
@@ -51,6 +55,7 @@ export const Ioannes: FirstName = {
       latin: "Ioannes",
       firstName: "Juan",
       lastName: "Sandoval Íñiguez",
+      birthday: "1933-03-28",
       nation: {
         2005: ["MX"],
         2013: ["MX"],
@@ -64,6 +69,7 @@ export const Ioannes: FirstName = {
       latin: "Ioannes",
       firstName: "John",
       lastName: "Tong Hon",
+      birthday: "1939-07-31",
       nation: {
         2013: ["CN", "HK"],
       },
@@ -75,6 +81,7 @@ export const Ioannes: FirstName = {
       latin: "Ioannes a Caritate",
       firstName: "Juan de la Caridad",
       lastName: "García Rodríguez",
+      birthday: "1948-07-11",
       nation: {
         2025: ["CU"],
       },
@@ -86,6 +93,7 @@ export const Ioannes: FirstName = {
       latin: "Ioannes Atcherley",
       firstName: "John Atcherley",
       lastName: "Dew",
+      birthday: "1948-05-05",
       nation: {
         2025: ["NZ"],
       },
@@ -97,6 +105,7 @@ export const Ioannes: FirstName = {
       latin: "Ioannes Baptista",
       firstName: "Giovanni Battista",
       lastName: "Re",
+      birthday: "1934-01-30",
       nation: {
         2005: ["IT", "VA"],
         2013: ["IT", "VA"],
@@ -110,6 +119,7 @@ export const Ioannes: FirstName = {
       latin: "Ioannes Baptistus",
       firstName: "Seán Baptist",
       lastName: "Brady",
+      birthday: "1939-08-16",
       nation: {
         2013: ["IE"],
       },
@@ -121,6 +131,7 @@ export const Ioannes: FirstName = {
       latin: "Ioannes Baptistus",
       firstName: "Jean-Baptiste",
       lastName: "Phạm Minh Mẫn",
+      birthday: "1934-03-05",
       nation: {
         2005: ["VN"],
         2013: ["VN"],
@@ -134,6 +145,7 @@ export const Ioannes: FirstName = {
       latin: "Ioannes Claudius",
       firstName: "Jean-Claude",
       lastName: "Hollerich",
+      birthday: "1958-08-09",
       nation: {
         2025: ["LU"],
       },
@@ -145,6 +157,7 @@ export const Ioannes: FirstName = {
       latin: "Ioannes Claudius",
       firstName: "Jean-Claude",
       lastName: "Turcotte",
+      birthday: "1936-06-26",
       nation: {
         2005: ["CA"],
         2013: ["CA"],
@@ -158,6 +171,7 @@ export const Ioannes: FirstName = {
       latin: "Ioannes Cornelius",
       firstName: "Ivan Cornelius",
       lastName: "Dias",
+      birthday: "1936-04-14",
       nation: {
         2005: ["IN"],
         2013: ["IN", "VA"],
@@ -171,6 +185,7 @@ export const Ioannes: FirstName = {
       latin: "Ioannes Franciscus",
       firstName: "Gianfranco",
       lastName: "Ravasi",
+      birthday: "1942-10-18",
       nation: {
         2013: ["IT", "VA"],
       },
@@ -182,6 +197,7 @@ export const Ioannes: FirstName = {
       latin: "Ioannes Iosephus",
       firstName: "Juan José",
       lastName: "Omella Omella",
+      birthday: "1946-04-21",
       nation: {
         2025: ["ES"],
       },
@@ -193,6 +209,7 @@ export const Ioannes: FirstName = {
       latin: "Ioannes Ludovicus",
       firstName: "Juan Luis",
       lastName: "Cipriani Thorne",
+      birthday: "1943-12-28",
       nation: {
         2005: ["PE"],
         2013: ["PE"],
@@ -206,6 +223,7 @@ export const Ioannes: FirstName = {
       latin: "Ioannes Ludovices",
       firstName: "Jean-Louis",
       lastName: "Tauran",
+      birthday: "1943-04-05",
       nation: {
         2005: ["FR", "VA"],
         2013: ["FR", "VA"],
@@ -219,6 +237,7 @@ export const Ioannes: FirstName = {
       latin: "Ioannes Marcus",
       firstName: "Jean-Marc",
       lastName: "Aveline",
+      birthday: "1958-12-26",
       nation: {
         2025: ["FR"],
       },
@@ -230,6 +249,7 @@ export const Ioannes: FirstName = {
       latin: "Ioannes Olorunfemi",
       firstName: "John Olorunfemi",
       lastName: "Onaiyekan",
+      birthday: "1944-01-29",
       nation: {
         2013: ["NG"],
       },
@@ -241,6 +261,7 @@ export const Ioannes: FirstName = {
       latin: "Ioannes Patricius",
       firstName: "Seán Patrick",
       lastName: "O'Malley",
+      birthday: "1944-06-29",
       nation: {
         2013: ["US"],
       },
@@ -252,6 +273,7 @@ export const Ioannes: FirstName = {
       latin: "Ioannes Paulus",
       firstName: "Jean-Paul",
       lastName: "Vesco",
+      birthday: "1962-03-10",
       nation: {
         2025: ["FR", "DZ"],
       },
@@ -263,6 +285,7 @@ export const Ioannes: FirstName = {
       latin: "Ioannes Petrus",
       firstName: "Jean-Pierre",
       lastName: "Kutwa",
+      birthday: "1945-12-22",
       nation: {
         2025: ["CI"],
       },
@@ -274,6 +297,7 @@ export const Ioannes: FirstName = {
       latin: "Ioannes Petrus",
       firstName: "Jean-Pierre",
       lastName: "Ricard",
+      birthday: "1944-09-26",
       nation: {
         2013: ["FR"],
       },

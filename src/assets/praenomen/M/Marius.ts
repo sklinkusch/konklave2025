@@ -5,6 +5,7 @@ export const Marius: FirstName = {
       latin: "Marius",
       firstName: "Mario",
       lastName: "Grech",
+      birthday: "1957-02-20",
       nation: {
         2025: ["MT", "VA"],
       },
@@ -16,6 +17,7 @@ export const Marius: FirstName = {
       latin: "Marius",
       firstName: "Mario",
       lastName: "Zenari",
+      birthday: "1946-01-05",
       nation: {
         2025: ["IT", "VA"],
       },
@@ -27,6 +29,7 @@ export const Marius: FirstName = {
       latin: "Marius Aurelius",
       firstName: "Mario Aurelio",
       lastName: "Poli",
+      birthday: "1947-11-29",
       nation: {
         2025: ["AR"],
       },

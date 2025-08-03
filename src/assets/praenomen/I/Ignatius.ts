@@ -5,6 +5,7 @@ export const Ignatius: FirstName = {
       latin: "Ignatius",
       firstName: "Ignace",
       lastName: "Bessi Dogbo",
+      birthday: "1961-08-17",
       nation: {
         2025: ["CI"],
       },
@@ -16,6 +17,7 @@ export const Ignatius: FirstName = {
       latin: "Ignatius",
       firstName: "Ignatius",
       lastName: "Suharyo Hardjoatmodjo",
+      birthday: "1950-07-09",
       nation: {
         2025: ["ID"],
       },

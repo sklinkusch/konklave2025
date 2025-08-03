@@ -2,6 +2,7 @@ type Cardinal = {
   latin: string;
   firstName: string;
   lastName: string;
+  birthday: string;
   nation: { [key: string]: string[] };
   function: { [key: string]: string };
   elected?: { [key: string]: boolean };
@@ -17,10 +18,12 @@ type CustomTableProps = {
     latin: string;
     firstName: string;
     lastName: string;
+    birthday: string;
     nation: string[];
     function: string;
     elected?: boolean;
   }[];
+  startDate: string;
 };
 
 type FirstNameProps = {
@@ -29,16 +32,19 @@ type FirstNameProps = {
     latin: string;
     firstName: string;
     lastName: string;
+    birthday: string;
     nation: string[];
     function: string;
     elected?: boolean;
   }[];
+  startDate: string;
 };
 
 interface NewCardinal {
   latin: string;
   firstName: string;
   lastName: string;
+  birthday: string;
   nation: string[];
   function: string;
   elected?: boolean;
@@ -48,8 +54,3 @@ interface NewFirstName {
   name: string;
   data: NewCardinal[];
 }
-
-type KonklaveProps = {
-  year: number;
-  cardinals: NewFirstName[];
-};

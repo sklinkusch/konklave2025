@@ -5,6 +5,7 @@ export const Albertus: FirstName = {
       latin: "Albertus",
       firstName: "Adalberto",
       lastName: "Martínez Flores",
+      birthday: "1951-07-08",
       nation: {
         2025: ["PY"],
       },
@@ -16,6 +17,7 @@ export const Albertus: FirstName = {
       latin: "Albertus Milcolumbus",
       firstName: "Albert Malcolm",
       lastName: "Ranjith",
+      birthday: "1947-11-15",
       nation: {
         2013: ["LK"],
         2025: ["LK"],

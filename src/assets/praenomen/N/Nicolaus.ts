@@ -5,6 +5,7 @@ export const Nicolaus: FirstName = {
       latin: "Nicolaus",
       firstName: "Mykola",
       lastName: "Byczok",
+      birthday: "1980-02-13",
       nation: {
         2025: ["UA", "AU"],
       },
@@ -16,6 +17,7 @@ export const Nicolaus: FirstName = {
       latin: "Nicolaus ab Iesu",
       firstName: "Nicolás de Jesús",
       lastName: "López Rodríguez",
+      birthday: "1936-10-31",
       nation: {
         2005: ["DO"],
         2013: ["DO"],

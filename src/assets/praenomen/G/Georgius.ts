@@ -5,6 +5,7 @@ export const Georgius: FirstName = {
       latin: "Georgius",
       firstName: "George",
       lastName: "Alencherry",
+      birthday: "1945-04-19",
       nation: {
         2013: ["IN"],
       },
@@ -16,6 +17,7 @@ export const Georgius: FirstName = {
       latin: "Georgius",
       firstName: "Giorgio",
       lastName: "Marengo",
+      birthday: "1974-06-07",
       nation: {
         2025: ["IT", "MN"],
       },
@@ -27,6 +29,7 @@ export const Georgius: FirstName = {
       latin: "Georgius",
       firstName: "George",
       lastName: "Pell",
+      birthday: "1941-06-08",
       nation: {
         2005: ["AU"],
         2013: ["AU"],
@@ -40,6 +43,7 @@ export const Georgius: FirstName = {
       latin: "Georgius Iacobus",
       firstName: "George Jacob",
       lastName: "Koovakad",
+      birthday: "1973-08-11",
       nation: {
         2025: ["IN", "VA"],
       },
@@ -51,6 +55,7 @@ export const Georgius: FirstName = {
       latin: "Georgius Liberatus",
       firstName: "Jorge Liberato",
       lastName: "Urosa Savino",
+      birthday: "1942-08-28",
       nation: {
         2013: ["VE"],
       },
@@ -62,6 +67,7 @@ export const Georgius: FirstName = {
       latin: "Georgius Marius",
       firstName: "Jorge Mario",
       lastName: "Bergoglio",
+      birthday: "1936-12-17",
       nation: {
         2005: ["AR"],
         2013: ["AR"],

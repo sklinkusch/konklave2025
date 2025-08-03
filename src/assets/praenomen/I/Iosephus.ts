@@ -5,6 +5,7 @@ export const Iosephus: FirstName = {
       latin: "Iosephus",
       firstName: "Giuseppe",
       lastName: "Bertello",
+      birthday: "1942-10-01",
       nation: {
         2013: ["IT", "VA"],
       },
@@ -16,6 +17,7 @@ export const Iosephus: FirstName = {
       latin: "Iosephus",
       firstName: "Giuseppe",
       lastName: "Betori",
+      birthday: "1947-12-25",
       nation: {
         2013: ["IT"],
         2025: ["IT"],
@@ -29,6 +31,7 @@ export const Iosephus: FirstName = {
       latin: "Iosephus",
       firstName: "Josip",
       lastName: "Bozanić",
+      birthday: "1949-03-20",
       nation: {
         2005: ["HR"],
         2013: ["HR"],
@@ -44,6 +47,7 @@ export const Iosephus: FirstName = {
       latin: "Iosephus",
       firstName: "José",
       lastName: "Cobo Cano",
+      birthday: "1965-09-20",
       nation: {
         2025: ["ES"],
       },
@@ -55,6 +59,7 @@ export const Iosephus: FirstName = {
       latin: "Iosephus",
       firstName: "Joseph",
       lastName: "Coutts",
+      birthday: "1945-07-21",
       nation: {
         2025: ["PK"],
       },
@@ -66,6 +71,7 @@ export const Iosephus: FirstName = {
       latin: "Iosephus",
       firstName: "Jozef",
       lastName: "De Kesel",
+      birthday: "1947-06-17",
       nation: {
         2025: ["BE"],
       },
@@ -77,6 +83,7 @@ export const Iosephus: FirstName = {
       latin: "Iosephus",
       firstName: "Giuseppe",
       lastName: "Petrocchi",
+      birthday: "1948-08-19",
       nation: {
         2025: ["IT"],
       },
@@ -88,6 +95,7 @@ export const Iosephus: FirstName = {
       latin: "Iosephus",
       firstName: "Giuseppe",
       lastName: "Versaldi",
+      birthday: "1943-07-13",
       nation: {
         2013: ["IT", "VA"],
       },
@@ -99,6 +107,7 @@ export const Iosephus: FirstName = {
       latin: "Iosephus de Cruce",
       firstName: "José da Cruz",
       lastName: "Policarpo",
+      birthday: "1936-02-26",
       nation: {
         2005: ["PT"],
         2013: ["PT"],
@@ -112,6 +121,7 @@ export const Iosephus: FirstName = {
       latin: "Iosephus Fuerte",
       firstName: "José Fuerte",
       lastName: "Advincula",
+      birthday: "1952-03-30",
       nation: {
         2025: ["PH"],
       },
@@ -123,6 +133,7 @@ export const Iosephus: FirstName = {
       latin: "Iosephus Gulielmus",
       firstName: "Joseph William",
       lastName: "Tobin",
+      birthday: "1952-05-03",
       nation: {
         2025: ["US"],
       },
@@ -134,6 +145,7 @@ export const Iosephus: FirstName = {
       latin: "Iosephus Tolentinus",
       firstName: "José Tolentino",
       lastName: "Calaça de Mendonça",
+      birthday: "1965-12-15",
       nation: {
         2025: ["PT", "VA"],
       },

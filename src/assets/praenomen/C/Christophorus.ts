@@ -5,6 +5,7 @@ export const Christophorus: FirstName = {
       latin: "Christophorus",
       firstName: "Cristóbal",
       lastName: "López Romero",
+      birthday: "1952-05-19",
       nation: {
         2025: ["ES", "MA"],
       },
@@ -16,6 +17,7 @@ export const Christophorus: FirstName = {
       latin: "Christophorus Ludovicus Ivo Georgius",
       firstName: "Christophe Louis Yves Georges",
       lastName: "Pierre",
+      birthday: "1946-01-30",
       nation: {
         2025: ["FR", "VA"],
       },
@@ -27,6 +29,7 @@ export const Christophorus: FirstName = {
       latin: "Christophorus Maria Michael Hugo Damianus Petrus Albertus",
       firstName: "Christoph Maria Michael Hugo Damian Peter Adalbert",
       lastName: "Schönborn",
+      birthday: "1945-01-22",
       nation: {
         2005: ["AT"],
         2013: ["AT"],

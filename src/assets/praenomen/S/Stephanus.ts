@@ -5,6 +5,7 @@ export const Stephanus: FirstName = {
       latin: "Stephanus",
       firstName: "Stephen",
       lastName: "Brislin",
+      birthday: "1956-09-24",
       nation: {
         2025: ["ZA"],
       },
@@ -16,6 +17,7 @@ export const Stephanus: FirstName = {
       latin: "Stephanus",
       firstName: "Stephen",
       lastName: "Chow Sau-yan",
+      birthday: "1959-08-07",
       nation: {
         2025: ["HK", "CN"],
       },
@@ -27,6 +29,7 @@ export const Stephanus: FirstName = {
       latin: "Stephanus Ameyu Martinus",
       firstName: "Stephen Ameyu Martin",
       lastName: "Mulla",
+      birthday: "1964-01-10",
       nation: {
         2025: ["SS"],
       },

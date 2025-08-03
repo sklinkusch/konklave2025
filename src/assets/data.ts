@@ -43,8 +43,8 @@ export const getCardinals = (year: string) => {
     (firstNames: NewFirstName[], firstName: FirstName) => {
       const newCardinals = firstName.data.reduce(
         (cardinals: NewCardinal[], cardinal: Cardinal) => {
-          const nationHasYear = cardinal.nation.hasOwnProperty(`${year}`);
-          const functionHasYear = cardinal.function.hasOwnProperty(`${year}`);
+          const nationHasYear = year in cardinal.nation;
+          const functionHasYear = year in cardinal.function;
           if (nationHasYear && functionHasYear) {
             return cardinals.concat([
               {
@@ -68,4 +68,22 @@ export const getCardinals = (year: string) => {
     },
     [],
   );
+};
+
+export const allKonklaveYears = () => {
+  const yearArray = allFirstNames
+    .map((firstName) =>
+      firstName.data.map((cardinal) => Object.keys(cardinal.nation)).flat(),
+    )
+    .flat();
+  const yearSet = new Set(yearArray);
+  return Array.from(yearSet).sort();
+};
+
+export const startDates: { [key: string]: string } = {
+  1978_1: "1978-08-25",
+  1978_2: "1978-10-14",
+  2005: "2005-04-18",
+  2013: "2013-03-12",
+  2025: "2025-05-07",
 };

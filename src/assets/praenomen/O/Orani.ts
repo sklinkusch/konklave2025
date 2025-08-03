@@ -5,6 +5,7 @@ export const Orani: FirstName = {
       latin: "Orani Ioannes",
       firstName: "Orani João",
       lastName: "Tempesta",
+      birthday: "1950-06-23",
       nation: {
         2025: ["BR"],
       },

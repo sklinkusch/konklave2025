@@ -5,6 +5,7 @@ export const Paulus: FirstName = {
       latin: "Paulus",
       firstName: "Paolo",
       lastName: "Romeo",
+      birthday: "1938-02-20",
       nation: {
         2013: ["IT"],
       },
@@ -16,6 +17,7 @@ export const Paulus: FirstName = {
       latin: "Paulus",
       firstName: "Paolo",
       lastName: "Sardi",
+      birthday: "1934-09-01",
       nation: {
         2013: ["IT", "VA"],
       },
@@ -27,6 +29,7 @@ export const Paulus: FirstName = {
       latin: "Paulus Caesar",
       firstName: "Paulo Cezar",
       lastName: "Costa",
+      birthday: "1967-07-20",
       nation: {
         2025: ["BR"],
       },
@@ -38,6 +41,7 @@ export const Paulus: FirstName = {
       latin: "Paulus Iosephus",
       firstName: "Paul Josef",
       lastName: "Cordes",
+      birthday: "1934-09-05",
       nation: {
         2013: ["DE", "VA"],
       },
@@ -49,6 +53,7 @@ export const Paulus: FirstName = {
       latin: "Paulus Virgilius Siongco",
       firstName: "Pablo Virgilio Siongco",
       lastName: "David",
+      birthday: "1959-03-02",
       nation: {
         2025: ["PH"],
       },

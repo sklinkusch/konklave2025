@@ -5,6 +5,7 @@ export const Thomas: FirstName = {
       latin: "Thomas Aquinus",
       firstName: "Thomas Aquino Man'yo",
       lastName: "Maeda",
+      birthday: "1949-03-03",
       nation: {
         2025: ["JP"],
       },
@@ -16,6 +17,7 @@ export const Thomas: FirstName = {
       latin: "Thomas Christophorus",
       firstName: "Thomas Christopher",
       lastName: "Collins",
+      birthday: "1947-01-16",
       nation: {
         2013: ["CA"],
         2025: ["CA"],

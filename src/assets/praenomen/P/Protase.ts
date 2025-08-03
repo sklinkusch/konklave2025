@@ -5,6 +5,7 @@ export const Protase: FirstName = {
       latin: "Protase",
       firstName: "Protase",
       lastName: "Rugambwa",
+      birthday: "1960-05-31",
       nation: {
         2025: ["TZ"],
       },

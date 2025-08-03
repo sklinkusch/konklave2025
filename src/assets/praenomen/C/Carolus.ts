@@ -5,6 +5,7 @@ export const Carolus: FirstName = {
       latin: "Carolus",
       firstName: "Carlos",
       lastName: "Amigo Vallejo",
+      birthday: "1934-08-23",
       nation: {
         2005: ["ES"],
         2013: ["ES"],
@@ -18,6 +19,7 @@ export const Carolus: FirstName = {
       latin: "Carolus",
       firstName: "Carlos",
       lastName: "Aguilar Retes",
+      birthday: "1950-01-09",
       nation: {
         2025: ["MX"],
       },
@@ -29,6 +31,7 @@ export const Carolus: FirstName = {
       latin: "Carolus",
       firstName: "Carlo",
       lastName: "Caffarra",
+      birthday: "1938-06-01",
       nation: {
         2013: ["IT"],
       },
@@ -40,6 +43,7 @@ export const Carolus: FirstName = {
       latin: "Carolus",
       firstName: "Karl",
       lastName: "Lehmann",
+      birthday: "1936-05-16",
       nation: {
         2013: ["DE"],
       },
@@ -51,6 +55,7 @@ export const Carolus: FirstName = {
       latin: "Carolus",
       firstName: "Carlos",
       lastName: "Osoro Sierra",
+      birthday: "1945-05-16",
       nation: {
         2025: ["ES"],
       },
@@ -62,6 +67,7 @@ export const Carolus: FirstName = {
       latin: "Carolus Gustavus",
       firstName: "Carlos Gustavo",
       lastName: "Castillo Mattasoglio",
+      birthday: "1950-02-28",
       nation: {
         2025: ["PE"],
       },
@@ -73,6 +79,7 @@ export const Carolus: FirstName = {
       latin: "Carolus Maung",
       firstName: "Charles Maung",
       lastName: "Bo",
+      birthday: "1948-10-29",
       nation: {
         2025: ["MM"],
       },
