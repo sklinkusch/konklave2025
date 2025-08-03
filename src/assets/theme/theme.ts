@@ -1,4 +1,13 @@
 export const themeOptions = {
+  breakpoints: {
+    values: {
+      xs: 0,
+      sm: 600,
+      md: 900,
+      lg: 1200,
+      xl: 1536,
+    },
+  },
   colorSchemes: {
     light: {
       palette: {
@@ -66,7 +75,7 @@ export const themeOptions = {
           styleOverrides: {
             root: {
               width: "20%",
-              "&:nth-of-type(4)": {
+              "&.flag-cell": {
                 "& img": {
                   height: "1rem",
                   border: "1px solid black",
