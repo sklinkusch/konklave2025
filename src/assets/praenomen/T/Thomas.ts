@@ -27,5 +27,17 @@ export const Thomas: FirstName = {
         2025: "emeritierter Erzbischof von Toronto",
       },
     },
+    {
+      latin: "Thomas Stafford",
+      firstName: "Thomas Stafford",
+      lastName: "Williams",
+      birthday: "1930-03-20",
+      nation: {
+        2005: ["NZ"],
+      },
+      function: {
+        2005: "emeritierter Erzbischof von Wellington",
+      },
+    },
   ],
 };

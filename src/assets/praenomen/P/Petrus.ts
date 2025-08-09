@@ -30,6 +30,18 @@ export const Petrus: FirstName = {
       },
     },
     {
+      latin: "Petrus",
+      firstName: "Pedro",
+      lastName: "Rubiano Sáenz",
+      birthday: "1932-09-13",
+      nation: {
+        2005: ["CO"],
+      },
+      function: {
+        2005: "Erzbischof von Bogotá",
+      },
+    },
+    {
       latin: "Petrus Battista",
       firstName: "Pierbattista",
       lastName: "Pizzaballa",
@@ -67,6 +79,18 @@ export const Petrus: FirstName = {
         2005: "Erzbischof von Accra",
         2013: "Präsident des Päpstlichen Rates für Gerechtigkeit und Frieden",
         2025: "Kanzler der Päpstlichen Akademie der Wissenschaften und der Päpstlichen Akademie der Sozialwissenschaften",
+      },
+    },
+    {
+      latin: "Petrus Seiichi",
+      firstName: "Peter Seiichi",
+      lastName: "Shirayanagi",
+      birthday: "1928-06-17",
+      nation: {
+        2005: ["JP"],
+      },
+      function: {
+        2005: "Erzbischof von Tokio",
       },
     },
   ],

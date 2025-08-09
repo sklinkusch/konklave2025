@@ -45,9 +45,11 @@ export const Carolus: FirstName = {
       lastName: "Lehmann",
       birthday: "1936-05-16",
       nation: {
+        2005: ["DE"],
         2013: ["DE"],
       },
       function: {
+        2005: "Bischof von Mainz",
         2013: "Bischof von Mainz",
       },
     },
@@ -73,6 +75,18 @@ export const Carolus: FirstName = {
       },
       function: {
         2025: "Erzbischof von Lima",
+      },
+    },
+    {
+      latin: "Carolus Maria",
+      firstName: "Carlo Maria",
+      lastName: "Martini",
+      birthday: "1927-02-15",
+      nation: {
+        2005: ["IT"],
+      },
+      function: {
+        2005: "emeritierter Erzbischof von Mailand",
       },
     },
     {

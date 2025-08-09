@@ -26,6 +26,18 @@ export const Gulielmus: FirstName = {
       },
     },
     {
+      latin: "gulielmus Henricus",
+      firstName: "William Henry",
+      lastName: "Keeler",
+      birthday: "1931-03-04",
+      nation: {
+        2005: ["US"],
+      },
+      function: {
+        2005: "Erzbischof von Baltimore",
+      },
+    },
+    {
       latin: "Gulielmus Iacobus",
       firstName: "Willem Jacobus",
       lastName: "Eijk",
@@ -49,6 +61,22 @@ export const Gulielmus: FirstName = {
       },
       function: {
         2013: "emeritierter Präsident der Kongregation für die Glaubenslehre",
+      },
+    },
+    {
+      latin: "Gulielmus Wakefield",
+      firstName: "William Wakefield",
+      lastName: "Baum",
+      birthday: "1926-11-21",
+      nation: {
+        1978.1: ["US"],
+        1978.2: ["US"],
+        2005: ["US", "VA"],
+      },
+      function: {
+        1978.1: "Erzbischof von Washington",
+        1978.2: "Erzbischof von Washington",
+        2005: "emeritierter Kardinalgroßpönitientiar",
       },
     },
   ],

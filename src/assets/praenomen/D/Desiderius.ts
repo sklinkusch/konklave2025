@@ -3,6 +3,18 @@ export const Desiderius: FirstName = {
   data: [
     {
       latin: "Desiderius",
+      firstName: "Desmond",
+      lastName: "Connell",
+      birthday: "1926-03-24",
+      nation: {
+        2005: ["IE"],
+      },
+      function: {
+        2005: "emeritierter Erzbischof von Dublin",
+      },
+    },
+    {
+      latin: "Desiderius",
       firstName: "Désiré",
       lastName: "Tsarahazana",
       birthday: "1954-06-13",

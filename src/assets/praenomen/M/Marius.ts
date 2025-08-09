@@ -37,5 +37,17 @@ export const Marius: FirstName = {
         2025: "emeritierter Erzbischof von Buenos Aires",
       },
     },
+    {
+      latin: "Marius Franciscus",
+      firstName: "Mario Francesco",
+      lastName: "Pompedda",
+      birthday: "1929-04-18",
+      nation: {
+        2005: ["IT", "VA"],
+      },
+      function: {
+        2005: "Präfekt des Obersten Gerichtshofes der Apostolischen Signatur",
+      },
+    },
   ],
 };

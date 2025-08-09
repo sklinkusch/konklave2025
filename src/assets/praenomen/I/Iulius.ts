@@ -15,5 +15,17 @@ export const Iulius: FirstName = {
         2013: "Erzbischof von Santa Cruz de la Sierra",
       },
     },
+    {
+      latin: "Iulius Riyadi",
+      firstName: "Julius Riyadi",
+      lastName: "Darmaatmadja",
+      birthday: "1934-12-20",
+      nation: {
+        2005: ["ID"],
+      },
+      function: {
+        2005: "Erzbischof von Jakarta",
+      },
+    },
   ],
 };

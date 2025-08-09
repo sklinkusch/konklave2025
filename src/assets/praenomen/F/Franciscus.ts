@@ -3,6 +3,30 @@ export const Franciscus: FirstName = {
   data: [
     {
       latin: "Franciscus",
+      firstName: "Francisco",
+      lastName: "Álvarez Martínez",
+      birthday: "1925-07-14",
+      nation: {
+        2005: ["ES"],
+      },
+      function: {
+        2005: "emeritierter Erzbischof von Toledo",
+      },
+    },
+    {
+      latin: "Franciscus",
+      firstName: "Francis",
+      lastName: "Arinze",
+      birthday: "1932-11-01",
+      nation: {
+        2005: ["NG"],
+      },
+      function: {
+        2005: "Erzbischof von Onitsha",
+      },
+    },
+    {
+      latin: "Franciscus",
       firstName: "Francesco",
       lastName: "Coccopalmerio",
       birthday: "1938-03-06",
@@ -23,6 +47,18 @@ export const Franciscus: FirstName = {
       },
       function: {
         2025: "Erzbischof von Toronto",
+      },
+    },
+    {
+      latin: "Franciscus",
+      firstName: "Francesco",
+      lastName: "Marchisano",
+      birthday: "1929-06-25",
+      nation: {
+        2005: ["IT", "VA"],
+      },
+      function: {
+        2005: "Präsident des Päpstlichen Arbeitsamtes",
       },
     },
     {

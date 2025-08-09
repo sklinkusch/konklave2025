@@ -25,5 +25,17 @@ export const Ignatius: FirstName = {
         2025: "Erzbischof von Jakarta",
       },
     },
+    {
+      latin: "Ignatius Moussa primus",
+      firstName: "Ignatius Moussa I.",
+      lastName: "Daoud",
+      birthday: "1930-09-18",
+      nation: {
+        2005: ["SY", "VA"],
+      },
+      function: {
+        2005: "Präfekt der Kongregation für die Ostkirchen",
+      },
+    },
   ],
 };

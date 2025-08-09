@@ -14,6 +14,18 @@ export const Emanuel: FirstName = {
       },
     },
     {
+      latin: "Emanuel",
+      firstName: "Emmanuel",
+      lastName: "Wamala",
+      birthday: "1926-12-15",
+      nation: {
+        2005: ["UG"],
+      },
+      function: {
+        2005: "Erzbischof von Kampala",
+      },
+    },
+    {
       latin: "Emanuel Iosephus Macarius",
       firstName: "Manuel José Macário",
       lastName: "do Nascimento Clemente",

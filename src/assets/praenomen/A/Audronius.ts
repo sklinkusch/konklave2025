@@ -7,9 +7,11 @@ export const Audronius: FirstName = {
       lastName: "Bačkis",
       birthday: "1937-02-01",
       nation: {
+        2005: ["LT"],
         2013: ["LT"],
       },
       function: {
+        2005: "Erzbischof von Vilnius",
         2013: "Erzbischof von Vilnius",
       },
     },

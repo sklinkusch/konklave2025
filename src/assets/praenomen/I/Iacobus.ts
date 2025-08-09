@@ -3,6 +3,18 @@ export const Iacobus: FirstName = {
   data: [
     {
       latin: "Iacobus",
+      firstName: "Giacomo",
+      lastName: "Biffi",
+      birthday: "1928-06-13",
+      nation: {
+        2005: ["IT"],
+      },
+      function: {
+        2005: "emeritierter Erzbischof von Bologna",
+      },
+    },
+    {
+      latin: "Iacobus",
       firstName: "Jaime",
       lastName: "Spengler",
       birthday: "1960-09-06",
@@ -11,6 +23,18 @@ export const Iacobus: FirstName = {
       },
       function: {
         2025: "Erzbischof von Porto Alegre",
+      },
+    },
+    {
+      latin: "Iacobus Franciscus",
+      firstName: "James Francis",
+      lastName: "Stafford",
+      birthday: "1932-07-26",
+      nation: {
+        2005: ["US", "VA"],
+      },
+      function: {
+        2005: "Kardinalgroßpönitientiar",
       },
     },
     {

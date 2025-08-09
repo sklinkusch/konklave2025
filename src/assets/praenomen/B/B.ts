@@ -2,6 +2,7 @@ import { Balthasar } from "./Balthasar";
 import { Basilius } from "./Basilius";
 import { Bechara } from "./Bechara";
 import { Berhaneyesus } from "./Berhaneyesus";
+import { Bernardus } from "./Bernardus";
 import { Blasius } from "./Blasius";
 
 export const B: FirstName[] = [
@@ -9,5 +10,6 @@ export const B: FirstName[] = [
   Basilius,
   Bechara,
   Berhaneyesus,
+  Bernardus,
   Blasius,
 ];

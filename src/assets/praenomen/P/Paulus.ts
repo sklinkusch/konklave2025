@@ -50,6 +50,18 @@ export const Paulus: FirstName = {
       },
     },
     {
+      latin: "Paulus Iosephus Ioannes",
+      firstName: "Paul Joseph Jean",
+      lastName: "Poupard",
+      birthday: "1930-08-30",
+      nation: {
+        2005: ["FR", "VA"],
+      },
+      function: {
+        2005: "Präsident des Päpstlichen Rates für Kulturfragen",
+      },
+    },
+    {
       latin: "Paulus Virgilius Siongco",
       firstName: "Pablo Virgilio Siongco",
       lastName: "David",

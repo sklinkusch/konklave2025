@@ -1,4 +1,5 @@
 import { Daniel } from "./Daniel";
+import { Darius } from "./Darius";
 import { Deodatus } from "./Deodatus";
 import { Desiderius } from "./Desiderius";
 import { Dionysius } from "./Dionysius";
@@ -7,6 +8,7 @@ import { Donaldus } from "./Donaldus";
 
 export const D: FirstName[] = [
   Daniel,
+  Darius,
   Deodatus,
   Desiderius,
   Dionysius,

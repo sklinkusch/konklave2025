@@ -37,5 +37,17 @@ export const Stephanus: FirstName = {
         2025: "Erzbischof von Juba",
       },
     },
+    {
+      latin: "Stephanus Fumio",
+      firstName: "Stephen Fumio",
+      lastName: "Hamao",
+      birthday: "1930-03-09",
+      nation: {
+        2005: ["JP", "VA"],
+      },
+      function: {
+        2005: "Präsident des Päpslichen Rates der Seelsorge für die Migranten und Menschen unterwegs",
+      },
+    },
   ],
 };

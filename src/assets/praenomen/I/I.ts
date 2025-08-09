@@ -3,6 +3,7 @@ import { Ignatius } from "./Ignatius";
 import { Ioachimus } from "./Ioachimus";
 import { Ioannes } from "./Ioannes";
 import { Iosephus } from "./Iosephus";
+import { Iulianus } from "./Iulianus";
 import { Iulius } from "./Iulius";
 import { Iustinus } from "./Iustinus";
 
@@ -12,6 +13,7 @@ export const I: FirstName[] = [
   Ioachimus,
   Ioannes,
   Iosephus,
+  Iulianus,
   Iulius,
   Iustinus,
 ];

@@ -41,6 +41,18 @@ export const Ioannes: FirstName = {
     },
     {
       latin: "Ioannes",
+      firstName: "Jānis",
+      lastName: "Pujats",
+      birthday: "1930-11-14",
+      nation: {
+        2005: ["LV"],
+      },
+      function: {
+        2005: "Erzbischof von Riga",
+      },
+    },
+    {
+      latin: "Ioannes",
       firstName: "John",
       lastName: "Ribat",
       birthday: "1957-02-09",
@@ -220,7 +232,7 @@ export const Ioannes: FirstName = {
       },
     },
     {
-      latin: "Ioannes Ludovices",
+      latin: "Ioannes Ludovicus",
       firstName: "Jean-Louis",
       lastName: "Tauran",
       birthday: "1943-04-05",
@@ -243,6 +255,18 @@ export const Ioannes: FirstName = {
       },
       function: {
         2025: "Erzbischof von Marseille",
+      },
+    },
+    {
+      latin: "Ioannes Maria",
+      firstName: "Jean-Marie",
+      lastName: "Lustiger",
+      birthday: "1926-09-17",
+      nation: {
+        2005: ["FR"],
+      },
+      function: {
+        2005: "emeritierter Erzbischof von Paris",
       },
     },
     {

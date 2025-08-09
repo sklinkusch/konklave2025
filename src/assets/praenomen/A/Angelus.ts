@@ -76,6 +76,18 @@ export const Angelus: FirstName = {
       },
     },
     {
+      latin: "Angelus",
+      firstName: "Angelo",
+      lastName: "Sodano",
+      birthday: "1927-11-23",
+      nation: {
+        2005: ["IT", "VA"],
+      },
+      function: {
+        2005: "Kardinalstaatssekretär",
+      },
+    },
+    {
       latin: "Angelus Sixtus",
       firstName: "Ángel Sixto",
       lastName: "Rossi",

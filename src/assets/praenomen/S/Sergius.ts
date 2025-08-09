@@ -13,5 +13,17 @@ export const Sergius: FirstName = {
         2025: "Erzbischof von São Salvador da Bahia",
       },
     },
+    {
+      latin: "Sergius",
+      firstName: "Sergio",
+      lastName: "Sebastiani",
+      birthday: "1931-04-11",
+      nation: {
+        2005: ["IT", "VA"],
+      },
+      function: {
+        2005: "Präfekt der Präfektur für die ökonomischen Angelegenheiten des Heiligen Stuhls",
+      },
+    },
   ],
 };

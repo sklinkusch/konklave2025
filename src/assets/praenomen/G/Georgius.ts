@@ -40,6 +40,30 @@ export const Georgius: FirstName = {
       },
     },
     {
+      latin: "Georgius",
+      firstName: "Varkey",
+      lastName: "Vithayathil",
+      birthday: "1927-05-29",
+      nation: {
+        2005: ["IN"],
+      },
+      function: {
+        2005: "Großerzbischof von Ernakulam-Angamaly",
+      },
+    },
+    {
+      latin: "Georgius Arthurus",
+      firstName: "Jorge Arturo",
+      lastName: "Medina Estévez",
+      birthday: "1926-12-23",
+      nation: {
+        2005: ["CL", "VA"],
+      },
+      function: {
+        2005: "Kardinalprotodiakon",
+      },
+    },
+    {
       latin: "Georgius Iacobus",
       firstName: "George Jacob",
       lastName: "Koovakad",
@@ -78,6 +102,18 @@ export const Georgius: FirstName = {
       },
       elected: {
         2013: true,
+      },
+    },
+    {
+      latin: "Georgius Maximilianus",
+      firstName: "Georg Maximilian",
+      lastName: "Sterzinsky",
+      birthday: "1936-02-09",
+      nation: {
+        2005: ["DE"],
+      },
+      function: {
+        2005: "Erzbischof von Berlin",
       },
     },
   ],
