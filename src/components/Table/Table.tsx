@@ -146,6 +146,14 @@ const CustomTable = ({ data, startDate }: CustomTableProps) => {
                         })}
                       </TableCell>
                     );
+                  case "function":
+                    return (
+                      <TableCell
+                        key={cell.property}
+                        sx={{ ...sxCell, width: cell.width, hyphens: "auto" }}>
+                        {row[cell.property]}
+                      </TableCell>
+                    );
                   default:
                     return (
                       <TableCell
