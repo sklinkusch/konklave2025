@@ -12,6 +12,9 @@ export const Salvator: FirstName = {
       function: {
         2005: "Erzbischof von Palermo",
       },
+      rank: {
+        2005: "priest",
+      },
     },
   ],
 };

@@ -12,6 +12,9 @@ export const Deodatus: FirstName = {
       function: {
         2025: "Erzbischof von Bangui",
       },
+      rank: {
+        2025: "priest",
+      },
     },
   ],
 };

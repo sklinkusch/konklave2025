@@ -12,6 +12,9 @@ export const Vincentius: FirstName = {
       function: {
         2025: "Erzbischof von Santiago del Estero",
       },
+      rank: {
+        2025: "priest",
+      },
     },
     {
       latin: "Vincentius Giraldus",
@@ -23,6 +26,9 @@ export const Vincentius: FirstName = {
       },
       function: {
         2025: "Erzbischof von Westminster",
+      },
+      rank: {
+        2025: "priest",
       },
     },
   ],

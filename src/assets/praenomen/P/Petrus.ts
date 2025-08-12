@@ -16,6 +16,11 @@ export const Petrus: FirstName = {
         2013: "Erzbischof von Esztergom-Budapest",
         2025: "Erzbischof von Esztergom-Budapest",
       },
+      rank: {
+        2005: "priest",
+        2013: "priest",
+        2025: "priest",
+      },
     },
     {
       latin: "Petrus",
@@ -27,6 +32,9 @@ export const Petrus: FirstName = {
       },
       function: {
         2025: "Kardinalstaatssekretär",
+      },
+      rank: {
+        2025: "bishop",
       },
     },
     {
@@ -40,6 +48,9 @@ export const Petrus: FirstName = {
       function: {
         2005: "Erzbischof von Bogotá",
       },
+      rank: {
+        2005: "priest",
+      },
     },
     {
       latin: "Petrus Battista",
@@ -52,6 +63,9 @@ export const Petrus: FirstName = {
       function: {
         2025: "Patriarch von Jerusalem",
       },
+      rank: {
+        2025: "priest",
+      },
     },
     {
       latin: "Petrus Ebere",
@@ -63,6 +77,9 @@ export const Petrus: FirstName = {
       },
       function: {
         2025: "Bischof von Ekwulobia",
+      },
+      rank: {
+        2025: "priest",
       },
     },
     {
@@ -80,6 +97,11 @@ export const Petrus: FirstName = {
         2013: "Präsident des Päpstlichen Rates für Gerechtigkeit und Frieden",
         2025: "Kanzler der Päpstlichen Akademie der Wissenschaften und der Päpstlichen Akademie der Sozialwissenschaften",
       },
+      rank: {
+        2005: "priest",
+        2013: "priest",
+        2025: "priest",
+      },
     },
     {
       latin: "Petrus Seiichi",
@@ -91,6 +113,9 @@ export const Petrus: FirstName = {
       },
       function: {
         2005: "Erzbischof von Tokio",
+      },
+      rank: {
+        2005: "priest",
       },
     },
   ],

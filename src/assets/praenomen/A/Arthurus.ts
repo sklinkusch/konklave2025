@@ -12,6 +12,9 @@ export const Arthurus: FirstName = {
       function: {
         2025: "Präfekt des Dikasteriums für den Gottesdienst und die Sakramentenordnung",
       },
+      rank: {
+        2025: "deacon",
+      },
     },
   ],
 };

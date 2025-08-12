@@ -12,6 +12,9 @@ export const Rolandus: FirstName = {
       function: {
         2025: "Koadjutorerzpriester der Basilika Santa Maria Maggiore",
       },
+      rank: {
+        2025: "deacon",
+      },
     },
   ],
 };

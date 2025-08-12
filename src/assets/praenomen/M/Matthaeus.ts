@@ -12,6 +12,9 @@ export const Matthaeus: FirstName = {
       function: {
         2025: "Erzbischof von Bologna",
       },
+      rank: {
+        2025: "priest",
+      },
     },
   ],
 };

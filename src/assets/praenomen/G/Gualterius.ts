@@ -14,6 +14,10 @@ export const Gualterius: FirstName = {
         2005: "Präsident des Päpstlichen Rates zur Einheit der Christen",
         2013: "emertierter Präsident des Päpstlichen Rates zur Einheit der Christen",
       },
+      rank: {
+        2005: "deacon",
+        2013: "priest",
+      },
     },
   ],
 };

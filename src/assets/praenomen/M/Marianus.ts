@@ -12,6 +12,9 @@ export const Marianus: FirstName = {
       function: {
         2005: "Erzbischof von Lwiw",
       },
+      rank: {
+        2005: "priest",
+      },
     },
   ],
 };

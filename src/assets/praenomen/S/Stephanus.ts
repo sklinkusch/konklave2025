@@ -12,6 +12,9 @@ export const Stephanus: FirstName = {
       function: {
         2025: "Erzbischof von Johannesburg",
       },
+      rank: {
+        2025: "priest",
+      },
     },
     {
       latin: "Stephanus",
@@ -23,6 +26,9 @@ export const Stephanus: FirstName = {
       },
       function: {
         2025: "Erzbischof von Hongkong",
+      },
+      rank: {
+        2025: "priest",
       },
     },
     {
@@ -36,6 +42,9 @@ export const Stephanus: FirstName = {
       function: {
         2025: "Erzbischof von Juba",
       },
+      rank: {
+        2025: "priest",
+      },
     },
     {
       latin: "Stephanus Fumio",
@@ -47,6 +56,9 @@ export const Stephanus: FirstName = {
       },
       function: {
         2005: "Präsident des Päpslichen Rates der Seelsorge für die Migranten und Menschen unterwegs",
+      },
+      rank: {
+        2005: "deacon",
       },
     },
   ],

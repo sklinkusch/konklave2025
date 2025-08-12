@@ -12,6 +12,9 @@ export const Paulus: FirstName = {
       function: {
         2013: "Erzbischof von Palermo",
       },
+      rank: {
+        2013: "priest",
+      },
     },
     {
       latin: "Paulus",
@@ -23,6 +26,9 @@ export const Paulus: FirstName = {
       },
       function: {
         2013: "Patron des Malteserordens",
+      },
+      rank: {
+        2013: "deacon",
       },
     },
     {
@@ -36,6 +42,9 @@ export const Paulus: FirstName = {
       function: {
         2025: "Erzbischof von Brasilia",
       },
+      rank: {
+        2025: "priest",
+      },
     },
     {
       latin: "Paulus Iosephus",
@@ -47,6 +56,9 @@ export const Paulus: FirstName = {
       },
       function: {
         2013: "emeritierter Präsident des Päpstlichen Rates Cor Unum",
+      },
+      rank: {
+        2013: "deacon",
       },
     },
     {
@@ -60,6 +72,9 @@ export const Paulus: FirstName = {
       function: {
         2005: "Präsident des Päpstlichen Rates für Kulturfragen",
       },
+      rank: {
+        2005: "deacon",
+      },
     },
     {
       latin: "Paulus Virgilius Siongco",
@@ -71,6 +86,9 @@ export const Paulus: FirstName = {
       },
       function: {
         2025: "Erzbischof von Kalookan",
+      },
+      rank: {
+        2025: "priest",
       },
     },
   ],

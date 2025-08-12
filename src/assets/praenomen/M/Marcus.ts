@@ -12,6 +12,9 @@ export const Marcus: FirstName = {
       function: {
         2005: "emeritierter Patriarch von Venedig",
       },
+      rank: {
+        2005: "priest",
+      },
     },
     {
       latin: "Marcus",
@@ -25,6 +28,10 @@ export const Marcus: FirstName = {
       function: {
         2005: "Erzbischof von Québec",
         2013: "Präfekt der Kongregation für die Bischöfe",
+      },
+      rank: {
+        2005: "priest",
+        2013: "priest",
       },
     },
   ],

@@ -12,6 +12,9 @@ export const Raimundus: FirstName = {
       function: {
         2013: "Erzbischof von Aparecida",
       },
+      rank: {
+        2013: "priest",
+      },
     },
     {
       latin: "Raimundus Leo",
@@ -25,6 +28,10 @@ export const Raimundus: FirstName = {
       function: {
         2013: "Präfekt der Apostolischen Signatur",
         2025: "emeritierter Präfekt der Apostolischen Signatur",
+      },
+      rank: {
+        2013: "deacon",
+        2025: "priest",
       },
     },
   ],

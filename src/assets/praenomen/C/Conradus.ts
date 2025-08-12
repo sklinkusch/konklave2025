@@ -14,6 +14,10 @@ export const Conradus: FirstName = {
         2013: "Präsident des Päpstlichen Rates zur Förderung der Einheit der Christen",
         2025: "emeritierter Präfekt des Dikasteriums zur Förderung der Einheit der Christen",
       },
+      rank: {
+        2013: "deacon",
+        2025: "deacon",
+      },
     },
     {
       latin: "Conradus",
@@ -25,6 +29,9 @@ export const Conradus: FirstName = {
       },
       function: {
         2025: "Präfekt des Dikasteriums für den Dienst der Nächstenliebe",
+      },
+      rank: {
+        2025: "deacon",
       },
     },
   ],

@@ -12,6 +12,9 @@ export const Ricardus: FirstName = {
       function: {
         2005: "Erzbischof von Cebu",
       },
+      rank: {
+        2005: "priest",
+      },
     },
     {
       latin: "Ricardus Maria",
@@ -23,6 +26,9 @@ export const Ricardus: FirstName = {
       },
       function: {
         2005: "emeritierter Erzbischof von Barcelona",
+      },
+      rank: {
+        2005: "priest",
       },
     },
   ],

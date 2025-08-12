@@ -14,6 +14,10 @@ export const Gabriel: FirstName = {
         2005: "Erzbischof von Khartum",
         2013: "Erzbischof von Khartum",
       },
+      rank: {
+        2005: "priest",
+        2013: "priest",
+      },
     },
   ],
 };

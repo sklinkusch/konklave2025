@@ -16,6 +16,11 @@ export const Vinko: FirstName = {
         2013: "Erzbischof von Vrhbosna (Sarajevo)",
         2025: "emeritierter Erzbischof von Vrhbosna (Sarajevo)",
       },
+      rank: {
+        2005: "priest",
+        2013: "priest",
+        2025: "priest",
+      },
     },
   ],
 };

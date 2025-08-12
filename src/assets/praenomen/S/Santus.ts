@@ -12,6 +12,9 @@ export const Santus: FirstName = {
       function: {
         2013: "Erzpriester der Basilika Santa Maria Maggiore",
       },
+      rank: {
+        2013: "deacon",
+      },
     },
   ],
 };

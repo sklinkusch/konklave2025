@@ -12,6 +12,9 @@ export const Albertus: FirstName = {
       function: {
         2025: "Erzbischof von Asunción",
       },
+      rank: {
+        2025: "priest",
+      },
     },
     {
       latin: "Albertus Milcolumbus",
@@ -25,6 +28,10 @@ export const Albertus: FirstName = {
       function: {
         2013: "Erzbischof von Colombo",
         2025: "Erzbischof von Colombo",
+      },
+      rank: {
+        2013: "priest",
+        2025: "priest",
       },
     },
   ],

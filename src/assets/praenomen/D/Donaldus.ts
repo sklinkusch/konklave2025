@@ -12,6 +12,9 @@ export const Donaldus: FirstName = {
       function: {
         2013: "Erzbischof von Washington",
       },
+      rank: {
+        2013: "priest",
+      },
     },
   ],
 };

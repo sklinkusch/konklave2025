@@ -6,8 +6,15 @@ export const Americus: FirstName = {
       firstName: "Américo Manuel",
       lastName: "Alves Aguiar",
       birthday: "1973-12-12",
-      nation: { 2025: ["PT"] },
-      function: { 2025: "Erzbischof von Setúbal" },
+      nation: {
+        2025: ["PT"],
+      },
+      function: {
+        2025: "Erzbischof von Setúbal",
+      },
+      rank: {
+        2025: "priest",
+      },
     },
   ],
 };

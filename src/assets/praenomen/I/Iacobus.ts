@@ -12,6 +12,9 @@ export const Iacobus: FirstName = {
       function: {
         2005: "emeritierter Erzbischof von Bologna",
       },
+      rank: {
+        2005: "priest",
+      },
     },
     {
       latin: "Iacobus",
@@ -24,6 +27,9 @@ export const Iacobus: FirstName = {
       function: {
         2025: "Erzbischof von Porto Alegre",
       },
+      rank: {
+        2025: "priest",
+      },
     },
     {
       latin: "Iacobus Franciscus",
@@ -35,6 +41,9 @@ export const Iacobus: FirstName = {
       },
       function: {
         2005: "Kardinalgroßpönitientiar",
+      },
+      rank: {
+        2005: "deacon",
       },
     },
     {
@@ -50,6 +59,10 @@ export const Iacobus: FirstName = {
         2005: "Erzbischof von Havanna",
         2013: "Erzbischof von Havanna",
       },
+      rank: {
+        2005: "priest",
+        2013: "priest",
+      },
     },
     {
       latin: "Iacobus Michael",
@@ -63,6 +76,10 @@ export const Iacobus: FirstName = {
       function: {
         2013: "Erzpriester der Basilika St. Paul vor den Maurern",
         2025: "Erzpriester der Basilika St. Paul vor den Maurern",
+      },
+      rank: {
+        2013: "deacon",
+        2025: "deacon",
       },
     },
   ],

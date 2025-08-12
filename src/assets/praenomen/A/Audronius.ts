@@ -14,6 +14,10 @@ export const Audronius: FirstName = {
         2005: "Erzbischof von Vilnius",
         2013: "Erzbischof von Vilnius",
       },
+      rank: {
+        2005: "priest",
+        2013: "priest",
+      },
     },
   ],
 };

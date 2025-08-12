@@ -12,6 +12,9 @@ export const Iulianus: FirstName = {
       function: {
         2005: "Präsident des Päpstlichen Rates für die Interpretation von Gesetzestexten",
       },
+      rank: {
+        2005: "deacon",
+      },
     },
   ],
 };

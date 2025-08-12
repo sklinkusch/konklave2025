@@ -12,6 +12,9 @@ export const Gulielmus: FirstName = {
       function: {
         2025: "Erzbischof von Singapur",
       },
+      rank: {
+        2025: "priest",
+      },
     },
     {
       latin: "Gulielmus Daniel",
@@ -24,6 +27,9 @@ export const Gulielmus: FirstName = {
       function: {
         2025: "emeritierter Erzbischof von Washington",
       },
+      rank: {
+        2025: "priest",
+      },
     },
     {
       latin: "gulielmus Henricus",
@@ -35,6 +41,9 @@ export const Gulielmus: FirstName = {
       },
       function: {
         2005: "Erzbischof von Baltimore",
+      },
+      rank: {
+        2005: "priest",
       },
     },
     {
@@ -50,6 +59,10 @@ export const Gulielmus: FirstName = {
         2013: "Erzbischof von Utrecht",
         2025: "Erzbischof von Utrecht",
       },
+      rank: {
+        2013: "priest",
+        2025: "priest",
+      },
     },
     {
       latin: "Gulielmus Iosephus",
@@ -61,6 +74,9 @@ export const Gulielmus: FirstName = {
       },
       function: {
         2013: "emeritierter Präsident der Kongregation für die Glaubenslehre",
+      },
+      rank: {
+        2013: "deacon",
       },
     },
     {
@@ -77,6 +93,11 @@ export const Gulielmus: FirstName = {
         1978.1: "Erzbischof von Washington",
         1978.2: "Erzbischof von Washington",
         2005: "emeritierter Kardinalgroßpönitientiar",
+      },
+      rank: {
+        1978.1: "priest",
+        1978.2: "priest",
+        2005: "priest",
       },
     },
   ],

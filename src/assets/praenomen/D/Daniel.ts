@@ -14,6 +14,10 @@ export const Daniel: FirstName = {
         2013: "Erzbischof von Galveston-Houston",
         2025: "emeritierter Erzbischof von Galveston-Houston",
       },
+      rank: {
+        2013: "priest",
+        2025: "priest",
+      },
     },
     {
       latin: "Daniel Ferdinandus",
@@ -25,6 +29,9 @@ export const Daniel: FirstName = {
       },
       function: {
         2025: "Erzbischof von Montevideo",
+      },
+      rank: {
+        2025: "priest",
       },
     },
   ],

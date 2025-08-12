@@ -12,6 +12,9 @@ export const Maurus: FirstName = {
       function: {
         2013: "Präfekt der Kongregation für den Klerus",
       },
+      rank: {
+        2013: "deacon",
+      },
     },
     {
       latin: "Maurus Maria",
@@ -23,6 +26,9 @@ export const Maurus: FirstName = {
       },
       function: {
         2025: "Erzpriester des Petersdoms",
+      },
+      rank: {
+        2025: "deacon",
       },
     },
   ],

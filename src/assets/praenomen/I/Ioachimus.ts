@@ -14,6 +14,10 @@ export const Ioachimus: FirstName = {
         2005: "Erzbischof von Köln",
         2013: "Erzbischof von Köln",
       },
+      rank: {
+        2005: "priest",
+        2013: "priest",
+      },
     },
   ],
 };

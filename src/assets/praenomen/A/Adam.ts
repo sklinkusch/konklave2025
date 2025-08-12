@@ -12,6 +12,9 @@ export const Adam: FirstName = {
       function: {
         2005: "Erzbischof von Detroit",
       },
+      rank: {
+        2005: "priest",
+      },
     },
   ],
 };

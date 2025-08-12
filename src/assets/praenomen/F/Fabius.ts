@@ -12,6 +12,9 @@ export const Fabius: FirstName = {
       function: {
         2025: "Untersekretär des Dikasteriums für die ganzheitliche Entwicklung des Menschen",
       },
+      rank: {
+        2025: "deacon",
+      },
     },
   ],
 };

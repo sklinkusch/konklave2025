@@ -14,6 +14,10 @@ export const Telesphorus: FirstName = {
         2005: "Erzbischof von Ranchi",
         2013: "Erzbischof von Ranchi",
       },
+      rank: {
+        2005: "priest",
+        2013: "priest",
+      },
     },
   ],
 };

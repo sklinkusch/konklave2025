@@ -14,6 +14,10 @@ export const Basilius: FirstName = {
         2013: "Großerzbischof von Trivandrum",
         2025: "Großerzbischof von Trivandrum",
       },
+      rank: {
+        2013: "priest",
+        2025: "priest",
+      },
     },
   ],
 };

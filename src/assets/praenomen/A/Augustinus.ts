@@ -12,6 +12,9 @@ export const Augustinus: FirstName = {
       function: {
         2005: "emeritierter Präsident der Güterverwaltung des Apostolischen Stuhls",
       },
+      rank: {
+        2005: "deacon",
+      },
     },
     {
       latin: "Augustinus",
@@ -23,6 +26,9 @@ export const Augustinus: FirstName = {
       },
       function: {
         2013: "Erzpriester der Lateranbasilika",
+      },
+      rank: {
+        2013: "deacon",
       },
     },
   ],

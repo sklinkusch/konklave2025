@@ -12,6 +12,9 @@ export const Thomas: FirstName = {
       function: {
         2025: "Erzbischof von Osaka-Takamatsu",
       },
+      rank: {
+        2025: "priest",
+      },
     },
     {
       latin: "Thomas Christophorus",
@@ -26,6 +29,10 @@ export const Thomas: FirstName = {
         2013: "Erzbischof von Toronto",
         2025: "emeritierter Erzbischof von Toronto",
       },
+      rank: {
+        2013: "priest",
+        2025: "priest",
+      },
     },
     {
       latin: "Thomas Stafford",
@@ -37,6 +44,9 @@ export const Thomas: FirstName = {
       },
       function: {
         2005: "emeritierter Erzbischof von Wellington",
+      },
+      rank: {
+        2005: "priest",
       },
     },
   ],

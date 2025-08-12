@@ -12,6 +12,9 @@ export const Augustus: FirstName = {
       function: {
         2025: "Erzbischof von Siena-Colle di Val d'Elsa-Montalcino",
       },
+      rank: {
+        2025: "priest",
+      },
     },
   ],
 };

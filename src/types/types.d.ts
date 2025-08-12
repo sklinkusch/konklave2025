@@ -1,3 +1,9 @@
+type Rank = "bishop" | "priest" | "deacon";
+
+interface CircleProps {
+  rank: Rank;
+}
+
 type Cardinal = {
   latin: string;
   firstName: string;
@@ -6,6 +12,7 @@ type Cardinal = {
   nation: { [key: string]: string[] };
   function: { [key: string]: string };
   elected?: { [key: string]: boolean };
+  rank: { [key: string]: Rank };
 };
 
 type FirstName = {
@@ -22,6 +29,7 @@ type CustomTableProps = {
     nation: string[];
     function: string;
     elected?: boolean;
+    rank: Rank;
   }[];
   startDate: string;
 };
@@ -36,6 +44,7 @@ type FirstNameProps = {
     nation: string[];
     function: string;
     elected?: boolean;
+    rank: Rank;
   }[];
   startDate: string;
 };
@@ -48,6 +57,7 @@ interface NewCardinal {
   nation: string[];
   function: string;
   elected?: boolean;
+  rank: Rank;
 }
 
 interface NewFirstName {

@@ -12,6 +12,9 @@ export const Georgius: FirstName = {
       function: {
         2013: "Großerzbischof von Ernakulam-Angamaly",
       },
+      rank: {
+        2013: "priest",
+      },
     },
     {
       latin: "Georgius",
@@ -23,6 +26,9 @@ export const Georgius: FirstName = {
       },
       function: {
         2025: "Präfekt von Ulaanbaatar",
+      },
+      rank: {
+        2025: "priest",
       },
     },
     {
@@ -38,6 +44,10 @@ export const Georgius: FirstName = {
         2005: "Erzbischof von Sydney",
         2013: "Erzbischof von Sydney",
       },
+      rank: {
+        2005: "priest",
+        2013: "priest",
+      },
     },
     {
       latin: "Georgius",
@@ -50,6 +60,9 @@ export const Georgius: FirstName = {
       function: {
         2005: "Großerzbischof von Ernakulam-Angamaly",
       },
+      rank: {
+        2005: "priest",
+      },
     },
     {
       latin: "Georgius Arthurus",
@@ -60,7 +73,10 @@ export const Georgius: FirstName = {
         2005: ["CL", "VA"],
       },
       function: {
-        2005: "Kardinalprotodiakon",
+        2005: "emeritierter Präfekt für den Gottesdienst und die Sakramentenordnung, Kardinalprotodiakon",
+      },
+      rank: {
+        2005: "deacon",
       },
     },
     {
@@ -74,6 +90,9 @@ export const Georgius: FirstName = {
       function: {
         2025: "Präfelt des Dikasteriums für den interreligiösen Dialog",
       },
+      rank: {
+        2025: "deacon",
+      },
     },
     {
       latin: "Georgius Liberatus",
@@ -85,6 +104,9 @@ export const Georgius: FirstName = {
       },
       function: {
         2013: "Erzbischof von Caracas",
+      },
+      rank: {
+        2013: "priest",
       },
     },
     {
@@ -100,6 +122,10 @@ export const Georgius: FirstName = {
         2005: "Erzbischof von Buenos Aires",
         2013: "Erzbischof von Buenos Aires, Papst Franziskus",
       },
+      rank: {
+        2005: "priest",
+        2013: "priest",
+      },
       elected: {
         2013: true,
       },
@@ -114,6 +140,9 @@ export const Georgius: FirstName = {
       },
       function: {
         2005: "Erzbischof von Berlin",
+      },
+      rank: {
+        2005: "priest",
       },
     },
   ],

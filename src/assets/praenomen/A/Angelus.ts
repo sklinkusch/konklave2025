@@ -12,6 +12,9 @@ export const Angelus: FirstName = {
       function: {
         2013: "Präfekt der Kongregation für Selig- und Heiligsprechungsprozesse",
       },
+      rank: {
+        2013: "deacon",
+      },
     },
     {
       latin: "Angelus",
@@ -23,6 +26,9 @@ export const Angelus: FirstName = {
       },
       function: {
         2013: "Erzbischof von Genua",
+      },
+      rank: {
+        2013: "priest",
       },
     },
     {
@@ -36,6 +42,9 @@ export const Angelus: FirstName = {
       function: {
         2013: "Erzpriester des Petersdoms",
       },
+      rank: {
+        2013: "deacon",
+      },
     },
     {
       latin: "Angelus",
@@ -48,6 +57,9 @@ export const Angelus: FirstName = {
       function: {
         2025: "Großpönitentiar",
       },
+      rank: {
+        2025: "priest",
+      },
     },
     {
       latin: "Angelus",
@@ -59,6 +71,9 @@ export const Angelus: FirstName = {
       },
       function: {
         2025: "Pro-Präfekt des Dikasteriums für die Institute geweihten Lebens und für die Gesellschaften apostolischen Lebens",
+      },
+      rank: {
+        2025: "deacon",
       },
     },
     {
@@ -74,6 +89,10 @@ export const Angelus: FirstName = {
         2005: "Patriarch von Venedig",
         2013: "Erzbischof von Mailand",
       },
+      rank: {
+        2005: "priest",
+        2013: "priest",
+      },
     },
     {
       latin: "Angelus",
@@ -86,6 +105,9 @@ export const Angelus: FirstName = {
       function: {
         2005: "Kardinalstaatssekretär",
       },
+      rank: {
+        2005: "bishop",
+      },
     },
     {
       latin: "Angelus Sixtus",
@@ -97,6 +119,9 @@ export const Angelus: FirstName = {
       },
       function: {
         2025: "Erzbischof von Córdoba",
+      },
+      rank: {
+        2025: "priest",
       },
     },
   ],

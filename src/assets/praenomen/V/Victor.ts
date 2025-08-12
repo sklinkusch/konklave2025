@@ -12,6 +12,9 @@ export const Victor: FirstName = {
       function: {
         2025: "Präfekt des Dikasteriums für die Glaubenslehre",
       },
+      rank: {
+        2025: "deacon",
+      },
     },
   ],
 };

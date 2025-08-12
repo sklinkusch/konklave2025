@@ -12,6 +12,9 @@ export const Ladislaus: FirstName = {
       function: {
         2025: "Erzbischof von Belgrad",
       },
+      rank: {
+        2025: "priest",
+      },
     },
     {
       latin: "Ladislaus Pacificus",
@@ -23,6 +26,9 @@ export const Ladislaus: FirstName = {
       },
       function: {
         2005: "emeritierter Erzbischof von Esztergom-Budapest",
+      },
+      rank: {
+        2005: "priest",
       },
     },
   ],

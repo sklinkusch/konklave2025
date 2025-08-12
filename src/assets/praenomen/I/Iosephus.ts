@@ -12,6 +12,9 @@ export const Iosephus: FirstName = {
       function: {
         2013: "Präsident des Governatorats der Vatikanstadt",
       },
+      rank: {
+        2013: "deacon",
+      },
     },
     {
       latin: "Iosephus",
@@ -25,6 +28,10 @@ export const Iosephus: FirstName = {
       function: {
         2013: "Erzbischof von Florenz",
         2025: "Erzbischof von Florenz",
+      },
+      rank: {
+        2013: "priest",
+        2025: "priest",
       },
     },
     {
@@ -42,6 +49,11 @@ export const Iosephus: FirstName = {
         2013: "Erzbischof von Zagreb",
         2025: "emeritierter Erzbischof von Zagreb",
       },
+      rank: {
+        2005: "priest",
+        2013: "priest",
+        2025: "priest",
+      },
     },
     {
       latin: "Iosephus",
@@ -53,6 +65,9 @@ export const Iosephus: FirstName = {
       },
       function: {
         2025: "Erzbischof von Madrid",
+      },
+      rank: {
+        2025: "priest",
       },
     },
     {
@@ -66,6 +81,9 @@ export const Iosephus: FirstName = {
       function: {
         2025: "emeritierter Erzbischof von Karatschi",
       },
+      rank: {
+        2025: "priest",
+      },
     },
     {
       latin: "Iosephus",
@@ -77,6 +95,9 @@ export const Iosephus: FirstName = {
       },
       function: {
         2025: "emeritierter Erzbischof von Mecheln-Brüssel",
+      },
+      rank: {
+        2025: "priest",
       },
     },
     {
@@ -90,6 +111,9 @@ export const Iosephus: FirstName = {
       function: {
         2005: "emeritierter Erzbischof von Brasilia",
       },
+      rank: {
+        2005: "priest",
+      },
     },
     {
       latin: "Iosephus",
@@ -101,6 +125,9 @@ export const Iosephus: FirstName = {
       },
       function: {
         2005: "Erzbischof von Warschau",
+      },
+      rank: {
+        2005: "priest",
       },
     },
     {
@@ -114,6 +141,9 @@ export const Iosephus: FirstName = {
       function: {
         2025: "emeritierter Erzbischof von L'Aquila",
       },
+      rank: {
+        2025: "priest",
+      },
     },
     {
       latin: "Iosephus",
@@ -126,6 +156,9 @@ export const Iosephus: FirstName = {
       function: {
         2005: "Präfekt der Kongregation für die Selig- und Heiligsprechungsprozesse",
       },
+      rank: {
+        2005: "deacon",
+      },
     },
     {
       latin: "Iosephus",
@@ -137,6 +170,9 @@ export const Iosephus: FirstName = {
       },
       function: {
         2013: "Präsident der Präfektur für die ökonomischen Angelegenheiten des Heiligen Stuhls",
+      },
+      rank: {
+        2013: "deacon",
       },
     },
     {
@@ -153,6 +189,11 @@ export const Iosephus: FirstName = {
         1978.1: "Erzbischof von München und Freising",
         1978.2: "Erzbischof von München und Freising",
         2005: "Präfekt der Kongregation für die Glaubenslehre, Dekan des Kardinalskollegiums, Papst Benedikt XVI.",
+      },
+      rank: {
+        1978.1: "priest",
+        1978.2: "priest",
+        2005: "bishop",
       },
       elected: {
         2005: true,
@@ -171,6 +212,10 @@ export const Iosephus: FirstName = {
         2005: "Patriarch von Lissabon",
         2013: "Patriarch von Lissabon",
       },
+      rank: {
+        2005: "priest",
+        2013: "priest",
+      },
     },
     {
       latin: "Iosephus Fuerte",
@@ -182,6 +227,9 @@ export const Iosephus: FirstName = {
       },
       function: {
         2025: "Erzbischof von Manila",
+      },
+      rank: {
+        2025: "priest",
       },
     },
     {
@@ -195,6 +243,9 @@ export const Iosephus: FirstName = {
       function: {
         2025: "Erzbischof von Newark",
       },
+      rank: {
+        2025: "priest",
+      },
     },
     {
       latin: "Iosephus Tolentinus",
@@ -206,6 +257,9 @@ export const Iosephus: FirstName = {
       },
       function: {
         2025: "Präfekt des Dikasteriums für die Kultur und die Bildung",
+      },
+      rank: {
+        2025: "deacon",
       },
     },
   ],

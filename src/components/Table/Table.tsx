@@ -9,6 +9,7 @@ import {
 import Flag from "react-world-flags";
 import moment from "moment";
 import { countries } from "@assets/countries";
+import { Circle } from "@components/Circle/Circle";
 
 const calculateDateDifference = (start: string, end: string): string => {
   const startDate = moment(start);
@@ -50,32 +51,44 @@ const calculateDateDifference = (start: string, end: string): string => {
 
 type TableData = {
   title: string;
-  property: "latin" | "firstName" | "lastName" | "age" | "nation" | "function";
+  property:
+    | "rank"
+    | "latin"
+    | "firstName"
+    | "lastName"
+    | "age"
+    | "nation"
+    | "function";
   width: string | string[];
 };
 
 const CustomTable = ({ data, startDate }: CustomTableProps) => {
   const tableData: TableData[] = [
     {
+      title: "Rang",
+      property: "rank",
+      width: ["0rem", "5vw"],
+    },
+    {
       title: "Lateinischer Vorname",
       property: "latin",
-      width: ["100%", "16vw"],
+      width: ["100%", "15vw"],
     },
     {
       title: "Vorname",
       property: "firstName",
-      width: ["100%", "16vw"],
+      width: ["100%", "15vw"],
     },
     {
       title: "Nachname",
       property: "lastName",
-      width: ["100%", "16vw"],
+      width: ["100%", "15vw"],
     },
-    { title: "Alter", property: "age", width: ["100%", "16vw"] },
+    { title: "Alter", property: "age", width: ["100%", "15vw"] },
     {
       title: "Nationalität",
       property: "nation",
-      width: ["100%", "16vw"],
+      width: ["100%", "15vw"],
     },
     {
       title: "Funktion",
@@ -121,6 +134,18 @@ const CustomTable = ({ data, startDate }: CustomTableProps) => {
                         key={cell.property}
                         sx={{ ...sxCell, width: cell.width }}>
                         {age}
+                      </TableCell>
+                    );
+                  case "rank":
+                    return (
+                      <TableCell
+                        key={cell.property}
+                        sx={{
+                          ...sxCell,
+                          width: cell.width,
+                          textAlign: "center",
+                        }}>
+                        <Circle rank={row[cell.property]} />
                       </TableCell>
                     );
                   case "nation":

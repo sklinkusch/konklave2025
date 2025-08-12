@@ -16,6 +16,11 @@ export const Philippus: FirstName = {
         2013: "Erzbischof von Lyon",
         2025: "emeritierter Erzbischof von Lyon",
       },
+      rank: {
+        2005: "priest",
+        2013: "priest",
+        2025: "priest",
+      },
     },
     {
       latin: "Philippus Nakellentuba",
@@ -28,6 +33,9 @@ export const Philippus: FirstName = {
       function: {
         2025: "emeritierter Erzbischof von Ouagadougou",
       },
+      rank: {
+        2025: "priest",
+      },
     },
     {
       latin: "Philippus Neri Antonius Sebastianus",
@@ -39,6 +47,9 @@ export const Philippus: FirstName = {
       },
       function: {
         2025: "Patriarch von Ostindien",
+      },
+      rank: {
+        2025: "priest",
       },
     },
   ],

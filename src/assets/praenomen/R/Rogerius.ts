@@ -14,6 +14,10 @@ export const Rogerius: FirstName = {
         2005: "Erzbischof von Los Angeles",
         2013: "emeritierter Erzbischof von Los Angeles",
       },
+      rank: {
+        2005: "priest",
+        2013: "priest",
+      },
     },
   ],
 };

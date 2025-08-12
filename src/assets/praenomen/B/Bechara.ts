@@ -12,6 +12,9 @@ export const Bechara: FirstName = {
       function: {
         2013: "Maronitischer Patriarch von Antiochien und des ganzen Orients",
       },
+      rank: {
+        2013: "bishop",
+      },
     },
   ],
 };

@@ -12,6 +12,9 @@ export const Tarcisius: FirstName = {
       function: {
         2025: "Erzbischof von Tokio",
       },
+      rank: {
+        2025: "priest",
+      },
     },
     {
       latin: "Tarcisius Petrus Evasius",
@@ -25,6 +28,10 @@ export const Tarcisius: FirstName = {
       function: {
         2005: "Erzbischof von Genua",
         2013: "Kardinalstaatssekretär, Camerlengo",
+      },
+      rank: {
+        2005: "priest",
+        2013: "bishop",
       },
     },
   ],

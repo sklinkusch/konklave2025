@@ -12,6 +12,9 @@ export const Laurentius: FirstName = {
       function: {
         2013: "Erzbischof von Kinshasa",
       },
+      rank: {
+        2013: "priest",
+      },
     },
     {
       latin: "Laurentius Andreas",
@@ -23,6 +26,9 @@ export const Laurentius: FirstName = {
       },
       function: {
         2025: "Erzbischof von Stockholm",
+      },
+      rank: {
+        2025: "priest",
       },
     },
   ],

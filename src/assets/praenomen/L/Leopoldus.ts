@@ -12,6 +12,9 @@ export const Leopoldus: FirstName = {
       function: {
         2025: "Erzbischof von Managua",
       },
+      rank: {
+        2025: "priest",
+      },
     },
   ],
 };

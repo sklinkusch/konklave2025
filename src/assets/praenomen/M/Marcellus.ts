@@ -12,6 +12,9 @@ export const Marcellus: FirstName = {
       function: {
         2025: "Präfekt des Dikasteriums für die Selig- und Heiligsprechungsprozesse",
       },
+      rank: {
+        2025: "deacon",
+      },
     },
   ],
 };

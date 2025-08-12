@@ -12,6 +12,9 @@ export const Protase: FirstName = {
       function: {
         2025: "Erzbischof von Tabora",
       },
+      rank: {
+        2025: "priest",
+      },
     },
   ],
 };

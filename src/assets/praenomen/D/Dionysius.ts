@@ -14,6 +14,10 @@ export const Dionysius: FirstName = {
         2005: "Erzbischof von Mailand",
         2013: "emeritierter Erzbischof von Mailand",
       },
+      rank: {
+        2005: "priest",
+        2013: "priest",
+      },
     },
   ],
 };

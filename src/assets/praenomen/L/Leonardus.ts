@@ -12,6 +12,9 @@ export const Leonardus: FirstName = {
       function: {
         2013: "Präfekt der Kongregation für die orientalischen Kirchen",
       },
+      rank: {
+        2013: "deacon",
+      },
     },
     {
       latin: "Leonardus Ulricus",
@@ -23,6 +26,9 @@ export const Leonardus: FirstName = {
       },
       function: {
         2025: "Erzbischof von Manaus",
+      },
+      rank: {
+        2025: "priest",
       },
     },
   ],

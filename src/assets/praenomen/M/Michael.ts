@@ -12,6 +12,9 @@ export const Michael: FirstName = {
       function: {
         2025: "Präfekt des Dikasteriums für die ganzheitliche Entwicklung des Menschen",
       },
+      rank: {
+        2025: "deacon",
+      },
     },
     {
       latin: "Michael",
@@ -23,6 +26,9 @@ export const Michael: FirstName = {
       },
       function: {
         2005: "Erzbischof von Neapel",
+      },
+      rank: {
+        2005: "priest",
       },
     },
     {
@@ -36,6 +42,9 @@ export const Michael: FirstName = {
       function: {
         2005: "emeritierter Erzbischof von Managua",
       },
+      rank: {
+        2005: "priest",
+      },
     },
     {
       latin: "Michael Michai",
@@ -47,6 +56,9 @@ export const Michael: FirstName = {
       },
       function: {
         2005: "Erzbischof von Bangkok",
+      },
+      rank: {
+        2005: "priest",
       },
     },
   ],

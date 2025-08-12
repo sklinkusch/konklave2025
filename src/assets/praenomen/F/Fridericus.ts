@@ -12,6 +12,9 @@ export const Fridericus: FirstName = {
       function: {
         2005: "Erzbischof von Kinshasa",
       },
+      rank: {
+        2005: "priest",
+      },
     },
     {
       latin: "Fridericus",
@@ -23,6 +26,9 @@ export const Fridericus: FirstName = {
       },
       function: {
         2005: "Erzbischof von München und Freising",
+      },
+      rank: {
+        2005: "priest",
       },
     },
   ],

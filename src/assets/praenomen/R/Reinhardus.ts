@@ -14,6 +14,10 @@ export const Reinhardus: FirstName = {
         2013: "Erzbischof von München und Freising",
         2025: "Erzbischof von München und Freising",
       },
+      rank: {
+        2013: "priest",
+        2025: "priest",
+      },
     },
   ],
 };

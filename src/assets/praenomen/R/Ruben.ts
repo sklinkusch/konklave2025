@@ -12,6 +12,9 @@ export const Ruben: FirstName = {
       function: {
         2013: "Erzbischof von Bogotá",
       },
+      rank: {
+        2013: "priest",
+      },
     },
   ],
 };

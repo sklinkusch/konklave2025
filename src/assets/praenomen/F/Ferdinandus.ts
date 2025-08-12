@@ -14,6 +14,10 @@ export const Ferdinandus: FirstName = {
         2013: "Präfekt der Kongregation für die Evangelisierung der Völker",
         2025: "Großmeister des Ritterordens vom Heiligen Grab zu Jerusalem",
       },
+      rank: {
+        2013: "deacon",
+        2025: "bishop",
+      },
     },
     {
       latin: "Ferdinadus Natalius",
@@ -25,6 +29,9 @@ export const Ferdinandus: FirstName = {
       },
       function: {
         2025: "Erzbischof von Santiago de Chile",
+      },
+      rank: {
+        2025: "priest",
       },
     },
   ],

@@ -14,6 +14,10 @@ export const Polycarpus: FirstName = {
         2005: "Erzbischof von Daressalam",
         2013: "Erzbischof von Daressalam",
       },
+      rank: {
+        2005: "priest",
+        2013: "priest",
+      },
     },
   ],
 };

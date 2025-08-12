@@ -12,6 +12,9 @@ export const Franciscus: FirstName = {
       function: {
         2005: "emeritierter Erzbischof von Toledo",
       },
+      rank: {
+        2005: "priest",
+      },
     },
     {
       latin: "Franciscus",
@@ -23,6 +26,9 @@ export const Franciscus: FirstName = {
       },
       function: {
         2005: "Erzbischof von Onitsha",
+      },
+      rank: {
+        2005: "priest",
       },
     },
     {
@@ -36,6 +42,9 @@ export const Franciscus: FirstName = {
       function: {
         2013: "Präsident des Päpstlichen Rates für die Gesetzestexte",
       },
+      rank: {
+        2013: "deacon",
+      },
     },
     {
       latin: "Franciscus",
@@ -47,6 +56,9 @@ export const Franciscus: FirstName = {
       },
       function: {
         2025: "Erzbischof von Toronto",
+      },
+      rank: {
+        2025: "priest",
       },
     },
     {
@@ -60,6 +72,9 @@ export const Franciscus: FirstName = {
       function: {
         2005: "Präsident des Päpstlichen Arbeitsamtes",
       },
+      rank: {
+        2005: "deacon",
+      },
     },
     {
       latin: "Franciscus",
@@ -72,6 +87,9 @@ export const Franciscus: FirstName = {
       function: {
         2025: "emeritierter Erzbischof von Agrigent",
       },
+      rank: {
+        2025: "priest",
+      },
     },
     {
       latin: "Fraciscus",
@@ -83,6 +101,9 @@ export const Franciscus: FirstName = {
       },
       function: {
         2013: "Erzpriester der Basilika St. Paul vor den Mauern",
+      },
+      rank: {
+        2013: "deacon",
       },
     },
     {
@@ -98,6 +119,10 @@ export const Franciscus: FirstName = {
         2013: "Erzbischof von Guadalajara",
         2025: "Erzbischof von Guadalajara",
       },
+      rank: {
+        2013: "priest",
+        2025: "priest",
+      },
     },
     {
       latin: "Franciscus",
@@ -109,6 +134,9 @@ export const Franciscus: FirstName = {
       },
       function: {
         2013: "emeritierter Präfekt der Kongregation für die Institute geweihten Lebens und die Gesellschaften apostolischen Lebens",
+      },
+      rank: {
+        2013: "deacon",
       },
     },
     {
@@ -124,6 +152,10 @@ export const Franciscus: FirstName = {
         2005: "Erzbischof von Chicago",
         2013: "Erzbischof von Chicago",
       },
+      rank: {
+        2005: "priest",
+        2013: "priest",
+      },
     },
     {
       latin: "Franciscus Xaverius",
@@ -135,6 +167,9 @@ export const Franciscus: FirstName = {
       },
       function: {
         2025: "Erzbischof von Ajaccio",
+      },
+      rank: {
+        2025: "priest",
       },
     },
     {
@@ -150,6 +185,10 @@ export const Franciscus: FirstName = {
         2005: "Erzbischof von Santiago de Chile",
         2013: "emeritierter Erzbischof von Santiago de Chile",
       },
+      rank: {
+        2005: "priest",
+        2013: "priest",
+      },
     },
     {
       latin: "Franciscus Xaverius Kriengsak",
@@ -161,6 +200,9 @@ export const Franciscus: FirstName = {
       },
       function: {
         2025: "emeritierter Erzbischof von Bangkok",
+      },
+      rank: {
+        2025: "priest",
       },
     },
   ],

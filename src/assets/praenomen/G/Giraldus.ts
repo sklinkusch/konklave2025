@@ -12,6 +12,9 @@ export const Giraldus: FirstName = {
       function: {
         2025: "Erzbischof von Québec",
       },
+      rank: {
+        2025: "priest",
+      },
     },
     {
       latin: "Giraldus Ludovicus",
@@ -23,6 +26,9 @@ export const Giraldus: FirstName = {
       },
       function: {
         2025: "Richter an der Apostolischen Signatur",
+      },
+      rank: {
+        2025: "deacon",
       },
     },
     {
@@ -37,6 +43,10 @@ export const Giraldus: FirstName = {
       function: {
         2005: "Erzbischof von São Salvador da Bahia",
         2013: "emeritierter Erzbischof von São Salvador da Bahia",
+      },
+      rank: {
+        2005: "priest",
+        2013: "priest",
       },
     },
   ],

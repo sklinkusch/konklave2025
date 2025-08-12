@@ -12,6 +12,9 @@ export const Armandus: FirstName = {
       function: {
         2005: "Erzbischof von Antananarivo",
       },
+      rank: {
+        2005: "priest",
+      },
     },
   ],
 };

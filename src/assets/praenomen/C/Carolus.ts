@@ -14,6 +14,10 @@ export const Carolus: FirstName = {
         2005: "Erzbischof von Sevilla",
         2013: "emeritierter Erzbischof von Sevilla",
       },
+      rank: {
+        2005: "priest",
+        2013: "priest",
+      },
     },
     {
       latin: "Carolus",
@@ -26,6 +30,9 @@ export const Carolus: FirstName = {
       function: {
         2025: "Erzbischof von Mexiko-Stadt",
       },
+      rank: {
+        2025: "priest",
+      },
     },
     {
       latin: "Carolus",
@@ -37,6 +44,9 @@ export const Carolus: FirstName = {
       },
       function: {
         2013: "Erzbischof von Bologna",
+      },
+      rank: {
+        2013: "priest",
       },
     },
     {
@@ -52,6 +62,10 @@ export const Carolus: FirstName = {
         2005: "Bischof von Mainz",
         2013: "Bischof von Mainz",
       },
+      rank: {
+        2005: "priest",
+        2013: "priest",
+      },
     },
     {
       latin: "Carolus",
@@ -63,6 +77,9 @@ export const Carolus: FirstName = {
       },
       function: {
         2025: "emeritierter Erzbischof von Madrid",
+      },
+      rank: {
+        2025: "priest",
       },
     },
     {
@@ -76,6 +93,9 @@ export const Carolus: FirstName = {
       function: {
         2025: "Erzbischof von Lima",
       },
+      rank: {
+        2025: "priest",
+      },
     },
     {
       latin: "Carolus Maria",
@@ -88,6 +108,9 @@ export const Carolus: FirstName = {
       function: {
         2005: "emeritierter Erzbischof von Mailand",
       },
+      rank: {
+        2005: "priest",
+      },
     },
     {
       latin: "Carolus Maung",
@@ -99,6 +122,9 @@ export const Carolus: FirstName = {
       },
       function: {
         2025: "Erzbischof von Yangon",
+      },
+      rank: {
+        2025: "priest",
       },
     },
   ],

@@ -12,6 +12,9 @@ export const Fridolinus: FirstName = {
       function: {
         2025: "Erzbischof von Kinshasa",
       },
+      rank: {
+        2025: "priest",
+      },
     },
   ],
 };

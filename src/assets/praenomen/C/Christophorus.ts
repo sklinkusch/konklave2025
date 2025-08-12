@@ -12,6 +12,9 @@ export const Christophorus: FirstName = {
       function: {
         2025: "Erzbischof von Rabat",
       },
+      rank: {
+        2025: "priest",
+      },
     },
     {
       latin: "Christophorus Ludovicus Ivo Georgius",
@@ -23,6 +26,9 @@ export const Christophorus: FirstName = {
       },
       function: {
         2025: "Nuntius in den Vereinigten Staaten",
+      },
+      rank: {
+        2025: "deacon",
       },
     },
     {
@@ -37,6 +43,10 @@ export const Christophorus: FirstName = {
       function: {
         2005: "Erzbischof von Wien",
         2013: "Erzbischof von Wien",
+      },
+      rank: {
+        2005: "priest",
+        2013: "priest",
       },
     },
   ],

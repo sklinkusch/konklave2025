@@ -12,6 +12,9 @@ export const Antonius: FirstName = {
       function: {
         2013: "Präfekt der Kongregation für den Gottesdienst und die Sakramentenordnung",
       },
+      rank: {
+        2013: "priest",
+      },
     },
     {
       latin: "Antonius",
@@ -23,6 +26,9 @@ export const Antonius: FirstName = {
       },
       function: {
         2025: "Erzbischof von Kigali",
+      },
+      rank: {
+        2025: "priest",
       },
     },
     {
@@ -36,6 +42,9 @@ export const Antonius: FirstName = {
       function: {
         2013: "Patriarch von Alexandrien",
       },
+      rank: {
+        2013: "bishop",
+      },
     },
     {
       latin: "Antonius",
@@ -48,6 +57,9 @@ export const Antonius: FirstName = {
       function: {
         2025: "Erzbischof von Hyderabad",
       },
+      rank: {
+        2025: "priest",
+      },
     },
     {
       latin: "Antonius Augustus",
@@ -59,6 +71,9 @@ export const Antonius: FirstName = {
       },
       function: {
         2025: "emeritierter Bischof von Leiria-Fatima",
+      },
+      rank: {
+        2025: "priest",
       },
     },
     {
@@ -74,6 +89,10 @@ export const Antonius: FirstName = {
         2005: "Erzbischof von Madrid",
         2013: "Erzbischof von Madrid",
       },
+      rank: {
+        2005: "priest",
+        2013: "priest",
+      },
     },
     {
       latin: "Antonius Maria",
@@ -85,6 +104,9 @@ export const Antonius: FirstName = {
       },
       function: {
         2013: "Präsident des Päpstlichen Rates der Seelsorge für die Migranten und Menschen unterwegs",
+      },
+      rank: {
+        2013: "deacon",
       },
     },
     {
@@ -99,6 +121,10 @@ export const Antonius: FirstName = {
       function: {
         2005: "Erzbischof von Lagos",
         2013: "emeritierter Erzbischof von Lagos",
+      },
+      rank: {
+        2005: "priest",
+        2013: "priest",
       },
     },
   ],

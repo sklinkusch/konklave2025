@@ -14,6 +14,10 @@ export const Norbertus: FirstName = {
         2005: "Erzbischof von Mexiko-Stadt",
         2013: "Erzbischof von Mexiko-Stadt",
       },
+      rank: {
+        2005: "priest",
+        2013: "priest",
+      },
     },
   ],
 };

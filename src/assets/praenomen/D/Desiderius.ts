@@ -12,6 +12,9 @@ export const Desiderius: FirstName = {
       function: {
         2005: "emeritierter Erzbischof von Dublin",
       },
+      rank: {
+        2005: "priest",
+      },
     },
     {
       latin: "Desiderius",
@@ -23,6 +26,9 @@ export const Desiderius: FirstName = {
       },
       function: {
         2025: "Erzbischof von Toamasina",
+      },
+      rank: {
+        2025: "priest",
       },
     },
   ],

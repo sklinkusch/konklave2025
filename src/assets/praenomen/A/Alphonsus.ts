@@ -12,6 +12,9 @@ export const Alphonsus: FirstName = {
       function: {
         2005: "Präsident des Päpstlichen Rates für die Familien",
       },
+      rank: {
+        2005: "bishop",
+      },
     },
   ],
 };

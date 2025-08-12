@@ -12,6 +12,9 @@ export const Ignatius: FirstName = {
       function: {
         2025: "Erzbischof von Abidjan",
       },
+      rank: {
+        2025: "priest",
+      },
     },
     {
       latin: "Ignatius",
@@ -24,6 +27,9 @@ export const Ignatius: FirstName = {
       function: {
         2025: "Erzbischof von Jakarta",
       },
+      rank: {
+        2025: "priest",
+      },
     },
     {
       latin: "Ignatius Moussa primus",
@@ -35,6 +41,9 @@ export const Ignatius: FirstName = {
       },
       function: {
         2005: "Präfekt der Kongregation für die Ostkirchen",
+      },
+      rank: {
+        2005: "priest",
       },
     },
   ],

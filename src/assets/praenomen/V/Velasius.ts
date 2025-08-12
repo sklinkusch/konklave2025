@@ -12,6 +12,9 @@ export const Velasius: FirstName = {
       function: {
         2013: "emeritierter Präsident der Präfektur für die ökonomischen Angelegenheiten des Heiligen Stuhls",
       },
+      rank: {
+        2013: "deacon",
+      },
     },
   ],
 };

@@ -12,6 +12,9 @@ export const Eduardus: FirstName = {
       function: {
         2005: "Camerlengo",
       },
+      rank: {
+        2005: "deacon",
+      },
     },
     {
       latin: "Eduardus Michael",
@@ -23,6 +26,9 @@ export const Eduardus: FirstName = {
       },
       function: {
         2005: "Erzbischof von New York",
+      },
+      rank: {
+        2005: "priest",
       },
     },
   ],

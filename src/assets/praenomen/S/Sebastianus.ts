@@ -12,6 +12,9 @@ export const Sebastianus: FirstName = {
       function: {
         2025: "Bischof von Penang",
       },
+      rank: {
+        2025: "priest",
+      },
     },
   ],
 };

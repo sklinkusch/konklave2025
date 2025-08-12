@@ -12,6 +12,9 @@ export const Aloisius: FirstName = {
       function: {
         2005: "Erzbischof von Toronto",
       },
+      rank: {
+        2005: "priest",
+      },
     },
   ],
 };

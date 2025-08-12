@@ -12,6 +12,9 @@ export const Bernardus: FirstName = {
       function: {
         2005: "Erzbischof von Abidjan",
       },
+      rank: {
+        2005: "priest",
+      },
     },
     {
       latin: "Bernardus Franciscus",
@@ -24,6 +27,9 @@ export const Bernardus: FirstName = {
       function: {
         2005: "Erzpriester der Basilika Santa Maria Maggiore",
       },
+      rank: {
+        2005: "priest",
+      },
     },
     {
       latin: "Bernardus Ludovicus Augustus Paulus",
@@ -35,6 +41,9 @@ export const Bernardus: FirstName = {
       },
       function: {
         2005: "Erzbischof von Marseille",
+      },
+      rank: {
+        2005: "priest",
       },
     },
   ],

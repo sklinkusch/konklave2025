@@ -12,6 +12,9 @@ export const Cormac: FirstName = {
       function: {
         2005: "Erzbischof von Westminster",
       },
+      rank: {
+        2005: "priest",
+      },
     },
   ],
 };

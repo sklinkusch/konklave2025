@@ -12,6 +12,9 @@ export const Camillus: FirstName = {
       function: {
         2005: "Erzpriester der Lateranbasilika",
       },
+      rank: {
+        2005: "priest",
+      },
     },
   ],
 };

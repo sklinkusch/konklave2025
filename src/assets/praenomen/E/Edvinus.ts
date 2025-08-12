@@ -12,6 +12,9 @@ export const Edvinus: FirstName = {
       function: {
         2013: "Großmeister des Ritterordens vom Heiligen Grab zu Jerusalem",
       },
+      rank: {
+        2013: "deacon",
+      },
     },
   ],
 };

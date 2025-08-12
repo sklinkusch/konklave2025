@@ -14,6 +14,10 @@ export const Severinus: FirstName = {
         2005: "Erzbischof von Turin",
         2013: "emeritierter Erzbischof von Turin",
       },
+      rank: {
+        2005: "priest",
+        2013: "priest",
+      },
     },
   ],
 };

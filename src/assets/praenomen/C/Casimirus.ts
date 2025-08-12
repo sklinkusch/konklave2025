@@ -14,6 +14,10 @@ export const Casimirus: FirstName = {
         2013: "Erzbischof von Warschau",
         2025: "emeritierter Erzbischof von Warschau",
       },
+      rank: {
+        2013: "priest",
+        2025: "priest",
+      },
     },
   ],
 };

@@ -14,6 +14,10 @@ export const Vilfridus: FirstName = {
         2005: "Erzbischof von Durban",
         2013: "Erzbischof von Durban",
       },
+      rank: {
+        2005: "priest",
+        2013: "priest",
+      },
     },
   ],
 };

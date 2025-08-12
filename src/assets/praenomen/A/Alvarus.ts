@@ -12,6 +12,9 @@ export const Alvarus: FirstName = {
       function: {
         2025: "Bischof von Huehuetenango",
       },
+      rank: {
+        2025: "priest",
+      },
     },
   ],
 };

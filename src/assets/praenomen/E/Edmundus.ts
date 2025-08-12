@@ -12,6 +12,9 @@ export const Edmundus: FirstName = {
       function: {
         2005: "Präsident des Governatorrats der Vatikanstadt",
       },
+      rank: {
+        2005: "priest",
+      },
     },
   ],
 };

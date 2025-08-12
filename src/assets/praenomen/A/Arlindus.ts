@@ -12,6 +12,9 @@ export const Arlindus: FirstName = {
       function: {
         2025: "Bischof von Santiago de Cabo Verde",
       },
+      rank: {
+        2025: "priest",
+      },
     },
   ],
 };

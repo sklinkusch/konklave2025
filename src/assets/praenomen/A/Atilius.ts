@@ -14,6 +14,10 @@ export const Atilius: FirstName = {
         2005: "Präsident der Apostolischen Güterverwaltung",
         2013: "Präsident der Finanzaufsichtsbehörde",
       },
+      rank: {
+        2005: "deacon",
+        2013: "deacon",
+      },
     },
   ],
 };

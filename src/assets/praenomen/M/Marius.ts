@@ -12,6 +12,9 @@ export const Marius: FirstName = {
       function: {
         2025: "Generalsekretär der Bischofssynode",
       },
+      rank: {
+        2025: "deacon",
+      },
     },
     {
       latin: "Marius",
@@ -23,6 +26,9 @@ export const Marius: FirstName = {
       },
       function: {
         2025: "Nuntius in Syrien",
+      },
+      rank: {
+        2025: "deacon",
       },
     },
     {
@@ -36,6 +42,9 @@ export const Marius: FirstName = {
       function: {
         2025: "emeritierter Erzbischof von Buenos Aires",
       },
+      rank: {
+        2025: "priest",
+      },
     },
     {
       latin: "Marius Franciscus",
@@ -47,6 +56,9 @@ export const Marius: FirstName = {
       },
       function: {
         2005: "Präfekt des Obersten Gerichtshofes der Apostolischen Signatur",
+      },
+      rank: {
+        2005: "deacon",
       },
     },
   ],

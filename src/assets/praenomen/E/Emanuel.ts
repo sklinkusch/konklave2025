@@ -12,6 +12,9 @@ export const Emanuel: FirstName = {
       function: {
         2013: "Großpönitientiar",
       },
+      rank: {
+        2013: "deacon",
+      },
     },
     {
       latin: "Emanuel",
@@ -24,6 +27,9 @@ export const Emanuel: FirstName = {
       function: {
         2005: "Erzbischof von Kampala",
       },
+      rank: {
+        2005: "priest",
+      },
     },
     {
       latin: "Emanuel Iosephus Macarius",
@@ -35,6 +41,9 @@ export const Emanuel: FirstName = {
       },
       function: {
         2025: "emeritierter Patriarch von Lissabon",
+      },
+      rank: {
+        2025: "priest",
       },
     },
   ],

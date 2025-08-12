@@ -14,6 +14,10 @@ export const Iulius: FirstName = {
         2005: "Erzbischof von Santa Cruz de la Sierra",
         2013: "Erzbischof von Santa Cruz de la Sierra",
       },
+      rank: {
+        2005: "priest",
+        2013: "priest",
+      },
     },
     {
       latin: "Iulius Riyadi",
@@ -25,6 +29,9 @@ export const Iulius: FirstName = {
       },
       function: {
         2005: "Erzbischof von Jakarta",
+      },
+      rank: {
+        2005: "priest",
       },
     },
   ],

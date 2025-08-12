@@ -12,6 +12,9 @@ export const Raphael: FirstName = {
       function: {
         2013: "emeritierter Bibliothekar der Vatikanischen Bibliothek",
       },
+      rank: {
+        2013: "deacon",
+      },
     },
   ],
 };

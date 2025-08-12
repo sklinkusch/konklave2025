@@ -12,6 +12,9 @@ export const Robertus: FirstName = {
       function: {
         2025: "Erzbischof von Turin",
       },
+      rank: {
+        2025: "priest",
+      },
     },
     {
       latin: "Robertus",
@@ -26,6 +29,10 @@ export const Robertus: FirstName = {
         2013: "Präsident des Päpstlichen Rates Cor Unum",
         2025: "emeritierter Präfekt des Dikasteriums für den Gottesdienst und die Sakramentenordnung",
       },
+      rank: {
+        2013: "deacon",
+        2025: "priest",
+      },
     },
     {
       latin: "Robertus Franciscus",
@@ -37,6 +44,9 @@ export const Robertus: FirstName = {
       },
       function: {
         2025: "Präfekt des Dikasteriums für die Bischöfe, Papst Leo XIV.",
+      },
+      rank: {
+        2025: "bishop",
       },
       elected: {
         2025: true,
@@ -52,6 +62,9 @@ export const Robertus: FirstName = {
       },
       function: {
         2025: "Erzbischof von Washington",
+      },
+      rank: {
+        2025: "priest",
       },
     },
   ],

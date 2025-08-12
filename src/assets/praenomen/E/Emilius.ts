@@ -12,6 +12,9 @@ export const Emilius: FirstName = {
       function: {
         2025: "emeritierter Numtius in Italien und San Marino",
       },
+      rank: {
+        2025: "deacon",
+      },
     },
   ],
 };

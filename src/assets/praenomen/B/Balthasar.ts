@@ -12,6 +12,9 @@ export const Balthasar: FirstName = {
       function: {
         2025: "Erzpriester der Lateranbasilika",
       },
+      rank: {
+        2025: "priest",
+      },
     },
   ],
 };

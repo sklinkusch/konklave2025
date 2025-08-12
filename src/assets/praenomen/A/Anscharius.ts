@@ -12,6 +12,9 @@ export const Anscharius: FirstName = {
       function: {
         2025: "Erzbischof von Como",
       },
+      rank: {
+        2025: "priest",
+      },
     },
     {
       latin: "Anscharius Andreas",
@@ -25,6 +28,10 @@ export const Anscharius: FirstName = {
       function: {
         2005: "Erzbischof von Tegucigalpa",
         2013: "Erzbischof von Tegucigalpa",
+      },
+      rank: {
+        2005: "priest",
+        2013: "priest",
       },
     },
   ],

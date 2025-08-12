@@ -12,6 +12,9 @@ export const Christianus: FirstName = {
       function: {
         2005: "Erzbischof von Douala",
       },
+      rank: {
+        2005: "priest",
+      },
     },
   ],
 };

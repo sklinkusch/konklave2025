@@ -12,6 +12,9 @@ export const Nicolaus: FirstName = {
       function: {
         2025: "Erzbischof von Melbourne",
       },
+      rank: {
+        2025: "priest",
+      },
     },
     {
       latin: "Nicolaus ab Iesu",
@@ -25,6 +28,10 @@ export const Nicolaus: FirstName = {
       function: {
         2005: "Erzbischof von Santo Domingo",
         2013: "Erzbischof von Santo Domingo",
+      },
+      rank: {
+        2005: "priest",
+        2013: "priest",
       },
     },
   ],

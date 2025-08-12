@@ -12,6 +12,9 @@ export const Theodorus: FirstName = {
       function: {
         2005: "Erzbischof von Washington",
       },
+      rank: {
+        2005: "priest",
+      },
     },
     {
       latin: "Theodorus Hadrianus",
@@ -23,6 +26,9 @@ export const Theodorus: FirstName = {
       },
       function: {
         2013: "Erzbischof von Dakar",
+      },
+      rank: {
+        2013: "priest",
       },
     },
   ],

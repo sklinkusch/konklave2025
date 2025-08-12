@@ -12,6 +12,9 @@ export const Chiblius: FirstName = {
       function: {
         2025: "Bischof von Les Cayes",
       },
+      rank: {
+        2025: "priest",
+      },
     },
   ],
 };

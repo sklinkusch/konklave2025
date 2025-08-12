@@ -14,6 +14,10 @@ export const Ennius: FirstName = {
         2005: "Erzbischof von Florenz",
         2013: "emeritierter Präsident des Päpstlichen Rates für die Familie",
       },
+      rank: {
+        2005: "priest",
+        2013: "priest",
+      },
     },
   ],
 };

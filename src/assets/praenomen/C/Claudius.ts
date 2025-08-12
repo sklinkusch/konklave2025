@@ -12,6 +12,9 @@ export const Claudius: FirstName = {
       function: {
         2025: "Präfekt des Dikasteriums für die orientalischen Kirchen",
       },
+      rank: {
+        2025: "deacon",
+      },
     },
     {
       latin: "Claudius",
@@ -25,6 +28,10 @@ export const Claudius: FirstName = {
       function: {
         2005: "Erzbischof von São Paulo",
         2013: "Präfekt der Kongregation für den Klerus",
+      },
+      rank: {
+        2005: "priest",
+        2013: "priest",
       },
     },
   ],

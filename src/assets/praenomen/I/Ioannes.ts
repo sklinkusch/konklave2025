@@ -14,6 +14,10 @@ export const Ioannes: FirstName = {
         2013: "Präfekt der Kongregation für die Instutute geweihten Lebens und für die Gesellschaften apostolischen Lebens",
         2025: "emeritierter Präfekt des Dikasteriums für die Instutute geweihten Lebens und für die Gesellschaften apostolischen Lebens",
       },
+      rank: {
+        2013: "deacon",
+        2025: "priest",
+      },
     },
     {
       latin: "Ioannes",
@@ -25,6 +29,9 @@ export const Ioannes: FirstName = {
       },
       function: {
         2013: "emeritierter Präsodemt des Governatorats der Vatikanstadt",
+      },
+      rank: {
+        2013: "deacon",
       },
     },
     {
@@ -38,6 +45,9 @@ export const Ioannes: FirstName = {
       function: {
         2013: "Erzbischof von Nairobi",
       },
+      rank: {
+        2013: "priest",
+      },
     },
     {
       latin: "Ioannes",
@@ -50,6 +60,9 @@ export const Ioannes: FirstName = {
       function: {
         2005: "Erzbischof von Riga",
       },
+      rank: {
+        2005: "priest",
+      },
     },
     {
       latin: "Ioannes",
@@ -61,6 +74,9 @@ export const Ioannes: FirstName = {
       },
       function: {
         2025: "Erzbischof von Port Moresby",
+      },
+      rank: {
+        2025: "priest",
       },
     },
     {
@@ -76,6 +92,10 @@ export const Ioannes: FirstName = {
         2005: "Erzbischof von Guadalajara",
         2013: "emeritierter Erzbischof von Guadalajara",
       },
+      rank: {
+        2005: "priest",
+        2013: "priest",
+      },
     },
     {
       latin: "Ioannes",
@@ -87,6 +107,9 @@ export const Ioannes: FirstName = {
       },
       function: {
         2013: "Erzbischof von Hongkong",
+      },
+      rank: {
+        2013: "priest",
       },
     },
     {
@@ -100,6 +123,9 @@ export const Ioannes: FirstName = {
       function: {
         2025: "Erzbischof von San Cristóbal de la Habana",
       },
+      rank: {
+        2025: "priest",
+      },
     },
     {
       latin: "Ioannes Atcherley",
@@ -111,6 +137,9 @@ export const Ioannes: FirstName = {
       },
       function: {
         2025: "emeritierter Erzbischof von Wellington",
+      },
+      rank: {
+        2025: "priest",
       },
     },
     {
@@ -126,6 +155,10 @@ export const Ioannes: FirstName = {
         2005: "Präfekt der Kongregation für die Bischöfe",
         2013: "emeritierter Präfekt der Kongregation für die Bischöfe",
       },
+      rank: {
+        2005: "bishop",
+        2013: "bishop",
+      },
     },
     {
       latin: "Ioannes Baptistus",
@@ -137,6 +170,9 @@ export const Ioannes: FirstName = {
       },
       function: {
         2013: "Erzbischof von Armagh",
+      },
+      rank: {
+        2013: "priest",
       },
     },
     {
@@ -152,6 +188,10 @@ export const Ioannes: FirstName = {
         2005: "Erzbischof von Ho-Chi-Minh-Stadt",
         2013: "Erzbischof von Ho-Chi-Minh-Stadt",
       },
+      rank: {
+        2005: "priest",
+        2013: "priest",
+      },
     },
     {
       latin: "Ioannes Claudius",
@@ -163,6 +203,9 @@ export const Ioannes: FirstName = {
       },
       function: {
         2025: "Erzbischof von Luxemburg",
+      },
+      rank: {
+        2025: "priest",
       },
     },
     {
@@ -178,6 +221,10 @@ export const Ioannes: FirstName = {
         2005: "Erzbischof von Montréal",
         2013: "Erzbischof von Montréal",
       },
+      rank: {
+        2005: "priest",
+        2013: "priest",
+      },
     },
     {
       latin: "Ioannes Cornelius",
@@ -192,6 +239,10 @@ export const Ioannes: FirstName = {
         2005: "Erzbischof von Bombay",
         2013: "emeritierter Präfekt der Kongregation für die Evangelisierung der Völker",
       },
+      rank: {
+        2005: "priest",
+        2013: "priest",
+      },
     },
     {
       latin: "Ioannes Franciscus",
@@ -204,6 +255,9 @@ export const Ioannes: FirstName = {
       function: {
         2013: "Präsident des Päpstlichen Rates für die Kultur",
       },
+      rank: {
+        2013: "deacon",
+      },
     },
     {
       latin: "Ioannes Iosephus",
@@ -215,6 +269,9 @@ export const Ioannes: FirstName = {
       },
       function: {
         2025: "Erzbischof von Barcelona",
+      },
+      rank: {
+        2025: "priest",
       },
     },
     {
@@ -230,6 +287,10 @@ export const Ioannes: FirstName = {
         2005: "Erzbischof von Lima",
         2013: "Erzbischof von Lima",
       },
+      rank: {
+        2005: "priest",
+        2013: "priest",
+      },
     },
     {
       latin: "Ioannes Ludovicus",
@@ -244,6 +305,10 @@ export const Ioannes: FirstName = {
         2005: "Bibliothekar der Vatikanischen Bibliothek",
         2013: "Präsident des Päpstlichen Rates für den interreligiösen Dialog, Kardinalprotodiakon",
       },
+      rank: {
+        2005: "deacon",
+        2013: "deacon",
+      },
     },
     {
       latin: "Ioannes Marcus",
@@ -255,6 +320,9 @@ export const Ioannes: FirstName = {
       },
       function: {
         2025: "Erzbischof von Marseille",
+      },
+      rank: {
+        2025: "priest",
       },
     },
     {
@@ -268,6 +336,9 @@ export const Ioannes: FirstName = {
       function: {
         2005: "emeritierter Erzbischof von Paris",
       },
+      rank: {
+        2005: "priest",
+      },
     },
     {
       latin: "Ioannes Olorunfemi",
@@ -279,6 +350,9 @@ export const Ioannes: FirstName = {
       },
       function: {
         2013: "Erzbischof von Abuja",
+      },
+      rank: {
+        2013: "priest",
       },
     },
     {
@@ -292,6 +366,9 @@ export const Ioannes: FirstName = {
       function: {
         2013: "Erzbischof von Boston",
       },
+      rank: {
+        2013: "priest",
+      },
     },
     {
       latin: "Ioannes Paulus",
@@ -303,6 +380,9 @@ export const Ioannes: FirstName = {
       },
       function: {
         2025: "Erzbischof von Algier",
+      },
+      rank: {
+        2025: "priest",
       },
     },
     {
@@ -316,6 +396,9 @@ export const Ioannes: FirstName = {
       function: {
         2025: "emeritierter Erzbischof von Abidjan",
       },
+      rank: {
+        2025: "priest",
+      },
     },
     {
       latin: "Ioannes Petrus",
@@ -327,6 +410,9 @@ export const Ioannes: FirstName = {
       },
       function: {
         2013: "Erzbischof von Bordeaux",
+      },
+      rank: {
+        2013: "priest",
       },
     },
   ],

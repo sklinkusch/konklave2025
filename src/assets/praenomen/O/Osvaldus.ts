@@ -12,6 +12,9 @@ export const Osvaldus: FirstName = {
       function: {
         2013: "Erzbischof von Bombay",
       },
+      rank: {
+        2013: "priest",
+      },
     },
   ],
 };

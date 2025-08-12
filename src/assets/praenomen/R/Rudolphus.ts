@@ -12,6 +12,9 @@ export const Rudolphus: FirstName = {
       function: {
         2005: "Erzbischof von Guatemala",
       },
+      rank: {
+        2005: "priest",
+      },
     },
   ],
 };

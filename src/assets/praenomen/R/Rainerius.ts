@@ -14,6 +14,10 @@ export const Rainerius: FirstName = {
         2013: "Erzbischof von Berlin",
         2025: "Erzbischof von Köln",
       },
+      rank: {
+        2013: "priest",
+        2025: "priest",
+      },
     },
   ],
 };

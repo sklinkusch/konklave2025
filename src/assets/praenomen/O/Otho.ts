@@ -14,6 +14,10 @@ export const Otho: FirstName = {
         2013: "Erzbischof von São Paulo",
         2025: "Erzbischof von São Paulo",
       },
+      rank: {
+        2013: "priest",
+        2025: "priest",
+      },
     },
   ],
 };

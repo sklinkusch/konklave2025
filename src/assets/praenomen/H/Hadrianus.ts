@@ -12,6 +12,9 @@ export const Hadrianus: FirstName = {
       function: {
         2005: "Erzbischof von Utrecht",
       },
+      rank: {
+        2005: "priest",
+      },
     },
   ],
 };

@@ -14,6 +14,10 @@ export const Zeno: FirstName = {
         2005: "Präfekt der Kongregation für das Katholische Bildungswesen",
         2013: "Präfekt der Kongregation für das Katholische Bildungswesen",
       },
+      rank: {
+        2005: "deacon",
+        2013: "priest",
+      },
     },
   ],
 };

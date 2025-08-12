@@ -58,6 +58,7 @@ export const getCardinals = (year: string) => {
                 nation: cardinal.nation[`${year}`],
                 function: cardinal.function[`${year}`],
                 elected: (cardinal.elected && cardinal.elected[year]) || false,
+                rank: (cardinal.rank && cardinal.rank[year]) || undefined,
               },
             ]);
           }

@@ -14,6 +14,10 @@ export const Godefridus: FirstName = {
         2005: "Erzbischof von Mecheln-Brüssel",
         2013: "Erzbischof von Mecheln-Brüssel",
       },
+      rank: {
+        2005: "priest",
+        2013: "priest",
+      },
     },
   ],
 };

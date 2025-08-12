@@ -12,6 +12,9 @@ export const Darius: FirstName = {
       function: {
         2005: "Präfekt der Kongregation für den Klerus",
       },
+      rank: {
+        2005: "deacon",
+      },
     },
   ],
 };

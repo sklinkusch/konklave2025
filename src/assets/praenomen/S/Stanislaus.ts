@@ -12,6 +12,9 @@ export const Stanislaus: FirstName = {
       function: {
         2013: "Erzbischof von Krakau",
       },
+      rank: {
+        2013: "priest",
+      },
     },
     {
       latin: "Stanislaus Marianus",
@@ -25,6 +28,10 @@ export const Stanislaus: FirstName = {
       function: {
         2013: "Präsident des Päpstlichen Rates für die Laien",
         2025: "Erzpriester der Basilika Santa Maria Maggiore",
+      },
+      rank: {
+        2013: "deacon",
+        2025: "priest",
       },
     },
   ],

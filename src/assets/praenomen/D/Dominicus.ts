@@ -12,6 +12,9 @@ export const Dominicus: FirstName = {
       function: {
         2025: "Erzbischof von Neapel",
       },
+      rank: {
+        2025: "priest",
+      },
     },
     {
       latin: "Dominicus",
@@ -24,6 +27,9 @@ export const Dominicus: FirstName = {
       function: {
         2013: "Präsident der Apostolischen Güterverwaltung",
       },
+      rank: {
+        2013: "deacon",
+      },
     },
     {
       latin: "Dominicus Franciscus Iosephus",
@@ -34,7 +40,10 @@ export const Dominicus: FirstName = {
         2025: ["FR", "VA"],
       },
       function: {
-        2025: "Kardinalprotodiakon",
+        2025: "Präfekt der Apostolischen Signatur, Kardinalprotodiakon",
+      },
+      rank: {
+        2025: "deacon",
       },
     },
     {
@@ -48,6 +57,9 @@ export const Dominicus: FirstName = {
       function: {
         2013: "Erzbischof von Prag",
       },
+      rank: {
+        2013: "priest",
+      },
     },
     {
       latin: "Dominicus Iosephus",
@@ -59,6 +71,9 @@ export const Dominicus: FirstName = {
       },
       function: {
         2025: "Erzbischof von Teheran-Isfahan",
+      },
+      rank: {
+        2025: "priest",
       },
     },
   ],

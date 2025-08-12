@@ -12,6 +12,9 @@ export const Radulphus: FirstName = {
       function: {
         2013: "emeritierter Erzbischof von Quito",
       },
+      rank: {
+        2013: "priest",
+      },
     },
   ],
 };

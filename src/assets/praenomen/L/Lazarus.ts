@@ -12,6 +12,9 @@ export const Lazarus: FirstName = {
       function: {
         2025: "Präfekt des Dikasteriums für den Klerus",
       },
+      rank: {
+        2025: "deacon",
+      },
     },
   ],
 };

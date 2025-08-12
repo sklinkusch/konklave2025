@@ -12,6 +12,9 @@ export const Renatus: FirstName = {
       function: {
         2005: "Präsident des Päpstlichen Rates Iustitia et Pax",
       },
+      rank: {
+        2005: "deacon",
+      },
     },
   ],
 };

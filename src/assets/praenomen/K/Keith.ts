@@ -12,6 +12,9 @@ export const Keith: FirstName = {
       function: {
         2005: "Erzbischof von St. Andrews und Edinburgh",
       },
+      rank: {
+        2005: "priest",
+      },
     },
   ],
 };

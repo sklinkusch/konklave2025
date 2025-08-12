@@ -14,6 +14,10 @@ export const Timotheus: FirstName = {
         2013: "Erzbischof von New York",
         2025: "Erzbischof von New York",
       },
+      rank: {
+        2013: "priest",
+        2025: "priest",
+      },
     },
     {
       latin: "Timotheus Petrus Iosephus",
@@ -25,6 +29,9 @@ export const Timotheus: FirstName = {
       },
       function: {
         2025: "emeritierter Generalmagister des Ordens der Dominikaner",
+      },
+      rank: {
+        2025: "deacon",
       },
     },
   ],

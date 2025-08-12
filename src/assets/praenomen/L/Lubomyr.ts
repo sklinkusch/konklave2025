@@ -12,6 +12,9 @@ export const Lubomyr: FirstName = {
       function: {
         2005: "Großerzbischof von Kiew-Halytsch",
       },
+      rank: {
+        2005: "priest",
+      },
     },
   ],
 };

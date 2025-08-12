@@ -12,6 +12,9 @@ export const Xaverius: FirstName = {
       function: {
         2005: "Präsident des Päpstlichen Rates für die Pastoral im Krankendienst",
       },
+      rank: {
+        2005: "deacon",
+      },
     },
   ],
 };

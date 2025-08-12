@@ -12,6 +12,9 @@ export const Sergius: FirstName = {
       function: {
         2025: "Erzbischof von São Salvador da Bahia",
       },
+      rank: {
+        2025: "priest",
+      },
     },
     {
       latin: "Sergius",
@@ -23,6 +26,9 @@ export const Sergius: FirstName = {
       },
       function: {
         2005: "Präfekt der Präfektur für die ökonomischen Angelegenheiten des Heiligen Stuhls",
+      },
+      rank: {
+        2005: "deacon",
       },
     },
   ],

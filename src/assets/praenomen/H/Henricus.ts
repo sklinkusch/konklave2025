@@ -12,6 +12,9 @@ export const Henricus: FirstName = {
       function: {
         2005: "emeritierter Bischof von Sion",
       },
+      rank: {
+        2005: "priest",
+      },
     },
   ],
 };

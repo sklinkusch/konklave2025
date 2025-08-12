@@ -12,6 +12,9 @@ export const Blasius: FirstName = {
       function: {
         2025: "Erzbischof von Chicago",
       },
+      rank: {
+        2025: "priest",
+      },
     },
   ],
 };

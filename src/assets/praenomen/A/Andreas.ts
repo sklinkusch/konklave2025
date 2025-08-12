@@ -12,6 +12,9 @@ export const Andreas: FirstName = {
       function: {
         2013: "Erzbischof von Paris",
       },
+      rank: {
+        2013: "priest",
+      },
     },
   ],
 };

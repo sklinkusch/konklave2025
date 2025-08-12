@@ -12,6 +12,9 @@ export const Ludovicus: FirstName = {
       function: {
         2013: "Erzbischof von Barcelona",
       },
+      rank: {
+        2013: "priest",
+      },
     },
     {
       latin: "Ludovicus Antonius Gokim",
@@ -26,6 +29,10 @@ export const Ludovicus: FirstName = {
         2013: "Erzbischof von Manila",
         2025: "Propräfekt des Dikasteriums für die Evangelisierung der Völker",
       },
+      rank: {
+        2013: "priest",
+        2025: "bishop",
+      },
     },
     {
       latin: "Ludovicus Giraldus",
@@ -37,6 +44,9 @@ export const Ludovicus: FirstName = {
       },
       function: {
         2025: "Erzbischof von Guayaquil",
+      },
+      rank: {
+        2025: "priest",
       },
     },
     {
@@ -50,6 +60,9 @@ export const Ludovicus: FirstName = {
       function: {
         2025: "Erzbischof von Bogotá",
       },
+      rank: {
+        2025: "priest",
+      },
     },
     {
       latin: "Ludovicus Raphael primus",
@@ -61,6 +74,9 @@ export const Ludovicus: FirstName = {
       },
       function: {
         2025: "Patriarch von Bagdad",
+      },
+      rank: {
+        2025: "bishop",
       },
     },
   ],

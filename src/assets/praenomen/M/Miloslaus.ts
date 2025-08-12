@@ -12,6 +12,9 @@ export const Miloslaus: FirstName = {
       function: {
         2005: "Erzbischof von Prag",
       },
+      rank: {
+        2005: "priest",
+      },
     },
   ],
 };
