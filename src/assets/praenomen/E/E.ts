@@ -4,6 +4,7 @@ import { Edvinus } from "./Edvinus";
 import { Emanuel } from "./Emanuel";
 import { Emilius } from "./Emilius";
 import { Ennius } from "./Ennius";
+import { Eugenius } from "./Eugenius";
 import { Eusebius } from "./Eusebius";
 
 export const E: FirstName[] = [
@@ -13,5 +14,6 @@ export const E: FirstName[] = [
   Emanuel,
   Emilius,
   Ennius,
+  Eugenius,
   Eusebius,
 ];

@@ -17,6 +17,24 @@ export const Eduardus: FirstName = {
       },
     },
     {
+      latin: "Eduardus Franciscus",
+      firstName: "Eduardo Francisco",
+      lastName: "Pironio",
+      birthday: "1920-12-03",
+      nation: {
+        1978.1: ["AR", "VA"],
+        1978.2: ["AR", "VA"],
+      },
+      function: {
+        1978.1: "Präfekt für die Orden und Säkularinstitute",
+        1978.2: "Präfekt für die Orden und Säkularinstitute",
+      },
+      rank: {
+        1978.1: "deacon",
+        1978.2: "deacon",
+      },
+    },
+    {
       latin: "Eduardus Michael",
       firstName: "Edward Michael",
       lastName: "Egan",

@@ -3,7 +3,7 @@ import { useParams, useNavigate, Link } from "react-router-dom";
 import { Typography } from "@mui/material";
 import { ChevronLeft } from "@mui/icons-material";
 import { FirstName } from "@components/FirstName/FirstName";
-import { getCardinals, startDates } from "@assets/data";
+import { getCardinals, startDates, conclaves } from "@assets/data";
 
 function Konklave() {
   const { year } = useParams<{ year: string }>();
@@ -11,9 +11,17 @@ function Konklave() {
   const cardinals = year ? getCardinals(year) : [];
   const startDatePrev = year ? startDates[year] : null;
   const startDate = startDatePrev ? startDatePrev : "";
+  const conclave = conclaves.find((conclave) => conclave.key === year);
+  const title = conclave ? conclave.title : year;
+  const pope = conclave ? `(${conclave.pope}, ${conclave.cardinal})` : "";
+  const allTitle = pope.length ? `${title} ${pope}` : title;
   useEffect(() => {
-    document.title = `Konklave ${year}`;
-    if (cardinals.length === 0) {
+    if (title) {
+      document.title = title;
+      if (cardinals.length === 0) {
+        navigate("/");
+      }
+    } else {
       navigate("/");
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
@@ -25,7 +33,7 @@ function Konklave() {
         Home
       </Link>
       <Typography variant="h1" component="h1" align="left">
-        {`Konklave ${year}`}
+        {allTitle}
       </Typography>
       <Typography variant="h2" component="h2" align="left">
         Liste der beteiligten Kardinäle

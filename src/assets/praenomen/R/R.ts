@@ -2,6 +2,7 @@ import { Radulphus } from "./Radulphus";
 import { Raimundus } from "./Raimundus";
 import { Rainerius } from "./Rainerius";
 import { Raphael } from "./Raphael";
+import { Reginaldus } from "./Reginaldus";
 import { Reinhardus } from "./Reinhardus";
 import { Renatus } from "./Renatus";
 import { Ricardus } from "./Ricardus";
@@ -16,6 +17,7 @@ export const R: FirstName[] = [
   Raimundus,
   Rainerius,
   Raphael,
+  Reginaldus,
   Reinhardus,
   Renatus,
   Ricardus,

@@ -80,6 +80,24 @@ export const Georgius: FirstName = {
       },
     },
     {
+      latin: "Georgius Bernardus",
+      firstName: "George Bernard",
+      lastName: "Flahiff",
+      birthday: "1905-10-26",
+      nation: {
+        1978.1: ["CA"],
+        1978.2: ["CA"],
+      },
+      function: {
+        1978.1: "Erzbischof von Winnipeg",
+        1978.2: "Erzbischof von Winnipeg",
+      },
+      rank: {
+        1978.1: "priest",
+        1978.2: "priest",
+      },
+    },
+    {
       latin: "Georgius Iacobus",
       firstName: "George Jacob",
       lastName: "Koovakad",

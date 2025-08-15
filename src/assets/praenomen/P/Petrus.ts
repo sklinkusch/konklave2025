@@ -25,6 +25,26 @@ export const Petrus: FirstName = {
     {
       latin: "Petrus",
       firstName: "Pietro",
+      lastName: "Palazzini",
+      birthday: "1912-05-19",
+      nation: {
+        1978.1: ["IT", "VA"],
+        1978.2: ["IT", "VA"],
+      },
+      function: {
+        1978.1:
+          "Sekretär der Kardinalskommission für die Heiligen Schreine von Pompeji und Loreto",
+        1978.2:
+          "Sekretär der Kardinalskommission für die Heiligen Schreine von Pompeji und Loreto",
+      },
+      rank: {
+        1978.1: "deacon",
+        1978.2: "deacon",
+      },
+    },
+    {
+      latin: "Petrus",
+      firstName: "Pietro",
       lastName: "Parolin",
       birthday: "1955-01-17",
       nation: {

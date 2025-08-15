@@ -3,6 +3,24 @@ export const Ladislaus: FirstName = {
   data: [
     {
       latin: "Ladislaus",
+      firstName: "Lâszló",
+      lastName: "Lékai",
+      birthday: "1910-03-12",
+      nation: {
+        1978.1: ["HU"],
+        1978.2: ["HU"],
+      },
+      function: {
+        1978.1: "Erzbischof von Esztergom-Budapest",
+        1978.2: "Erzbischof von Esztergom-Budapest",
+      },
+      rank: {
+        1978.1: "priest",
+        1978.2: "priest",
+      },
+    },
+    {
+      latin: "Ladislaus",
       firstName: "László",
       lastName: "Német",
       birthday: "1956-09-07",

@@ -4,6 +4,24 @@ export const Iulius: FirstName = {
     {
       latin: "Iulius",
       firstName: "Julio",
+      lastName: "Rosales y Ras",
+      birthday: "1906-09-18",
+      nation: {
+        1978.1: ["PH"],
+        1978.2: ["PH"],
+      },
+      function: {
+        1978.1: "Erbischof von Cebu",
+        1978.2: "Erbischof von Cebu",
+      },
+      rank: {
+        1978.1: "priest",
+        1978.2: "priest",
+      },
+    },
+    {
+      latin: "Iulius",
+      firstName: "Julio",
       lastName: "Terrazas Sandoval",
       birthday: "1936-03-07",
       nation: {

@@ -17,6 +17,27 @@ export const Laurentius: FirstName = {
       },
     },
     {
+      latin: "Laurentius",
+      firstName: "Laurean",
+      lastName: "Rugambwa",
+      birthday: "1912-07-12",
+      nation: {
+        1963: ["TZ"],
+        1978.1: ["TZ"],
+        1978.2: ["TZ"],
+      },
+      function: {
+        1963: "Bischof von Bukoba",
+        1978.1: "Erzbischof von Daressalam",
+        1978.2: "Erzbischof von Daressalam",
+      },
+      rank: {
+        1963: "priest",
+        1978.1: "priest",
+        1978.2: "priest",
+      },
+    },
+    {
       latin: "Laurentius Andreas",
       firstName: "Lars Anders",
       lastName: "Arborelius",
@@ -29,6 +50,24 @@ export const Laurentius: FirstName = {
       },
       rank: {
         2025: "priest",
+      },
+    },
+    {
+      latin: "Laurentius Trevorius",
+      firstName: "Lawrence Trevor",
+      lastName: "Picachy",
+      birthday: "1916-08-07",
+      nation: {
+        1978.1: ["IN"],
+        1978.2: ["IN"],
+      },
+      function: {
+        1978.1: "Erzbischof von Kalkutta",
+        1978.2: "Erzbischof von Kalkutta",
+      },
+      rank: {
+        1978.1: "priest",
+        1978.2: "priest",
       },
     },
   ],

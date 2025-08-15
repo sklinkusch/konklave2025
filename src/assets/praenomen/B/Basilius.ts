@@ -2,6 +2,24 @@ export const Basilius: FirstName = {
   name: "Basilius",
   data: [
     {
+      latin: "Basilius",
+      firstName: "Basil",
+      lastName: "Hume",
+      birthday: "1923-03-02",
+      nation: {
+        1978.1: ["GB"],
+        1978.2: ["GB"],
+      },
+      function: {
+        1978.1: "Erzbischof von Westminster",
+        1978.2: "Erzbischof von Westminster",
+      },
+      rank: {
+        1978.1: "priest",
+        1978.2: "priest",
+      },
+    },
+    {
       latin: "Basilius Cleemis",
       firstName: "Baselios Cleemis",
       lastName: "Thottunkal",

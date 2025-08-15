@@ -1,4 +1,4 @@
-import { allKonklaveYears } from "@assets/data";
+import { allKonklaveYears, conclaves } from "@assets/data";
 import { Typography, List, ListItem } from "@mui/material";
 import { useEffect } from "react";
 import { Link } from "react-router-dom";
@@ -14,11 +14,19 @@ export const Home = () => {
         Liste der Papstwahlen
       </Typography>
       <List>
-        {allYears.map((year) => (
-          <ListItem key={year}>
-            <Link to={`/year/${year}`}>{year}</Link>
-          </ListItem>
-        ))}
+        {allYears.map((year) => {
+          const conclave = conclaves.find((conclave) => conclave.key === year);
+          const title = conclave ? conclave.title : year;
+          const pope = conclave
+            ? `(${conclave.pope}, ${conclave.cardinal})`
+            : "";
+          const allTitle = pope.length ? `${title} ${pope}` : title;
+          return (
+            <ListItem key={year}>
+              <Link to={`/year/${year}`}>{allTitle}</Link>
+            </ListItem>
+          );
+        })}
       </List>
     </div>
   );

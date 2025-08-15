@@ -7,6 +7,7 @@ import { Christophorus } from "./Christophorus";
 import { Claudius } from "./Claudius";
 import { Conradus } from "./Conradus";
 import { Cormac } from "./Cormac";
+import { Corradus } from "./Corradus";
 import { Crescentius } from "./Crescentius";
 
 export const C: FirstName[] = [
@@ -18,6 +19,7 @@ export const C: FirstName[] = [
   Christophorus,
   Claudius,
   Conradus,
+  Corradus,
   Cormac,
   Crescentius,
 ];

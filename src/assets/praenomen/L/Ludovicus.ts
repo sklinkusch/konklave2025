@@ -3,6 +3,24 @@ export const Ludovicus: FirstName = {
   data: [
     {
       latin: "Ludovicus",
+      firstName: "Luis",
+      lastName: "Aponte Martínez",
+      birthday: "1922-08-04",
+      nation: {
+        1978.1: ["US", "PR"],
+        1978.2: ["US", "PR"],
+      },
+      function: {
+        1978.1: "Erzbischof von San Juan",
+        1978.2: "Erzbischof von San Juan",
+      },
+      rank: {
+        1978.1: "priest",
+        1978.2: "priest",
+      },
+    },
+    {
+      latin: "Ludovicus",
       firstName: "Lluís",
       lastName: "Martínez Sistach",
       birthday: "1937-04-29",
@@ -47,6 +65,24 @@ export const Ludovicus: FirstName = {
       },
       rank: {
         2025: "priest",
+      },
+    },
+    {
+      latin: "Ludovicus Ioannes Fridericus",
+      firstName: "Louis-Jean Frédéric",
+      lastName: "Guyot",
+      birthday: "1905-07-07",
+      nation: {
+        1978.1: ["FR"],
+        1978.2: ["FR"],
+      },
+      function: {
+        1978.1: "Erzbischof von Toulouse",
+        1978.2: "Erzbischof von Toulouse",
+      },
+      rank: {
+        1978.1: "priest",
+        1978.2: "priest",
       },
     },
     {

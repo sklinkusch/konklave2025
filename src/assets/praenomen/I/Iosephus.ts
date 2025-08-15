@@ -132,6 +132,60 @@ export const Iosephus: FirstName = {
     },
     {
       latin: "Iosephus",
+      firstName: "Joseph",
+      lastName: "Höffner",
+      birthday: "1906-12-24",
+      nation: {
+        1978.1: ["DE"],
+        1978.2: ["DE"],
+      },
+      function: {
+        1978.1: "Erzbischof von Köln",
+        1978.2: "Erzbischof von Köln",
+      },
+      rank: {
+        1978.1: "priest",
+        1978.2: "priest",
+      },
+    },
+    {
+      latin: "Iosephus",
+      firstName: "Joseph",
+      lastName: "Parecattil",
+      birthday: "1912-04-01",
+      nation: {
+        1978.1: ["IN"],
+        1978.2: ["IN"],
+      },
+      function: {
+        1978.1: "Großerzbischof von Ernakulam-Angamaly",
+        1978.2: "Großerzbischof von Ernakulam-Angamaly",
+      },
+      rank: {
+        1978.1: "priest",
+        1978.2: "priest",
+      },
+    },
+    {
+      latin: "Iosephus",
+      firstName: "Giuseppe",
+      lastName: "Paupini",
+      birthday: "1907-02-25",
+      nation: {
+        1978.1: ["IT", "VA"],
+        1978.2: ["IT", "VA"],
+      },
+      function: {
+        1978.1: "Kardinalgroßpönitientiar",
+        1978.2: "Kardinalgroßpönitientiar",
+      },
+      rank: {
+        1978.1: "deacon",
+        1978.2: "deacon",
+      },
+    },
+    {
+      latin: "Iosephus",
       firstName: "Giuseppe",
       lastName: "Petrocchi",
       birthday: "1948-08-19",
@@ -143,6 +197,24 @@ export const Iosephus: FirstName = {
       },
       rank: {
         2025: "priest",
+      },
+    },
+    {
+      latin: "Iosephus",
+      firstName: "José",
+      lastName: "Salazar López",
+      birthday: "1910-01-12",
+      nation: {
+        1978.1: ["MX"],
+        1978.2: ["MX"],
+      },
+      function: {
+        1978.1: "Erzbischof von Guadalajara",
+        1978.2: "Erzbischof von Guadalajara",
+      },
+      rank: {
+        1978.1: "priest",
+        1978.2: "priest",
       },
     },
     {
@@ -163,6 +235,30 @@ export const Iosephus: FirstName = {
     {
       latin: "Iosephus",
       firstName: "Giuseppe",
+      lastName: "Siri",
+      birthday: "1906-05-20",
+      nation: {
+        1958: ["IT"],
+        1963: ["IT"],
+        1978.1: ["IT"],
+        1978.2: ["IT"],
+      },
+      function: {
+        1958: "Erzbischof von Genua",
+        1963: "Erzbischof von Genua",
+        1978.1: "Erzbischof von Genua",
+        1978.2: "Erzbischof von Genua",
+      },
+      rank: {
+        1958: "priest",
+        1963: "priest",
+        1978.1: "priest",
+        1978.2: "priest",
+      },
+    },
+    {
+      latin: "Iosephus",
+      firstName: "Giuseppe",
       lastName: "Versaldi",
       birthday: "1943-07-13",
       nation: {
@@ -173,6 +269,24 @@ export const Iosephus: FirstName = {
       },
       rank: {
         2013: "deacon",
+      },
+    },
+    {
+      latin: "Iosephus Albertus",
+      firstName: "Joseph-Albert",
+      lastName: "Malula",
+      birthday: "1917-12-12",
+      nation: {
+        1978.1: ["CD"],
+        1978.2: ["CD"],
+      },
+      function: {
+        1978.1: "Erzbischof von Kinshasa",
+        1978.2: "Erzbischof von Kinshasa",
+      },
+      rank: {
+        1978.1: "priest",
+        1978.2: "priest",
       },
     },
     {
@@ -197,6 +311,24 @@ export const Iosephus: FirstName = {
       },
       elected: {
         2005: true,
+      },
+    },
+    {
+      latin: "Iosephus Clemens",
+      firstName: "Josef Clemens",
+      lastName: "Maurer",
+      birthday: "1900-03-13",
+      nation: {
+        1978.1: ["DE", "BO"],
+        1978.2: ["DE", "BO"],
+      },
+      function: {
+        1978.1: "Erzbischof von Sucre",
+        1978.2: "Erzbischof von Sucre",
+      },
+      rank: {
+        1978.1: "priest",
+        1978.2: "priest",
       },
     },
     {
@@ -245,6 +377,122 @@ export const Iosephus: FirstName = {
       },
       rank: {
         2025: "priest",
+      },
+    },
+    {
+      latin: "Iosephus Humbertus",
+      firstName: "José Humberto",
+      lastName: "Quintero Parra",
+      birthday: "1902-09-22",
+      nation: {
+        1963: ["VE"],
+        1978.1: ["VE"],
+        1978.2: ["VE"],
+      },
+      function: {
+        1963: "Erzbischof von Caracas",
+        1978.1: "Erzbischof von Caracas",
+        1978.2: "Erzbischof von Caracas",
+      },
+      rank: {
+        1963: "priest",
+        1978.1: "priest",
+        1978.2: "priest",
+      },
+    },
+    {
+      latin: "Iosephus Maria",
+      firstName: "José María",
+      lastName: "Bueno y Monreal",
+      birthday: "1904-09-11",
+      nation: {
+        1963: ["ES"],
+        1978.1: ["ED"],
+        1978.2: ["ES"],
+      },
+      function: {
+        1963: "Erzbischof von Sevilla",
+        1978.1: "Erzbischof von Sevilla",
+        1978.2: "Erzbischof von Sevilla",
+      },
+      rank: {
+        1963: "priest",
+        1978.1: "priest",
+        1978.2: "priest",
+      },
+    },
+    {
+      latin: "Iosephus Maria",
+      firstName: "Giuseppe Maria",
+      lastName: "Sensi",
+      birthday: "1907-05-27",
+      nation: {
+        1978.1: ["IT", "VA"],
+        1978.2: ["IT", "VA"],
+      },
+      function: {
+        1978.1: "emeritierter Nuntius in Portugal",
+        1978.2: "emeritierter Nuntius in Portugal",
+      },
+      rank: {
+        1978.1: "deacon",
+        1978.2: "deacon",
+      },
+    },
+    {
+      latin: "Iosephus Maria",
+      firstName: "Joseph Marie",
+      lastName: "Trịnh Nhu' Khuê",
+      birthday: "1898-12-11",
+      nation: {
+        1978.1: ["VN"],
+        1978.2: ["VN"],
+      },
+      function: {
+        1978.1: "Erzbischof von Hanoi",
+        1978.2: "Erzbischof von Hanoi",
+      },
+      rank: {
+        1978.1: "priest",
+        1978.2: "priest",
+      },
+    },
+    {
+      latin: "Iosephus Maria Antonius",
+      firstName: "Joseph Marie Anthony",
+      lastName: "Cordeiro",
+      birthday: "1918-01-19",
+      nation: {
+        1978.1: ["IN", "PK"],
+        1978.2: ["IN", "PK"],
+      },
+      function: {
+        1978.1: "Erzbischof von Karatschi",
+        1978.2: "Erzbischof von Karatschi",
+      },
+      rank: {
+        1978.1: "priest",
+        1978.2: "priest",
+      },
+    },
+    {
+      latin: "Iosephus Martinus",
+      firstName: "Joseph Martin",
+      lastName: "Schröffer",
+      birthday: "1903-02-20",
+      nation: {
+        1978.1: ["DE", "VA"],
+        1978.2: ["DE", "VA"],
+      },
+      function: {
+        1978.1:
+          "emeritierter Sekretär der Kongregation für das Katholische Bildungswesen",
+        1978.2:
+          "emeritierter Sekretär der Kongregation für das Katholische Bildungswesen",
+      },
+      rank: {
+        1978.1: "deacon",
+        1978.2: "deacon",
       },
     },
     {

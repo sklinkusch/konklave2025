@@ -17,6 +17,24 @@ export const Thomas: FirstName = {
       },
     },
     {
+      latin: "Thomas Beniaminus",
+      firstName: "Thomas Benjamin",
+      lastName: "Cooray",
+      birthday: "1901-12-28",
+      nation: {
+        1978.1: ["LK"],
+        1978.2: ["LK"],
+      },
+      function: {
+        1978.1: "emeritierter Erzbischof von Colombo",
+        1978.2: "emeritierter Erzbischof von Colombo",
+      },
+      rank: {
+        1978.1: "priest",
+        1978.2: "priest",
+      },
+    },
+    {
       latin: "Thomas Christophorus",
       firstName: "Thomas Christopher",
       lastName: "Collins",

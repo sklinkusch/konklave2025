@@ -32,6 +32,24 @@ export const Iacobus: FirstName = {
       },
     },
     {
+      latin: "Iacobus Darcy",
+      firstName: "James Darcy",
+      lastName: "Freeman",
+      birthday: "1907-11-19",
+      nation: {
+        1978.1: ["AU"],
+        1978.2: ["AU"],
+      },
+      function: {
+        1978.1: "Erzbischof von Sydney",
+        1978.2: "Erzbischof von Sydney",
+      },
+      rank: {
+        1978.1: "priest",
+        1978.2: "priest",
+      },
+    },
+    {
       latin: "Iacobus Franciscus",
       firstName: "James Francis",
       lastName: "Stafford",
@@ -44,6 +62,24 @@ export const Iacobus: FirstName = {
       },
       rank: {
         2005: "deacon",
+      },
+    },
+    {
+      latin: "Iacobus Lachica",
+      firstName: "Jaime Lachica",
+      lastName: "Sin",
+      birthday: "1928-08-31",
+      nation: {
+        1978.1: ["PH"],
+        1978.2: ["PH"],
+      },
+      function: {
+        1978.1: "Erzbischof von Manila",
+        1978.2: "Erzbischof von Manila",
+      },
+      rank: {
+        1978.1: "priest",
+        1978.2: "priest",
       },
     },
     {
@@ -80,6 +116,26 @@ export const Iacobus: FirstName = {
       rank: {
         2013: "deacon",
         2025: "deacon",
+      },
+    },
+    {
+      latin: "Iacobus Robertus",
+      firstName: "James Robert",
+      lastName: "Knox",
+      birthday: "1914-03-02",
+      nation: {
+        1978.1: ["AU", "VA"],
+        1978.2: ["AU", "VA"],
+      },
+      function: {
+        1978.1:
+          "Präfekt der Kongregation für den Gottesdienst und die Sakramente",
+        1978.2:
+          "Präfekt der Kongregation für den Gottesdienst und die Sakramente",
+      },
+      rank: {
+        1978.1: "priest",
+        1978.2: "priest",
       },
     },
   ],

@@ -4,6 +4,24 @@ export const Marius: FirstName = {
     {
       latin: "Marius",
       firstName: "Mario",
+      lastName: "Casariego y Acevedo",
+      birthday: "1909-02-13",
+      nation: {
+        1978.1: ["GT"],
+        1978.2: ["GT"],
+      },
+      function: {
+        1978.1: "Erzbischof von Guatemala",
+        1978.2: "Erzbischof von Guatemala",
+      },
+      rank: {
+        1978.1: "priest",
+        1978.2: "priest",
+      },
+    },
+    {
+      latin: "Marius",
+      firstName: "Mario",
       lastName: "Grech",
       birthday: "1957-02-20",
       nation: {
@@ -14,6 +32,24 @@ export const Marius: FirstName = {
       },
       rank: {
         2025: "deacon",
+      },
+    },
+    {
+      latin: "Marius",
+      firstName: "Mario",
+      lastName: "Nasalli Rocca di Corneliano",
+      birthday: "1903-08-12",
+      nation: {
+        1978.1: ["IT", "VA"],
+        1978.2: ["IT", "VA"],
+      },
+      function: {
+        1978.1: "emeritierter Präfekt des Päpstlichen Hauses",
+        1978.2: "emeritierter Präfekt des Päpstlichen Hauses",
+      },
+      rank: {
+        1978.1: "deacon",
+        1978.2: "deacon",
       },
     },
     {
@@ -59,6 +95,24 @@ export const Marius: FirstName = {
       },
       rank: {
         2005: "deacon",
+      },
+    },
+    {
+      latin: "Marius Ludovicus",
+      firstName: "Mario Luigi",
+      lastName: "Ciappi",
+      birthday: "1909-10-06",
+      nation: {
+        1978.1: ["IT", "VA"],
+        1978.2: ["IT", "VA"],
+      },
+      function: {
+        1978.1: "Päpstlicher Haustheologe",
+        1978.2: "Päpstlicher Haustheologe",
+      },
+      rank: {
+        1978.1: "deacon",
+        1978.2: "deacon",
       },
     },
   ],

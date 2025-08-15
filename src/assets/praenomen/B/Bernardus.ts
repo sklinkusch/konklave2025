@@ -32,6 +32,27 @@ export const Bernardus: FirstName = {
       },
     },
     {
+      latin: "Bernardus Ioannes",
+      firstName: "Bernard Jan",
+      lastName: "Alfrink",
+      birthday: "1900-07-05",
+      nation: {
+        1963: ["NL"],
+        1978.1: ["NL"],
+        1978.2: ["NL"],
+      },
+      function: {
+        1963: "Erzbischof von Utrecht",
+        1978.1: "emeritierter Erzbischof von Utrecht",
+        1978.2: "emeritierter Erzbischof von Utrecht",
+      },
+      rank: {
+        1963: "priest",
+        1978.1: "priest",
+        1978.2: "priest",
+      },
+    },
+    {
       latin: "Bernardus Ludovicus Augustus Paulus",
       firstName: "Bernard Louis Auguste Paul",
       lastName: "Panafieu",

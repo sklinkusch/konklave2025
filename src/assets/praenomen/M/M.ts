@@ -3,7 +3,9 @@ import { Marcus } from "./Marcus";
 import { Marianus } from "./Marianus";
 import { Marius } from "./Marius";
 import { Matthaeus } from "./Matthaeus";
+import { Mauritius } from "./Mauritius";
 import { Maurus } from "./Maurus";
+import { Maximilianus } from "./Maximilianus";
 import { Michael } from "./Michael";
 import { Miloslaus } from "./Miloslaus";
 
@@ -13,7 +15,9 @@ export const M: FirstName[] = [
   Marianus,
   Marius,
   Matthaeus,
+  Mauritius,
   Maurus,
+  Maximilianus,
   Michael,
   Miloslaus,
 ];

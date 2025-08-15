@@ -48,6 +48,24 @@ export const Antonius: FirstName = {
     },
     {
       latin: "Antonius",
+      firstName: "Antonio",
+      lastName: "Poma",
+      birthday: "1910-06-12",
+      nation: {
+        1978.1: ["IT"],
+        1978.2: ["IT"],
+      },
+      function: {
+        1978.1: "Erzbischof von Bologna",
+        1978.2: "Erzbischof von Bologna",
+      },
+      rank: {
+        1978.1: "priest",
+        1978.2: "priest",
+      },
+    },
+    {
+      latin: "Antonius",
       firstName: "Anthony",
       lastName: "Poola",
       birthday: "1961-11-15",
@@ -59,6 +77,42 @@ export const Antonius: FirstName = {
       },
       rank: {
         2025: "priest",
+      },
+    },
+    {
+      latin: "Antonius",
+      firstName: "António",
+      lastName: "Ribeiro",
+      birthday: "1928-05-21",
+      nation: {
+        1978.1: ["PT"],
+        1978.2: ["PT"],
+      },
+      function: {
+        1978.1: "Patriarch von Lissabon",
+        1978.2: "Patriarch von Lissabon",
+      },
+      rank: {
+        1978.1: "priest",
+        1978.2: "priest",
+      },
+    },
+    {
+      latin: "Antonius",
+      firstName: "Antonio",
+      lastName: "Samorè",
+      birthday: "1905-12-04",
+      nation: {
+        1978.1: ["IT", "VA"],
+        1978.2: ["IT", "VA"],
+      },
+      function: {
+        1978.1: "Bibliothekar der Vatikanischen Bibliothek",
+        1978.2: "Bibliothekar der Vatikanischen Bibliothek",
+      },
+      rank: {
+        1978.1: "priest",
+        1978.2: "priest",
       },
     },
     {

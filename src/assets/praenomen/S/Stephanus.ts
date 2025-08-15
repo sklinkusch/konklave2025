@@ -32,6 +32,66 @@ export const Stephanus: FirstName = {
       },
     },
     {
+      latin: "Stephanus",
+      firstName: "Stephen",
+      lastName: "Kim Sou-hwan",
+      birthday: "1922-05-08",
+      nation: {
+        1978.1: ["KR"],
+        1978.2: ["KR"],
+      },
+      function: {
+        1978.1: "Erzbischof von Seoul",
+        1978.2: "Erzbischof von Seoul",
+      },
+      rank: {
+        1978.1: "priest",
+        1978.2: "priest",
+      },
+    },
+    {
+      latin: "Stephanus primus",
+      firstName: "Stephanos I.",
+      lastName: "Sidarouss",
+      birthday: "1904-02-22",
+      nation: {
+        1978.1: ["EG"],
+        1978.2: ["EG"],
+      },
+      function: {
+        1978.1: "Patriarch von Alexandrien",
+        1978.2: "Patriarch von Alexandrien",
+      },
+      rank: {
+        1978.1: "bishop",
+        1978.2: "bishop",
+      },
+    },
+    {
+      latin: "Stephanus",
+      firstName: "Stefan",
+      lastName: "Wyszyński",
+      birthday: "1901-08-03",
+      nation: {
+        1958: ["PL"],
+        1963: ["PL"],
+        1978.1: ["PL"],
+        1978.2: ["PL"],
+      },
+      function: {
+        1958: "Erzbischof von Gnesen und Warschau",
+        1963: "Erzbischof von Gnesen und Warschau",
+        1978.1: "Erzbischof von Gnesen und Warschau",
+        1978.2: "Erzbischof von Gnesen und Warschau",
+      },
+      rank: {
+        1958: "priest",
+        1963: "priest",
+        1978.1: "priest",
+        1978.2: "priest",
+      },
+    },
+    {
       latin: "Stephanus Ameyu Martinus",
       firstName: "Stephen Ameyu Martin",
       lastName: "Mulla",

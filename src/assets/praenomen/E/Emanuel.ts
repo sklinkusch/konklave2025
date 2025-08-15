@@ -3,6 +3,24 @@ export const Emanuel: FirstName = {
   data: [
     {
       latin: "Emanuel",
+      firstName: "Emmanuel",
+      lastName: "Kiwanuka Nsubuga",
+      birthday: "1914-11-05",
+      nation: {
+        1978.1: ["UG"],
+        1978.2: ["UG"],
+      },
+      function: {
+        1978.1: "Erzbischof von Kampala",
+        1978.2: "Erzbischof von Kampala",
+      },
+      rank: {
+        1978.1: "priest",
+        1978.2: "priest",
+      },
+    },
+    {
+      latin: "Emanuel",
       firstName: "Manuel",
       lastName: "Monteiro de Castro",
       birthday: "1938-03-29",

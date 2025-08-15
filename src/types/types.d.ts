@@ -64,3 +64,10 @@ interface NewFirstName {
   name: string;
   data: NewCardinal[];
 }
+
+interface Conclave {
+  key: string;
+  title: string;
+  pope: string;
+  cardinal: string;
+}

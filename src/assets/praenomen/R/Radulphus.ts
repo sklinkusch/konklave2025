@@ -2,6 +2,27 @@ export const Radulphus: FirstName = {
   name: "Radulphus",
   data: [
     {
+      latin: "Radulphus",
+      firstName: "Raúl",
+      lastName: "Silva Henríquez",
+      birthday: "1907-09-27",
+      nation: {
+        1963: ["CL"],
+        1978.1: ["CL"],
+        1978.2: ["CL"],
+      },
+      function: {
+        1963: "Erzbischof von Santiago de Chile",
+        1978.1: "Erzbischof von Santiago de Chile",
+        1978.2: "Erzbischof von Santiago de Chile",
+      },
+      rank: {
+        1963: "priest",
+        1978.1: "priest",
+        1978.2: "priest",
+      },
+    },
+    {
       latin: "Radulphus Eduardus",
       firstName: "Raúl Eduardo",
       lastName: "Vela Chiriboga",
@@ -14,6 +35,24 @@ export const Radulphus: FirstName = {
       },
       rank: {
         2013: "priest",
+      },
+    },
+    {
+      latin: "Radulphus Franciscus",
+      firstName: "Raúl Francisco",
+      lastName: "Primatesta",
+      birthday: "1919-04-14",
+      nation: {
+        1978.1: ["AR"],
+        1978.2: ["AR"],
+      },
+      function: {
+        1978.1: "Erzbischof von Córdoba",
+        1978.2: "Erzbischof von Córdoba",
+      },
+      rank: {
+        1978.1: "priest",
+        1978.2: "priest",
       },
     },
   ],

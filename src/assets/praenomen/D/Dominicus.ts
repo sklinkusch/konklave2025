@@ -62,6 +62,24 @@ export const Dominicus: FirstName = {
       },
     },
     {
+      latin: "Dominicus Ignatius",
+      firstName: "Dominic-Ignatius",
+      lastName: "Ekandem",
+      birthday: "1917-06-23",
+      nation: {
+        1978.1: ["NG"],
+        1978.2: ["NG"],
+      },
+      function: {
+        1978.1: "Bischof von Ikot Ekpene",
+        1978.2: "Bischof von Ikot Ekpene",
+      },
+      rank: {
+        1978.1: "priest",
+        1978.2: "priest",
+      },
+    },
+    {
       latin: "Dominicus Iosephus",
       firstName: "Dominique Joseph",
       lastName: "Mathieu",

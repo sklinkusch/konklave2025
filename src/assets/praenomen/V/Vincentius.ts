@@ -17,6 +17,24 @@ export const Vincentius: FirstName = {
       },
     },
     {
+      latin: "Vincentius",
+      firstName: "Vicente",
+      lastName: "Enrique y Tarancón",
+      birthday: "1907-05-14",
+      nation: {
+        1978.1: ["ES"],
+        1978.2: ["ES"],
+      },
+      function: {
+        1978.1: "Erzbischof von Madrid",
+        1978.2: "Erzbischof von Madrid",
+      },
+      rank: {
+        1978.1: "priest",
+        1978.2: "priest",
+      },
+    },
+    {
       latin: "Vincentius Giraldus",
       firstName: "Vincent Gerard",
       lastName: "Nichols",

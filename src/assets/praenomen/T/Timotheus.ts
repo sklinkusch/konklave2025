@@ -2,6 +2,24 @@ export const Timotheus: FirstName = {
   name: "Timotheus",
   data: [
     {
+      latin: "Timotheus",
+      firstName: "Timothy",
+      lastName: "Manning",
+      birthday: "1909-11-15",
+      nation: {
+        1978.1: ["US"],
+        1978.2: ["US"],
+      },
+      function: {
+        1978.1: "Erzbischof von Los Angeles",
+        1978.2: "Erzbischof von Los Angeles",
+      },
+      rank: {
+        1978.1: "priest",
+        1978.2: "priest",
+      },
+    },
+    {
       latin: "Timotheus Michael",
       firstName: "Timothy Michael",
       lastName: "Dolan",

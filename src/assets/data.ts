@@ -51,7 +51,8 @@ export const getCardinals = (year: string) => {
         (cardinals: NewCardinal[], cardinal: Cardinal) => {
           const nationHasYear = year in cardinal.nation;
           const functionHasYear = year in cardinal.function;
-          if (nationHasYear && functionHasYear) {
+          const rankHasYear = year in cardinal.rank;
+          if (nationHasYear && functionHasYear && rankHasYear) {
             return cardinals.concat([
               {
                 ...cardinal,
@@ -100,3 +101,72 @@ export const startDates: { [key: string]: string } = {
   2013: "2013-03-12",
   2025: "2025-05-07",
 };
+
+export const conclaves: Conclave[] = [
+  {
+    key: "1903",
+    title: "Konklave 1903",
+    pope: "Pius X.",
+    cardinal: "Giuseppe SARTO",
+  },
+  {
+    key: "1914",
+    title: "Konklave 1914",
+    pope: "Benedikt XV.",
+    cardinal: "Giacomo DELLA CHIESA",
+  },
+  {
+    key: "1922",
+    title: "Konklave 1922",
+    pope: "Pius XI.",
+    cardinal: "Achille RATTI",
+  },
+  {
+    key: "1939",
+    title: "Konklave 1939",
+    pope: "Pius XII.",
+    cardinal: "Eugenio PACELLI",
+  },
+  {
+    key: "1958",
+    title: "Konklave 1958",
+    pope: "Johannes XXIII.",
+    cardinal: "Angelo RONCALLI",
+  },
+  {
+    key: "1963",
+    title: "Konklave 1963",
+    pope: "Paul VI.",
+    cardinal: "Giovanni Battista MONTINI",
+  },
+  {
+    key: "1978.1",
+    title: "Konklave August 1978",
+    pope: "Johannes Paul I.",
+    cardinal: "Albino LUCIANI",
+  },
+  {
+    key: "1978.2",
+    title: "Konklave Oktober 1978",
+    pope: "Johannes Paul II.",
+    cardinal: "Karol WOJTYŁA",
+  },
+  {
+    key: "2005",
+    title: "Konklave 2005",
+    pope: "Benedikt XVI.",
+    cardinal: "Joseph RATZINGER",
+  },
+  {
+    key: "2013",
+    title: "Konklave 2013",
+    pope: "Franziskus",
+    cardinal: "Jorge Mario BERGOGLIO",
+  },
+  {
+    key: "2025",
+    title: "Konklave 2025",
+    pope: "Leo XIV.",
+    cardinal: "Robert Francis PREVOST",
+  },
+];

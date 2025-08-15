@@ -3,6 +3,24 @@ export const Ioannes: FirstName = {
   data: [
     {
       latin: "Ioannes",
+      firstName: "Giovanni",
+      lastName: "Benelli",
+      birthday: "1921-05-12",
+      nation: {
+        1978.1: ["IT"],
+        1978.2: ["IT"],
+      },
+      function: {
+        1978.1: "Erzbischof von Florenz",
+        1978.2: "Erzbischof von Florenz",
+      },
+      rank: {
+        1978.1: "priest",
+        1978.2: "priest",
+      },
+    },
+    {
+      latin: "Ioannes",
       firstName: "João",
       lastName: "Braz de Aviz",
       birthday: "1947-04-24",
@@ -32,6 +50,27 @@ export const Ioannes: FirstName = {
       },
       rank: {
         2013: "deacon",
+      },
+    },
+    {
+      latin: "Ioannes",
+      firstName: "Juan",
+      lastName: "Landâzuris Ricketts",
+      birthday: "1913-12-19",
+      nation: {
+        1963: ["PE"],
+        1978.1: ["PE"],
+        1978.2: ["PE"],
+      },
+      function: {
+        1963: "Erzbischof von Lima",
+        1978.1: "Erzbischof von Lima",
+        1978.2: "Erzbischof von Lima",
+      },
+      rank: {
+        1963: "priest",
+        1978.1: "priest",
+        1978.2: "priest",
       },
     },
     {
@@ -194,6 +233,24 @@ export const Ioannes: FirstName = {
       },
     },
     {
+      latin: "Ioannes Carolus",
+      firstName: "Juan Carlos",
+      lastName: "Aramburu",
+      birthday: "1912-02-11",
+      nation: {
+        1978.1: ["AR"],
+        1978.2: ["AR"],
+      },
+      function: {
+        1978.1: "Erzbischof von Buenos Aires",
+        1978.2: "Erzbischof von Buenos Aires",
+      },
+      rank: {
+        1978.1: "priest",
+        1978.2: "priest",
+      },
+    },
+    {
       latin: "Ioannes Claudius",
       firstName: "Jean-Claude",
       lastName: "Hollerich",
@@ -246,6 +303,24 @@ export const Ioannes: FirstName = {
     },
     {
       latin: "Ioannes Franciscus",
+      firstName: "John Francis",
+      lastName: "Dearden",
+      birthday: "1907-10-15",
+      nation: {
+        1978.1: ["US"],
+        1978.2: ["US"],
+      },
+      function: {
+        1978.1: "Erzbischof von Detroit",
+        1978.2: "Erzbischof von Detroit",
+      },
+      rank: {
+        1978.1: "priest",
+        1978.2: "priest",
+      },
+    },
+    {
+      latin: "Ioannes Franciscus",
       firstName: "Gianfranco",
       lastName: "Ravasi",
       birthday: "1942-10-18",
@@ -257,6 +332,80 @@ export const Ioannes: FirstName = {
       },
       rank: {
         2013: "deacon",
+      },
+    },
+    {
+      latin: "Ioannes Giraldus Maria",
+      firstName: "Johannes Gerardus Maria",
+      lastName: "Willebrands",
+      birthday: "1909-09-04",
+      nation: {
+        1978.1: ["NL", "VA"],
+        1978.2: ["NL", "VA"],
+      },
+      function: {
+        1978.1:
+          "Erzbischof von Utrecht, Präsident des Sekretariats zur Einheit der Christen",
+        1978.2:
+          "Erzbischof von Utrecht, Präsident des Sekretariats zur Einheit der Christen",
+      },
+      rank: {
+        1978.1: "priest",
+        1978.2: "priest",
+      },
+    },
+    {
+      latin: "Ioannes Humbertus",
+      firstName: "Giovanni Umberto",
+      lastName: "Colombo",
+      birthday: "1902-12-06",
+      nation: {
+        1978.1: ["IT"],
+        1978.2: ["IT"],
+      },
+      function: {
+        1978.1: "Erzbischof von Mailand",
+        1978.2: "Erzbischof von Mailand",
+      },
+      rank: {
+        1978.1: "priest",
+        1978.2: "priest",
+      },
+    },
+    {
+      latin: "Ioannes Iosephus",
+      firstName: "John Joseph",
+      lastName: "Carberry",
+      birthday: "1904-07-31",
+      nation: {
+        1978.1: ["US"],
+        1978.2: ["US"],
+      },
+      function: {
+        1978.1: "Erzbischof von St. Louis",
+        1978.2: "Erzbischof von St. Louis",
+      },
+      rank: {
+        1978.1: "priest",
+        1978.2: "priest",
+      },
+    },
+    {
+      latin: "Ioannes Iosephus",
+      firstName: "John Joseph",
+      lastName: "Krol",
+      birthday: "1910-10-26",
+      nation: {
+        1978.1: ["US"],
+        1978.2: ["US"],
+      },
+      function: {
+        1978.1: "Erzbischof von Philadelphia",
+        1978.2: "Erzbischof von Philadelphia",
+      },
+      rank: {
+        1978.1: "priest",
+        1978.2: "priest",
       },
     },
     {
@@ -272,6 +421,21 @@ export const Ioannes: FirstName = {
       },
       rank: {
         2025: "priest",
+      },
+    },
+    {
+      latin: "Ioannes Iosephus",
+      firstName: "John Joseph",
+      lastName: "Wright",
+      birthday: "1909-07-18",
+      nation: {
+        1978.2: ["US", "VA"],
+      },
+      function: {
+        1978.2: "Präfekt der Kongregation für den Klerus",
+      },
+      rank: {
+        1978.2: "priest",
       },
     },
     {
@@ -341,6 +505,24 @@ export const Ioannes: FirstName = {
       },
     },
     {
+      latin: "Ioannes Maria",
+      firstName: "Jean-Marie",
+      lastName: "Villot",
+      birthday: "1905-10-11",
+      nation: {
+        1978.1: ["FR", "VA"],
+        1978.2: ["FR", "VA"],
+      },
+      function: {
+        1978.1: "Kardinalstaatssekretär, Camerlengo",
+        1978.2: "Kardinalstaatssekretär, Camerlengo",
+      },
+      rank: {
+        1978.1: "bishop",
+        1978.2: "bishop",
+      },
+    },
+    {
       latin: "Ioannes Olorunfemi",
       firstName: "John Olorunfemi",
       lastName: "Onaiyekan",
@@ -353,6 +535,24 @@ export const Ioannes: FirstName = {
       },
       rank: {
         2013: "priest",
+      },
+    },
+    {
+      latin: "Ioannes Patricius",
+      firstName: "John Patrick",
+      lastName: "Cody",
+      birthday: "1907-12-24",
+      nation: {
+        1978.1: ["US"],
+        1978.2: ["US"],
+      },
+      function: {
+        1978.1: "Erzbischof von Chicago",
+        1978.2: "Erzbischof von Chicago",
+      },
+      rank: {
+        1978.1: "priest",
+        1978.2: "priest",
       },
     },
     {

@@ -19,6 +19,44 @@ export const Sergius: FirstName = {
     {
       latin: "Sergius",
       firstName: "Sergio",
+      lastName: "Guerri",
+      birthday: "1905-12-25",
+      nation: {
+        1978.1: ["IT", "VA"],
+        1978.2: ["IT", "VA"],
+      },
+      function: {
+        1978.1:
+          "Pro-Präsident der Päpstlichen Kommission für den Staat der Vatikanstadt",
+        1978.2:
+          "Pro-Präsident der Päpstlichen Kommission für den Staat der Vatikanstadt",
+      },
+      rank: {
+        1978.1: "deacon",
+        1978.2: "deacon",
+      },
+    },
+    {
+      latin: "Sergius",
+      firstName: "Sergio",
+      lastName: "Pignedoli",
+      birthday: "1910-06-04",
+      nation: {
+        1978.1: ["IT", "VA"],
+        1978.2: ["IT", "VA"],
+      },
+      function: {
+        1978.1: "Präfekt des Sekretariats für die Nichtchristen",
+        1978.2: "Präfekt des Sekretariats für die Nichtchristen",
+      },
+      rank: {
+        1978.1: "deacon",
+        1978.2: "deacon",
+      },
+    },
+    {
+      latin: "Sergius",
+      firstName: "Sergio",
       lastName: "Sebastiani",
       birthday: "1931-04-11",
       nation: {

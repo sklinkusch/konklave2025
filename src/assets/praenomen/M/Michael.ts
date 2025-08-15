@@ -47,6 +47,24 @@ export const Michael: FirstName = {
       },
     },
     {
+      latin: "Michael",
+      firstName: "Michele",
+      lastName: "Pellegrino",
+      birthday: "1903-04-25",
+      nation: {
+        1978.1: ["IT"],
+        1978.2: ["IT"],
+      },
+      function: {
+        1978.1: "emeritierter Erzbischof von Turin",
+        1978.2: "emeritierter Erzbischof von Turin",
+      },
+      rank: {
+        1978.1: "priest",
+        1978.2: "priest",
+      },
+    },
+    {
       latin: "Michael Michai",
       firstName: "Michael Michai",
       lastName: "Kitbunchu",

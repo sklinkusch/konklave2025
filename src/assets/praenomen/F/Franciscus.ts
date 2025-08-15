@@ -34,6 +34,24 @@ export const Franciscus: FirstName = {
     {
       latin: "Franciscus",
       firstName: "Francesco",
+      lastName: "Carpino",
+      birthday: "1905-05-18",
+      nation: {
+        1978.1: ["IT", "VA"],
+        1978.2: ["IT", "VA"],
+      },
+      function: {
+        1978.1: "emeritierter Sekretär der Kongregation für die Bischöfe",
+        1978.2: "emeritierter Sekretär der Kongregation für die Bischöfe",
+      },
+      rank: {
+        1978.1: "bishop",
+        1978.2: "bishop",
+      },
+    },
+    {
+      latin: "Franciscus",
+      firstName: "Francesco",
       lastName: "Coccopalmerio",
       birthday: "1938-03-06",
       nation: {
@@ -44,6 +62,27 @@ export const Franciscus: FirstName = {
       },
       rank: {
         2013: "deacon",
+      },
+    },
+    {
+      latin: "Franciscus",
+      firstName: "Franz",
+      lastName: "König",
+      birthday: "1905-08-03",
+      nation: {
+        1963: ["AT"],
+        1978.1: ["AT"],
+        1978.2: ["AT"],
+      },
+      function: {
+        1963: "Erzbischof von Wien",
+        1978.1: "Erzbischof von Wien",
+        1978.2: "Erzbischof von Wien",
+      },
+      rank: {
+        1963: "priest",
+        1978.1: "priest",
+        1978.2: "priest",
       },
     },
     {
@@ -137,6 +176,42 @@ export const Franciscus: FirstName = {
       },
       rank: {
         2013: "deacon",
+      },
+    },
+    {
+      latin: "Franciscus",
+      firstName: "Franjo",
+      lastName: "Šeper",
+      birthday: "1905-10-02",
+      nation: {
+        1978.1: ["HR", "VA"],
+        1978.2: ["HR", "VA"],
+      },
+      function: {
+        1978.1: "Präfekt der Kongregation für die Glaubenslehre",
+        1978.2: "Präfekt der Kongregation für die Glaubenslehre",
+      },
+      rank: {
+        1978.1: "priest",
+        1978.2: "priest",
+      },
+    },
+    {
+      latin: "Franciscus",
+      firstName: "František",
+      lastName: "Tomâšek",
+      birthday: "1899-06-30",
+      nation: {
+        1978.1: ["CZ"],
+        1978.2: ["CZ"],
+      },
+      function: {
+        1978.1: "Erzbischof von Prag",
+        1978.2: "Erzbischof von Prag",
+      },
+      rank: {
+        1978.1: "priest",
+        1978.2: "priest",
       },
     },
     {

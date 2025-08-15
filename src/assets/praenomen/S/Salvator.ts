@@ -16,5 +16,23 @@ export const Salvator: FirstName = {
         2005: "priest",
       },
     },
+    {
+      latin: "Salvator",
+      firstName: "Salvatore",
+      lastName: "Pappalardo",
+      birthday: "1918-09-23",
+      nation: {
+        1978.1: ["IT"],
+        1978.2: ["IT"],
+      },
+      function: {
+        1978.1: "Erzbischof von Palermo",
+        1978.2: "Erzbischof von Palermo",
+      },
+      rank: {
+        1978.1: "priest",
+        1978.2: "priest",
+      },
+    },
   ],
 };

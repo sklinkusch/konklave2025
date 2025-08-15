@@ -98,6 +98,27 @@ export const Carolus: FirstName = {
       },
     },
     {
+      latin: "Carolus Iosephus",
+      firstName: "Karol Józef",
+      lastName: "Wojtyła",
+      birthday: "1920-05-18",
+      nation: {
+        1978.1: ["PL"],
+        1978.2: ["PL"],
+      },
+      function: {
+        1978.1: "Erzbischof von Krakau",
+        1978.2: "Erzbischof von Krakau, Papst Johannes Paul II.",
+      },
+      rank: {
+        1978.1: "priest",
+        1978.2: "priest",
+      },
+      elected: {
+        1978.2: true,
+      },
+    },
+    {
       latin: "Carolus Maria",
       firstName: "Carlo Maria",
       lastName: "Martini",
