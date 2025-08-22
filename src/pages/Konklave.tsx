@@ -4,11 +4,15 @@ import { Typography } from "@mui/material";
 import { ChevronLeft } from "@mui/icons-material";
 import { FirstName } from "@components/FirstName/FirstName";
 import { getCardinals, startDates, conclaves } from "@assets/data";
+import { ConclaveYears } from "@mytypes/types";
 
 function Konklave() {
   const { year } = useParams<{ year: string }>();
   const navigate = useNavigate();
-  const cardinals = year ? getCardinals(year) : [];
+  const cardinals =
+    year && Object.values(ConclaveYears).includes(year as ConclaveYears)
+      ? getCardinals(year)
+      : [];
   const startDatePrev = year ? startDates[year] : null;
   const startDate = startDatePrev ? startDatePrev : "";
   const conclave = conclaves.find((conclave) => conclave.key === year);
@@ -18,14 +22,18 @@ function Konklave() {
   useEffect(() => {
     if (title) {
       document.title = title;
-      if (cardinals.length === 0) {
+      if (cardinals.length === 0 || startDate === "") {
         navigate("/");
       }
     } else {
       navigate("/");
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, []);
+  }, [cardinals, startDate]);
+  if (startDate === "") {
+    navigate("/");
+    return null;
+  }
   return (
     <div style={{ paddingInline: "1rem", width: "97vw" }}>
       <Link to="/">

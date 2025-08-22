@@ -1,5 +1,6 @@
 import { Typography } from "@mui/material";
 import { Table } from "../Table/Table";
+import type { FirstNameProps } from "@mytypes/types";
 
 const FirstName = ({ name, data, startDate }: FirstNameProps) => {
   return (

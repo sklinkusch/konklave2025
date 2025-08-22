@@ -3,5 +3,6 @@ import { Opilius } from "./Opilius";
 import { Orani } from "./Orani";
 import { Osvaldus } from "./Osvaldus";
 import { Otho } from "./Otho";
+import type { FirstName } from "@mytypes/types";
 
 export const O: FirstName[] = [Octavius, Opilius, Orani, Osvaldus, Otho];

@@ -11,6 +11,8 @@ import { Rogerius } from "./Rogerius";
 import { Rolandus } from "./Rolandus";
 import { Ruben } from "./Ruben";
 import { Rudolphus } from "./Rudolphus";
+import type { FirstName } from "@mytypes/types";
+import { Rufinus } from "./Rufinus";
 
 export const R: FirstName[] = [
   Radulphus,
@@ -26,4 +28,5 @@ export const R: FirstName[] = [
   Rolandus,
   Ruben,
   Rudolphus,
+  Rufinus,
 ];

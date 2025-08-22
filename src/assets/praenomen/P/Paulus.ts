@@ -1,3 +1,5 @@
+import type { FirstName } from "@mytypes/types";
+
 export const Paulus: FirstName = {
   name: "Paulus",
   data: [
@@ -6,6 +8,7 @@ export const Paulus: FirstName = {
       firstName: "Paolo",
       lastName: "Bertoli",
       birthday: "1908-02-01",
+      deathday: "2001-11-08",
       nation: {
         1978.1: ["IT", "VA"],
         1978.2: ["IT", "VA"],
@@ -23,9 +26,26 @@ export const Paulus: FirstName = {
     },
     {
       latin: "Paulus",
+      firstName: "Paolo",
+      lastName: "Marella",
+      birthday: "1895-01-25",
+      deathday: "1984-10-15",
+      nation: {
+        1963: ["IT", "VA"],
+      },
+      function: {
+        1963: "Erzpriester des Petersdoms",
+      },
+      rank: {
+        1963: "priest",
+      },
+    },
+    {
+      latin: "Paulus",
       firstName: "Pablo",
       lastName: "Muñoz Vega",
       birthday: "1903-05-23",
+      deathday: "1994-06-03",
       nation: {
         1978.1: ["EC"],
         1978.2: ["EC"],
@@ -59,6 +79,7 @@ export const Paulus: FirstName = {
       firstName: "Paolo",
       lastName: "Sardi",
       birthday: "1934-09-01",
+      deathday: "2019-07-13",
       nation: {
         2013: ["IT", "VA"],
       },
@@ -74,6 +95,7 @@ export const Paulus: FirstName = {
       firstName: "Paul",
       lastName: "Zoungrana",
       birthday: "1917-09-03",
+      deathday: "2000-06-04",
       nation: {
         1978.1: ["BF"],
         1978.2: ["BF"],
@@ -107,6 +129,7 @@ export const Paulus: FirstName = {
       firstName: "Paul-Émile",
       lastName: "Léger",
       birthday: "1904-04-25",
+      deathday: "1991-11-13",
       nation: {
         1958: ["CA"],
         1963: ["CA"],
@@ -131,6 +154,7 @@ export const Paulus: FirstName = {
       firstName: "Paulo Evaristo",
       lastName: "Arns",
       birthday: "1921-09-14",
+      deathday: "2016-11-14",
       nation: {
         1978.1: ["BR"],
         1978.2: ["BR"],
@@ -149,6 +173,7 @@ export const Paulus: FirstName = {
       firstName: "Paul Josef",
       lastName: "Cordes",
       birthday: "1934-09-05",
+      deathday: "2024-03-15",
       nation: {
         2013: ["DE", "VA"],
       },
@@ -179,6 +204,7 @@ export const Paulus: FirstName = {
       firstName: "Paul-Joseph-Marie",
       lastName: "Gouyon",
       birthday: "1910-10-24",
+      deathday: "2000-09-26",
       nation: {
         1978.1: ["FR"],
         1978.2: ["FR"],
@@ -193,10 +219,27 @@ export const Paulus: FirstName = {
       },
     },
     {
+      latin: "Paulus Maria Andreas",
+      firstName: "Paul-Marie André",
+      lastName: "Richaud",
+      birthday: "1887-04-16",
+      deathday: "1968-02-05",
+      nation: {
+        1963: ["FR"],
+      },
+      function: {
+        1963: "Erzbischof von Bordeaux",
+      },
+      rank: {
+        1963: "priest",
+      },
+    },
+    {
       latin: "Paulus Petrus",
       firstName: "Paul-Pierre",
       lastName: "Philippe",
       birthday: "1905-04-16",
+      deathday: "1984-04-09",
       nation: {
         1978.1: ["FR", "VA"],
         1978.2: ["FR", "VA"],

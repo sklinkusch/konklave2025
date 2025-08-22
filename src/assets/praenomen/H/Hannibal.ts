@@ -1,3 +1,5 @@
+import type { FirstName } from "@mytypes/types";
+
 export const Hannibal: FirstName = {
   name: "Hannibal",
   data: [
@@ -6,6 +8,7 @@ export const Hannibal: FirstName = {
       firstName: "Aníbal",
       lastName: "Muñoz Duque",
       birthday: "1908-10-03",
+      deathday: "1987-01-15",
       nation: {
         1978.1: ["CO"],
         1978.2: ["CO"],

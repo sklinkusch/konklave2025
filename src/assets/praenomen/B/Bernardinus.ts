@@ -1,3 +1,5 @@
+import type { FirstName } from "@mytypes/types";
+
 export const Bernardinus: FirstName = {
   name: "Bernardinus",
   data: [
@@ -6,6 +8,7 @@ export const Bernardinus: FirstName = {
       firstName: "Bernardin",
       lastName: "Gantin",
       birthday: "1922-05-08",
+      deathday: "2008-05-13",
       nation: {
         1978.1: ["BJ", "VA"],
         1978.2: ["BJ", "VA"],

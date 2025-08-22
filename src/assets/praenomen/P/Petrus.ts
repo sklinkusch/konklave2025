@@ -1,6 +1,27 @@
+import type { FirstName } from "@mytypes/types";
+
 export const Petrus: FirstName = {
   name: "Petrus",
   data: [
+    {
+      latin: "Petrus",
+      firstName: "Pietro",
+      lastName: "Ciriaci",
+      birthday: "1885-12-02",
+      deathday: "1966-12-30",
+      nation: {
+        1958: ["IT", "VA"],
+        1963: ["IT", "VA"],
+      },
+      function: {
+        1958: "Präsident der Päpstlichen Kommission für die authentische Auslegung des kanonischen Rechts",
+        1963: "Präsident der Päpstlichen Kommission für die authentische Auslegung des kanonischen Rechts",
+      },
+      rank: {
+        1958: "priest",
+        1963: "priest",
+      },
+    },
     {
       latin: "Petrus",
       firstName: "Péter",
@@ -27,6 +48,7 @@ export const Petrus: FirstName = {
       firstName: "Pietro",
       lastName: "Palazzini",
       birthday: "1912-05-19",
+      deathday: "2000-10-11",
       nation: {
         1978.1: ["IT", "VA"],
         1978.2: ["IT", "VA"],
@@ -62,6 +84,7 @@ export const Petrus: FirstName = {
       firstName: "Pedro",
       lastName: "Rubiano Sáenz",
       birthday: "1932-09-13",
+      deathday: "2024-04-15",
       nation: {
         2005: ["CO"],
       },
@@ -128,6 +151,7 @@ export const Petrus: FirstName = {
       firstName: "Peter Seiichi",
       lastName: "Shirayanagi",
       birthday: "1928-06-17",
+      deathday: "2009-12-30",
       nation: {
         2005: ["JP"],
       },
@@ -136,6 +160,22 @@ export const Petrus: FirstName = {
       },
       rank: {
         2005: "priest",
+      },
+    },
+    {
+      latin: "Petrus Tatsuo",
+      firstName: "Peter Tatsuo",
+      lastName: "Doi",
+      birthday: "1892-12-22",
+      deathday: "1970-02-21",
+      nation: {
+        1963: ["JP"],
+      },
+      function: {
+        1963: "Erzbischof von Tokio",
+      },
+      rank: {
+        1963: "priest",
       },
     },
   ],

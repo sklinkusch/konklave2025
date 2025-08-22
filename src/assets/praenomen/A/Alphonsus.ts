@@ -1,11 +1,30 @@
+import type { FirstName } from "@mytypes/types";
+
 export const Alphonsus: FirstName = {
   name: "Alphonsus",
   data: [
     {
       latin: "Alphonsus",
       firstName: "Alfonso",
+      lastName: "Castaldo",
+      birthday: "1890-11-06",
+      deathday: "1966-03-03",
+      nation: {
+        1963: ["IT"],
+      },
+      function: {
+        1963: "Erzbischof von Neapel",
+      },
+      rank: {
+        1963: "priest",
+      },
+    },
+    {
+      latin: "Alphonsus",
+      firstName: "Alfonso",
       lastName: "López Trujillo",
       birthday: "1935-11-08",
+      deathday: "2008-04-19",
       nation: {
         2005: ["CO", "VA"],
       },

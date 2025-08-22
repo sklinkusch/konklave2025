@@ -6,6 +6,7 @@ import { Iosephus } from "./Iosephus";
 import { Iulianus } from "./Iulianus";
 import { Iulius } from "./Iulius";
 import { Iustinus } from "./Iustinus";
+import type { FirstName } from "@mytypes/types";
 
 export const I: FirstName[] = [
   Iacobus,

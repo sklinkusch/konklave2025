@@ -27,6 +27,11 @@ export const Home = () => {
             </ListItem>
           );
         })}
+        <ListItem key="current">
+          <Link to="/current">
+            Liste der aktuell wahlberechtigten Kardinäle
+          </Link>
+        </ListItem>
       </List>
     </div>
   );

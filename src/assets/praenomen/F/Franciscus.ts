@@ -1,3 +1,5 @@
+import type { FirstName } from "@mytypes/types";
+
 export const Franciscus: FirstName = {
   name: "Franciscus",
   data: [
@@ -6,6 +8,7 @@ export const Franciscus: FirstName = {
       firstName: "Francisco",
       lastName: "Álvarez Martínez",
       birthday: "1925-07-14",
+      deathday: "2022-01-05",
       nation: {
         2005: ["ES"],
       },
@@ -34,8 +37,25 @@ export const Franciscus: FirstName = {
     {
       latin: "Franciscus",
       firstName: "Francesco",
+      lastName: "Bracci",
+      birthday: "1879-11-05",
+      deathday: "1967-03-24",
+      nation: {
+        1963: ["IT", "VA"],
+      },
+      function: {
+        1963: "Sekretär der Kongregation für die Ordnung der Sakramente",
+      },
+      rank: {
+        1963: "deacon",
+      },
+    },
+    {
+      latin: "Franciscus",
+      firstName: "Francesco",
       lastName: "Carpino",
       birthday: "1905-05-18",
+      deathday: "1993-10-05",
       nation: {
         1978.1: ["IT", "VA"],
         1978.2: ["IT", "VA"],
@@ -69,6 +89,7 @@ export const Franciscus: FirstName = {
       firstName: "Franz",
       lastName: "König",
       birthday: "1905-08-03",
+      deathday: "2004-03-13",
       nation: {
         1963: ["AT"],
         1978.1: ["AT"],
@@ -105,6 +126,7 @@ export const Franciscus: FirstName = {
       firstName: "Francesco",
       lastName: "Marchisano",
       birthday: "1929-06-25",
+      deathday: "2014-07-27",
       nation: {
         2005: ["IT", "VA"],
       },
@@ -147,6 +169,38 @@ export const Franciscus: FirstName = {
     },
     {
       latin: "Franciscus",
+      firstName: "Francesco",
+      lastName: "Morano",
+      birthday: "1872-06-08",
+      deathday: "1968-07-12",
+      nation: {
+        1963: ["IT", "VA"],
+      },
+      function: {
+        1963: "emeritierter Sekretär des Obersten Gerichtshofes der Apostolischen Signatur",
+      },
+      rank: {
+        1963: "deacon",
+      },
+    },
+    {
+      latin: "Franciscus",
+      firstName: "Francesco",
+      lastName: "Roberti",
+      birthday: "1889-07-07",
+      deathday: "1977-07-16",
+      nation: {
+        1963: ["IT", "VA"],
+      },
+      function: {
+        1963: "Präfekt des Obersten Gerichtshofs der Apostolischen Signatur",
+      },
+      rank: {
+        1963: "deacon",
+      },
+    },
+    {
+      latin: "Franciscus",
       firstName: "Francisco",
       lastName: "Robles Ortega",
       birthday: "1949-03-02",
@@ -183,6 +237,7 @@ export const Franciscus: FirstName = {
       firstName: "Franjo",
       lastName: "Šeper",
       birthday: "1905-10-02",
+      deathday: "1981-12-30",
       nation: {
         1978.1: ["HR", "VA"],
         1978.2: ["HR", "VA"],
@@ -201,6 +256,7 @@ export const Franciscus: FirstName = {
       firstName: "František",
       lastName: "Tomâšek",
       birthday: "1899-06-30",
+      deathday: "1992-08-04",
       nation: {
         1978.1: ["CZ"],
         1978.2: ["CZ"],
@@ -219,6 +275,7 @@ export const Franciscus: FirstName = {
       firstName: "Francis Eugene",
       lastName: "George",
       birthday: "1937-01-16",
+      deathday: "2015-04-17",
       nation: {
         2005: ["US"],
         2013: ["US"],
@@ -230,6 +287,25 @@ export const Franciscus: FirstName = {
       rank: {
         2005: "priest",
         2013: "priest",
+      },
+    },
+    {
+      latin: "Franciscus Iosephus",
+      firstName: "Francis Joseph",
+      lastName: "Spellman",
+      birthday: "1889-05-04",
+      deathday: "1967-12-02",
+      nation: {
+        1958: ["US"],
+        1963: ["US"],
+      },
+      function: {
+        1958: "Erzbischof von New York",
+        1963: "Erzbischof von New York",
+      },
+      rank: {
+        1958: "priest",
+        1963: "priest",
       },
     },
     {

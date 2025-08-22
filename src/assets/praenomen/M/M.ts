@@ -8,6 +8,7 @@ import { Maurus } from "./Maurus";
 import { Maximilianus } from "./Maximilianus";
 import { Michael } from "./Michael";
 import { Miloslaus } from "./Miloslaus";
+import type { FirstName } from "@mytypes/types";
 
 export const M: FirstName[] = [
   Marcellus,

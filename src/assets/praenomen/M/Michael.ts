@@ -1,6 +1,24 @@
+import type { FirstName } from "@mytypes/types";
+
 export const Michael: FirstName = {
   name: "Michael",
   data: [
+    {
+      latin: "Michael",
+      firstName: "Michael",
+      lastName: "Browne",
+      birthday: "1887-05-06",
+      deathday: "1971-03-31",
+      nation: {
+        1963: ["IE", "VA"],
+      },
+      function: {
+        1963: "emeritierter Leiter des Dominikanerordens",
+      },
+      rank: {
+        1963: "deacon",
+      },
+    },
     {
       latin: "Michael",
       firstName: "Michael F.",
@@ -21,6 +39,7 @@ export const Michael: FirstName = {
       firstName: "Michele",
       lastName: "Giordano",
       birthday: "1930-09-26",
+      deathday: "2010-12-02",
       nation: {
         2005: ["IT"],
       },
@@ -36,6 +55,7 @@ export const Michael: FirstName = {
       firstName: "Miguel",
       lastName: "Obando Bravo",
       birthday: "1926-02-02",
+      deathday: "2018-06-03",
       nation: {
         2005: ["NI"],
       },
@@ -51,6 +71,7 @@ export const Michael: FirstName = {
       firstName: "Michele",
       lastName: "Pellegrino",
       birthday: "1903-04-25",
+      deathday: "1986-10-10",
       nation: {
         1978.1: ["IT"],
         1978.2: ["IT"],

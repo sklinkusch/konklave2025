@@ -1,3 +1,5 @@
+import type { FirstName } from "@mytypes/types";
+
 export const Iulius: FirstName = {
   name: "Iulius",
   data: [
@@ -6,6 +8,7 @@ export const Iulius: FirstName = {
       firstName: "Julio",
       lastName: "Rosales y Ras",
       birthday: "1906-09-18",
+      deathday: "1983-06-02",
       nation: {
         1978.1: ["PH"],
         1978.2: ["PH"],
@@ -24,6 +27,7 @@ export const Iulius: FirstName = {
       firstName: "Julio",
       lastName: "Terrazas Sandoval",
       birthday: "1936-03-07",
+      deathday: "2015-12-09",
       nation: {
         2005: ["BO"],
         2013: ["BO"],
@@ -35,6 +39,22 @@ export const Iulius: FirstName = {
       rank: {
         2005: "priest",
         2013: "priest",
+      },
+    },
+    {
+      latin: "Iulius Augustus",
+      firstName: "Julius August",
+      lastName: "Döpfner",
+      birthday: "1913-08-26",
+      deathday: "1976-07-24",
+      nation: {
+        1963: ["DE"],
+      },
+      function: {
+        1963: "Erzbischof von München und Freising",
+      },
+      rank: {
+        1963: "priest",
       },
     },
     {

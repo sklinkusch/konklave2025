@@ -1,3 +1,5 @@
+import type { FirstName } from "@mytypes/types";
+
 export const Marius: FirstName = {
   name: "Marius",
   data: [
@@ -6,6 +8,7 @@ export const Marius: FirstName = {
       firstName: "Mario",
       lastName: "Casariego y Acevedo",
       birthday: "1909-02-13",
+      deathday: "1983-06-15",
       nation: {
         1978.1: ["GT"],
         1978.2: ["GT"],
@@ -39,6 +42,7 @@ export const Marius: FirstName = {
       firstName: "Mario",
       lastName: "Nasalli Rocca di Corneliano",
       birthday: "1903-08-12",
+      deathday: "1988-11-09",
       nation: {
         1978.1: ["IT", "VA"],
         1978.2: ["IT", "VA"],
@@ -87,6 +91,7 @@ export const Marius: FirstName = {
       firstName: "Mario Francesco",
       lastName: "Pompedda",
       birthday: "1929-04-18",
+      deathday: "2006-10-17",
       nation: {
         2005: ["IT", "VA"],
       },
@@ -102,6 +107,7 @@ export const Marius: FirstName = {
       firstName: "Mario Luigi",
       lastName: "Ciappi",
       birthday: "1909-10-06",
+      deathday: "1996-04-23",
       nation: {
         1978.1: ["IT", "VA"],
         1978.2: ["IT", "VA"],

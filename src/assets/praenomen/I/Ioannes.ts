@@ -1,3 +1,5 @@
+import type { FirstName } from "@mytypes/types";
+
 export const Ioannes: FirstName = {
   name: "Ioannes",
   data: [
@@ -6,6 +8,7 @@ export const Ioannes: FirstName = {
       firstName: "Giovanni",
       lastName: "Benelli",
       birthday: "1921-05-12",
+      deathday: "1982-10-26",
       nation: {
         1978.1: ["IT"],
         1978.2: ["IT"],
@@ -57,6 +60,7 @@ export const Ioannes: FirstName = {
       firstName: "Juan",
       lastName: "Landâzuris Ricketts",
       birthday: "1913-12-19",
+      deathday: "1997-01-16",
       nation: {
         1963: ["PE"],
         1978.1: ["PE"],
@@ -152,6 +156,22 @@ export const Ioannes: FirstName = {
       },
     },
     {
+      latin: "Ioannes",
+      firstName: "Giovanni",
+      lastName: "Urbani",
+      birthday: "1900-03-26",
+      deathday: "1969-09-17",
+      nation: {
+        1963: ["IT"],
+      },
+      function: {
+        1963: "Patriarch von Venedig",
+      },
+      rank: {
+        1963: "priest",
+      },
+    },
+    {
       latin: "Ioannes a Caritate",
       firstName: "Juan de la Caridad",
       lastName: "García Rodríguez",
@@ -179,6 +199,25 @@ export const Ioannes: FirstName = {
       },
       rank: {
         2025: "priest",
+      },
+    },
+    {
+      latin: "Ioannes Baptista Henricus Antonius Maria",
+      firstName: "Giovanni Battista Enrico Antonio Maria",
+      lastName: "Montini",
+      birthday: "1897-09-26",
+      deathday: "1978-08-06",
+      nation: {
+        1963: ["IT"],
+      },
+      function: {
+        1963: "Erzbischof von Mailand, Papst Paul VI.",
+      },
+      rank: {
+        1963: "priest",
+      },
+      elected: {
+        1963: true,
       },
     },
     {
@@ -237,6 +276,7 @@ export const Ioannes: FirstName = {
       firstName: "Juan Carlos",
       lastName: "Aramburu",
       birthday: "1912-02-11",
+      deathday: "2004-11-18",
       nation: {
         1978.1: ["AR"],
         1978.2: ["AR"],
@@ -270,6 +310,7 @@ export const Ioannes: FirstName = {
       firstName: "Jean-Claude",
       lastName: "Turcotte",
       birthday: "1936-06-26",
+      deathday: "2015-04-08",
       nation: {
         2005: ["CA"],
         2013: ["CA"],
@@ -288,6 +329,7 @@ export const Ioannes: FirstName = {
       firstName: "Ivan Cornelius",
       lastName: "Dias",
       birthday: "1936-04-14",
+      deathday: "2017-06-19",
       nation: {
         2005: ["IN"],
         2013: ["IN", "VA"],
@@ -306,6 +348,7 @@ export const Ioannes: FirstName = {
       firstName: "John Francis",
       lastName: "Dearden",
       birthday: "1907-10-15",
+      deathday: "1988-08-01",
       nation: {
         1978.1: ["US"],
         1978.2: ["US"],
@@ -339,6 +382,7 @@ export const Ioannes: FirstName = {
       firstName: "Johannes Gerardus Maria",
       lastName: "Willebrands",
       birthday: "1909-09-04",
+      deathday: "2006-08-02",
       nation: {
         1978.1: ["NL", "VA"],
         1978.2: ["NL", "VA"],
@@ -359,6 +403,7 @@ export const Ioannes: FirstName = {
       firstName: "Giovanni Umberto",
       lastName: "Colombo",
       birthday: "1902-12-06",
+      deathday: "1992-05-20",
       nation: {
         1978.1: ["IT"],
         1978.2: ["IT"],
@@ -377,6 +422,7 @@ export const Ioannes: FirstName = {
       firstName: "John Joseph",
       lastName: "Carberry",
       birthday: "1904-07-31",
+      deathday: "1998-06-17",
       nation: {
         1978.1: ["US"],
         1978.2: ["US"],
@@ -395,6 +441,7 @@ export const Ioannes: FirstName = {
       firstName: "John Joseph",
       lastName: "Krol",
       birthday: "1910-10-26",
+      deathday: "1996-03-03",
       nation: {
         1978.1: ["US"],
         1978.2: ["US"],
@@ -428,6 +475,7 @@ export const Ioannes: FirstName = {
       firstName: "John Joseph",
       lastName: "Wright",
       birthday: "1909-07-18",
+      deathday: "1979-08-10",
       nation: {
         1978.2: ["US", "VA"],
       },
@@ -461,6 +509,7 @@ export const Ioannes: FirstName = {
       firstName: "Jean-Louis",
       lastName: "Tauran",
       birthday: "1943-04-05",
+      deathday: "2018-07-05",
       nation: {
         2005: ["FR", "VA"],
         2013: ["FR", "VA"],
@@ -494,6 +543,7 @@ export const Ioannes: FirstName = {
       firstName: "Jean-Marie",
       lastName: "Lustiger",
       birthday: "1926-09-17",
+      deathday: "2007-08-05",
       nation: {
         2005: ["FR"],
       },
@@ -509,6 +559,7 @@ export const Ioannes: FirstName = {
       firstName: "Jean-Marie",
       lastName: "Villot",
       birthday: "1905-10-11",
+      deathday: "1979-03-09",
       nation: {
         1978.1: ["FR", "VA"],
         1978.2: ["FR", "VA"],
@@ -542,6 +593,7 @@ export const Ioannes: FirstName = {
       firstName: "John Patrick",
       lastName: "Cody",
       birthday: "1907-12-24",
+      deathday: "1982-04-25",
       nation: {
         1978.1: ["US"],
         1978.2: ["US"],

@@ -1,3 +1,5 @@
+import type { FirstName } from "@mytypes/types";
+
 export const Carolus: FirstName = {
   name: "Carolus",
   data: [
@@ -6,6 +8,7 @@ export const Carolus: FirstName = {
       firstName: "Carlos",
       lastName: "Amigo Vallejo",
       birthday: "1934-08-23",
+      deathday: "2022-04-27",
       nation: {
         2005: ["ES"],
         2013: ["ES"],
@@ -39,6 +42,7 @@ export const Carolus: FirstName = {
       firstName: "Carlo",
       lastName: "Caffarra",
       birthday: "1938-06-01",
+      deathday: "2017-09-06",
       nation: {
         2013: ["IT"],
       },
@@ -51,9 +55,42 @@ export const Carolus: FirstName = {
     },
     {
       latin: "Carolus",
+      firstName: "Carlo",
+      lastName: "Chiarlo",
+      birthday: "1881-11-04",
+      deathday: "1964-01-21",
+      nation: {
+        1963: ["IT", "VA"],
+      },
+      function: {
+        1963: "emeritierter Nuntius für besondere Aufgaben im Staatssekretariat",
+      },
+      rank: {
+        1963: "priest",
+      },
+    },
+    {
+      latin: "Carolus",
+      firstName: "Carlo",
+      lastName: "Confalonieri",
+      birthday: "1893-07-25",
+      deathday: "1986-08-01",
+      nation: {
+        1963: ["IT", "VA"],
+      },
+      function: {
+        1963: "Sekretär des Konsistorialkongregation",
+      },
+      rank: {
+        1963: "priest",
+      },
+    },
+    {
+      latin: "Carolus",
       firstName: "Karl",
       lastName: "Lehmann",
       birthday: "1936-05-16",
+      deathday: "2018-03-11",
       nation: {
         2005: ["DE"],
         2013: ["DE"],
@@ -83,6 +120,25 @@ export const Carolus: FirstName = {
       },
     },
     {
+      latin: "Carolus Carmelus",
+      firstName: "Carlos Carmelo",
+      lastName: "de Vasconcelos Motta",
+      birthday: "1890-07-16",
+      deathday: "1982-09-18",
+      nation: {
+        1958: ["BR"],
+        1963: ["BR"],
+      },
+      function: {
+        1958: "Erzbischof von São Paulo",
+        1963: "Erzbischof von São Paulo",
+      },
+      rank: {
+        1958: "priest",
+        1963: "priest",
+      },
+    },
+    {
       latin: "Carolus Gustavus",
       firstName: "Carlos Gustavo",
       lastName: "Castillo Mattasoglio",
@@ -102,6 +158,7 @@ export const Carolus: FirstName = {
       firstName: "Karol Józef",
       lastName: "Wojtyła",
       birthday: "1920-05-18",
+      deathday: "2005-04-02",
       nation: {
         1978.1: ["PL"],
         1978.2: ["PL"],
@@ -123,6 +180,7 @@ export const Carolus: FirstName = {
       firstName: "Carlo Maria",
       lastName: "Martini",
       birthday: "1927-02-15",
+      deathday: "2012-08-31",
       nation: {
         2005: ["IT"],
       },

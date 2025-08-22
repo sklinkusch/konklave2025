@@ -1,3 +1,5 @@
+import type { FirstName } from "@mytypes/types";
+
 export const Telesphorus: FirstName = {
   name: "Telesphorus",
   data: [
@@ -6,6 +8,7 @@ export const Telesphorus: FirstName = {
       firstName: "Telesphore Placidus",
       lastName: "Toppo",
       birthday: "1939-10-15",
+      deathday: "2023-10-04",
       nation: {
         2005: ["IN"],
         2013: ["IN"],

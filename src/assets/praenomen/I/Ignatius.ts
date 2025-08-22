@@ -1,3 +1,5 @@
+import type { FirstName } from "@mytypes/types";
+
 export const Ignatius: FirstName = {
   name: "Ignatius",
   data: [
@@ -32,10 +34,33 @@ export const Ignatius: FirstName = {
       },
     },
     {
+      latin: "Ignatius Gabriel primus",
+      firstName: "Ignatius Gabriel I.",
+      lastName: "Tappouni",
+      birthday: "1879-11-03",
+      deathday: "1968-01-29",
+      nation: {
+        1939: ["LB"],
+        1958: ["LB"],
+        1963: ["LB"],
+      },
+      function: {
+        1939: "Patriarch von Antiochien",
+        1958: "Patriarch von Antiochien",
+        1963: "Patriarch von Antiochien",
+      },
+      rank: {
+        1939: "priest",
+        1958: "priest",
+        1963: "priest",
+      },
+    },
+    {
       latin: "Ignatius Moussa primus",
       firstName: "Ignatius Moussa I.",
       lastName: "Daoud",
       birthday: "1930-09-18",
+      deathday: "2012-04-07",
       nation: {
         2005: ["SY", "VA"],
       },

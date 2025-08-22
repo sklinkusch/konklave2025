@@ -1,3 +1,5 @@
+import type { FirstName } from "@mytypes/types";
+
 export const Daniel: FirstName = {
   name: "Daniel",
   data: [

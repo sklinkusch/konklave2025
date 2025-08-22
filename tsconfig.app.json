@@ -26,8 +26,8 @@
       "@assets/*": ["src/assets/*"],
       "@components/*": ["src/components/*"],
       "@pages/*": ["src/pages/*"],
-      "@types/*": ["src/types/*"]
+      "@mytypes/*": ["src/types/*"]
     }
   },
-  "include": ["src", "src/types/types.d.ts"]
+  "include": ["src"]
 }

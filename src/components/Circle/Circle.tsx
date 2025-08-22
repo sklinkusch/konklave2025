@@ -1,5 +1,6 @@
 import { Lens } from "@mui/icons-material";
 import { Tooltip } from "@mui/material";
+import type { CircleProps, Rank } from "@mytypes/types";
 
 export const Circle = ({ rank }: CircleProps) => {
   const getColor = (rank: Rank) => {

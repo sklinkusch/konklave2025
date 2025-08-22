@@ -1,3 +1,5 @@
+import type { FirstName } from "@mytypes/types";
+
 export const Stephanus: FirstName = {
   name: "Stephanus",
   data: [
@@ -36,6 +38,7 @@ export const Stephanus: FirstName = {
       firstName: "Stephen",
       lastName: "Kim Sou-hwan",
       birthday: "1922-05-08",
+      deathday: "2009-02-16",
       nation: {
         1978.1: ["KR"],
         1978.2: ["KR"],
@@ -54,6 +57,7 @@ export const Stephanus: FirstName = {
       firstName: "Stephanos I.",
       lastName: "Sidarouss",
       birthday: "1904-02-22",
+      deathday: "1987-08-23",
       nation: {
         1978.1: ["EG"],
         1978.2: ["EG"],
@@ -72,6 +76,7 @@ export const Stephanus: FirstName = {
       firstName: "Stefan",
       lastName: "Wyszyński",
       birthday: "1901-08-03",
+      deathday: "1981-05-28",
       nation: {
         1958: ["PL"],
         1963: ["PL"],
@@ -111,6 +116,7 @@ export const Stephanus: FirstName = {
       firstName: "Stephen Fumio",
       lastName: "Hamao",
       birthday: "1930-03-09",
+      deathday: "2007-11-08",
       nation: {
         2005: ["JP", "VA"],
       },

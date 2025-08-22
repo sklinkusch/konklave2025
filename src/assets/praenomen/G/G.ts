@@ -6,6 +6,8 @@ import { Gordianus } from "./Gordianus";
 import { Gregorius } from "./Gregorius";
 import { Gualterius } from "./Gualterius";
 import { Gulielmus } from "./Gulielmus";
+import type { FirstName } from "@mytypes/types";
+import { Gustavus } from "./Gustavus";
 
 export const G: FirstName[] = [
   Gabriel,
@@ -16,4 +18,5 @@ export const G: FirstName[] = [
   Gregorius,
   Gualterius,
   Gulielmus,
+  Gustavus,
 ];

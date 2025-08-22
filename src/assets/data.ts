@@ -19,6 +19,15 @@ import { T } from "./praenomen/T/T";
 import { V } from "./praenomen/V/V";
 import { X } from "./praenomen/X/X";
 import { Z } from "./praenomen/Z/Z";
+import type {
+  FirstName,
+  NewFirstName,
+  NewCardinal,
+  Cardinal,
+  Conclave,
+  Rank,
+} from "@mytypes/types";
+import { ConclaveYears, DateString } from "@mytypes/types";
 
 const allFirstNames: FirstName[] = [
   ...A,
@@ -45,37 +54,82 @@ const allFirstNames: FirstName[] = [
 ];
 
 export const getCardinals = (year: string) => {
-  return allFirstNames.reduce(
-    (firstNames: NewFirstName[], firstName: FirstName) => {
-      const newCardinals = firstName.data.reduce(
-        (cardinals: NewCardinal[], cardinal: Cardinal) => {
-          const nationHasYear = year in cardinal.nation;
-          const functionHasYear = year in cardinal.function;
-          const rankHasYear = year in cardinal.rank;
-          if (nationHasYear && functionHasYear && rankHasYear) {
-            return cardinals.concat([
-              {
-                ...cardinal,
-                nation: cardinal.nation[`${year}`],
-                function: cardinal.function[`${year}`],
-                elected: (cardinal.elected && cardinal.elected[year]) || false,
-                rank: (cardinal.rank && cardinal.rank[year]) || undefined,
-              },
-            ]);
-          }
-          return cardinals;
-        },
-        [],
-      );
-      if (newCardinals.length) {
-        return firstNames.concat([
-          { name: firstName.name, data: newCardinals },
-        ]);
-      }
-      return firstNames;
-    },
-    [],
-  );
+  if (Object.values(ConclaveYears).includes(year as ConclaveYears)) {
+    return allFirstNames.reduce(
+      (firstNames: NewFirstName[], firstName: FirstName) => {
+        const newCardinals = firstName.data.reduce(
+          (cardinals: NewCardinal[], cardinal: Cardinal) => {
+            const nationHasYear = year in cardinal.nation;
+            const functionHasYear = year in cardinal.function;
+            const rankHasYear = year in cardinal.rank;
+            if (nationHasYear && functionHasYear && rankHasYear) {
+              return cardinals.concat([
+                {
+                  ...cardinal,
+                  nation: cardinal.nation[year as ConclaveYears] || [],
+                  function: cardinal.function[year as ConclaveYears] || "",
+                  elected:
+                    (cardinal.elected &&
+                      cardinal.elected[year as ConclaveYears]) ||
+                    false,
+                  rank:
+                    (cardinal.rank && cardinal.rank[year as ConclaveYears]) ||
+                    "priest",
+                },
+              ]);
+            }
+            return cardinals;
+          },
+          [],
+        );
+        if (newCardinals.length) {
+          return firstNames.concat([
+            { name: firstName.name, data: newCardinals },
+          ]);
+        }
+        return firstNames;
+      },
+      [],
+    );
+  } else {
+    return [];
+  }
+};
+
+export const getAllCardinals = () => {
+  return allFirstNames.map((firstName) => {
+    return {
+      name: firstName.name,
+      data: firstName.data.map((cardinal) => {
+        const allNationKeys = Object.keys(cardinal.nation).filter(
+          (key) => key !== "curr",
+        );
+        const nationNumberKeys = allNationKeys.map((key) => Number(key));
+        const maximalNationKey = Math.max(...nationNumberKeys);
+        const maximalNationString = `${maximalNationKey}` as ConclaveYears;
+        const maximalNation = cardinal.nation[maximalNationString] as string[];
+        const maximalFunction = cardinal.function[
+          maximalNationString
+        ] as string;
+        const maximalRank = cardinal.rank[maximalNationString] as Rank;
+        return {
+          latin: cardinal.latin,
+          firstName: cardinal.firstName,
+          lastName: cardinal.lastName,
+          birthday: cardinal.birthday,
+          deathday: cardinal.deathday ? cardinal.deathday : undefined,
+          nation: cardinal.nation.curr ? cardinal.nation.curr : maximalNation,
+          function: cardinal.function.curr
+            ? cardinal.function.curr
+            : maximalFunction,
+          rank: cardinal.rank.curr ? cardinal.rank.curr : maximalRank,
+          elected: cardinal.elected
+            ? Object.values(cardinal.elected).some(Boolean)
+            : false,
+        };
+      }),
+    };
+  });
 };
 
 export const allKonklaveYears = () => {
@@ -88,7 +142,7 @@ export const allKonklaveYears = () => {
   return Array.from(yearSet).sort();
 };
 
-export const startDates: { [key: string]: string } = {
+export const startDates: { [key: string]: DateString } = {
   1903: "1903-07-31",
   1914: "1914-08-31",
   1922: "1922-02-02",

@@ -1,6 +1,43 @@
+import type { FirstName } from "@mytypes/types";
+
 export const Antonius: FirstName = {
   name: "Antonius",
   data: [
+    {
+      latin: "Antonius",
+      firstName: "Antonio",
+      lastName: "Bacci",
+      birthday: "1885-09-04",
+      deathday: "1971-01-20",
+      nation: {
+        1963: ["IT", "VA"],
+      },
+      function: {
+        1963: "Hausprälat seiner Heiligkeit",
+      },
+      rank: {
+        1963: "deacon",
+      },
+    },
+    {
+      latin: "Antonius",
+      firstName: "Antonio",
+      lastName: "Caggiano",
+      birthday: "1889-01-30",
+      deathday: "1979-10-23",
+      nation: {
+        1958: ["AR"],
+        1963: ["AR"],
+      },
+      function: {
+        1958: "Bischof von Rosario",
+        1963: "Erzbischof von Buenos Aires",
+      },
+      rank: {
+        1958: "priest",
+        1963: "priest",
+      },
+    },
     {
       latin: "Antonius",
       firstName: "Antonio",
@@ -36,6 +73,7 @@ export const Antonius: FirstName = {
       firstName: "Antonios",
       lastName: "Naguib",
       birthday: "1935-03-18",
+      deathday: "2022-03-28",
       nation: {
         2013: ["EG"],
       },
@@ -51,6 +89,7 @@ export const Antonius: FirstName = {
       firstName: "Antonio",
       lastName: "Poma",
       birthday: "1910-06-12",
+      deathday: "1985-09-24",
       nation: {
         1978.1: ["IT"],
         1978.2: ["IT"],
@@ -84,6 +123,7 @@ export const Antonius: FirstName = {
       firstName: "António",
       lastName: "Ribeiro",
       birthday: "1928-05-21",
+      deathday: "1998-03-24",
       nation: {
         1978.1: ["PT"],
         1978.2: ["PT"],
@@ -102,6 +142,7 @@ export const Antonius: FirstName = {
       firstName: "Antonio",
       lastName: "Samorè",
       birthday: "1905-12-04",
+      deathday: "1983-02-03",
       nation: {
         1978.1: ["IT", "VA"],
         1978.2: ["IT", "VA"],
@@ -128,6 +169,22 @@ export const Antonius: FirstName = {
       },
       rank: {
         2025: "priest",
+      },
+    },
+    {
+      latin: "Antonius Maria",
+      firstName: "Antonio María",
+      lastName: "Barbieri Romano",
+      birthday: "1892-10-12",
+      deathday: "1979-07-06",
+      nation: {
+        1963: ["UY"],
+      },
+      function: {
+        1963: "Erzbischof von Montevideo",
+      },
+      rank: {
+        1963: "priest",
       },
     },
     {

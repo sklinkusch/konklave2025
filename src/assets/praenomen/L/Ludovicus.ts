@@ -1,3 +1,5 @@
+import type { FirstName } from "@mytypes/types";
+
 export const Ludovicus: FirstName = {
   name: "Ludovicus",
   data: [
@@ -6,6 +8,7 @@ export const Ludovicus: FirstName = {
       firstName: "Luis",
       lastName: "Aponte Martínez",
       birthday: "1922-08-04",
+      deathday: "2012-04-10",
       nation: {
         1978.1: ["US", "PR"],
         1978.2: ["US", "PR"],
@@ -21,6 +24,22 @@ export const Ludovicus: FirstName = {
     },
     {
       latin: "Ludovicus",
+      firstName: "Luis",
+      lastName: "Concha Córdoba",
+      birthday: "1891-11-07",
+      deathday: "1975-09-18",
+      nation: {
+        1963: ["CO"],
+      },
+      function: {
+        1963: "Erzbischof von Bogotâ",
+      },
+      rank: {
+        1963: "priest",
+      },
+    },
+    {
+      latin: "Ludovicus",
       firstName: "Lluís",
       lastName: "Martínez Sistach",
       birthday: "1937-04-29",
@@ -32,6 +51,22 @@ export const Ludovicus: FirstName = {
       },
       rank: {
         2013: "priest",
+      },
+    },
+    {
+      latin: "Ludovicus",
+      firstName: "Luigi",
+      lastName: "Tragila",
+      birthday: "1895-04-03",
+      deathday: "1977-11-22",
+      nation: {
+        1963: ["IT", "VA"],
+      },
+      function: {
+        1963: "Pro-Generalvikar für das Bistum Rom",
+      },
+      rank: {
+        1963: "priest",
       },
     },
     {
@@ -72,6 +107,7 @@ export const Ludovicus: FirstName = {
       firstName: "Louis-Jean Frédéric",
       lastName: "Guyot",
       birthday: "1905-07-07",
+      deathday: "1988-08-01",
       nation: {
         1978.1: ["FR"],
         1978.2: ["FR"],

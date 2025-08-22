@@ -1,3 +1,4 @@
+import { Achilles } from "./Achilles";
 import { Adam } from "./Adam";
 import { Aegidius } from "./Aegidius";
 import { Agnellus } from "./Agnellus";
@@ -9,6 +10,7 @@ import { Aloisius } from "./Aloisius";
 import { Alphonsus } from "./Alphonsus";
 import { Alvarus } from "./Alvarus";
 import { Americus } from "./Americus";
+import { Amlethus } from "./Amlethus";
 import { Andreas } from "./Andreas";
 import { Angelus } from "./Angelus";
 import { Anscharius } from "./Anscharius";
@@ -22,8 +24,10 @@ import { Audronius } from "./Audronius";
 import { Augustinus } from "./Augustinus";
 import { Augustus } from "./Augustus";
 import { Avelarius } from "./Avelarius";
+import type { FirstName } from "@mytypes/types";
 
 export const A: FirstName[] = [
+  Achilles,
   Adam,
   Aegidius,
   Agnellus,
@@ -35,6 +39,7 @@ export const A: FirstName[] = [
   Alphonsus,
   Alvarus,
   Americus,
+  Amlethus,
   Andreas,
   Angelus,
   Anscharius,

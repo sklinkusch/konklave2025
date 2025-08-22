@@ -10,6 +10,7 @@ import Flag from "react-world-flags";
 import moment from "moment";
 import { countries } from "@assets/countries";
 import { Circle } from "@components/Circle/Circle";
+import type { CustomTableProps } from "@mytypes/types";
 
 const calculateDateDifference = (start: string, end: string): string => {
   const startDate = moment(start);

@@ -1,3 +1,5 @@
+import type { FirstName } from "@mytypes/types";
+
 export const Georgius: FirstName = {
   name: "Georgius",
   data: [
@@ -36,6 +38,7 @@ export const Georgius: FirstName = {
       firstName: "George",
       lastName: "Pell",
       birthday: "1941-06-08",
+      deathday: "2023-01-10",
       nation: {
         2005: ["AU"],
         2013: ["AU"],
@@ -54,6 +57,7 @@ export const Georgius: FirstName = {
       firstName: "Varkey",
       lastName: "Vithayathil",
       birthday: "1927-05-29",
+      deathday: "2011-04-01",
       nation: {
         2005: ["IN"],
       },
@@ -69,6 +73,7 @@ export const Georgius: FirstName = {
       firstName: "Jorge Arturo",
       lastName: "Medina Estévez",
       birthday: "1926-12-23",
+      deathday: "2021-10-03",
       nation: {
         2005: ["CL", "VA"],
       },
@@ -84,6 +89,7 @@ export const Georgius: FirstName = {
       firstName: "George Bernard",
       lastName: "Flahiff",
       birthday: "1905-10-26",
+      deathday: "1989-08-22",
       nation: {
         1978.1: ["CA"],
         1978.2: ["CA"],
@@ -117,6 +123,7 @@ export const Georgius: FirstName = {
       firstName: "Jorge Liberato",
       lastName: "Urosa Savino",
       birthday: "1942-08-28",
+      deathday: "2021-09-23",
       nation: {
         2013: ["VE"],
       },
@@ -132,6 +139,7 @@ export const Georgius: FirstName = {
       firstName: "Jorge Mario",
       lastName: "Bergoglio",
       birthday: "1936-12-17",
+      deathday: "2025-04-21",
       nation: {
         2005: ["AR"],
         2013: ["AR"],
@@ -153,6 +161,7 @@ export const Georgius: FirstName = {
       firstName: "Georg Maximilian",
       lastName: "Sterzinsky",
       birthday: "1936-02-09",
+      deathday: "2011-06-30",
       nation: {
         2005: ["DE"],
       },
