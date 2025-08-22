@@ -132,7 +132,7 @@ const CustomTable = ({ data, startDate }: CustomTableProps) => {
                   case "age":
                     return (
                       <TableCell
-                        key={cell.property}
+                        key={`${index}-${cell.property}`}
                         sx={{ ...sxCell, width: cell.width }}>
                         {age}
                       </TableCell>
@@ -140,7 +140,7 @@ const CustomTable = ({ data, startDate }: CustomTableProps) => {
                   case "rank":
                     return (
                       <TableCell
-                        key={cell.property}
+                        key={`${index}-${cell.property}`}
                         sx={{
                           ...sxCell,
                           width: cell.width,
@@ -152,7 +152,7 @@ const CustomTable = ({ data, startDate }: CustomTableProps) => {
                   case "nation":
                     return (
                       <TableCell
-                        key={cell.property}
+                        key={`${index}-${cell.property}`}
                         sx={{ ...sxCell, width: cell.width }}
                         className="flag-cell">
                         {row.nation.map((singleCountry: string) => {
@@ -175,7 +175,7 @@ const CustomTable = ({ data, startDate }: CustomTableProps) => {
                   case "function":
                     return (
                       <TableCell
-                        key={cell.property}
+                        key={`${index}-${cell.property}`}
                         sx={{ ...sxCell, width: cell.width, hyphens: "auto" }}>
                         {row[cell.property]}
                       </TableCell>
@@ -183,7 +183,7 @@ const CustomTable = ({ data, startDate }: CustomTableProps) => {
                   default:
                     return (
                       <TableCell
-                        key={cell.property}
+                        key={`${index}-${cell.property}`}
                         sx={{ ...sxCell, width: cell.width }}>
                         {row[cell.property]}
                       </TableCell>
