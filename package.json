@@ -9,7 +9,8 @@
     "format": "prettier . --write",
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "vercel-build": "next build && cp -r .next dist"
   },
   "dependencies": {
     "@emotion/react": "^11.14.0",
