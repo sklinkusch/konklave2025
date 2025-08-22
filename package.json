@@ -4,12 +4,15 @@
   "version": "0.0.0",
   "type": "commonjs",
   "scripts": {
-    "dev": "vite --open",
-    "build": "tsc -b && vite build",
+    "vite-dev": "vite --open",
+    "vite-build": "tsc -b && vite build",
     "tsc": "tsc -b",
     "lint": "eslint .",
-    "preview": "vite preview",
-    "format": "prettier . --write"
+    "vite-preview": "vite preview",
+    "format": "prettier . --write",
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
   },
   "dependencies": {
     "@emotion/react": "^11.14.0",
