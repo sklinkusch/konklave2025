@@ -2,6 +2,10 @@
   "compilerOptions": {
     "target": "esnext",
     "useDefineForClassFields": true,
+    "types": [
+      "next",
+      "node"
+    ],
     "lib": [
       "ES2020",
       "DOM",
@@ -10,10 +14,8 @@
     "module": "ESNext",
     "skipLibCheck": true,
     /* Bundler mode */
-    "moduleResolution": "bundler",
-    "allowImportingTsExtensions": true,
+    "moduleResolution": "node",
     "isolatedModules": true,
-    "moduleDetection": "force",
     "noEmit": true,
     "jsx": "preserve",
     /* Linting */
@@ -45,7 +47,9 @@
     ]
   },
   "include": [
-    "src",
+    "**/*.ts",
+    "**/*.tsx",
+    "next-env.d.ts",
     ".next/types/**/*.ts"
   ],
   "exclude": [

@@ -6,21 +6,17 @@ import { FirstName } from "@components/FirstName/FirstName";
 import { getCardinals, startDates, conclaves } from "@assets/data";
 import { NewFirstName } from "@mytypes/types";
 
-interface KonklaveProps {
-  params: { year: string };
-}
-
 // eslint-disable-next-line react-refresh/only-export-components
-export async function generateMetadata({ params }: KonklaveProps) {
-  const { year } = await params;
+export async function generateMetadata(props: PageProps<"/[year]">) {
+  const { year } = await props.params;
   const conclave = conclaves.find((c) => c.key === year);
   return {
     title: conclave ? conclave.title : year,
   };
 }
 
-const Konklave = async ({ params }: KonklaveProps) => {
-  const { year } = await params;
+export default async function Konklave(props: PageProps<"/[year]">) {
+  const { year } = await props.params;
   const data = getCardinals(year) as NewFirstName[];
   if (!data || data.length === 0) {
     redirect("/");
@@ -55,6 +51,4 @@ const Konklave = async ({ params }: KonklaveProps) => {
       ))}
     </div>
   );
-};
-
-export default Konklave;
+}
