@@ -163,8 +163,10 @@ const CustomTable = ({ data, startDate }: CustomTableProps) => {
                           return Object.keys(countryObject).includes(
                             "title",
                           ) ? (
-                            <Tooltip title={countryObject.title}>
-                              <Flag code={singleCountry} key={singleCountry} />
+                            <Tooltip
+                              title={countryObject.title}
+                              key={singleCountry}>
+                              <Flag code={singleCountry} />
                             </Tooltip>
                           ) : (
                             <Flag code={singleCountry} key={singleCountry} />
