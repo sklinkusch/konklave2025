@@ -4,9 +4,10 @@ import reactHooks from "eslint-plugin-react-hooks";
 import reactRefresh from "eslint-plugin-react-refresh";
 import eslintPluginPrettier from "eslint-plugin-prettier";
 import tseslint from "typescript-eslint";
+import * as next from "@next/eslint-plugin-next";
 
 export default tseslint.config(
-  { ignores: ["dist"] },
+  { ignores: ["dist", "next-env.d.ts", ".next"] },
   {
     extends: [js.configs.recommended, ...tseslint.configs.recommended],
     files: ["**/*.{ts,tsx}"],
@@ -18,6 +19,7 @@ export default tseslint.config(
       "react-hooks": reactHooks,
       "react-refresh": reactRefresh,
       prettier: eslintPluginPrettier,
+      next,
     },
     rules: {
       ...reactHooks.configs.recommended.rules,

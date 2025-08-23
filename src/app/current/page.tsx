@@ -1,6 +1,5 @@
 import moment from "moment-timezone";
-import { useEffect } from "react";
-import { Link } from "react-router-dom";
+import Link from "next/link";
 import { Typography } from "@mui/material";
 import { ChevronLeft } from "@mui/icons-material";
 import { FirstName } from "@components/FirstName/FirstName";
@@ -11,6 +10,13 @@ const calculateDateDifference = (start: string, end: string): boolean => {
   const years = moment(start).diff(moment(end), "years", true);
   return years <= 80.0;
 };
+
+// eslint-disable-next-line react-refresh/only-export-components
+export async function generateMetadata() {
+  return {
+    title: "Liste der aktuell wahlberechtigten Kardinäle",
+  };
+}
 
 function Current() {
   const startDate: DateString = moment()
@@ -30,12 +36,9 @@ function Current() {
       }),
     }))
     .filter((FirstName) => FirstName.data.length > 0);
-  useEffect(() => {
-    document.title = title;
-  }, []);
   return (
     <div style={{ paddingInline: "1rem", width: "97vw" }}>
-      <Link to="/">
+      <Link href="/">
         <ChevronLeft sx={{ position: "relative", top: "0.25em" }} />
         Home
       </Link>

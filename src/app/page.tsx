@@ -1,12 +1,15 @@
 import { allKonklaveYears, conclaves } from "@assets/data";
 import { Typography, List, ListItem } from "@mui/material";
-import { useEffect } from "react";
-import { Link } from "react-router-dom";
+import Link from "next/link";
 
-export const Home = () => {
-  useEffect(() => {
-    document.title = "Liste der Papstwahlen";
-  });
+// eslint-disable-next-line react-refresh/only-export-components
+export async function generateMetadata() {
+  return {
+    title: "Liste der Papstwahlen",
+  };
+}
+
+export default function Home() {
   const allYears = allKonklaveYears();
   return (
     <div style={{ paddingInline: "1rem" }}>
@@ -23,16 +26,16 @@ export const Home = () => {
           const allTitle = pope.length ? `${title} ${pope}` : title;
           return (
             <ListItem key={year}>
-              <Link to={`/year/${year}`}>{allTitle}</Link>
+              <Link href={`/${year}`}>{allTitle}</Link>
             </ListItem>
           );
         })}
         <ListItem key="current">
-          <Link to="/current">
+          <Link href="/current">
             Liste der aktuell wahlberechtigten Kardinäle
           </Link>
         </ListItem>
       </List>
     </div>
   );
-};
+}
