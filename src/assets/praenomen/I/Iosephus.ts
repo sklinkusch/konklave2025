@@ -136,6 +136,25 @@ export const Iosephus: FirstName = {
     },
     {
       latin: "Iosephus",
+      firstName: "Josef",
+      lastName: "Frings",
+      birthday: "1887-02-06",
+      deathday: "1978-12-17",
+      nation: {
+        1958: ["DE"],
+        1963: ["DE"],
+      },
+      function: {
+        1958: "Erzbischof von Köln",
+        1963: "Erzbischof von Köln",
+      },
+      rank: {
+        1958: "priest",
+        1963: "priest",
+      },
+    },
+    {
+      latin: "Iosephus",
       firstName: "Jozef",
       lastName: "Glemp",
       birthday: "1929-12-18",
@@ -319,6 +338,22 @@ export const Iosephus: FirstName = {
       },
     },
     {
+      latin: "Iosephus",
+      firstName: "Joseph",
+      lastName: "Wendel",
+      birthday: "1901-05-27",
+      deathday: "1960-12-31",
+      nation: {
+        1958: ["DE"],
+      },
+      function: {
+        1958: "Erzbischof von München und Freising",
+      },
+      rank: {
+        1958: "priest",
+      },
+    },
+    {
       latin: "Iosephus Ailmerus",
       firstName: "Joseph Elmer",
       lastName: "Ritter",
@@ -417,6 +452,25 @@ export const Iosephus: FirstName = {
       },
     },
     {
+      latin: "Iosephus Ernestus",
+      firstName: "Jozef-Ernest",
+      lastName: "Van Roey",
+      birthday: "1874-01-13",
+      deathday: "1961-08-06",
+      nation: {
+        1939: ["BE"],
+        1958: ["BE"],
+      },
+      function: {
+        1939: "Erzbischof von Mecheln",
+        1958: "Erzbischof von Mecheln",
+      },
+      rank: {
+        1939: "priest",
+        1958: "priest",
+      },
+    },
+    {
       latin: "Iosephus Fuerte",
       firstName: "José Fuerte",
       lastName: "Advincula",
@@ -488,6 +542,22 @@ export const Iosephus: FirstName = {
         1963: "priest",
         1978.1: "priest",
         1978.2: "priest",
+      },
+    },
+    {
+      latin: "Iosephus Maria",
+      firstName: "José María",
+      lastName: "Caro Rodríguez",
+      birthday: "1866-06-23",
+      deathday: "1958-12-04",
+      nation: {
+        1958: ["CL"],
+      },
+      function: {
+        1958: "Erbischof von Santiago de Chile",
+      },
+      rank: {
+        1958: "priest",
       },
     },
     {

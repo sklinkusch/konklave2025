@@ -5,6 +5,44 @@ export const Emanuel: FirstName = {
   data: [
     {
       latin: "Emanuel",
+      firstName: "Manuel",
+      lastName: "Arteaga y Betancourt",
+      birthday: "1879-12-28",
+      deathday: "1963-03-20",
+      nation: {
+        1958: ["CU"],
+      },
+      function: {
+        1958: "Erzbischof von Havanna",
+      },
+      rank: {
+        1958: "priest",
+      },
+    },
+    {
+      latin: "Emanuel Goncalus",
+      firstName: "Manuel Gonçalves",
+      lastName: "Cerejeira",
+      birthday: "1888-11-19",
+      deathday: "1977-08-02",
+      nation: {
+        1939: ["PT"],
+        1958: ["PT"],
+        1963: ["PT"],
+      },
+      function: {
+        1939: "Patriarch von Lissabon",
+        1958: "Patriarch von Lissabon",
+        1963: "Patriarch von Lissabon",
+      },
+      rank: {
+        1939: "priest",
+        1958: "priest",
+        1963: "priest",
+      },
+    },
+    {
+      latin: "Emanuel",
       firstName: "Emmanuel",
       lastName: "Kiwanuka Nsubuga",
       birthday: "1914-11-05",

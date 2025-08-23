@@ -1,6 +1,7 @@
 import { Edmundus } from "./Edmundus";
 import { Eduardus } from "./Eduardus";
 import { Edvinus } from "./Edvinus";
+import { Elias } from "./Elias";
 import { Emanuel } from "./Emanuel";
 import { Emilius } from "./Emilius";
 import { Ennius } from "./Ennius";
@@ -13,6 +14,7 @@ export const E: FirstName[] = [
   Edmundus,
   Eduardus,
   Edvinus,
+  Elias,
   Emanuel,
   Emilius,
   Ennius,

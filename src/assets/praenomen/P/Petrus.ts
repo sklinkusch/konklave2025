@@ -46,6 +46,25 @@ export const Petrus: FirstName = {
     {
       latin: "Petrus",
       firstName: "Pietro",
+      lastName: "Fumasoni Biondi",
+      birthday: "1872-09-04",
+      deathday: "1960-07-12",
+      nation: {
+        1939: ["IT", "VA"],
+        1958: ["IT", "VA"],
+      },
+      function: {
+        1939: "Präfekt der Kongregation für die Ausbreitung des Glaubens",
+        1958: "Präfekt der Kongregation für die Ausbreitung des Glaubens",
+      },
+      rank: {
+        1939: "priest",
+        1958: "priest",
+      },
+    },
+    {
+      latin: "Petrus",
+      firstName: "Pietro",
       lastName: "Palazzini",
       birthday: "1912-05-19",
       deathday: "2000-10-11",
@@ -144,6 +163,28 @@ export const Petrus: FirstName = {
         2005: "priest",
         2013: "priest",
         2025: "priest",
+      },
+    },
+    {
+      latin: "Petrus Maria",
+      firstName: "Pierre-Marie",
+      lastName: "Gerlier",
+      birthday: "1880-01-14",
+      deathday: "1965-01-17",
+      nation: {
+        1939: ["FR"],
+        1958: ["FR"],
+        1963: ["FR"],
+      },
+      function: {
+        1939: "Erzbischof von Lyon",
+        1958: "Erzbischof von Lyon",
+        1963: "Erzbischof von Lyon",
+      },
+      rank: {
+        1939: "priest",
+        1958: "priest",
+        1963: "priest",
       },
     },
     {

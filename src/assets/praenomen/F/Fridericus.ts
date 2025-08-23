@@ -21,6 +21,25 @@ export const Fridericus: FirstName = {
     },
     {
       latin: "Fridericus",
+      firstName: "Federico",
+      lastName: "Tedeschini",
+      birthday: "1873-10-12",
+      deathday: "1959-11-02",
+      nation: {
+        1939: ["IT", "VA"],
+        1958: ["IT", "VA"],
+      },
+      function: {
+        1939: "Kardinaldatar",
+        1958: "Erzpriester des Petersdoms",
+      },
+      rank: {
+        1939: "priest",
+        1958: "bishop",
+      },
+    },
+    {
+      latin: "Fridericus",
       firstName: "Friedrich",
       lastName: "Wetter",
       birthday: "1928-02-20",

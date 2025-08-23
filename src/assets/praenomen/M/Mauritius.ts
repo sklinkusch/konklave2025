@@ -6,6 +6,25 @@ export const Mauritius: FirstName = {
     {
       latin: "Mauritius",
       firstName: "Maurice",
+      lastName: "Feltin",
+      birthday: "1883-05-15",
+      deathday: "1975-09-27",
+      nation: {
+        1958: ["FR"],
+        1963: ["FR"],
+      },
+      function: {
+        1958: "Erzbischof von Paris",
+        1963: "Erzbischof von Paris",
+      },
+      rank: {
+        1958: "priest",
+        1963: "priest",
+      },
+    },
+    {
+      latin: "Mauritius",
+      firstName: "Maurice",
       lastName: "Roy",
       birthday: "1905-01-25",
       deathday: "1985-10-24",

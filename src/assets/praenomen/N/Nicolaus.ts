@@ -19,6 +19,25 @@ export const Nicolaus: FirstName = {
       },
     },
     {
+      latin: "Nicolaus",
+      firstName: "Nicola",
+      lastName: "Canali",
+      birthday: "1874-06-06",
+      deathday: "1961-08-03",
+      nation: {
+        1939: ["IT", "VA"],
+        1958: ["IT", "VA"],
+      },
+      function: {
+        1939: "Konsultor des Heiligen Offiziums",
+        1958: "Großmeister des Ritterordens vom Heiligen Grab zu Jerusalem, Kardinalprotodiakon",
+      },
+      rank: {
+        1939: "deacon",
+        1958: "deacon",
+      },
+    },
+    {
       latin: "Nicolaus ab Iesu",
       firstName: "Nicolás de Jesús",
       lastName: "López Rodríguez",

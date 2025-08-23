@@ -104,6 +104,22 @@ export const Georgius: FirstName = {
       },
     },
     {
+      latin: "Georgius Franciscus Xaverius Maria",
+      firstName: "Georges François Xavier Marie",
+      lastName: "Grente",
+      birthday: "1872-05-05",
+      deathday: "1959-05-04",
+      nation: {
+        1958: ["FR"],
+      },
+      function: {
+        1958: "Bischof von Le Mans",
+      },
+      rank: {
+        1958: "priest",
+      },
+    },
+    {
       latin: "Georgius Iacobus",
       firstName: "George Jacob",
       lastName: "Koovakad",

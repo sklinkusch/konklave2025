@@ -346,6 +346,22 @@ export const Ioannes: FirstName = {
     {
       latin: "Ioannes Franciscus",
       firstName: "John Francis",
+      lastName: "D'Alton",
+      birthday: "1882-10-11",
+      deathday: "1963-02-01",
+      nation: {
+        1958: ["IE"],
+      },
+      function: {
+        1958: "Erzbischof von Armagh",
+      },
+      rank: {
+        1958: "priest",
+      },
+    },
+    {
+      latin: "Ioannes Franciscus",
+      firstName: "John Francis",
       lastName: "Dearden",
       birthday: "1907-10-15",
       deathday: "1988-08-01",

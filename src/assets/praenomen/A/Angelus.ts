@@ -114,6 +114,25 @@ export const Angelus: FirstName = {
       },
     },
     {
+      latin: "Angelus Iosephus",
+      firstName: "Angelo Giuseppe",
+      lastName: "Roncalli",
+      birthday: "1881-11-25",
+      deathday: "1963-06-03",
+      nation: {
+        1958: ["IT"],
+      },
+      function: {
+        1958: "Patriarch von Venedig, Papst Johannes XXIII.",
+      },
+      rank: {
+        1958: "priest",
+      },
+      elected: {
+        1958: true,
+      },
+    },
+    {
       latin: "Angelus Sixtus",
       firstName: "Ángel Sixto",
       lastName: "Rossi",

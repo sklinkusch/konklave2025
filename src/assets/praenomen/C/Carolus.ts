@@ -192,6 +192,22 @@ export const Carolus: FirstName = {
       },
     },
     {
+      latin: "Carolus Maria Xaverius",
+      firstName: "Carlos María Javier",
+      lastName: "de la Torre Nieto",
+      birthday: "1873-11-14",
+      deathday: "1968-07-31",
+      nation: {
+        1958: ["EC"],
+      },
+      function: {
+        1958: "Erzbischof von Quito",
+      },
+      rank: {
+        1958: "priest",
+      },
+    },
+    {
       latin: "Carolus Maung",
       firstName: "Charles Maung",
       lastName: "Bo",

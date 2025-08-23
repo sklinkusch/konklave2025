@@ -25,6 +25,22 @@ export const Marcellus: FirstName = {
     {
       latin: "Marcellus",
       firstName: "Marcello",
+      lastName: "Mimmi",
+      birthday: "1882-07-18",
+      deathday: "1961-03-06",
+      nation: {
+        1958: ["IT", "VA"],
+      },
+      function: {
+        1958: "Sekretär der Konsistorialkongregation",
+      },
+      rank: {
+        1958: "bishop",
+      },
+    },
+    {
+      latin: "Marcellus",
+      firstName: "Marcello",
       lastName: "Semeraro",
       birthday: "1947-12-22",
       nation: {
