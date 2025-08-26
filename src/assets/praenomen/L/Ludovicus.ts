@@ -40,6 +40,38 @@ export const Ludovicus: FirstName = {
     },
     {
       latin: "Ludovicus",
+      firstName: "Luigi",
+      lastName: "Lavitrano",
+      birthday: "1874-03-07",
+      deathday: "1950-08-02",
+      nation: {
+        1939: ["IT"],
+      },
+      function: {
+        1939: "Erzbischof von Palermo",
+      },
+      rank: {
+        1939: "priest",
+      },
+    },
+    {
+      latin: "Ludovicus",
+      firstName: "Luigi",
+      lastName: "Maglione",
+      birthday: "1877-03-02",
+      deathday: "1944-08-22",
+      nation: {
+        1939: ["IT", "VA"],
+      },
+      function: {
+        1939: "Präfekt der Heiligen Konzilskongregation",
+      },
+      rank: {
+        1939: "priest",
+      },
+    },
+    {
+      latin: "Ludovicus",
       firstName: "Lluís",
       lastName: "Martínez Sistach",
       birthday: "1937-04-29",

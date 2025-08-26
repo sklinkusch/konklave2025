@@ -79,6 +79,22 @@ export const Ioannes: FirstName = {
     },
     {
       latin: "Ioannes",
+      firstName: "Giovanni",
+      lastName: "Mercati",
+      birthday: "1866-12-17",
+      deathday: "1957-08-23",
+      nation: {
+        1939: ["IT", "VA"],
+      },
+      function: {
+        1939: "Bibliothekar der Vatikanischen Bibliothek",
+      },
+      rank: {
+        1939: "deacon",
+      },
+    },
+    {
+      latin: "Ioannes",
       firstName: "John",
       lastName: "Njue",
       birthday: "1946-01-01",
@@ -172,6 +188,22 @@ export const Ioannes: FirstName = {
       },
     },
     {
+      latin: "Ioannes",
+      firstName: "Jean",
+      lastName: "Verdier",
+      birthday: "1864-02-19",
+      deathday: "1940-04-09",
+      nation: {
+        1939: ["FR"],
+      },
+      function: {
+        1939: "Erzbischof von Paris",
+      },
+      rank: {
+        1939: "priest",
+      },
+    },
+    {
       latin: "Ioannes a Caritate",
       firstName: "Juan de la Caridad",
       lastName: "García Rodríguez",
@@ -218,6 +250,22 @@ export const Ioannes: FirstName = {
       },
       elected: {
         1963: true,
+      },
+    },
+    {
+      latin: "Ioannes Baptista",
+      firstName: "Giovanni Battista",
+      lastName: "Nasalli Rocca di Corneliano",
+      birthday: "1872-08-27",
+      deathday: "1952-03-13",
+      nation: {
+        1939: ["IT"],
+      },
+      function: {
+        1939: "Erzbischof von Bologna",
+      },
+      rank: {
+        1939: "priest",
       },
     },
     {
@@ -587,6 +635,22 @@ export const Ioannes: FirstName = {
       rank: {
         1978.1: "bishop",
         1978.2: "bishop",
+      },
+    },
+    {
+      latin: "Ioannes Maria Rodericus",
+      firstName: "Jean-Marie-Rodrigue",
+      lastName: "Villeneuve",
+      birthday: "1883-11-02",
+      deathday: "1947-01-17",
+      nation: {
+        1939: ["CA"],
+      },
+      function: {
+        1939: "Erzbischof von Québec",
+      },
+      rank: {
+        1939: "priest",
       },
     },
     {

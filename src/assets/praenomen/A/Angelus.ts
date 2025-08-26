@@ -133,6 +133,22 @@ export const Angelus: FirstName = {
       },
     },
     {
+      latin: "Angelus Maria",
+      firstName: "Angelo Maria",
+      lastName: "Dolci",
+      birthday: "1867-07-12",
+      deathday: "1939-09-13",
+      nation: {
+        1939: ["IT", "VA"],
+      },
+      function: {
+        1939: "Erzpriester der Basilika Santa Maria Maggiore",
+      },
+      rank: {
+        1939: "bishop",
+      },
+    },
+    {
       latin: "Angelus Sixtus",
       firstName: "Ángel Sixto",
       lastName: "Rossi",

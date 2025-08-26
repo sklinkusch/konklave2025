@@ -5,6 +5,22 @@ export const Laurentius: FirstName = {
   data: [
     {
       latin: "Laurentius",
+      firstName: "Lorenzo",
+      lastName: "Lauri",
+      birthday: "1864-10-15",
+      deathday: "1941-10-08",
+      nation: {
+        1939: ["IT", "VA"],
+      },
+      function: {
+        1939: "Kardinalgroßpönitientiar",
+      },
+      rank: {
+        1939: "priest",
+      },
+    },
+    {
+      latin: "Laurentius",
       firstName: "Laurent",
       lastName: "Monsengwo Pasinya",
       birthday: "1939-10-07",

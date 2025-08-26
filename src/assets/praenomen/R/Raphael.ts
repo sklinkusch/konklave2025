@@ -18,5 +18,21 @@ export const Raphael: FirstName = {
         2013: "deacon",
       },
     },
+    {
+      latin: "Raphael",
+      firstName: "Raffaele",
+      lastName: "Rossi",
+      birthday: "1876-10-28",
+      deathday: "1948-09-17",
+      nation: {
+        1939: ["IT", "VA"],
+      },
+      function: {
+        1939: "Sekretär der Konsistorialkongregation",
+      },
+      rank: {
+        1939: "priest",
+      },
+    },
   ],
 };

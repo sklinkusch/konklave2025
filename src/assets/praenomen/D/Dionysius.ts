@@ -22,5 +22,24 @@ export const Dionysius: FirstName = {
         2013: "priest",
       },
     },
+    {
+      latin: "Dionysius Iosephus",
+      firstName: "Denis Joseph",
+      lastName: "Dougherty",
+      birthday: "1865-08-16",
+      deathday: "1951-05-31",
+      nation: {
+        1922: ["US"],
+        1939: ["US"],
+      },
+      function: {
+        1922: "Erzbischof von Philadelphia",
+        1939: "Erzbischof von Philadelphia",
+      },
+      rank: {
+        1922: "priest",
+        1939: "priest",
+      },
+    },
   ],
 };

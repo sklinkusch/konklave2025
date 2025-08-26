@@ -34,6 +34,38 @@ export const Dominicus: FirstName = {
       },
     },
     {
+      latin: "Dominicus",
+      firstName: "Domenico",
+      lastName: "Jorio",
+      birthday: "1867-10-07",
+      deathday: "1954-10-21",
+      nation: {
+        1939: ["IT", "VA"],
+      },
+      function: {
+        1939: "Präfekt der Kongregation für die Sakramentendisziplin",
+      },
+      rank: {
+        1939: "deacon",
+      },
+    },
+    {
+      latin: "Dominicus",
+      firstName: "Domenico",
+      lastName: "Mariani",
+      birthday: "1863-07-03",
+      deathday: "1939-04-23",
+      nation: {
+        1939: ["IT", "VA"],
+      },
+      function: {
+        1939: "Präfekt der Verwaltung des Vermögens des Heiligen Stuhls",
+      },
+      rank: {
+        1939: "deacon",
+      },
+    },
+    {
       latin: "Dominicus Franciscus Iosephus",
       firstName: "Dominique François Joseph",
       lastName: "Mamberti",

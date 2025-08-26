@@ -120,6 +120,22 @@ export const Georgius: FirstName = {
       },
     },
     {
+      latin: "Georgius Gulielmus",
+      firstName: "George William",
+      lastName: "Mundelein",
+      birthday: "1872-07-02",
+      deathday: "1939-10-02",
+      nation: {
+        1939: ["US"],
+      },
+      function: {
+        1939: "Erzbischof von Chicago",
+      },
+      rank: {
+        1939: "priest",
+      },
+    },
+    {
       latin: "Georgius Iacobus",
       firstName: "George Jacob",
       lastName: "Koovakad",

@@ -22,5 +22,21 @@ export const Hermenegildus: FirstName = {
         1978.2: "priest",
       },
     },
+    {
+      latin: "Hermenegildus",
+      firstName: "Ermenegildo",
+      lastName: "Pellegrinetti",
+      birthday: "1876-03-27",
+      deathday: "1943-03-29",
+      nation: {
+        1939: ["IT", "VA"],
+      },
+      function: {
+        1939: "emeritierter Nuntius in Jugoslawien",
+      },
+      rank: {
+        1939: "priest",
+      },
+    },
   ],
 };

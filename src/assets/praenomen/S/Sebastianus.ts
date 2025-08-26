@@ -37,5 +37,21 @@ export const Sebastianus: FirstName = {
         2025: "priest",
       },
     },
+    {
+      latin: "Sebastianus",
+      firstName: "Sebastião",
+      lastName: "Leme da Silveira Cintra",
+      birthday: "1882-01-20",
+      deathday: "1942-10-17",
+      nation: {
+        1939: ["BR"],
+      },
+      function: {
+        1939: "Erzbischof von São Sebastião do Rio de Janeiro",
+      },
+      rank: {
+        1939: "priest",
+      },
+    },
   ],
 };

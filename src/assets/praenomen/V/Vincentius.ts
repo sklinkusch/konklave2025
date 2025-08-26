@@ -38,6 +38,22 @@ export const Vincentius: FirstName = {
       },
     },
     {
+      latin: "Vincentius",
+      firstName: "Vincenzo",
+      lastName: "Lapuma",
+      birthday: "1874-01-22",
+      deathday: "1943-11-04",
+      nation: {
+        1939: ["IT", "VA"],
+      },
+      function: {
+        1939: "Präfekt der Religiosenkongregation",
+      },
+      rank: {
+        1939: "deacon",
+      },
+    },
+    {
       latin: "Vincentius Giraldus",
       firstName: "Vincent Gerard",
       lastName: "Nichols",

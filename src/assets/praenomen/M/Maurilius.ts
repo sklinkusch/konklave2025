@@ -6,7 +6,7 @@ export const Maurilius: FirstName = {
     {
       latin: "Maurilius",
       firstName: "Maurilio",
-      lastName: "Fossato",
+      lastName: "Fossati",
       birthday: "1876-05-24",
       deathday: "1965-03-30",
       nation: {

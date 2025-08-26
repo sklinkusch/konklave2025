@@ -5,6 +5,7 @@ import { Desiderius } from "./Desiderius";
 import { Dionysius } from "./Dionysius";
 import { Dominicus } from "./Dominicus";
 import { Donaldus } from "./Donaldus";
+import { Donatus } from "./Donatus";
 import type { FirstName } from "@mytypes/types";
 
 export const D: FirstName[] = [
@@ -15,4 +16,5 @@ export const D: FirstName[] = [
   Dionysius,
   Dominicus,
   Donaldus,
+  Donatus,
 ];

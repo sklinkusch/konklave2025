@@ -124,6 +124,22 @@ export const Franciscus: FirstName = {
     {
       latin: "Franciscus",
       firstName: "Francesco",
+      lastName: "Marchetti Selvaggiani",
+      birthday: "1871-10-01",
+      deathday: "1951-01-13",
+      nation: {
+        1939: ["IT", "VA"],
+      },
+      function: {
+        1939: "Generalvikar für das Bistum Rom",
+      },
+      rank: {
+        1939: "bishop",
+      },
+    },
+    {
+      latin: "Franciscus",
+      firstName: "Francesco",
       lastName: "Marchisano",
       birthday: "1929-06-25",
       deathday: "2014-07-27",
@@ -135,6 +151,22 @@ export const Franciscus: FirstName = {
       },
       rank: {
         2005: "deacon",
+      },
+    },
+    {
+      latin: "Franciscus",
+      firstName: "Francesco",
+      lastName: "Marmaggi",
+      birthday: "1876-08-31",
+      deathday: "1949-11-03",
+      nation: {
+        1939: ["IT", "VA"],
+      },
+      function: {
+        1939: "emeritierter Nuntius in Polen",
+      },
+      rank: {
+        1939: "priest",
       },
     },
     {
@@ -268,6 +300,25 @@ export const Franciscus: FirstName = {
       rank: {
         1978.1: "priest",
         1978.2: "priest",
+      },
+    },
+    {
+      latin: "Franciscus de Asisio",
+      firstName: "Arancisco de Asís",
+      lastName: "Vidal y Barraquer",
+      birthday: "1868-10-03",
+      deathday: "1943-09-13",
+      nation: {
+        1922: ["ES"],
+        1939: ["ES"],
+      },
+      function: {
+        1922: "Erzbischof von Tarragona",
+        1939: "Erzbischof von Tarragona",
+      },
+      rank: {
+        1922: "priest",
+        1939: "priest",
       },
     },
     {

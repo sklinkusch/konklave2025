@@ -75,6 +75,25 @@ export const Thomas: FirstName = {
       },
     },
     {
+      latin: "Thomas Pius",
+      firstName: "Tommaso Pio",
+      lastName: "Boggiani",
+      birthday: "1863-01-19",
+      deathday: "1942-02-26",
+      nation: {
+        1922: ["IT"],
+        1939: ["IT", "VA"],
+      },
+      function: {
+        1922: "emeritierter Erzbischof von Genua",
+        1939: "Kanzler der Heiligen Römischen Kirche",
+      },
+      rank: {
+        1922: "priest",
+        1939: "bishop",
+      },
+    },
+    {
       latin: "Thomas Stafford",
       firstName: "Thomas Stafford",
       lastName: "Williams",

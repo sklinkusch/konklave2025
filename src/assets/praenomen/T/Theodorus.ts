@@ -4,6 +4,22 @@ export const Theodorus: FirstName = {
   name: "Theodorus",
   data: [
     {
+      latin: "Theodorus",
+      firstName: "Theodor",
+      lastName: "Innitzer",
+      birthday: "1875-12-25",
+      deathday: "1955-10-09",
+      nation: {
+        1939: ["CZ", "AT"],
+      },
+      function: {
+        1939: "Erzbischof von Wien",
+      },
+      rank: {
+        1939: "priest",
+      },
+    },
+    {
       latin: "Theodorus Edgardus",
       firstName: "Theodore Edgar",
       lastName: "McCarrick",

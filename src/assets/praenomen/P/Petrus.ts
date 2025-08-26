@@ -6,6 +6,22 @@ export const Petrus: FirstName = {
     {
       latin: "Petrus",
       firstName: "Pietro",
+      lastName: "Boetto",
+      birthday: "1871-05-19",
+      deathday: "1946-01-31",
+      nation: {
+        1939: ["IT"],
+      },
+      function: {
+        1939: "Erzbischof von Genua",
+      },
+      rank: {
+        1939: "priest",
+      },
+    },
+    {
+      latin: "Petrus",
+      firstName: "Pietro",
       lastName: "Ciriaci",
       birthday: "1885-12-02",
       deathday: "1966-12-30",
@@ -112,6 +128,22 @@ export const Petrus: FirstName = {
       },
       rank: {
         2005: "priest",
+      },
+    },
+    {
+      latin: "Petrus",
+      firstName: "Pedro",
+      lastName: "Segura y Sáenz",
+      birthday: "1880-12-04",
+      deathday: "1957-04-08",
+      nation: {
+        1939: ["ES"],
+      },
+      function: {
+        1939: "Erzbischof von Sevilla",
+      },
+      rank: {
+        1939: "priest",
       },
     },
     {

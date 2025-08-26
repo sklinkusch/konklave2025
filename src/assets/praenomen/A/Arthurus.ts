@@ -6,6 +6,22 @@ export const Arthurus: FirstName = {
     {
       latin: "Arthurus",
       firstName: "Arthur",
+      lastName: "Hinsley",
+      birthday: "1965-08-25",
+      deathday: "1943-03-17",
+      nation: {
+        1939: ["GB"],
+      },
+      function: {
+        1939: "Erzbischof von Westminster",
+      },
+      rank: {
+        1939: "priest",
+      },
+    },
+    {
+      latin: "Arthurus",
+      firstName: "Arthur",
       lastName: "Roche",
       birthday: "1950-03-06",
       nation: {

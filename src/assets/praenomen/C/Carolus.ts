@@ -72,6 +72,22 @@ export const Carolus: FirstName = {
     {
       latin: "Carolus",
       firstName: "Carlo",
+      lastName: "Cremonesi",
+      birthday: "1866-11-04",
+      deathday: "1943-11-25",
+      nation: {
+        1939: ["IT", "VA"],
+      },
+      function: {
+        1939: "emeritierter Päpstlicher Almosenier",
+      },
+      rank: {
+        1939: "priest",
+      },
+    },
+    {
+      latin: "Carolus",
+      firstName: "Carlo",
       lastName: "Confalonieri",
       birthday: "1893-07-25",
       deathday: "1986-08-01",
@@ -120,6 +136,38 @@ export const Carolus: FirstName = {
       },
     },
     {
+      latin: "Carolus",
+      firstName: "Carlo",
+      lastName: "Salotti",
+      birthday: "1870-07-25",
+      deathday: "1947-10-24",
+      nation: {
+        1939: ["IT", "VA"],
+      },
+      function: {
+        1939: "Präfekt der Ritenkongregation",
+      },
+      rank: {
+        1939: "priest",
+      },
+    },
+    {
+      latin: "Carolus Boromejský",
+      firstName: "Karel Boromejský",
+      lastName: "Kašpar",
+      birthday: "1870-05-16",
+      deathday: "1941-04-21",
+      nation: {
+        1939: ["CZ"],
+      },
+      function: {
+        1939: "Erzbischof von Prag",
+      },
+      rank: {
+        1939: "priest",
+      },
+    },
+    {
       latin: "Carolus Carmelus",
       firstName: "Carlos Carmelo",
       lastName: "de Vasconcelos Motta",
@@ -151,6 +199,25 @@ export const Carolus: FirstName = {
       },
       rank: {
         2025: "priest",
+      },
+    },
+    {
+      latin: "Carolus Iosephus",
+      firstName: "Karl Joseph",
+      lastName: "Schulte",
+      birthday: "1871-09-14",
+      deathday: "1941-03-10",
+      nation: {
+        1922: ["DE"],
+        1939: ["DE"],
+      },
+      function: {
+        1922: "Erzbischof von Köln",
+        1939: "Erzbischof von Köln",
+      },
+      rank: {
+        1922: "priest",
+        1939: "priest",
       },
     },
     {

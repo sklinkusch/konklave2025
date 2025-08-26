@@ -1,6 +1,6 @@
 export enum ConclaveYears {
   Conclave1903 = "1903",
-  Conclave1914 = "1913",
+  Conclave1914 = "1914",
   Conclave1922 = "1922",
   Conclave1939 = "1939",
   Conclave1958 = "1958",

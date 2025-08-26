@@ -86,6 +86,25 @@ export const Michael: FirstName = {
       },
     },
     {
+      latin: "Michael",
+      firstName: "Michael",
+      lastName: "von Faulhaber",
+      birthday: "1869-03-05",
+      deathday: "1952-06-12",
+      nation: {
+        1922: ["DE"],
+        1939: ["DE"],
+      },
+      function: {
+        1922: "Erzbischof von München und Freising",
+        1939: "Erzbischof von München und Freising",
+      },
+      rank: {
+        1922: "priest",
+        1939: "priest",
+      },
+    },
+    {
       latin: "Michael Michai",
       firstName: "Michael Michai",
       lastName: "Kitbunchu",

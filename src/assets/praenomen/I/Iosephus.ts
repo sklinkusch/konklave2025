@@ -191,6 +191,22 @@ export const Iosephus: FirstName = {
     {
       latin: "Iosephus",
       firstName: "Joseph",
+      lastName: "MacRory",
+      birthday: "1861-03-19",
+      deathday: "1945-10-13",
+      nation: {
+        1939: ["GB", "IE"],
+      },
+      function: {
+        1939: "Erzbischof von Armagh und Clonmacnois",
+      },
+      rank: {
+        1939: "priest",
+      },
+    },
+    {
+      latin: "Iosephus",
+      firstName: "Joseph",
       lastName: "Parecattil",
       birthday: "1912-04-01",
       deathday: "1987-02-20",

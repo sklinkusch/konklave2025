@@ -42,6 +42,38 @@ export const Alfredus: FirstName = {
       },
     },
     {
+      latin: "Alfredus Henricus Maria",
+      firstName: "Alfred Henri Marie",
+      lastName: "Baudrillart",
+      birthday: "1859-01-06",
+      deathday: "1942-05-19",
+      nation: {
+        1939: ["FR"],
+      },
+      function: {
+        1939: "Weihbischof im Erzbistum Paris",
+      },
+      rank: {
+        1939: "priest",
+      },
+    },
+    {
+      latin: "Alfredus Hilfefonsus",
+      firstName: "Alfredo Ildefonso",
+      lastName: "Schuster",
+      birthday: "1880-01-18",
+      deathday: "1954-08-30",
+      nation: {
+        1939: ["IT"],
+      },
+      function: {
+        1939: "Erzbischof von Mailand",
+      },
+      rank: {
+        1939: "priest",
+      },
+    },
+    {
       latin: "Alfredus Vincentius",
       firstName: "Alfredo Vicente",
       lastName: "Scherer",

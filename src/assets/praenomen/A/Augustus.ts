@@ -4,6 +4,22 @@ export const Augustus: FirstName = {
   name: "Augustus",
   data: [
     {
+      latin: "Augustus",
+      firstName: "August",
+      lastName: "Hlond",
+      birthday: "1881-07-05",
+      deathday: "1948-10-22",
+      nation: {
+        1939: ["PL"],
+      },
+      function: {
+        1939: "Erzbischof von Posen und Gnesen",
+      },
+      rank: {
+        1939: "priest",
+      },
+    },
+    {
       latin: "Augustus Alvarus",
       firstName: "Augusto Álvaro",
       lastName: "da Silva",

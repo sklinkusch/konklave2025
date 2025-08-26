@@ -20,28 +20,6 @@ export const Emanuel: FirstName = {
       },
     },
     {
-      latin: "Emanuel Goncalus",
-      firstName: "Manuel Gonçalves",
-      lastName: "Cerejeira",
-      birthday: "1888-11-19",
-      deathday: "1977-08-02",
-      nation: {
-        1939: ["PT"],
-        1958: ["PT"],
-        1963: ["PT"],
-      },
-      function: {
-        1939: "Patriarch von Lissabon",
-        1958: "Patriarch von Lissabon",
-        1963: "Patriarch von Lissabon",
-      },
-      rank: {
-        1939: "priest",
-        1958: "priest",
-        1963: "priest",
-      },
-    },
-    {
       latin: "Emanuel",
       firstName: "Emmanuel",
       lastName: "Kiwanuka Nsubuga",
@@ -88,6 +66,44 @@ export const Emanuel: FirstName = {
       },
       rank: {
         2005: "priest",
+      },
+    },
+    {
+      latin: "Emanuel Caelestinus",
+      firstName: "Emmanuel Célestin",
+      lastName: "Suhard",
+      birthday: "1874-04-05",
+      deathday: "1949-05-30",
+      nation: {
+        1939: ["FR"],
+      },
+      function: {
+        1939: "Erzbischof von Reims",
+      },
+      rank: {
+        1939: "priest",
+      },
+    },
+    {
+      latin: "Emanuel Goncalus",
+      firstName: "Manuel Gonçalves",
+      lastName: "Cerejeira",
+      birthday: "1888-11-19",
+      deathday: "1977-08-02",
+      nation: {
+        1939: ["PT"],
+        1958: ["PT"],
+        1963: ["PT"],
+      },
+      function: {
+        1939: "Patriarch von Lissabon",
+        1958: "Patriarch von Lissabon",
+        1963: "Patriarch von Lissabon",
+      },
+      rank: {
+        1939: "priest",
+        1958: "priest",
+        1963: "priest",
       },
     },
     {

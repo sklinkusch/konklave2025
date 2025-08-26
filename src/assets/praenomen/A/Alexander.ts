@@ -4,6 +4,22 @@ export const Alexander: FirstName = {
   name: "Alexander",
   data: [
     {
+      latin: "Alexander",
+      firstName: "Alessandro",
+      lastName: "Verde",
+      birthday: "1865-03-27",
+      deathday: "1958-03-29",
+      nation: {
+        1939: ["IT", "VA"],
+      },
+      function: {
+        1939: "Sekretär der Ritenkongregation",
+      },
+      rank: {
+        1939: "priest",
+      },
+    },
+    {
       latin: "Alexander Carolus",
       firstName: "Alexandre-Charles",
       lastName: "Renard",

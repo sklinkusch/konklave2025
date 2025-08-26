@@ -63,5 +63,24 @@ export const Eugenius: FirstName = {
         1963: "bishop",
       },
     },
+    {
+      latin: "Eugenius Maria Iosephus Ioannes",
+      firstName: "Eugenio Maria Giuseppe Giovanni",
+      lastName: "Pacelli",
+      birthday: "1876-03-02",
+      deathday: "1958-10-09",
+      nation: {
+        1939: ["IT", "VA"],
+      },
+      function: {
+        1939: "Kardinalstaatssekretär, Erzpriester des Petersdoms, Camerlengo, Papst Pius XII.",
+      },
+      rank: {
+        1939: "priest",
+      },
+      elected: {
+        1939: true,
+      },
+    },
   ],
 };

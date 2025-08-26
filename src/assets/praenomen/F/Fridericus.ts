@@ -5,6 +5,22 @@ export const Fridericus: FirstName = {
   data: [
     {
       latin: "Fridericus",
+      firstName: "Federico",
+      lastName: "Cattani Amadori",
+      birthday: "1856-04-17",
+      deathday: "1943-04-11",
+      nation: {
+        1939: ["IT", "VA"],
+      },
+      function: {
+        1939: "Sekretär beim Obersten Gerichtshof der Apostolischen Signatur",
+      },
+      rank: {
+        1939: "deacon",
+      },
+    },
+    {
+      latin: "Fridericus",
       firstName: "Frédéric",
       lastName: "Etsou-Nzabi-Bamungwabi",
       birthday: "1930-12-03",

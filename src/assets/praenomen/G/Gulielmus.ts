@@ -50,6 +50,28 @@ export const Gulielmus: FirstName = {
       },
     },
     {
+      latin: "Gulielmus Henricus",
+      firstName: "William Henry",
+      lastName: "O'Connell",
+      birthday: "1859-12-08",
+      deathday: "1944-04-22",
+      nation: {
+        1914: ["US"],
+        1922: ["US"],
+        1939: ["US"],
+      },
+      function: {
+        1914: "Erzbischof von Boston",
+        1922: "Erzbischof von Boston",
+        1939: "Erzbischof von Boston",
+      },
+      rank: {
+        1914: "priest",
+        1922: "priest",
+        1939: "priest",
+      },
+    },
+    {
       latin: "Gulielmus Iacobus",
       firstName: "Willem Jacobus",
       lastName: "Eijk",

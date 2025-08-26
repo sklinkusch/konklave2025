@@ -5,6 +5,22 @@ export const Henricus: FirstName = {
   data: [
     {
       latin: "Henricus",
+      firstName: "Enrico",
+      lastName: "Gasparri",
+      birthday: "1871-07-25",
+      deathday: "1946-05-20",
+      nation: {
+        1939: ["IT", "VA"],
+      },
+      function: {
+        1939: "Präfekt der Apostolischen Signatur",
+      },
+      rank: {
+        1939: "bishop",
+      },
+    },
+    {
+      latin: "Henricus",
       firstName: "Enrique",
       lastName: "Pla y Deniel",
       birthday: "1876-12-19",
@@ -36,6 +52,22 @@ export const Henricus: FirstName = {
       },
       rank: {
         2005: "priest",
+      },
+    },
+    {
+      latin: "Henricus",
+      firstName: "Enrico",
+      lastName: "Sibilia",
+      birthday: "1861-03-17",
+      deathday: "1948-08-04",
+      nation: {
+        1939: ["IT", "VA"],
+      },
+      function: {
+        1939: "emeritierter Nuntius in Chile",
+      },
+      rank: {
+        1939: "priest",
       },
     },
   ],
