@@ -218,6 +218,22 @@ export const Franciscus: FirstName = {
     {
       latin: "Franciscus",
       firstName: "Francesco",
+      lastName: "Ragonesi",
+      birthday: "1850-12-21",
+      deathday: "1931-09-14",
+      nation: {
+        1922: ["IT", "VA"],
+      },
+      function: {
+        1922: "emeritierter Nuntius in Spanien",
+      },
+      rank: {
+        1922: "priest",
+      },
+    },
+    {
+      latin: "Franciscus",
+      firstName: "Francesco",
       lastName: "Roberti",
       birthday: "1889-07-07",
       deathday: "1977-07-16",
@@ -303,8 +319,46 @@ export const Franciscus: FirstName = {
       },
     },
     {
+      latin: "Franciscus Aidanus",
+      firstName: "Francis Aidan",
+      lastName: "Gasquet",
+      birthday: "1846-10-05",
+      deathday: "1929-04-05",
+      nation: {
+        1914: ["GB", "VA"],
+        1922: ["GB", "VA"],
+      },
+      function: {
+        1914: "Abtpräses der Englischen Benediktinerkongregation",
+        1922: "Bibliothekar der Vatikanischen Bibliothek",
+      },
+      rank: {
+        1914: "deacon",
+        1922: "deacon",
+      },
+    },
+    {
+      latin: "Franciscus Alphonsus",
+      firstName: "Francis Alphonsus",
+      lastName: "Bourne",
+      birthday: "1861-03-23",
+      deathday: "1935-01-01",
+      nation: {
+        1914: ["GB"],
+        1922: ["GB"],
+      },
+      function: {
+        1914: "Erzbischof von Westminster",
+        1922: "Erzbischof von Westminster",
+      },
+      rank: {
+        1914: "priest",
+        1922: "priest",
+      },
+    },
+    {
       latin: "Franciscus de Asisio",
-      firstName: "Arancisco de Asís",
+      firstName: "Francisco de Asís",
       lastName: "Vidal y Barraquer",
       birthday: "1868-10-03",
       deathday: "1943-09-13",

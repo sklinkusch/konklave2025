@@ -4,6 +4,22 @@ export const Edmundus: FirstName = {
   name: "Edmundus",
   data: [
     {
+      latin: "Edmundus",
+      firstName: "Edmund",
+      lastName: "Dalbor",
+      birthday: "1869-10-30",
+      deathday: "1926-02-13",
+      nation: {
+        1922: ["PL"],
+      },
+      function: {
+        1922: "Erzbischof von Gnesen und Posen",
+      },
+      rank: {
+        1922: "priest",
+      },
+    },
+    {
       latin: "Edmundus Casimirus",
       firstName: "Edmund Casimir",
       lastName: "Szoka",

@@ -38,6 +38,22 @@ export const Nicolaus: FirstName = {
       },
     },
     {
+      latin: "Nicolaus",
+      firstName: "Nicolò",
+      lastName: "Marini",
+      birthday: "1843-08-20",
+      deathday: "1923-07-27",
+      nation: {
+        1922: ["IT", "VA"],
+      },
+      function: {
+        1922: "Sekretär der Kongregation für die orientalischen Kirchen",
+      },
+      rank: {
+        1922: "deacon",
+      },
+    },
+    {
       latin: "Nicolaus ab Iesu",
       firstName: "Nicolás de Jesús",
       lastName: "López Rodríguez",

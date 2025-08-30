@@ -4,6 +4,25 @@ export const Octavius: FirstName = {
   name: "Octavius",
   data: [
     {
+      latin: "Octavius",
+      firstName: "Ottavio",
+      lastName: "Cagiano de Azevedo",
+      birthday: "1845-11-07",
+      deathday: "1927-07-11",
+      nation: {
+        1914: ["IT", "VA"],
+        1922: ["IT", "VA"],
+      },
+      function: {
+        1914: "Präfekt der Religiosenkongregation",
+        1922: "Kanzler der Heiligen Römischen Kirche",
+      },
+      rank: {
+        1914: "deacon",
+        1922: "priest",
+      },
+    },
+    {
       latin: "Octavius Antonius",
       firstName: "Octavio Antonio",
       lastName: "Beras Rojas",

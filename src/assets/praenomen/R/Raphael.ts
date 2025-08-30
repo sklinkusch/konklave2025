@@ -20,6 +20,25 @@ export const Raphael: FirstName = {
     },
     {
       latin: "Raphael",
+      firstName: "Rafael",
+      lastName: "Merry del Val y Zulueta",
+      birthday: "1865-10-10",
+      deathday: "1930-02-26",
+      nation: {
+        1914: ["ES", "GB", "VA"],
+        1922: ["ES", "GB", "VA"],
+      },
+      function: {
+        1914: "Kardinalstaatssekretär",
+        1922: "Präsident der Akademie für katholische Religion, Sekretär des Heiligen Offiziums",
+      },
+      rank: {
+        1914: "priest",
+        1922: "priest",
+      },
+    },
+    {
+      latin: "Raphael",
       firstName: "Raffaele",
       lastName: "Rossi",
       birthday: "1876-10-28",
@@ -32,6 +51,22 @@ export const Raphael: FirstName = {
       },
       rank: {
         1939: "priest",
+      },
+    },
+    {
+      latin: "Raphael",
+      firstName: "Raffaele",
+      lastName: "Scapinelli di Leguigno",
+      birthday: "1858-04-25",
+      deathday: "1933-09-16",
+      nation: {
+        1922: ["IT", "VA"],
+      },
+      function: {
+        1922: "Präfekt der Religiosenkongregation",
+      },
+      rank: {
+        1922: "priest",
       },
     },
   ],

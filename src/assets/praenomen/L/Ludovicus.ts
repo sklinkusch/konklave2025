@@ -24,6 +24,25 @@ export const Ludovicus: FirstName = {
     },
     {
       latin: "Ludovicus",
+      firstName: "Louis",
+      lastName: "Billot",
+      birthday: "1846-01-12",
+      deathday: "1931-12-18",
+      nation: {
+        1914: ["FR", "VA"],
+        1922: ["FR", "VA"],
+      },
+      function: {
+        1914: "Konsultor des Heiligen Offiziums",
+        1922: "Konsultor des Heiligen Offiziums",
+      },
+      rank: {
+        1914: "deacon",
+        1922: "deacon",
+      },
+    },
+    {
+      latin: "Ludovicus",
       firstName: "Luis",
       lastName: "Concha Córdoba",
       birthday: "1891-11-07",
@@ -120,6 +139,22 @@ export const Ludovicus: FirstName = {
       },
     },
     {
+      latin: "Ludovicus Ernestus",
+      firstName: "Louis-Ernest",
+      lastName: "Dubois",
+      birthday: "1856-09-01",
+      deathday: "1929-09-23",
+      nation: {
+        1922: ["FR"],
+      },
+      function: {
+        1922: "Erzbischof von Paris",
+      },
+      rank: {
+        1922: "priest",
+      },
+    },
+    {
       latin: "Ludovicus Giraldus",
       firstName: "Luis Gerardo",
       lastName: "Cabrera Herrera",
@@ -132,6 +167,25 @@ export const Ludovicus: FirstName = {
       },
       rank: {
         2025: "priest",
+      },
+    },
+    {
+      latin: "Ludovicus Henricus Iosephus",
+      firstName: "Louis-Henri-Joseph",
+      lastName: "Luçon",
+      birthday: "1842-10-28",
+      deathday: "1930-05-28",
+      nation: {
+        1914: ["FR"],
+        1922: ["FR"],
+      },
+      function: {
+        1914: "Erzbischof von Reims",
+        1922: "Erzbischof von Reims",
+      },
+      rank: {
+        1914: "priest",
+        1922: "priest",
       },
     },
     {
@@ -151,6 +205,22 @@ export const Ludovicus: FirstName = {
       rank: {
         1978.1: "priest",
         1978.2: "priest",
+      },
+    },
+    {
+      latin: "Ludovicus Iosephus",
+      firstName: "Louis-Joseph",
+      lastName: "Maurin",
+      birthday: "1859-02-15",
+      deathday: "1936-11-16",
+      nation: {
+        1922: ["FR"],
+      },
+      function: {
+        1922: "Erzbischof von Lyon",
+      },
+      rank: {
+        1922: "priest",
       },
     },
     {

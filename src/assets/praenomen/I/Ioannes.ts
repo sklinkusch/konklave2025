@@ -43,6 +43,41 @@ export const Ioannes: FirstName = {
     {
       latin: "Ioannes",
       firstName: "Giovanni",
+      lastName: "Cagliero",
+      birthday: "1838-01-11",
+      deathday: "1926-02-28",
+      nation: {
+        1922: ["IT", "VA"],
+      },
+      function: {
+        1922: "Apostolischer Delegat für Nicaragua und Costa Rica",
+      },
+      rank: {
+        1922: "bishop",
+      },
+    },
+    {
+      latin: "Ioannes",
+      firstName: "János",
+      lastName: "Csernoch",
+      birthday: "1852-06-18",
+      deathday: "1927-07-25",
+      nation: {
+        1914: ["SK", "HU"],
+        1922: ["SK", "HU"],
+      },
+      function: {
+        1914: "Erzbischof von Esztergom",
+        1922: "Erzbischof von Esztergom",
+      },
+      rank: {
+        1914: "priest",
+        1922: "priest",
+      },
+    },
+    {
+      latin: "Ioannes",
+      firstName: "Giovanni",
       lastName: "Lajolo",
       birthday: "1935-01-03",
       nation: {
@@ -158,6 +193,38 @@ export const Ioannes: FirstName = {
     },
     {
       latin: "Ioannes",
+      firstName: "Juan",
+      lastName: "Soldevila y Romero",
+      birthday: "1843-10-29",
+      deathday: "1923-06-04",
+      nation: {
+        1922: ["ES"],
+      },
+      function: {
+        1922: "Erzbischof von Saragossa",
+      },
+      rank: {
+        1922: "priest",
+      },
+    },
+    {
+      latin: "Ioannes",
+      firstName: "Giovanni",
+      lastName: "Tacci Porcelli",
+      birthday: "1863-11-12",
+      deathday: "1928-06-30",
+      nation: {
+        1922: ["IT", "VA"],
+      },
+      function: {
+        1922: "Präfekt des Apostolischen Palasts",
+      },
+      rank: {
+        1922: "priest",
+      },
+    },
+    {
+      latin: "Ioannes",
       firstName: "John",
       lastName: "Tong Hon",
       birthday: "1939-07-31",
@@ -231,6 +298,22 @@ export const Ioannes: FirstName = {
       },
       rank: {
         2025: "priest",
+      },
+    },
+    {
+      latin: "Ioannes Baptista",
+      firstName: "Juan Bautista",
+      lastName: "Benlloch y Vivó",
+      birthday: "1864-12-29",
+      deathday: "1926-02-14",
+      nation: {
+        1922: ["ES"],
+      },
+      function: {
+        1922: "Erzbischof von Burgos",
+      },
+      rank: {
+        1922: "priest",
       },
     },
     {

@@ -106,6 +106,25 @@ export const Gulielmus: FirstName = {
       },
     },
     {
+      latin: "Gulielmus Marinus",
+      firstName: "Wilhelmus Marinus",
+      lastName: "van Rossum",
+      birthday: "1854-09-03",
+      deathday: "1932-08-30",
+      nation: {
+        1914: ["NL", "VA"],
+        1922: ["NL", "VA"],
+      },
+      function: {
+        1914: "Präsident der Päpstlichen Bibelkommission",
+        1922: "Präfekt der Kongregation für die Ausbreitung des Glaubens",
+      },
+      rank: {
+        1914: "deacon",
+        1922: "priest",
+      },
+    },
+    {
       latin: "Gulielmus Wakefield",
       firstName: "William Wakefield",
       lastName: "Baum",

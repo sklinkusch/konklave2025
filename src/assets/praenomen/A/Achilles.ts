@@ -25,5 +25,24 @@ export const Achilles: FirstName = {
         1963: "priest",
       },
     },
+    {
+      latin: "Achilles Ambrosius Damianus",
+      firstName: "Achille Ambrogio Damiano",
+      lastName: "Ratti",
+      birthday: "1857-05-31",
+      deathday: "1939-02-10",
+      nation: {
+        1922: ["IT"],
+      },
+      function: {
+        1922: "Erzbischof von Mailand",
+      },
+      rank: {
+        1922: "priest",
+      },
+      elected: {
+        1922: true,
+      },
+    },
   ],
 };

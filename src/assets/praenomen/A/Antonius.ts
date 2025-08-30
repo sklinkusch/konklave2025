@@ -70,6 +70,25 @@ export const Antonius: FirstName = {
     },
     {
       latin: "Antonius",
+      firstName: "António",
+      lastName: "Mendes Bello",
+      birthday: "1842-06-18",
+      deathday: "1829-08-05",
+      nation: {
+        1914: ["PT"],
+        1922: ["PT"],
+      },
+      function: {
+        1914: "Patriarch von Lissabon",
+        1922: "Patriarch von Lissabon",
+      },
+      rank: {
+        1914: "priest",
+        1922: "priest",
+      },
+    },
+    {
+      latin: "Antonius",
       firstName: "Antonios",
       lastName: "Naguib",
       birthday: "1935-03-18",
@@ -154,6 +173,25 @@ export const Antonius: FirstName = {
       rank: {
         1978.1: "priest",
         1978.2: "priest",
+      },
+    },
+    {
+      latin: "Antonius",
+      firstName: "Antonio",
+      lastName: "Vico",
+      birthday: "1847-01-09",
+      deathday: "1929-02-25",
+      nation: {
+        1914: ["IT", "VA"],
+        1922: ["IT", "VA"],
+      },
+      function: {
+        1914: "emeritierter Nuntius in Spanien",
+        1922: "Präfekt der Ritenkongregation",
+      },
+      rank: {
+        1914: "priest",
+        1922: "bishop",
       },
     },
     {

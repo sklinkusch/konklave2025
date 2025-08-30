@@ -23,6 +23,22 @@ export const Victor: FirstName = {
       },
     },
     {
+      latin: "Victor Amadeus",
+      firstName: "Vittorio Amadeo",
+      lastName: "Ranuzzi de' Bianchi",
+      birthday: "1857-07-14",
+      deathday: "1927-02-16",
+      nation: {
+        1922: ["IT", "VA"],
+      },
+      function: {
+        1922: "Majordomus seiner Heiligkeit",
+      },
+      rank: {
+        1922: "priest",
+      },
+    },
+    {
       latin: "Victor Emanuel",
       firstName: "Víctor Manuel",
       lastName: "Fernández",

@@ -19,5 +19,21 @@ export const Andreas: FirstName = {
         2013: "priest",
       },
     },
+    {
+      latin: "Andreas Franciscus",
+      firstName: "Andreas Franz",
+      lastName: "Frühwirth",
+      birthday: "1845-08-21",
+      deathday: "1933-02-09",
+      nation: {
+        1922: ["AT", "VA"],
+      },
+      function: {
+        1922: "emeritierter Nuntius in Bayern",
+      },
+      rank: {
+        1922: "priest",
+      },
+    },
   ],
 };

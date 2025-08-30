@@ -20,6 +20,22 @@ export const Augustus: FirstName = {
       },
     },
     {
+      latin: "Augustus",
+      firstName: "Augusto",
+      lastName: "Silj",
+      birthday: "1846-07-09",
+      deathday: "1926-02-27",
+      nation: {
+        1922: ["IT", "VA"],
+      },
+      function: {
+        1922: "Präfekt des Obersten Gerichtshofs der Apostolischen Signatur",
+      },
+      rank: {
+        1922: "priest",
+      },
+    },
+    {
       latin: "Augustus Alvarus",
       firstName: "Augusto Álvaro",
       lastName: "da Silva",

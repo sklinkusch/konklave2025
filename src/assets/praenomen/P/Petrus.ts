@@ -81,6 +81,60 @@ export const Petrus: FirstName = {
     {
       latin: "Petrus",
       firstName: "Pietro",
+      lastName: "Gasparri",
+      birthday: "1852-05-05",
+      deathday: "1934-11-18",
+      nation: {
+        1914: ["IT", "VA"],
+        1922: ["IT", "VA"],
+      },
+      function: {
+        1914: "Camerlengo",
+        1922: "Kardinalstaatssekretär, Camerlengo",
+      },
+      rank: {
+        1914: "priest",
+        1922: "priest",
+      },
+    },
+    {
+      latin: "Petrus",
+      firstName: "Pietro",
+      lastName: "La Fontaine",
+      birthday: "1860-11-29",
+      deathday: "1935-07-09",
+      nation: {
+        1922: ["IT"],
+      },
+      function: {
+        1922: "Patriarch von Venedig",
+      },
+      rank: {
+        1922: "priest",
+      },
+    },
+    {
+      latin: "Petrus",
+      firstName: "Pietro",
+      lastName: "Maffi",
+      birthday: "1858-10-12",
+      deathday: "1931-03-17",
+      nation: {
+        1914: ["IT"],
+        1922: ["IT"],
+      },
+      function: {
+        1914: "Erzbischof von Pisa",
+        1922: "Erzbischof von Pisa",
+      },
+      rank: {
+        1914: "priest",
+        1922: "priest",
+      },
+    },
+    {
+      latin: "Petrus",
+      firstName: "Pietro",
       lastName: "Palazzini",
       birthday: "1912-05-19",
       deathday: "2000-10-11",
@@ -217,6 +271,25 @@ export const Petrus: FirstName = {
         1939: "priest",
         1958: "priest",
         1963: "priest",
+      },
+    },
+    {
+      latin: "Petrus Paulinus",
+      firstName: "Pierre-Paulin",
+      lastName: "Andrieu",
+      birthday: "1849-12-07",
+      deathday: "1935-02-15",
+      nation: {
+        1914: ["FR"],
+        1922: ["FR"],
+      },
+      function: {
+        1914: "Erzbischof von Bordeaux",
+        1922: "Erzbischof von Bordeaux",
+      },
+      rank: {
+        1914: "priest",
+        1922: "priest",
       },
     },
     {

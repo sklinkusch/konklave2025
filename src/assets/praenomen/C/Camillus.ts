@@ -22,6 +22,22 @@ export const Camillus: FirstName = {
     {
       latin: "Camillus",
       firstName: "Camillo",
+      lastName: "Laurenti",
+      birthday: "1861-11-20",
+      deathday: "1938-09-06",
+      nation: {
+        1922: ["IT", "VA"],
+      },
+      function: {
+        1922: "Konsultor in der Kongregation für die orientalischen Kirchen",
+      },
+      rank: {
+        1922: "deacon",
+      },
+    },
+    {
+      latin: "Camillus",
+      firstName: "Camillo",
       lastName: "Ruini",
       birthday: "1931-02-19",
       nation: {

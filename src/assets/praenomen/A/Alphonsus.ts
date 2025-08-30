@@ -35,5 +35,21 @@ export const Alphonsus: FirstName = {
         2005: "bishop",
       },
     },
+    {
+      latin: "Alphonsus Maria",
+      firstName: "Alfonso Maria",
+      lastName: "Mistrangelo",
+      birthday: "1852-04-26",
+      deathday: "1930-11-07",
+      nation: {
+        1922: ["IT"],
+      },
+      function: {
+        1922: "Erzbischof von Florenz",
+      },
+      rank: {
+        1922: "priest",
+      },
+    },
   ],
 };

@@ -69,5 +69,24 @@ export const Fridericus: FirstName = {
         2005: "priest",
       },
     },
+    {
+      latin: "Fridericus Gustavus",
+      firstName: "Friedrich Gustav",
+      lastName: "Piffl",
+      birthday: "1864-10-15",
+      deathday: "1932-04-21",
+      nation: {
+        1914: ["AT"],
+        1922: ["AT"],
+      },
+      function: {
+        1914: "Erzbischof von Wien",
+        1922: "Erzbischof von Wien",
+      },
+      rank: {
+        1914: "priest",
+        1922: "priest",
+      },
+    },
   ],
 };

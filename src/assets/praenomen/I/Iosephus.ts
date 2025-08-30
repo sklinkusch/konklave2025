@@ -120,6 +120,28 @@ export const Iosephus: FirstName = {
     },
     {
       latin: "Iosephus",
+      firstName: "Giuseppe",
+      lastName: "Francica-Nava, Baron de Bontifè",
+      birthday: "1846-07-23",
+      deathday: "1928-12-07",
+      nation: {
+        1903: ["IT"],
+        1914: ["IT"],
+        1922: ["IT"],
+      },
+      function: {
+        1903: "Erzbischof von Catania",
+        1914: "Erzbischof von Catania",
+        1922: "Erzbischof von Catania",
+      },
+      rank: {
+        1903: "priest",
+        1914: "priest",
+        1922: "priest",
+      },
+    },
+    {
+      latin: "Iosephus",
       firstName: "José",
       lastName: "Freire Falcão",
       birthday: "1925-10-23",

@@ -34,5 +34,24 @@ export const Desiderius: FirstName = {
         2025: "priest",
       },
     },
+    {
+      latin: "Desiderius Felicianus Franciscus Iosephus",
+      firstName: "Désiré-Félicien-François-Joseph",
+      lastName: "Mercier",
+      birthday: "1851-11-21",
+      deathday: "1926-01-23",
+      nation: {
+        1914: ["BE"],
+        1922: ["BE"],
+      },
+      function: {
+        1914: "Erzbischof von Mecheln",
+        1922: "Erzbischof von Mecheln",
+      },
+      rank: {
+        1914: "priest",
+        1922: "priest",
+      },
+    },
   ],
 };

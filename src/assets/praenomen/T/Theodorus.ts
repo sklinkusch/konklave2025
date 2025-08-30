@@ -20,6 +20,22 @@ export const Theodorus: FirstName = {
       },
     },
     {
+      latin: "Theodorus",
+      firstName: "Teodoro",
+      lastName: "Valfrè di Bonzo",
+      birthday: "1853-08-21",
+      deathday: "1922-06-25",
+      nation: {
+        1922: ["IT", "VA"],
+      },
+      function: {
+        1922: "Präfekt der Religiosenkongregation",
+      },
+      rank: {
+        1922: "priest",
+      },
+    },
+    {
       latin: "Theodorus Edgardus",
       firstName: "Theodore Edgar",
       lastName: "McCarrick",

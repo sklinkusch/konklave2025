@@ -1,4 +1,5 @@
 import { Balthasar } from "./Balthasar";
+import { Bartholomaeus } from "./Bartholomaeus";
 import { Basilius } from "./Basilius";
 import { Bechara } from "./Bechara";
 import { Benedictus } from "./Benedictus";
@@ -11,6 +12,7 @@ import type { FirstName } from "@mytypes/types";
 
 export const B: FirstName[] = [
   Balthasar,
+  Bartholomaeus,
   Basilius,
   Bechara,
   Benedictus,

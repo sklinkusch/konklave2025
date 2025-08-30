@@ -52,6 +52,47 @@ export const Michael: FirstName = {
     },
     {
       latin: "Michael",
+      firstName: "Michele",
+      lastName: "Lega",
+      birthday: "1860-01-01",
+      deathday: "1935-12-16",
+      nation: {
+        1914: ["IT", "VA"],
+        1922: ["IT", "VA"],
+      },
+      function: {
+        1914: "Dekan der Rota Romana",
+        1922: "Präfekt der Sakramentenkongregation",
+      },
+      rank: {
+        1914: "deacon",
+        1922: "deacon",
+      },
+    },
+    {
+      latin: "Michael",
+      firstName: "Michael",
+      lastName: "Logue",
+      birthday: "1840-10-01",
+      deathday: "1924-11-19",
+      nation: {
+        1903: ["IE", "GB"],
+        1914: ["IE", "GB"],
+        1922: ["IE", "GB"],
+      },
+      function: {
+        1903: "Erzbischof von Armagh",
+        1914: "Erzbischof von Armagh",
+        1922: "Erzbischof von Armagh",
+      },
+      rank: {
+        1903: "priest",
+        1914: "priest",
+        1922: "priest",
+      },
+    },
+    {
+      latin: "Michael",
       firstName: "Miguel",
       lastName: "Obando Bravo",
       birthday: "1926-02-02",

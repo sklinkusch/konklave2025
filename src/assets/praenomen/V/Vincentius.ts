@@ -54,6 +54,28 @@ export const Vincentius: FirstName = {
       },
     },
     {
+      latin: "Vincentius",
+      firstName: "Vincenzo",
+      lastName: "Vannutelli",
+      birthday: "1836-12-05",
+      deathday: "1930-07-09",
+      nation: {
+        1903: ["IT", "VA"],
+        1914: ["IT", "VA"],
+        1922: ["IT", "VA"],
+      },
+      function: {
+        1903: "Präfekt der Konzilskongregation",
+        1914: "Präfekt der Apostolischen Signatur",
+        1922: "Präfekt der Kongregation für die Zeremonien, Kardinaldekan",
+      },
+      rank: {
+        1903: "priest",
+        1914: "priest",
+        1922: "bishop",
+      },
+    },
+    {
       latin: "Vincentius Giraldus",
       firstName: "Vincent Gerard",
       lastName: "Nichols",

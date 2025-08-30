@@ -23,6 +23,25 @@ export const Basilius: FirstName = {
       },
     },
     {
+      latin: "Basilius",
+      firstName: "Basilio",
+      lastName: "Pompili",
+      birthday: "1858-04-16",
+      deathday: "1931-05-05",
+      nation: {
+        1914: ["IT", "VA"],
+        1922: ["IT", "VA"],
+      },
+      function: {
+        1914: "Generalvikar des Bistums Rom",
+        1922: "Generalvikar des Bistums Rom, Erzpriester der Lateranbasilika",
+      },
+      rank: {
+        1914: "deacon",
+        1922: "bishop",
+      },
+    },
+    {
       latin: "Basilius Cleemis",
       firstName: "Baselios Cleemis",
       lastName: "Thottunkal",

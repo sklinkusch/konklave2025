@@ -38,6 +38,28 @@ export const Augustinus: FirstName = {
     {
       latin: "Augustinus",
       firstName: "Agostino",
+      lastName: "Richelmy",
+      birthday: "1850-11-29",
+      deathday: "1923-08-10",
+      nation: {
+        1903: ["IT"],
+        1914: ["IT"],
+        1922: ["IT"],
+      },
+      function: {
+        1903: "Erzbischof von Turin",
+        1914: "Erzbischof von Turin",
+        1922: "Erzbischof von Turin",
+      },
+      rank: {
+        1903: "priest",
+        1914: "priest",
+        1922: "priest",
+      },
+    },
+    {
+      latin: "Augustinus",
+      firstName: "Agostino",
       lastName: "Vallini",
       birthday: "1940-04-17",
       nation: {
