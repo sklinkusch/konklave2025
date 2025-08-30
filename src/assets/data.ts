@@ -143,6 +143,12 @@ export const allKonklaveYears = () => {
 };
 
 export const startDates: { [key: string]: DateString } = {
+  1800: "1799-12-01",
+  1823: "1823-09-02",
+  1829: "1829-02-24",
+  1831: "1830-12-14",
+  1846: "1846-06-14",
+  1878: "1878-02-18",
   1903: "1903-07-31",
   1914: "1914-08-31",
   1922: "1922-02-02",
@@ -157,6 +163,42 @@ export const startDates: { [key: string]: DateString } = {
 };
 
 export const conclaves: Conclave[] = [
+  {
+    key: "1800",
+    title: "Konklave 1799-1800",
+    pope: "Pius VII.",
+    cardinal: "Luigi Barnaba CHIARAMONTI",
+  },
+  {
+    key: "1823",
+    title: "Konklave 1823",
+    pope: "Leo XII.",
+    cardinal: "Annibale DELLA GENGA",
+  },
+  {
+    key: "1829",
+    title: "Konklave 1829",
+    pope: "Pius VIII.",
+    cardinal: "Francesco CASTIGLIONI",
+  },
+  {
+    key: "1831",
+    title: "Konklave 1830-31",
+    pope: "Gregor XVI.",
+    cardinal: "Bartolomeo CAPPELLARI",
+  },
+  {
+    key: "1846",
+    title: "Konklave 1846",
+    pope: "Pius IX.",
+    cardinal: "Giovanni Maria MASTAI FERRETTI",
+  },
+  {
+    key: "1878",
+    title: "Konklave 1878",
+    pope: "Leo XIII.",
+    cardinal: "Vincenzo Gioacchino PECCI",
+  },
   {
     key: "1903",
     title: "Konklave 1903",
