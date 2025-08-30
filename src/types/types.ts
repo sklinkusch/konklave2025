@@ -1,4 +1,10 @@
 export enum ConclaveYears {
+  Conclave1800 = "1800",
+  Conclave1823 = "1823",
+  Conclave1829 = "1829",
+  Conclave1831 = "1831",
+  Conclave1846 = "1846",
+  Conclave1878 = "1878",
   Conclave1903 = "1903",
   Conclave1914 = "1914",
   Conclave1922 = "1922",
@@ -149,6 +155,12 @@ export interface NewFirstName {
 export interface Conclave {
   key: string;
   title: string;
-  pope: string;
-  cardinal: string;
+  pope: {
+    name: string;
+    number: number | null;
+  };
+  cardinal: {
+    firstName: string;
+    lastName: string;
+  };
 }

@@ -166,103 +166,205 @@ export const conclaves: Conclave[] = [
   {
     key: "1800",
     title: "Konklave 1799-1800",
-    pope: "Pius VII.",
-    cardinal: "Luigi Barnaba CHIARAMONTI",
+    pope: {
+      name: "Pius",
+      number: 7,
+    },
+    cardinal: {
+      firstName: "Luigi Barnaba",
+      lastName: "Chiaramonti",
+    },
   },
   {
     key: "1823",
     title: "Konklave 1823",
-    pope: "Leo XII.",
-    cardinal: "Annibale DELLA GENGA",
+    pope: {
+      name: "Leo",
+      number: 12,
+    },
+    cardinal: {
+      firstName: "Annibale",
+      lastName: "della Genga",
+    },
   },
   {
     key: "1829",
     title: "Konklave 1829",
-    pope: "Pius VIII.",
-    cardinal: "Francesco CASTIGLIONI",
+    pope: {
+      name: "Pius",
+      number: 8,
+    },
+    cardinal: {
+      firstName: "Francesco",
+      lastName: "Castiglioni",
+    },
   },
   {
     key: "1831",
     title: "Konklave 1830-31",
-    pope: "Gregor XVI.",
-    cardinal: "Bartolomeo CAPPELLARI",
+    pope: {
+      name: "Gregor",
+      number: 16,
+    },
+    cardinal: {
+      firstName: "Bartolomeo",
+      lastName: "Cappellari",
+    },
   },
   {
     key: "1846",
     title: "Konklave 1846",
-    pope: "Pius IX.",
-    cardinal: "Giovanni Maria MASTAI FERRETTI",
+    pope: {
+      name: "Pius",
+      number: 9,
+    },
+    cardinal: {
+      firstName: "Giovanni Maria",
+      lastName: "Mastai Ferretti",
+    },
   },
   {
     key: "1878",
     title: "Konklave 1878",
-    pope: "Leo XIII.",
-    cardinal: "Vincenzo Gioacchino PECCI",
+    pope: {
+      name: "Leo",
+      number: 13,
+    },
+    cardinal: {
+      firstName: "Vincenzo Gioacchino",
+      lastName: "Pecci",
+    },
   },
   {
     key: "1903",
     title: "Konklave 1903",
-    pope: "Pius X.",
-    cardinal: "Giuseppe SARTO",
+    pope: {
+      name: "Pius",
+      number: 10,
+    },
+    cardinal: {
+      firstName: "Giuseppe",
+      lastName: "Sarto",
+    },
   },
   {
     key: "1914",
     title: "Konklave 1914",
-    pope: "Benedikt XV.",
-    cardinal: "Giacomo DELLA CHIESA",
+    pope: {
+      name: "Benedikt",
+      number: 15,
+    },
+    cardinal: {
+      firstName: "Giacomo",
+      lastName: "della Chiesa",
+    },
   },
   {
     key: "1922",
     title: "Konklave 1922",
-    pope: "Pius XI.",
-    cardinal: "Achille RATTI",
+    pope: {
+      name: "Pius",
+      number: 11,
+    },
+    cardinal: {
+      firstName: "Achille",
+      lastName: "Ratti",
+    },
   },
   {
     key: "1939",
     title: "Konklave 1939",
-    pope: "Pius XII.",
-    cardinal: "Eugenio PACELLI",
+    pope: {
+      name: "Pius",
+      number: 12,
+    },
+    cardinal: {
+      firstName: "Eugenio",
+      lastName: "Pacelli",
+    },
   },
   {
     key: "1958",
     title: "Konklave 1958",
-    pope: "Johannes XXIII.",
-    cardinal: "Angelo RONCALLI",
+    pope: {
+      name: "Johannes",
+      number: 23,
+    },
+    cardinal: {
+      firstName: "Angelo",
+      lastName: "Roncalli",
+    },
   },
   {
     key: "1963",
     title: "Konklave 1963",
-    pope: "Paul VI.",
-    cardinal: "Giovanni Battista MONTINI",
+    pope: {
+      name: "Paul",
+      number: 6,
+    },
+    cardinal: {
+      firstName: "Giovanni Battista",
+      lastName: "Montini",
+    },
   },
   {
     key: "1978.1",
     title: "Konklave August 1978",
-    pope: "Johannes Paul I.",
-    cardinal: "Albino LUCIANI",
+    pope: {
+      name: "Johannes Paul",
+      number: 1,
+    },
+    cardinal: {
+      firstName: "Albino",
+      lastName: "Luciani",
+    },
   },
   {
     key: "1978.2",
     title: "Konklave Oktober 1978",
-    pope: "Johannes Paul II.",
-    cardinal: "Karol WOJTYŁA",
+    pope: {
+      name: "Johannes Paul",
+      number: 2,
+    },
+    cardinal: {
+      firstName: "Karol",
+      lastName: "Wojtyła",
+    },
   },
   {
     key: "2005",
     title: "Konklave 2005",
-    pope: "Benedikt XVI.",
-    cardinal: "Joseph RATZINGER",
+    pope: {
+      name: "Benedikt",
+      number: 16,
+    },
+    cardinal: {
+      firstName: "Joseph",
+      lastName: "Ratzinger",
+    },
   },
   {
     key: "2013",
     title: "Konklave 2013",
-    pope: "Franziskus",
-    cardinal: "Jorge Mario BERGOGLIO",
+    pope: {
+      name: "Franziskus",
+      number: null,
+    },
+    cardinal: {
+      firstName: "Jorge Mario",
+      lastName: "Bergoglio",
+    },
   },
   {
     key: "2025",
     title: "Konklave 2025",
-    pope: "Leo XIV.",
-    cardinal: "Robert Francis PREVOST",
+    pope: {
+      name: "Leo",
+      number: 14,
+    },
+    cardinal: {
+      firstName: "Robert Francis",
+      lastName: "Prevost",
+    },
   },
 ];

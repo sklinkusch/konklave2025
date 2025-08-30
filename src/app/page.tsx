@@ -1,6 +1,7 @@
 import { allKonklaveYears, conclaves } from "@assets/data";
 import { Typography, List, ListItem } from "@mui/material";
-import Link from "next/link";
+import { Link } from "@components/Link/Link";
+import { arabicToRoman } from "src/helper/arabicToRoman";
 
 // eslint-disable-next-line react-refresh/only-export-components
 export async function generateMetadata() {
@@ -19,19 +20,73 @@ export default function Home() {
       <List>
         {allYears.map((year) => {
           const conclave = conclaves.find((conclave) => conclave.key === year);
-          const title = conclave ? conclave.title : year;
-          const pope = conclave
-            ? `(${conclave.pope}, ${conclave.cardinal})`
-            : "";
-          const allTitle = pope.length ? `${title} ${pope}` : title;
           return (
             <ListItem key={year}>
-              <Link href={`/${year}`}>{allTitle}</Link>
+              <Link href={`/${year}`} underline="none">
+                {conclave ? (
+                  <Typography variant="inherit" component="span">
+                    {conclave.title}
+                  </Typography>
+                ) : (
+                  <Typography variant="inherit" component="span">
+                    {year}
+                  </Typography>
+                )}
+                {conclave && conclave.pope && (
+                  <Typography
+                    variant="inherit"
+                    component="span"
+                    sx={{ display: "inline-block", marginLeft: "0.2rem" }}>
+                    (
+                    <Typography variant="inherit" component="span">
+                      {`${conclave.pope.name}`}
+                    </Typography>
+                    {typeof conclave.pope.number === "number" &&
+                      conclave.pope.number > 0 &&
+                      conclave.pope.number % 1 === 0 && (
+                        <>
+                          <Typography
+                            variant="inherit"
+                            component="span"
+                            sx={{
+                              display: "inline-block",
+                              lineHeight: 0.75,
+                              fontSize: "0.85em",
+                              borderTopColor: "inherit",
+                              borderTopWidth: "0.2em",
+                              borderTopStyle: "solid",
+                              borderBottomColor: "inherit",
+                              borderBottomStyle: "solid",
+                              borderBottomWidth: "0.2em",
+                              marginLeft: "0.3rem",
+                              px: "0.15em",
+                              mr: "0.1rem",
+                            }}>
+                            {`${arabicToRoman(conclave.pope.number)}`}
+                          </Typography>
+                          <Typography variant="inherit" component="span">
+                            .
+                          </Typography>
+                        </>
+                      )}
+                    <Typography variant="inherit" component="span">
+                      , {conclave.cardinal.firstName}
+                    </Typography>
+                    <Typography
+                      variant="inherit"
+                      component="span"
+                      sx={{ fontVariant: "small-caps" }}>
+                      {` ${conclave.cardinal.lastName}`}
+                    </Typography>
+                    )
+                  </Typography>
+                )}
+              </Link>
             </ListItem>
           );
         })}
         <ListItem key="current">
-          <Link href="/current">
+          <Link href="/current" underline="none">
             Liste der aktuell wahlberechtigten Kardinäle
           </Link>
         </ListItem>
