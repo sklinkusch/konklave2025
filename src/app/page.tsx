@@ -18,7 +18,12 @@ export default function Home() {
         Liste der Papstwahlen
       </Typography>
       <List>
-        {allYears.map((year) => {
+        <ListItem key="current">
+          <Link href="/current" underline="none">
+            Liste der aktuell wahlberechtigten Kardinäle
+          </Link>
+        </ListItem>
+        {allYears.reverse().map((year) => {
           const conclave = conclaves.find((conclave) => conclave.key === year);
           return (
             <ListItem key={year}>
@@ -53,11 +58,11 @@ export default function Home() {
                               lineHeight: 0.75,
                               fontSize: "0.85em",
                               borderTopColor: "inherit",
-                              borderTopWidth: "0.2em",
+                              borderTopWidth: "0.1em",
                               borderTopStyle: "solid",
                               borderBottomColor: "inherit",
                               borderBottomStyle: "solid",
-                              borderBottomWidth: "0.2em",
+                              borderBottomWidth: "0.1em",
                               marginLeft: "0.3rem",
                               px: "0.15em",
                               mr: "0.1rem",
@@ -85,11 +90,6 @@ export default function Home() {
             </ListItem>
           );
         })}
-        <ListItem key="current">
-          <Link href="/current" underline="none">
-            Liste der aktuell wahlberechtigten Kardinäle
-          </Link>
-        </ListItem>
       </List>
     </div>
   );
