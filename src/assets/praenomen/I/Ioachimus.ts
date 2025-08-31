@@ -5,6 +5,22 @@ export const Ioachimus: FirstName = {
   data: [
     {
       latin: "Ioachimus",
+      firstName: "Joaquim",
+      lastName: "Arcoverde de Albuquerque Cavalcanti",
+      birthday: "1850-01-17",
+      deathday: "1930-04-18",
+      nation: {
+        1914: ["BR"],
+      },
+      function: {
+        1914: "Erzbischof von São Sebastião do Rio de Janeiro",
+      },
+      rank: {
+        1914: "priest",
+      },
+    },
+    {
+      latin: "Ioachimus",
       firstName: "Joachim",
       lastName: "Meisner",
       birthday: "1933-12-25",

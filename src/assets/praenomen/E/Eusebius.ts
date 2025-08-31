@@ -13,7 +13,7 @@ export const Eusebius: FirstName = {
         2005: ["BR"],
       },
       function: {
-        2005: "Erzbischof von Rio de Janeiro",
+        2005: "Erzbischof von São Sebastião do Rio de Janeiro",
       },
       rank: {
         2005: "priest",

@@ -36,6 +36,25 @@ export const Dominicus: FirstName = {
     {
       latin: "Dominicus",
       firstName: "Domenico",
+      lastName: "Ferrata",
+      birthday: "1847-03-04",
+      deathday: "1914-10-10",
+      nation: {
+        1903: ["IT", "VA"],
+        1914: ["IT", "VA"],
+      },
+      function: {
+        1903: "Präfekt der Konsistorialkongregation",
+        1914: "Erzpriester der Lateranbasilika",
+      },
+      rank: {
+        1903: "priest",
+        1914: "priest",
+      },
+    },
+    {
+      latin: "Dominicus",
+      firstName: "Domenico",
       lastName: "Jorio",
       birthday: "1867-10-07",
       deathday: "1954-10-21",
@@ -63,6 +82,22 @@ export const Dominicus: FirstName = {
       },
       rank: {
         1939: "deacon",
+      },
+    },
+    {
+      latin: "Dominicus",
+      firstName: "Domenico",
+      lastName: "Serafini",
+      birthday: "1852-08-03",
+      deathday: "1918-03-05",
+      nation: {
+        1914: ["IT", "VA"],
+      },
+      function: {
+        1914: "Assessor beim Heiligen Offizium",
+      },
+      rank: {
+        1914: "priest",
       },
     },
     {

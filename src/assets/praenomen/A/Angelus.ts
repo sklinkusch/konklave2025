@@ -66,6 +66,25 @@ export const Angelus: FirstName = {
     },
     {
       latin: "Angelus",
+      firstName: "Angelo",
+      lastName: "Di Pietro",
+      birthday: "1828-05-22",
+      deathday: "1914-12-05",
+      nation: {
+        1903: ["IT", "VA"],
+        1914: ["IT", "VA"],
+      },
+      function: {
+        1903: "Präfekt der Konzilskongregation",
+        1914: "Kardinaldatar",
+      },
+      rank: {
+        1903: "priest",
+        1914: "priest",
+      },
+    },
+    {
+      latin: "Angelus",
       firstName: "Ángel",
       lastName: "Fernández Artime",
       birthday: "1960-08-21",

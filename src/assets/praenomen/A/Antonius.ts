@@ -6,6 +6,25 @@ export const Antonius: FirstName = {
     {
       latin: "Antonius",
       firstName: "Antonio",
+      lastName: "Agliardi",
+      birthday: "1832-09-04",
+      deathday: "1915-03-19",
+      nation: {
+        1903: ["IT", "VA"],
+        1914: ["IT", "VA"],
+      },
+      function: {
+        1903: "Kardinalprotektor des Zisterzienserordens",
+        1914: "Kanzler der Heiligen Römischen Kirche",
+      },
+      rank: {
+        1903: "bishop",
+        1914: "bishop",
+      },
+    },
+    {
+      latin: "Antonius",
+      firstName: "Antonio",
       lastName: "Bacci",
       birthday: "1885-09-04",
       deathday: "1971-01-20",

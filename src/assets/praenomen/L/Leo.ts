@@ -4,6 +4,41 @@ export const Leo: FirstName = {
   name: "Leo",
   data: [
     {
+      latin: "Leo",
+      firstName: "Lev",
+      lastName: "Skrbenský z Hříště",
+      birthday: "1863-06-12",
+      deathday: "1938-12-24",
+      nation: {
+        1903: ["CZ"],
+        1914: ["CZ"],
+      },
+      function: {
+        1903: "Erzbischof von Prag",
+        1914: "Erzbischof von Prag",
+      },
+      rank: {
+        1903: "priest",
+        1914: "priest",
+      },
+    },
+    {
+      latin: "Leo Adolphus",
+      firstName: "Léon-Adolphe",
+      lastName: "Amette",
+      birthday: "1850-09-06",
+      deathday: "1920-08-29",
+      nation: {
+        1914: ["FR"],
+      },
+      function: {
+        1914: "Erzbischof von Paris",
+      },
+      rank: {
+        1914: "priest",
+      },
+    },
+    {
       latin: "Leo Iosephus",
       firstName: "Léon-Joseph",
       lastName: "Suenens",

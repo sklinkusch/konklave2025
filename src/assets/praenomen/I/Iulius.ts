@@ -5,6 +5,25 @@ export const Iulius: FirstName = {
   data: [
     {
       latin: "Iulius",
+      firstName: "Giulio",
+      lastName: "Boschi",
+      birthday: "1838-03-02",
+      deathday: "1920-05-15",
+      nation: {
+        1903: ["IT"],
+        1914: ["IT"],
+      },
+      function: {
+        1903: "Erzbischof von Ferrara",
+        1914: "Erzbischof von Ferrara, Bischof von Comacchio",
+      },
+      rank: {
+        1903: "priest",
+        1914: "priest",
+      },
+    },
+    {
+      latin: "Iulius",
       firstName: "Julio",
       lastName: "Rosales y Ras",
       birthday: "1906-09-18",

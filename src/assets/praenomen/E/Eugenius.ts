@@ -14,8 +14,8 @@ export const Eugenius: FirstName = {
         1978.2: ["BR"],
       },
       function: {
-        1978.1: "Erzbischof von São Sebastião de Rio de Janeiro",
-        1978.2: "Erzbischof von São Sebastião de Rio de Janeiro",
+        1978.1: "Erzbischof von São Sebastião do Rio de Janeiro",
+        1978.2: "Erzbischof von São Sebastião do Rio de Janeiro",
       },
       rank: {
         1978.1: "priest",

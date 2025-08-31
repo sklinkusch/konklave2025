@@ -12,7 +12,7 @@ export const Orani: FirstName = {
         2025: ["BR"],
       },
       function: {
-        2025: "Erzbischof von Rio de Janeiro",
+        2025: "Erzbischof von São Sebastião do Rio de Janeiro",
       },
       rank: {
         2025: "priest",

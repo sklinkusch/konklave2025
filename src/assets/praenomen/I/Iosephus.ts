@@ -600,6 +600,25 @@ export const Iosephus: FirstName = {
     },
     {
       latin: "Iosephus Maria",
+      firstName: "José María",
+      lastName: "Martín de Herrera y de la Iglesia",
+      birthday: "1835-08-26",
+      deathday: "1922-12-08",
+      nation: {
+        1903: ["ES"],
+        1914: ["ES"],
+      },
+      function: {
+        1903: "Erzbischof von Santiago de Compostela",
+        1914: "Erzbischof von Santiago de Compostela",
+      },
+      rank: {
+        1903: "priest",
+        1914: "priest",
+      },
+    },
+    {
+      latin: "Iosephus Maria",
       firstName: "Giuseppe Maria",
       lastName: "Sensi",
       birthday: "1907-05-27",
@@ -656,6 +675,22 @@ export const Iosephus: FirstName = {
       },
     },
     {
+      latin: "Iosephus Maria Iustus",
+      firstName: "José Maria Justo",
+      lastName: "Cos y Macho",
+      birthday: "1838-08-06",
+      deathday: "1919-12-17",
+      nation: {
+        1914: ["ES"],
+      },
+      function: {
+        1914: "Erzbischof von Valladolid",
+      },
+      rank: {
+        1914: "priest",
+      },
+    },
+    {
       latin: "Iosephus Martinus",
       firstName: "Joseph Martin",
       lastName: "Schröffer",
@@ -674,6 +709,25 @@ export const Iosephus: FirstName = {
       rank: {
         1978.1: "deacon",
         1978.2: "deacon",
+      },
+    },
+    {
+      latin: "Iosephus Sebastianus",
+      firstName: "José Sebastiâo",
+      lastName: "Neto",
+      birthday: "1841-02-08",
+      deathday: "1920-12-07",
+      nation: {
+        1903: ["PT"],
+        1914: ["PT"],
+      },
+      function: {
+        1903: "Patriarch von Lissabon",
+        1914: "emeritierter Patriarch von Lissabon",
+      },
+      rank: {
+        1903: "priest",
+        1914: "priest",
       },
     },
     {

@@ -319,6 +319,22 @@ export const Franciscus: FirstName = {
       },
     },
     {
+      latin: "Franciscus",
+      firstName: "Franziskus",
+      lastName: "von Bettinger",
+      birthday: "1850-09-17",
+      deathday: "1917-04-12",
+      nation: {
+        1914: ["DE"],
+      },
+      function: {
+        1914: "Erzbischof von München und Freising",
+      },
+      rank: {
+        1914: "priest",
+      },
+    },
+    {
       latin: "Franciscus Aidanus",
       firstName: "Francis Aidan",
       lastName: "Gasquet",
@@ -376,6 +392,25 @@ export const Franciscus: FirstName = {
       },
     },
     {
+      latin: "Franciscus de Paulā",
+      firstName: "Francesco di Paola",
+      lastName: "Cassetta",
+      birthday: "1841-08-12",
+      deathday: "1919-03-23",
+      nation: {
+        1903: ["IT", "VA"],
+        1914: ["IT", "VA"],
+      },
+      function: {
+        1903: "Kämmerer des Heiligen Kardinalskollegiums",
+        1914: "Bibliothekar der Vatikanischen Bibliothek",
+      },
+      rank: {
+        1903: "priest",
+        1914: "bishop",
+      },
+    },
+    {
       latin: "Franciscus Eugenius",
       firstName: "Francis Eugene",
       lastName: "George",
@@ -411,6 +446,41 @@ export const Franciscus: FirstName = {
       rank: {
         1958: "priest",
         1963: "priest",
+      },
+    },
+    {
+      latin: "Franciscus Maria Anatolius",
+      firstName: "François-Marie-Anatole",
+      lastName: "de Roverié de Cabrières",
+      birthday: "1830-08-30",
+      deathday: "1921-12-21",
+      nation: {
+        1914: ["FR"],
+      },
+      function: {
+        1914: "Bischof von Montpellier",
+      },
+      rank: {
+        1914: "priest",
+      },
+    },
+    {
+      latin: "Franciscus Salesius",
+      firstName: "Francesco Salesio",
+      lastName: "Della Volpe",
+      birthday: "1844-12-24",
+      deathday: "1916-11-05",
+      nation: {
+        1903: ["IT", "VA"],
+        1914: ["IT", "VA"],
+      },
+      function: {
+        1903: "Präfekt des Päpstlichen Hauses",
+        1914: "Präfekt der Indexkongregation, Camerlengo, Kardinalprotodiakon",
+      },
+      rank: {
+        1903: "deacon",
+        1914: "deacon",
       },
     },
     {

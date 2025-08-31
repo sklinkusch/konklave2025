@@ -22,5 +22,21 @@ export const Benedictus: FirstName = {
         1963: "bishop",
       },
     },
+    {
+      latin: "Benedictus",
+      firstName: "Benedetto",
+      lastName: "Lorenzelli",
+      birthday: "1853-05-11",
+      deathday: "1915-09-15",
+      nation: {
+        1914: ["IT", "VA"],
+      },
+      function: {
+        1914: "Präfekt der Studienkongregation",
+      },
+      rank: {
+        1914: "priest",
+      },
+    },
   ],
 };

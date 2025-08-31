@@ -30,12 +30,31 @@ export const Iacobus: FirstName = {
         1963: ["BR"],
       },
       function: {
-        1958: "Erzbischof von São Sebastião de Rio de Jaeiro",
-        1963: "Erzbischof von São Sebastião de Rio de Jaeiro",
+        1958: "Erzbischof von São Sebastião do Rio de Jaeiro",
+        1963: "Erzbischof von São Sebastião do Rio de Jaeiro",
       },
       rank: {
         1958: "priest",
         1963: "priest",
+      },
+    },
+    {
+      latin: "Iacobus",
+      firstName: "Giacomo",
+      lastName: "della Chiesa",
+      birthday: "1854-11-21",
+      deathday: "1922-01-22",
+      nation: {
+        1914: ["IT"],
+      },
+      function: {
+        1914: "Erzbischof von Bologna, Papst Benedikt XV.",
+      },
+      rank: {
+        1914: "priest",
+      },
+      elected: {
+        1914: true,
       },
     },
     {

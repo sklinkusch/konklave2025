@@ -18,6 +18,7 @@ import { Andreas } from "./Andreas";
 import { Angelus } from "./Angelus";
 import { Anscharius } from "./Anscharius";
 import { Antonius } from "./Antonius";
+import { Aristides } from "./Aristides";
 import { Arlindus } from "./Arlindus";
 import { Armandus } from "./Armandus";
 import { Arminius } from "./Arminius";
@@ -50,6 +51,7 @@ export const A: FirstName[] = [
   Angelus,
   Anscharius,
   Antonius,
+  Aristides,
   Arlindus,
   Armandus,
   Arminius,

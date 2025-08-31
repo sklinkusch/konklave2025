@@ -103,6 +103,22 @@ export const Carolus: FirstName = {
     },
     {
       latin: "Carolus",
+      firstName: "Károly",
+      lastName: "Hornig",
+      birthday: "1840-08-10",
+      deathday: "1917-02-09",
+      nation: {
+        1914: ["HU"],
+      },
+      function: {
+        1914: "Bischof von Veszprém",
+      },
+      rank: {
+        1914: "priest",
+      },
+    },
+    {
+      latin: "Carolus",
       firstName: "Karl",
       lastName: "Lehmann",
       birthday: "1936-05-16",

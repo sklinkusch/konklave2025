@@ -20,6 +20,25 @@ export const Andreas: FirstName = {
       },
     },
     {
+      latin: "Andreas Carolus",
+      firstName: "Andrea Carlo",
+      lastName: "Ferrari",
+      birthday: "1850-08-13",
+      deathday: "1921-02-02",
+      nation: {
+        1903: ["IT"],
+        1914: ["IT"],
+      },
+      function: {
+        1903: "Erzbischof von Mailand",
+        1914: "Erzbischof von Mailand",
+      },
+      rank: {
+        1903: "priest",
+        1914: "priest",
+      },
+    },
+    {
       latin: "Andreas Franciscus",
       firstName: "Andreas Franz",
       lastName: "Frühwirth",

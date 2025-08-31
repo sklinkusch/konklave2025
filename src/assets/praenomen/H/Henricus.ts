@@ -5,6 +5,22 @@ export const Henricus: FirstName = {
   data: [
     {
       latin: "Henricus",
+      firstName: "Enrique",
+      lastName: "Almaraz y Santos",
+      birthday: "1847-09-22",
+      deathday: "1922-01-22",
+      nation: {
+        1914: ["ES"],
+      },
+      function: {
+        1914: "Erzbischof von Sevilla",
+      },
+      rank: {
+        1914: "priest",
+      },
+    },
+    {
+      latin: "Henricus",
       firstName: "Enrico",
       lastName: "Gasparri",
       birthday: "1871-07-25",

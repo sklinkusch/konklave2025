@@ -4,24 +4,19 @@ export const Philippus: FirstName = {
   name: "Philippus",
   data: [
     {
-      latin: "Philippus Xaverius Christianus Ignatius",
-      firstName: "Philippe Xavier Christian Ignace",
-      lastName: "Barbarin",
-      birthday: "1950-10-17",
+      latin: "Philippus",
+      firstName: "Filippo",
+      lastName: "Giustini",
+      birthday: "1852-05-08",
+      deathday: "1920-03-18",
       nation: {
-        2005: ["FR"],
-        2013: ["FR"],
-        2025: ["FR"],
+        1914: ["IT", "VA"],
       },
       function: {
-        2005: "Erzbischof von Lyon",
-        2013: "Erzbischof von Lyon",
-        2025: "emeritierter Erzbischof von Lyon",
+        1914: "Präfekt der Sakramentenkongregation",
       },
       rank: {
-        2005: "priest",
-        2013: "priest",
-        2025: "priest",
+        1914: "deacon",
       },
     },
     {
@@ -51,6 +46,27 @@ export const Philippus: FirstName = {
         2025: "Patriarch von Ostindien",
       },
       rank: {
+        2025: "priest",
+      },
+    },
+    {
+      latin: "Philippus Xaverius Christianus Ignatius",
+      firstName: "Philippe Xavier Christian Ignace",
+      lastName: "Barbarin",
+      birthday: "1950-10-17",
+      nation: {
+        2005: ["FR"],
+        2013: ["FR"],
+        2025: ["FR"],
+      },
+      function: {
+        2005: "Erzbischof von Lyon",
+        2013: "Erzbischof von Lyon",
+        2025: "emeritierter Erzbischof von Lyon",
+      },
+      rank: {
+        2005: "priest",
+        2013: "priest",
         2025: "priest",
       },
     },

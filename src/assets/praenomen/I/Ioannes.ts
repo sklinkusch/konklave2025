@@ -737,6 +737,22 @@ export const Ioannes: FirstName = {
       },
     },
     {
+      latin: "Ioannes Murphy",
+      firstName: "John Murphy",
+      lastName: "Farley",
+      birthday: "1842-04-20",
+      deathday: "1918-09-17",
+      nation: {
+        1914: ["US"],
+      },
+      function: {
+        1914: "Erzbischof von New York",
+      },
+      rank: {
+        1914: "priest",
+      },
+    },
+    {
       latin: "Ioannes Olorunfemi",
       firstName: "John Olorunfemi",
       lastName: "Onaiyekan",
