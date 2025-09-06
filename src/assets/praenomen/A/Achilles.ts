@@ -1,5 +1,7 @@
 import { FirstName } from "@mytypes/types";
 
+const Lille = "Bischof von Lille";
+
 export const Achilles: FirstName = {
   name: "Achilles",
   data: [
@@ -15,9 +17,9 @@ export const Achilles: FirstName = {
         1963: ["FR"],
       },
       function: {
-        1939: "Bischof von Lille",
-        1958: "Bischof von Lille",
-        1963: "Bischof von Lille",
+        1939: Lille,
+        1958: Lille,
+        1963: Lille,
       },
       rank: {
         1939: "priest",

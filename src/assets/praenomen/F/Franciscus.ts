@@ -1,5 +1,7 @@
 import type { FirstName } from "@mytypes/types";
 
+const Wien = "Erzbischof von Wien";
+
 export const Franciscus: FirstName = {
   name: "Franciscus",
   data: [
@@ -96,9 +98,9 @@ export const Franciscus: FirstName = {
         1978.2: ["AT"],
       },
       function: {
-        1963: "Erzbischof von Wien",
-        1978.1: "Erzbischof von Wien",
-        1978.2: "Erzbischof von Wien",
+        1963: Wien,
+        1978.1: Wien,
+        1978.2: Wien,
       },
       rank: {
         1963: "priest",

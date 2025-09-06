@@ -1,5 +1,8 @@
 import type { FirstName } from "@mytypes/types";
 
+const AntoniusMaria = "Antonius Maria";
+const Lissabon = "Patriarch von Lissabon";
+
 export const Antonius: FirstName = {
   name: "Antonius",
   data: [
@@ -98,8 +101,8 @@ export const Antonius: FirstName = {
         1922: ["PT"],
       },
       function: {
-        1914: "Patriarch von Lissabon",
-        1922: "Patriarch von Lissabon",
+        1914: Lissabon,
+        1922: Lissabon,
       },
       rank: {
         1914: "priest",
@@ -167,8 +170,8 @@ export const Antonius: FirstName = {
         1978.2: ["PT"],
       },
       function: {
-        1978.1: "Patriarch von Lissabon",
-        1978.2: "Patriarch von Lissabon",
+        1978.1: Lissabon,
+        1978.2: Lissabon,
       },
       rank: {
         1978.1: "priest",
@@ -229,7 +232,7 @@ export const Antonius: FirstName = {
       },
     },
     {
-      latin: "Antonius Maria",
+      latin: AntoniusMaria,
       firstName: "Antonio María",
       lastName: "Barbieri Romano",
       birthday: "1892-10-12",
@@ -245,7 +248,7 @@ export const Antonius: FirstName = {
       },
     },
     {
-      latin: "Antonius Maria",
+      latin: AntoniusMaria,
       firstName: "Antonio María",
       lastName: "Rouco Varela",
       birthday: "1936-08-20",
@@ -263,7 +266,7 @@ export const Antonius: FirstName = {
       },
     },
     {
-      latin: "Antonius Maria",
+      latin: AntoniusMaria,
       firstName: "Antonio Maria",
       lastName: "Vegliò",
       birthday: "1938-02-03",

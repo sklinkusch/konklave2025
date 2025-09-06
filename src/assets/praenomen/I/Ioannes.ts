@@ -1,5 +1,11 @@
 import type { FirstName } from "@mytypes/types";
 
+const Lima = "Erzbischof von Lima";
+const IoannesBaptista = "Ioannes Baptista";
+const IoannesFranciscus = "Ioannes Franciscus";
+const IoannesIosephus = "IoannesIosephus";
+const JohnJoseph = "John Joseph";
+
 export const Ioannes: FirstName = {
   name: "Ioannes",
   data: [
@@ -102,9 +108,9 @@ export const Ioannes: FirstName = {
         1978.2: ["PE"],
       },
       function: {
-        1963: "Erzbischof von Lima",
-        1978.1: "Erzbischof von Lima",
-        1978.2: "Erzbischof von Lima",
+        1963: Lima,
+        1978.1: Lima,
+        1978.2: Lima,
       },
       rank: {
         1963: "priest",
@@ -301,7 +307,7 @@ export const Ioannes: FirstName = {
       },
     },
     {
-      latin: "Ioannes Baptista",
+      latin: IoannesBaptista,
       firstName: "Juan Bautista",
       lastName: "Benlloch y Vivó",
       birthday: "1864-12-29",
@@ -336,7 +342,7 @@ export const Ioannes: FirstName = {
       },
     },
     {
-      latin: "Ioannes Baptista",
+      latin: IoannesBaptista,
       firstName: "Giovanni Battista",
       lastName: "Nasalli Rocca di Corneliano",
       birthday: "1872-08-27",
@@ -352,7 +358,7 @@ export const Ioannes: FirstName = {
       },
     },
     {
-      latin: "Ioannes Baptista",
+      latin: IoannesBaptista,
       firstName: "Giovanni Battista",
       lastName: "Re",
       birthday: "1934-01-30",
@@ -475,7 +481,7 @@ export const Ioannes: FirstName = {
       },
     },
     {
-      latin: "Ioannes Franciscus",
+      latin: IoannesFranciscus,
       firstName: "John Francis",
       lastName: "D'Alton",
       birthday: "1882-10-11",
@@ -491,7 +497,7 @@ export const Ioannes: FirstName = {
       },
     },
     {
-      latin: "Ioannes Franciscus",
+      latin: IoannesFranciscus,
       firstName: "John Francis",
       lastName: "Dearden",
       birthday: "1907-10-15",
@@ -510,7 +516,7 @@ export const Ioannes: FirstName = {
       },
     },
     {
-      latin: "Ioannes Franciscus",
+      latin: IoannesFranciscus,
       firstName: "Gianfranco",
       lastName: "Ravasi",
       birthday: "1942-10-18",
@@ -565,8 +571,8 @@ export const Ioannes: FirstName = {
       },
     },
     {
-      latin: "Ioannes Iosephus",
-      firstName: "John Joseph",
+      latin: IoannesIosephus,
+      firstName: JohnJoseph,
       lastName: "Carberry",
       birthday: "1904-07-31",
       deathday: "1998-06-17",
@@ -584,8 +590,8 @@ export const Ioannes: FirstName = {
       },
     },
     {
-      latin: "Ioannes Iosephus",
-      firstName: "John Joseph",
+      latin: IoannesIosephus,
+      firstName: JohnJoseph,
       lastName: "Krol",
       birthday: "1910-10-26",
       deathday: "1996-03-03",
@@ -603,7 +609,7 @@ export const Ioannes: FirstName = {
       },
     },
     {
-      latin: "Ioannes Iosephus",
+      latin: IoannesIosephus,
       firstName: "Juan José",
       lastName: "Omella Omella",
       birthday: "1946-04-21",
@@ -618,8 +624,8 @@ export const Ioannes: FirstName = {
       },
     },
     {
-      latin: "Ioannes Iosephus",
-      firstName: "John Joseph",
+      latin: IoannesIosephus,
+      firstName: JohnJoseph,
       lastName: "Wright",
       birthday: "1909-07-18",
       deathday: "1979-08-10",
@@ -643,8 +649,8 @@ export const Ioannes: FirstName = {
         2013: ["PE"],
       },
       function: {
-        2005: "Erzbischof von Lima",
-        2013: "Erzbischof von Lima",
+        2005: Lima,
+        2013: Lima,
       },
       rank: {
         2005: "priest",

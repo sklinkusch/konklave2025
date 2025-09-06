@@ -112,21 +112,22 @@ const CustomTable = ({ data, startDate }: CustomTableProps) => {
         {data.map((row, index) => {
           const sxCell = {
             color: "black",
-            fontWeight: row.elected ? "bold" : "normal",
+            fontWeight: "normal",
             display: ["block", "table-cell"],
             borderBottom: "none",
           };
+          if (row.elected === true) sxCell.fontWeight = "bold";
+          const sxRow = {
+            backgroundColor: "transparent",
+            borderBottom: "1px solid rgba(224, 224, 224, 1)",
+            overflowX: "hidden",
+          };
+          if (row.elected === true) sxRow.backgroundColor = "gold";
           const age = row.birthday
             ? calculateDateDifference(startDate, row.birthday)
             : "";
           return (
-            <TableRow
-              key={index}
-              sx={{
-                backgroundColor: row.elected ? "gold" : "transparent",
-                borderBottom: "1px solid rgba(224, 224, 224, 1)",
-                overflowX: "hidden",
-              }}>
+            <TableRow key={index} sx={sxRow}>
               {tableData.map((cell) => {
                 switch (cell.property) {
                   case "age":

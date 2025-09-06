@@ -1,5 +1,7 @@
 import type { FirstName } from "@mytypes/types";
 
+const Palermo = "Erzbischof von Palermo";
+
 export const Salvator: FirstName = {
   name: "Salvator",
   data: [
@@ -12,7 +14,7 @@ export const Salvator: FirstName = {
         2005: ["IT"],
       },
       function: {
-        2005: "Erzbischof von Palermo",
+        2005: Palermo,
       },
       rank: {
         2005: "priest",
@@ -29,8 +31,8 @@ export const Salvator: FirstName = {
         1978.2: ["IT"],
       },
       function: {
-        1978.1: "Erzbischof von Palermo",
-        1978.2: "Erzbischof von Palermo",
+        1978.1: Palermo,
+        1978.2: Palermo,
       },
       rank: {
         1978.1: "priest",

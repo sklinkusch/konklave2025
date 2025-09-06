@@ -1,5 +1,7 @@
 import type { FirstName } from "@mytypes/types";
 
+const Santiago = "Erzbischof von Santiago de Chile";
+
 export const Radulphus: FirstName = {
   name: "Radulphus",
   data: [
@@ -15,9 +17,9 @@ export const Radulphus: FirstName = {
         1978.2: ["CL"],
       },
       function: {
-        1963: "Erzbischof von Santiago de Chile",
-        1978.1: "Erzbischof von Santiago de Chile",
-        1978.2: "Erzbischof von Santiago de Chile",
+        1963: Santiago,
+        1978.1: Santiago,
+        1978.2: Santiago,
       },
       rank: {
         1963: "priest",

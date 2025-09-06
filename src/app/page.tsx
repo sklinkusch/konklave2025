@@ -2,9 +2,10 @@ import { allKonklaveYears, conclaves } from "@assets/data";
 import { Typography, List, ListItem } from "@mui/material";
 import { Link } from "@components/Link/Link";
 import { arabicToRoman } from "src/helper/arabicToRoman";
+import { Metadata } from "next";
 
 // eslint-disable-next-line react-refresh/only-export-components
-export async function generateMetadata() {
+export async function generateMetadata(): Promise<Metadata> {
   return {
     title: "Liste der Papstwahlen",
   };
@@ -37,7 +38,7 @@ export default function Home() {
                     {year}
                   </Typography>
                 )}
-                {conclave && conclave.pope && (
+                {conclave && (
                   <Typography
                     variant="inherit"
                     component="span"

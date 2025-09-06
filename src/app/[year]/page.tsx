@@ -4,11 +4,13 @@ import { Typography } from "@mui/material";
 import { ChevronLeft } from "@mui/icons-material";
 import { FirstName } from "@components/FirstName/FirstName";
 import { getCardinals, startDates, conclaves } from "@assets/data";
-import { NewFirstName } from "@mytypes/types";
 import { arabicToRoman } from "src/helper/arabicToRoman";
+import { Metadata } from "next";
 
 // eslint-disable-next-line react-refresh/only-export-components
-export async function generateMetadata(props: PageProps<"/[year]">) {
+export async function generateMetadata(
+  props: PageProps<"/[year]">,
+): Promise<Metadata> {
   const { year } = await props.params;
   const conclave = conclaves.find((c) => c.key === year);
   return {
@@ -18,8 +20,8 @@ export async function generateMetadata(props: PageProps<"/[year]">) {
 
 export default async function Konklave(props: PageProps<"/[year]">) {
   const { year } = await props.params;
-  const data = getCardinals(year) as NewFirstName[];
-  if (!data || data.length === 0) {
+  const data = getCardinals(year);
+  if (data.length === 0) {
     redirect("/");
   }
   const startDate = startDates[year] ?? "";
@@ -44,7 +46,7 @@ export default async function Konklave(props: PageProps<"/[year]">) {
             {year}
           </Typography>
         )}
-        {conclave && conclave.pope && (
+        {conclave && (
           <Typography
             variant="inherit"
             component="span"

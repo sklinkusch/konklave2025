@@ -1,5 +1,7 @@
 import type { FirstName } from "@mytypes/types";
 
+const Antiochien = "Patriarch von Antiochien";
+
 export const Ignatius: FirstName = {
   name: "Ignatius",
   data: [
@@ -45,9 +47,9 @@ export const Ignatius: FirstName = {
         1963: ["LB"],
       },
       function: {
-        1939: "Patriarch von Antiochien",
-        1958: "Patriarch von Antiochien",
-        1963: "Patriarch von Antiochien",
+        1939: Antiochien,
+        1958: Antiochien,
+        1963: Antiochien,
       },
       rank: {
         1939: "priest",

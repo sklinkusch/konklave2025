@@ -59,22 +59,32 @@ export const getCardinals = (year: string) => {
       (firstNames: NewFirstName[], firstName: FirstName) => {
         const newCardinals = firstName.data.reduce(
           (cardinals: NewCardinal[], cardinal: Cardinal) => {
-            const nationHasYear = year in cardinal.nation;
-            const functionHasYear = year in cardinal.function;
-            const rankHasYear = year in cardinal.rank;
+            const nationHasYear =
+              cardinal.nation[year as ConclaveYears] !== undefined;
+            const functionHasYear =
+              cardinal.function[year as ConclaveYears] !== undefined;
+            const rankHasYear =
+              cardinal.rank[year as ConclaveYears] !== undefined;
+            const electedHasYear = cardinal.elected
+              ? cardinal.elected[year as ConclaveYears] !== undefined
+              : false;
             if (nationHasYear && functionHasYear && rankHasYear) {
               return cardinals.concat([
                 {
                   ...cardinal,
-                  nation: cardinal.nation[year as ConclaveYears] || [],
-                  function: cardinal.function[year as ConclaveYears] || "",
+                  nation: nationHasYear
+                    ? (cardinal.nation[year as ConclaveYears] as string[])
+                    : [],
+                  function: functionHasYear
+                    ? (cardinal.function[year as ConclaveYears] as string)
+                    : "",
                   elected:
-                    (cardinal.elected &&
-                      cardinal.elected[year as ConclaveYears]) ||
-                    false,
-                  rank:
-                    (cardinal.rank && cardinal.rank[year as ConclaveYears]) ||
-                    "priest",
+                    electedHasYear && typeof cardinal.elected === "object"
+                      ? (cardinal.elected[year as ConclaveYears] as boolean)
+                      : false,
+                  rank: rankHasYear
+                    ? (cardinal.rank[year as ConclaveYears] as Rank)
+                    : "priest",
                 },
               ]);
             }
@@ -117,11 +127,13 @@ export const getAllCardinals = () => {
           firstName: cardinal.firstName,
           lastName: cardinal.lastName,
           birthday: cardinal.birthday,
-          deathday: cardinal.deathday ? cardinal.deathday : undefined,
+          deathday:
+            cardinal.deathday !== undefined ? cardinal.deathday : undefined,
           nation: cardinal.nation.curr ? cardinal.nation.curr : maximalNation,
-          function: cardinal.function.curr
-            ? cardinal.function.curr
-            : maximalFunction,
+          function:
+            cardinal.function.curr !== undefined
+              ? cardinal.function.curr
+              : maximalFunction,
           rank: cardinal.rank.curr ? cardinal.rank.curr : maximalRank,
           elected: cardinal.elected
             ? Object.values(cardinal.elected).some(Boolean)

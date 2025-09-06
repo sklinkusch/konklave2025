@@ -1,5 +1,7 @@
 import { FirstName } from "@mytypes/types";
 
+const Turin = "Erzbischof von Turin";
+
 export const Maurilius: FirstName = {
   name: "Maurilius",
   data: [
@@ -15,9 +17,9 @@ export const Maurilius: FirstName = {
         1963: ["IT"],
       },
       function: {
-        1939: "Erzbischof von Turin",
-        1958: "Erzbischof von Turin",
-        1963: "Erzbischof von Turin",
+        1939: Turin,
+        1958: Turin,
+        1963: Turin,
       },
       rank: {
         1939: "priest",

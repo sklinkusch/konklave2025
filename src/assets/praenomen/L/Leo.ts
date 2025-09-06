@@ -1,5 +1,7 @@
 import type { FirstName } from "@mytypes/types";
 
+const Mecheln = "Erbischof von Mecheln-Brüssel";
+
 export const Leo: FirstName = {
   name: "Leo",
   data: [
@@ -50,9 +52,9 @@ export const Leo: FirstName = {
         1978.2: ["BE"],
       },
       function: {
-        1963: "Erzbischof von Mecheln-Brüssel",
-        1978.1: "Erzbischof von Mecheln-Brüssel",
-        1978.2: "Erzbischof von Mecheln-Brüssel",
+        1963: Mecheln,
+        1978.1: Mecheln,
+        1978.2: Mecheln,
       },
       rank: {
         1963: "priest",

@@ -1,5 +1,8 @@
 import type { FirstName } from "@mytypes/types";
 
+const Esztergom = "Erzbischof von Esztergom-Budapest";
+const Lyon = "Erzbischof von Lyon";
+
 export const Petrus: FirstName = {
   name: "Petrus",
   data: [
@@ -49,9 +52,9 @@ export const Petrus: FirstName = {
         2025: ["HU"],
       },
       function: {
-        2005: "Erzbischof von Esztergom-Budapest",
-        2013: "Erzbischof von Esztergom-Budapest",
-        2025: "Erzbischof von Esztergom-Budapest",
+        2005: Esztergom,
+        2013: Esztergom,
+        2025: Esztergom,
       },
       rank: {
         2005: "priest",
@@ -263,9 +266,9 @@ export const Petrus: FirstName = {
         1963: ["FR"],
       },
       function: {
-        1939: "Erzbischof von Lyon",
-        1958: "Erzbischof von Lyon",
-        1963: "Erzbischof von Lyon",
+        1939: Lyon,
+        1958: Lyon,
+        1963: Lyon,
       },
       rank: {
         1939: "priest",

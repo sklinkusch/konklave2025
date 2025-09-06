@@ -5,6 +5,7 @@ import { ChevronLeft } from "@mui/icons-material";
 import { FirstName } from "@components/FirstName/FirstName";
 import { getAllCardinals } from "@assets/data";
 import { DateString } from "@mytypes/types";
+import { Metadata } from "next";
 
 const calculateDateDifference = (start: string, end: string): boolean => {
   const years = moment(start).diff(moment(end), "years", true);
@@ -12,7 +13,7 @@ const calculateDateDifference = (start: string, end: string): boolean => {
 };
 
 // eslint-disable-next-line react-refresh/only-export-components
-export async function generateMetadata() {
+export async function generateMetadata(): Promise<Metadata> {
   return {
     title: "Liste der aktuell wahlberechtigten Kardinäle",
   };
@@ -32,7 +33,9 @@ function Current() {
           startDate,
           cardinal.birthday,
         );
-        return !cardinal.elected && !cardinal.deathday && youngEnough;
+        const isNotElected: boolean = cardinal.elected !== true;
+        const isAlive: boolean = cardinal.deathday === undefined;
+        return isNotElected && isAlive && youngEnough;
       }),
     }))
     .filter((FirstName) => FirstName.data.length > 0);
@@ -50,7 +53,7 @@ function Current() {
           key={index}
           name={cardinal.name}
           data={cardinal.data}
-          startDate={startDate as DateString}
+          startDate={startDate}
         />
       ))}
     </div>

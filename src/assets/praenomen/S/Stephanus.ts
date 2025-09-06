@@ -1,5 +1,7 @@
 import type { FirstName } from "@mytypes/types";
 
+const Gnesen = "Erzbischof von Gnesen und Warschau";
+
 export const Stephanus: FirstName = {
   name: "Stephanus",
   data: [
@@ -84,10 +86,10 @@ export const Stephanus: FirstName = {
         1978.2: ["PL"],
       },
       function: {
-        1958: "Erzbischof von Gnesen und Warschau",
-        1963: "Erzbischof von Gnesen und Warschau",
-        1978.1: "Erzbischof von Gnesen und Warschau",
-        1978.2: "Erzbischof von Gnesen und Warschau",
+        1958: Gnesen,
+        1963: Gnesen,
+        1978.1: Gnesen,
+        1978.2: Gnesen,
       },
       rank: {
         1958: "priest",
