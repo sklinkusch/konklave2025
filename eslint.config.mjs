@@ -33,6 +33,8 @@ export default [
       "**/dist",
       "**/test",
       "**/*.test.*",
+      "**/next-env.d.ts",
+      "**/.next/*",
     ],
   },
   ...fixupConfigRules(
