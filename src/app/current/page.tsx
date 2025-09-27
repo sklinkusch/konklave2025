@@ -12,8 +12,7 @@ const calculateDateDifference = (start: string, end: string): boolean => {
   return years <= 80.0;
 };
 
-// eslint-disable-next-line react-refresh/only-export-components
-export async function generateMetadata(): Promise<Metadata> {
+export function generateMetadata(): Metadata {
   return {
     title: "Liste der aktuell wahlberechtigten Kardinäle",
   };
