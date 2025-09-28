@@ -20,8 +20,8 @@ export async function generateMetadata(props: PageProps): Promise<Metadata> {
   };
 }
 
-export default function Konklave(props: PageProps) {
-  const { year } = props.params;
+export default async function Konklave(props: PageProps) {
+  const { year } = await props.params;
   const data = getCardinals(year);
   if (data.length === 0) {
     redirect("/");
