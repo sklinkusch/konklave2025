@@ -12,6 +12,7 @@ import next from "@next/eslint-plugin-next";
 import { fileURLToPath } from "node:url";
 import js from "@eslint/js";
 import { FlatCompat } from "@eslint/eslintrc";
+import prettier from "eslint-plugin-prettier";
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -59,7 +60,8 @@ export default [
       "jsx-a11y": fixupPluginRules(jsxA11Y),
       import: fixupPluginRules(imp),
       next: fixupPluginRules(next),
-      promises: fixupConfigRules(promise),
+      promises: fixupPluginRules(promise),
+      prettier: fixupPluginRules(prettier),
     },
 
     languageOptions: {
@@ -144,6 +146,7 @@ export default [
       /* === JSDoc === */
       "require-jsdoc": "off", // optional plugin if you want doc enforcement
       "valid-jsdoc": "off", // same, plugin needed
+      "prettier/prettier": "error",
     },
   },
   {
