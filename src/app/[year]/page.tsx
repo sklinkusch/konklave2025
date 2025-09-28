@@ -7,10 +7,12 @@ import { getCardinals, startDates, conclaves } from "@assets/data";
 import { arabicToRoman } from "src/helper/arabicToRoman";
 import { Metadata } from "next";
 
-// eslint-disable-next-line react-refresh/only-export-components
-export async function generateMetadata(
-  props: PageProps<"/[year]">,
-): Promise<Metadata> {
+type PageProps = {
+  params: Record<string, string>;
+  searchParams?: Record<string, string | string[]>;
+};
+
+export async function generateMetadata(props: PageProps): Promise<Metadata> {
   const { year } = await props.params;
   const conclave = conclaves.find((c) => c.key === year);
   return {
@@ -18,7 +20,7 @@ export async function generateMetadata(
   };
 }
 
-export default async function Konklave(props: PageProps<"/[year]">) {
+export default async function Konklave(props: PageProps) {
   const { year } = await props.params;
   const data = getCardinals(year);
   if (data.length === 0) {

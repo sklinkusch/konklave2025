@@ -4,8 +4,7 @@ import { Link } from "@components/Link/Link";
 import { arabicToRoman } from "src/helper/arabicToRoman";
 import { Metadata } from "next";
 
-// eslint-disable-next-line react-refresh/only-export-components
-export async function generateMetadata(): Promise<Metadata> {
+export function generateMetadata(): Metadata {
   return {
     title: "Liste der Papstwahlen",
   };
