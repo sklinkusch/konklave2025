@@ -22,5 +22,21 @@ export const Adolphus: FirstName = {
         1939: "priest",
       },
     },
+    {
+      latin: "Adolphus Ludovicus Albertus",
+      firstName: "Adolphe-Louis-Albert",
+      lastName: "Perraud",
+      birthday: "1828-02-07",
+      deathday: "1906-02-10",
+      nation: {
+        1903: ["FR"],
+      },
+      function: {
+        1903: "Bischof von Autun",
+      },
+      rank: {
+        1903: "priest",
+      },
+    },
   ],
 };

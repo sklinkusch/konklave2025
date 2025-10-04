@@ -1,11 +1,5 @@
 import type { FirstName } from "@mytypes/types";
 
-const Lima = "Erzbischof von Lima";
-const IoannesBaptista = "Ioannes Baptista";
-const IoannesFranciscus = "Ioannes Franciscus";
-const IoannesIosephus = "IoannesIosephus";
-const JohnJoseph = "John Joseph";
-
 export const Ioannes: FirstName = {
   name: "Ioannes",
   data: [
@@ -108,9 +102,9 @@ export const Ioannes: FirstName = {
         1978.2: ["PE"],
       },
       function: {
-        1963: Lima,
-        1978.1: Lima,
-        1978.2: Lima,
+        1963: "Erzbischof von Lima",
+        1978.1: "Erzbischof von Lima",
+        1978.2: "Erzbischof von Lima",
       },
       rank: {
         1963: "priest",
@@ -307,7 +301,7 @@ export const Ioannes: FirstName = {
       },
     },
     {
-      latin: IoannesBaptista,
+      latin: "Ioannes Baptistus",
       firstName: "Juan Bautista",
       lastName: "Benlloch y Vivó",
       birthday: "1864-12-29",
@@ -320,59 +314,6 @@ export const Ioannes: FirstName = {
       },
       rank: {
         1922: "priest",
-      },
-    },
-    {
-      latin: "Ioannes Baptista Henricus Antonius Maria",
-      firstName: "Giovanni Battista Enrico Antonio Maria",
-      lastName: "Montini",
-      birthday: "1897-09-26",
-      deathday: "1978-08-06",
-      nation: {
-        1963: ["IT"],
-      },
-      function: {
-        1963: "Erzbischof von Mailand, Papst Paul VI.",
-      },
-      rank: {
-        1963: "priest",
-      },
-      elected: {
-        1963: true,
-      },
-    },
-    {
-      latin: IoannesBaptista,
-      firstName: "Giovanni Battista",
-      lastName: "Nasalli Rocca di Corneliano",
-      birthday: "1872-08-27",
-      deathday: "1952-03-13",
-      nation: {
-        1939: ["IT"],
-      },
-      function: {
-        1939: "Erzbischof von Bologna",
-      },
-      rank: {
-        1939: "priest",
-      },
-    },
-    {
-      latin: IoannesBaptista,
-      firstName: "Giovanni Battista",
-      lastName: "Re",
-      birthday: "1934-01-30",
-      nation: {
-        2005: ["IT", "VA"],
-        2013: ["IT", "VA"],
-      },
-      function: {
-        2005: "Präfekt der Kongregation für die Bischöfe",
-        2013: "emeritierter Präfekt der Kongregation für die Bischöfe",
-      },
-      rank: {
-        2005: "bishop",
-        2013: "bishop",
       },
     },
     {
@@ -392,6 +333,54 @@ export const Ioannes: FirstName = {
     },
     {
       latin: "Ioannes Baptistus",
+      firstName: "Giovanni Battista",
+      lastName: "Casali del Drago",
+      birthday: "1838-01-30",
+      deathday: "1908-03-17",
+      nation: {
+        1903: ["IT", "TR"],
+      },
+      function: {
+        1903: "Patriarch von Konstantinopiel",
+      },
+      rank: {
+        1903: "priest",
+      },
+    },
+    {
+      latin: "Ioannes Baptistus",
+      firstName: "Johannes Baptist",
+      lastName: "Katschthaler",
+      birthday: "1832-05-29",
+      deathday: "1914-02-27",
+      nation: {
+        1903: ["IT", "AT"],
+      },
+      function: {
+        1903: "Erzbischof von Salzburg",
+      },
+      rank: {
+        1903: "priest",
+      },
+    },
+    {
+      latin: "Ioannes Baptistus",
+      firstName: "Giovanni Battista",
+      lastName: "Nasalli Rocca di Corneliano",
+      birthday: "1872-08-27",
+      deathday: "1952-03-13",
+      nation: {
+        1939: ["IT"],
+      },
+      function: {
+        1939: "Erzbischof von Bologna",
+      },
+      rank: {
+        1939: "priest",
+      },
+    },
+    {
+      latin: "Ioannes Baptistus",
       firstName: "Jean-Baptiste",
       lastName: "Phạm Minh Mẫn",
       birthday: "1934-03-05",
@@ -406,6 +395,43 @@ export const Ioannes: FirstName = {
       rank: {
         2005: "priest",
         2013: "priest",
+      },
+    },
+    {
+      latin: "Ioannes Baptistus",
+      firstName: "Giovanni Battista",
+      lastName: "Re",
+      birthday: "1934-01-30",
+      nation: {
+        2005: ["IT", "VA"],
+        2013: ["IT", "VA"],
+      },
+      function: {
+        2005: "Präfekt der Kongregation für die Bischöfe",
+        2013: "emeritierter Präfekt der Kongregation für die Bischöfe",
+      },
+      rank: {
+        2005: "bishop",
+        2013: "bishop",
+      },
+    },
+    {
+      latin: "Ioannes Baptistus Henricus Antonius Maria",
+      firstName: "Giovanni Battista Enrico Antonio Maria",
+      lastName: "Montini",
+      birthday: "1897-09-26",
+      deathday: "1978-08-06",
+      nation: {
+        1963: ["IT"],
+      },
+      function: {
+        1963: "Erzbischof von Mailand, Papst Paul VI.",
+      },
+      rank: {
+        1963: "priest",
+      },
+      elected: {
+        1963: true,
       },
     },
     {
@@ -481,7 +507,7 @@ export const Ioannes: FirstName = {
       },
     },
     {
-      latin: IoannesFranciscus,
+      latin: "Ioannes Franciscus",
       firstName: "John Francis",
       lastName: "D'Alton",
       birthday: "1882-10-11",
@@ -497,7 +523,7 @@ export const Ioannes: FirstName = {
       },
     },
     {
-      latin: IoannesFranciscus,
+      latin: "Ioannes Franciscus",
       firstName: "John Francis",
       lastName: "Dearden",
       birthday: "1907-10-15",
@@ -516,7 +542,7 @@ export const Ioannes: FirstName = {
       },
     },
     {
-      latin: IoannesFranciscus,
+      latin: "Ioannes Franciscus",
       firstName: "Gianfranco",
       lastName: "Ravasi",
       birthday: "1942-10-18",
@@ -571,8 +597,8 @@ export const Ioannes: FirstName = {
       },
     },
     {
-      latin: IoannesIosephus,
-      firstName: JohnJoseph,
+      latin: "Ioannes Iosephus",
+      firstName: "John Joseph",
       lastName: "Carberry",
       birthday: "1904-07-31",
       deathday: "1998-06-17",
@@ -590,8 +616,8 @@ export const Ioannes: FirstName = {
       },
     },
     {
-      latin: IoannesIosephus,
-      firstName: JohnJoseph,
+      latin: "Ioannes Iosephus",
+      firstName: "John Joseph",
       lastName: "Krol",
       birthday: "1910-10-26",
       deathday: "1996-03-03",
@@ -609,7 +635,7 @@ export const Ioannes: FirstName = {
       },
     },
     {
-      latin: IoannesIosephus,
+      latin: "Ioannes Iosephus",
       firstName: "Juan José",
       lastName: "Omella Omella",
       birthday: "1946-04-21",
@@ -624,8 +650,8 @@ export const Ioannes: FirstName = {
       },
     },
     {
-      latin: IoannesIosephus,
-      firstName: JohnJoseph,
+      latin: "Ioannes Iosephus",
+      firstName: "John Joseph",
       lastName: "Wright",
       birthday: "1909-07-18",
       deathday: "1979-08-10",
@@ -649,8 +675,8 @@ export const Ioannes: FirstName = {
         2013: ["PE"],
       },
       function: {
-        2005: Lima,
-        2013: Lima,
+        2005: "Erzbischof von Lima",
+        2013: "Erzbischof von Lima",
       },
       rank: {
         2005: "priest",
@@ -740,6 +766,22 @@ export const Ioannes: FirstName = {
       },
       rank: {
         1939: "priest",
+      },
+    },
+    {
+      latin: "Ioannes Mauritius Paulus",
+      firstName: "Jan Maurycy Paweł",
+      lastName: "Puzyna de Kosielsko",
+      birthday: "1842-09-13",
+      deathday: "1911-09-08",
+      nation: {
+        1903: ["UA", "PL"],
+      },
+      function: {
+        1903: "Bischof von Krakau",
+      },
+      rank: {
+        1903: "priest",
       },
     },
     {

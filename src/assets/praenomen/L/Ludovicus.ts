@@ -76,6 +76,22 @@ export const Ludovicus: FirstName = {
     {
       latin: "Ludovicus",
       firstName: "Luigi",
+      lastName: "Macchi",
+      birthday: "1832-03-03",
+      deathday: "1907-03-29",
+      nation: {
+        1903: ["IT", "VA"],
+      },
+      function: {
+        1903: "Kardinalprotodiakon",
+      },
+      rank: {
+        1903: "deacon",
+      },
+    },
+    {
+      latin: "Ludovicus",
+      firstName: "Luigi",
       lastName: "Maglione",
       birthday: "1877-03-02",
       deathday: "1944-08-22",
@@ -107,6 +123,25 @@ export const Ludovicus: FirstName = {
     {
       latin: "Ludovicus",
       firstName: "Luigi",
+      lastName: "Oreglia di Santo Stefano",
+      birthday: "1828-07-09",
+      deathday: "1913-12-07",
+      nation: {
+        1878: ["IT", "VA"],
+        1903: ["IT", "VA"],
+      },
+      function: {
+        1878: "Präfekt der KOngregation für Ablässe und Reliquien",
+        1903: "Kardinaldekan, Camerlengo, Präfekt der Kongregation für Zeremonien",
+      },
+      rank: {
+        1878: "priest",
+        1903: "bishop",
+      },
+    },
+    {
+      latin: "Ludovicus",
+      firstName: "Luigi",
       lastName: "Tragila",
       birthday: "1895-04-03",
       deathday: "1977-11-22",
@@ -118,6 +153,22 @@ export const Ludovicus: FirstName = {
       },
       rank: {
         1963: "priest",
+      },
+    },
+    {
+      latin: "Ludovicus",
+      firstName: "Luigi",
+      lastName: "Tripepi",
+      birthday: "1836-06-21",
+      deathday: "1906-12-29",
+      nation: {
+        1903: ["IT", "VA"],
+      },
+      function: {
+        1903: "Präfekt der Kongregation für heilige Riten",
+      },
+      rank: {
+        1903: "deacon",
       },
     },
     {

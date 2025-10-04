@@ -40,6 +40,22 @@ export const Marius: FirstName = {
     {
       latin: "Marius",
       firstName: "Mario",
+      lastName: "Mocenni",
+      birthday: "1823-01-22",
+      deathday: "1904-11-14",
+      nation: {
+        1903: ["IT", "VA"],
+      },
+      function: {
+        1903: "emeritierter Stellvertreter des Staatssekretariats",
+      },
+      rank: {
+        1903: "bishop",
+      },
+    },
+    {
+      latin: "Marius",
+      firstName: "Mario",
       lastName: "Nasalli Rocca di Corneliano",
       birthday: "1903-08-12",
       deathday: "1988-11-09",

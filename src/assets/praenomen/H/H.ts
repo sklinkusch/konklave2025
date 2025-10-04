@@ -1,6 +1,7 @@
 import { Hadrianus } from "./Hadrianus";
 import { Hannibal } from "./Hannibal";
 import { Hector } from "./Hector";
+import { Hemigdius } from "./Hemigdius";
 import { Henricus } from "./Henricus";
 import { Hermenegildus } from "./Hermenegildus";
 import { Hieronymus } from "./Hieronymus";
@@ -14,6 +15,7 @@ export const H: FirstName[] = [
   Hadrianus,
   Hannibal,
   Hector,
+  Hemigdius,
   Henricus,
   Hermenegildus,
   Hieronymus,

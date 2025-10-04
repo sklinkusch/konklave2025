@@ -1,8 +1,5 @@
 import type { FirstName } from "@mytypes/types";
 
-const Kampala = "Erzbischof von Kampala";
-const Lissabon = "Patriarch von Lissabon";
-
 export const Emanuel: FirstName = {
   name: "Emanuel",
   data: [
@@ -33,8 +30,8 @@ export const Emanuel: FirstName = {
         1978.2: ["UG"],
       },
       function: {
-        1978.1: Kampala,
-        1978.2: Kampala,
+        1978.1: "Erzbischof von Kampala",
+        1978.2: "Erzbischof von Kampala",
       },
       rank: {
         1978.1: "priest",
@@ -99,9 +96,9 @@ export const Emanuel: FirstName = {
         1963: ["PT"],
       },
       function: {
-        1939: Lissabon,
-        1958: Lissabon,
-        1963: Lissabon,
+        1939: "Patriarch von Lissabon",
+        1958: "Patriarch von Lissabon",
+        1963: "Patriarch von Lissabon",
       },
       rank: {
         1939: "priest",

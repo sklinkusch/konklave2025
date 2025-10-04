@@ -1,16 +1,5 @@
 import type { FirstName } from "@mytypes/types";
 
-const Zagreb = "Erzbischof von Zagreb";
-const Catania = "Erzbischof von Catania";
-const Köln = "Erzbischof von Köln";
-const Genua = "Erzbischof von Genua";
-const München = "Erzbischof von München und Freising";
-const Lissabon = "Patriarch von Lissabon";
-const Caracas = "Erzbischof von Caracas";
-const IosephusMaria = "Iosephus Maria";
-const JoseMaria = "José María";
-const Sevilla = "Erzbischof von Sevilla";
-
 export const Iosephus: FirstName = {
   name: "Iosephus",
   data: [
@@ -58,9 +47,9 @@ export const Iosephus: FirstName = {
         2025: ["HR"],
       },
       function: {
-        2005: Zagreb,
-        2013: Zagreb,
-        2025: `emeritierter ${Zagreb}`,
+        2005: "Erzbischof von Zagreb",
+        2013: "Erzbischof von Zagreb",
+        2025: "emeritierter Erzbischof von Zagreb",
       },
       rank: {
         2005: "priest",
@@ -141,9 +130,9 @@ export const Iosephus: FirstName = {
         1922: ["IT"],
       },
       function: {
-        1903: Catania,
-        1914: Catania,
-        1922: Catania,
+        1903: "Erzbischof von Catania",
+        1914: "Erzbischof von Catania",
+        1922: "Erzbischof von Catania",
       },
       rank: {
         1903: "priest",
@@ -178,8 +167,8 @@ export const Iosephus: FirstName = {
         1963: ["DE"],
       },
       function: {
-        1958: Köln,
-        1963: Köln,
+        1958: "Erzbischof von Köln",
+        1963: "Erzbischof von Köln",
       },
       rank: {
         1958: "priest",
@@ -213,8 +202,8 @@ export const Iosephus: FirstName = {
         1978.2: ["DE"],
       },
       function: {
-        1978.1: Köln,
-        1978.2: Köln,
+        1978.1: "Erzbischof von Köln",
+        1978.2: "Erzbischof von Köln",
       },
       rank: {
         1978.1: "priest",
@@ -359,10 +348,10 @@ export const Iosephus: FirstName = {
         1978.2: ["IT"],
       },
       function: {
-        1958: Genua,
-        1963: Genua,
-        1978.1: Genua,
-        1978.2: Genua,
+        1958: "Erzbischof von Genua",
+        1963: "Erzbischof von Genua",
+        1978.1: "Erzbischof von Genua",
+        1978.2: "Erzbischof von Genua",
       },
       rank: {
         1958: "priest",
@@ -396,7 +385,7 @@ export const Iosephus: FirstName = {
         1958: ["DE"],
       },
       function: {
-        1958: München,
+        1958: "Erzbischof von München und Freising",
       },
       rank: {
         1958: "priest",
@@ -449,8 +438,8 @@ export const Iosephus: FirstName = {
         2005: ["DE", "VA"],
       },
       function: {
-        1978.1: München,
-        1978.2: München,
+        1978.1: "Erzbischof von München und Freising",
+        1978.2: "Erzbischof von München und Freising",
         2005: "Präfekt der Kongregation für die Glaubenslehre, Dekan des Kardinalskollegiums, Papst Benedikt XVI.",
       },
       rank: {
@@ -460,6 +449,22 @@ export const Iosephus: FirstName = {
       },
       elected: {
         2005: true,
+      },
+    },
+    {
+      latin: "Iosephus Antonius Hermenegildus",
+      firstName: "Giuseppe Antonio Ermenegildo",
+      lastName: "Prisco",
+      birthday: "1833-09-08",
+      deathday: "1923-02-04",
+      nation: {
+        1903: ["IT"],
+      },
+      function: {
+        1903: "Erzbischof von Neapel",
+      },
+      rank: {
+        1903: "priest",
       },
     },
     {
@@ -482,6 +487,22 @@ export const Iosephus: FirstName = {
       },
     },
     {
+      latin: "Iosephus de Calasanz Felix Iacobus",
+      firstName: "José de Calasanz Félix Santiago",
+      lastName: "Vives y Tutó",
+      birthday: "1854-02-15",
+      deathday: "1913-09-07",
+      nation: {
+        1903: ["IT", "VA"],
+      },
+      function: {
+        1903: "Berater der Propagandakongregation",
+      },
+      rank: {
+        1903: "deacon",
+      },
+    },
+    {
       latin: "Iosephus de Cruce",
       firstName: "José da Cruz",
       lastName: "Policarpo",
@@ -492,8 +513,8 @@ export const Iosephus: FirstName = {
         2013: ["PT"],
       },
       function: {
-        2005: Lissabon,
-        2013: Lissabon,
+        2005: "Patriarch von Lissabon",
+        2013: "Patriarch von Lissabon",
       },
       rank: {
         2005: "priest",
@@ -561,9 +582,9 @@ export const Iosephus: FirstName = {
         1978.2: ["VE"],
       },
       function: {
-        1963: Caracas,
-        1978.1: Caracas,
-        1978.2: Caracas,
+        1963: "Erzbischof von Caracas",
+        1978.1: "Erzbischof von Caracas",
+        1978.2: "Erzbischof von Caracas",
       },
       rank: {
         1963: "priest",
@@ -572,8 +593,8 @@ export const Iosephus: FirstName = {
       },
     },
     {
-      latin: IosephusMaria,
-      firstName: JoseMaria,
+      latin: "Iosephus Maria",
+      firstName: "José Maria",
       lastName: "Bueno y Monreal",
       birthday: "1904-09-11",
       deathday: "1987-08-20",
@@ -583,9 +604,9 @@ export const Iosephus: FirstName = {
         1978.2: ["ES"],
       },
       function: {
-        1963: Sevilla,
-        1978.1: Sevilla,
-        1978.2: Sevilla,
+        1963: "Erzbischof von Sevilla",
+        1978.1: "Erzbischof von Sevilla",
+        1978.2: "Erzbischof von Sevilla",
       },
       rank: {
         1963: "priest",
@@ -594,8 +615,8 @@ export const Iosephus: FirstName = {
       },
     },
     {
-      latin: IosephusMaria,
-      firstName: JoseMaria,
+      latin: "Iosephus Maria",
+      firstName: "José Maria",
       lastName: "Caro Rodríguez",
       birthday: "1866-06-23",
       deathday: "1958-12-04",
@@ -610,8 +631,8 @@ export const Iosephus: FirstName = {
       },
     },
     {
-      latin: IosephusMaria,
-      firstName: JoseMaria,
+      latin: "Iosephus Maria",
+      firstName: "José Maria",
       lastName: "Martín de Herrera y de la Iglesia",
       birthday: "1835-08-26",
       deathday: "1922-12-08",
@@ -629,7 +650,7 @@ export const Iosephus: FirstName = {
       },
     },
     {
-      latin: IosephusMaria,
+      latin: "Iosephus Maria",
       firstName: "Giuseppe Maria",
       lastName: "Sensi",
       birthday: "1907-05-27",
@@ -648,7 +669,7 @@ export const Iosephus: FirstName = {
       },
     },
     {
-      latin: IosephusMaria,
+      latin: "Iosephus Maria",
       firstName: "Joseph Marie",
       lastName: "Trịnh Nhu' Khuê",
       birthday: "1898-12-11",
@@ -723,6 +744,25 @@ export const Iosephus: FirstName = {
       },
     },
     {
+      latin: "Iosephus Melchior",
+      firstName: "Giuseppe Melchiore",
+      lastName: "Sarto",
+      birthday: "1835-06-02",
+      deathday: "1914-08-20",
+      nation: {
+        1903: ["IT"],
+      },
+      function: {
+        1903: "Patriarch von Venedig, Papst Pius X.",
+      },
+      rank: {
+        1903: "priest",
+      },
+      elected: {
+        1903: true,
+      },
+    },
+    {
       latin: "Iosephus Sebastianus",
       firstName: "José Sebastiâo",
       lastName: "Neto",
@@ -733,8 +773,8 @@ export const Iosephus: FirstName = {
         1914: ["PT"],
       },
       function: {
-        1903: Lissabon,
-        1914: `emeritierter ${Lissabon}`,
+        1903: "Patriarch von Lissabon",
+        1914: "emeritierter Patriarch von Lissabon",
       },
       rank: {
         1903: "priest",

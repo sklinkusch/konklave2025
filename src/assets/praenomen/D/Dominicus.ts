@@ -101,6 +101,22 @@ export const Dominicus: FirstName = {
       },
     },
     {
+      latin: "Dominicus",
+      firstName: "Domenico",
+      lastName: "Svampa",
+      birthday: "1851-06-13",
+      deathday: "1907-08-10",
+      nation: {
+        1903: ["IT"],
+      },
+      function: {
+        1903: "Erzbischof von Bologna",
+      },
+      rank: {
+        1903: "priest",
+      },
+    },
+    {
       latin: "Dominicus Franciscus Iosephus",
       firstName: "Dominique François Joseph",
       lastName: "Mamberti",

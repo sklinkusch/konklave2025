@@ -1,7 +1,5 @@
 import { FirstName } from "@mytypes/types";
 
-const Lille = "Bischof von Lille";
-
 export const Achilles: FirstName = {
   name: "Achilles",
   data: [
@@ -17,14 +15,30 @@ export const Achilles: FirstName = {
         1963: ["FR"],
       },
       function: {
-        1939: Lille,
-        1958: Lille,
-        1963: Lille,
+        1939: "Bischof von Lille",
+        1958: "Bischof von Lille",
+        1963: "Bischof von Lille",
       },
       rank: {
         1939: "priest",
         1958: "priest",
         1963: "priest",
+      },
+    },
+    {
+      latin: "Achilles",
+      firstName: "Achille",
+      lastName: "Manara",
+      birthday: "1827-11-20",
+      deathday: "1906-02-15",
+      nation: {
+        1903: ["IT"],
+      },
+      function: {
+        1903: "Bischof von Aucona und Numana",
+      },
+      rank: {
+        1903: "priest",
       },
     },
     {

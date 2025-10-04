@@ -4,6 +4,38 @@ export const Andreas: FirstName = {
   name: "Andreas",
   data: [
     {
+      latin: "Andreas",
+      firstName: "Andrea",
+      lastName: "Aiuti",
+      birthday: "1849-06-17",
+      deathday: "1905-04-28",
+      nation: {
+        1903: ["IT", "VA"],
+      },
+      function: {
+        1903: "emeritierter Nuntius in Portugal",
+      },
+      rank: {
+        1903: "priest",
+      },
+    },
+    {
+      latin: "Andreas",
+      firstName: "Andreas",
+      lastName: "Steinhuber",
+      birthday: "1824-11-11",
+      deathday: "1907-10-15",
+      nation: {
+        1903: ["DE", "VA"],
+      },
+      function: {
+        1903: "Präfekt der Indexkongregation",
+      },
+      rank: {
+        1903: "deacon",
+      },
+    },
+    {
       latin: "Andreas Armandus",
       firstName: "André Armand",
       lastName: "Vingt-Trois",

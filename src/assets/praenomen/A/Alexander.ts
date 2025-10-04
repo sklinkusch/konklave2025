@@ -41,6 +41,22 @@ export const Alexander: FirstName = {
     {
       latin: "Alexander",
       firstName: "Alessandro",
+      lastName: "Sanminiatelli Zabarella",
+      birthday: "1840-08-03",
+      deathday: "1910-11-24",
+      nation: {
+        1903: ["IT", "VA"],
+      },
+      function: {
+        1903: "Patriarch von Konstantinuopel",
+      },
+      rank: {
+        1903: "priest",
+      },
+    },
+    {
+      latin: "Alexander",
+      firstName: "Alessandro",
       lastName: "Verde",
       birthday: "1865-03-27",
       deathday: "1958-03-29",

@@ -1,7 +1,5 @@
 import type { FirstName } from "@mytypes/types";
 
-const Armagh = "Erzbischof von Armagh";
-
 export const Michael: FirstName = {
   name: "Michael",
   data: [
@@ -83,9 +81,9 @@ export const Michael: FirstName = {
         1922: ["IE", "GB"],
       },
       function: {
-        1903: Armagh,
-        1914: Armagh,
-        1922: Armagh,
+        1903: "Erzbischof von Armagh",
+        1914: "Erzbischof von Armagh",
+        1922: "Erzbischof von Armagh",
       },
       rank: {
         1903: "priest",

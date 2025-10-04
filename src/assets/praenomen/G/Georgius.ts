@@ -69,6 +69,22 @@ export const Georgius: FirstName = {
       },
     },
     {
+      latin: "Georgius",
+      firstName: "Georg",
+      lastName: "von Kopp",
+      birthday: "1837-07-24",
+      deathday: "1914-03-04",
+      nation: {
+        1903: ["DE", "PL"],
+      },
+      function: {
+        1903: "Erzbischof von Breslau",
+      },
+      rank: {
+        1903: "priest",
+      },
+    },
+    {
       latin: "Georgius Arthurus",
       firstName: "Jorge Arturo",
       lastName: "Medina Estévez",

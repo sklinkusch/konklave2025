@@ -59,6 +59,22 @@ export const Iacobus: FirstName = {
     },
     {
       latin: "Iacobus",
+      firstName: "James",
+      lastName: "Gibbons",
+      birthday: "1834-07-23",
+      deathday: "1921-03-24",
+      nation: {
+        1903: ["US"],
+      },
+      function: {
+        1903: "Erzbischof von Baltimore",
+      },
+      rank: {
+        1903: "priest",
+      },
+    },
+    {
+      latin: "Iacobus",
       firstName: "Giacomo",
       lastName: "Lercaro",
       birthday: "1891-10-28",

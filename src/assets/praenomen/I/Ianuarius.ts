@@ -25,5 +25,21 @@ export const Ianuarius: FirstName = {
         1939: "bishop",
       },
     },
+    {
+      latin: "Ianuarius",
+      firstName: "Gennaro",
+      lastName: "Portanova",
+      birthday: "1845-10-11",
+      deathday: "1908-04-25",
+      nation: {
+        1903: ["IT"],
+      },
+      function: {
+        1903: "Erzbischof von Reggio Calabria",
+      },
+      rank: {
+        1903: "priest",
+      },
+    },
   ],
 };

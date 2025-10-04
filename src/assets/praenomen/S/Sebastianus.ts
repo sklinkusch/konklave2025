@@ -39,6 +39,22 @@ export const Sebastianus: FirstName = {
     },
     {
       latin: "Sebastianus",
+      firstName: "Sebastián",
+      lastName: "Herrero y Espinosa de los Monteros",
+      birthday: "1822-01-20",
+      deathday: "1903-12-09",
+      nation: {
+        1903: ["ES"],
+      },
+      function: {
+        1903: "Erzbischof von Valencia",
+      },
+      rank: {
+        1903: "priest",
+      },
+    },
+    {
+      latin: "Sebastianus",
       firstName: "Sebastião",
       lastName: "Leme da Silveira Cintra",
       birthday: "1882-01-20",
@@ -51,6 +67,22 @@ export const Sebastianus: FirstName = {
       },
       rank: {
         1939: "priest",
+      },
+    },
+    {
+      latin: "Sebastianus",
+      firstName: "Sebastiano",
+      lastName: "Martinelli",
+      birthday: "1848-08-20",
+      deathday: "1918-07-04",
+      nation: {
+        1903: ["IT", "VA"],
+      },
+      function: {
+        1903: "Apostolischer Delegat bei den Vereinigten Staaten",
+      },
+      rank: {
+        1903: "priest",
       },
     },
   ],

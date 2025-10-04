@@ -5,6 +5,22 @@ export const Felix: FirstName = {
   data: [
     {
       latin: "Felix",
+      firstName: "Felice",
+      lastName: "Cavagnis",
+      birthday: "1841-01-13",
+      deathday: "1906-12-19",
+      nation: {
+        1903: ["IT", "VA"],
+      },
+      function: {
+        1903: "emeritierter Sekretär der Kongregation für außerordentliche kirchliche Angelegenheiten",
+      },
+      rank: {
+        1903: "deacon",
+      },
+    },
+    {
+      latin: "Felix",
       firstName: "Felix",
       lastName: "von Hartmann",
       birthday: "1851-12-15",

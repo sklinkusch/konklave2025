@@ -1,7 +1,5 @@
 import type { FirstName } from "@mytypes/types";
 
-const Boston = "Erzbischof von Boston";
-
 export const Gulielmus: FirstName = {
   name: "Gulielmus",
   data: [
@@ -63,9 +61,9 @@ export const Gulielmus: FirstName = {
         1939: ["US"],
       },
       function: {
-        1914: Boston,
-        1922: Boston,
-        1939: Boston,
+        1914: "Erzbischof von Boston",
+        1922: "Erzbischof von Boston",
+        1939: "Erzbischof von Boston",
       },
       rank: {
         1914: "priest",
@@ -105,6 +103,22 @@ export const Gulielmus: FirstName = {
       },
       rank: {
         2013: "deacon",
+      },
+    },
+    {
+      latin: "Gulielmus Maria Iosephum",
+      firstName: "Guillaume-Marie-Joseph",
+      lastName: "Labouré",
+      birthday: "1841-10-27",
+      deathday: "1906-04-21",
+      nation: {
+        1903: ["FR"],
+      },
+      function: {
+        1903: "Erzbischof von Rennes",
+      },
+      rank: {
+        1903: "priest",
       },
     },
     {

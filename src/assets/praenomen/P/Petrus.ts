@@ -1,8 +1,5 @@
 import type { FirstName } from "@mytypes/types";
 
-const Esztergom = "Erzbischof von Esztergom-Budapest";
-const Lyon = "Erzbischof von Lyon";
-
 export const Petrus: FirstName = {
   name: "Petrus",
   data: [
@@ -52,9 +49,9 @@ export const Petrus: FirstName = {
         2025: ["HU"],
       },
       function: {
-        2005: Esztergom,
-        2013: Esztergom,
-        2025: Esztergom,
+        2005: "Erzbischof von Esztergom-Budapest",
+        2013: "Erzbischof von Esztergom-Budapest",
+        2025: "Erzbischof von Esztergom-Budapest",
       },
       rank: {
         2005: "priest",
@@ -173,6 +170,22 @@ export const Petrus: FirstName = {
     },
     {
       latin: "Petrus",
+      firstName: "Pietro",
+      lastName: "Respighi",
+      birthday: "1843-09-22",
+      deathday: "1913-03-22",
+      nation: {
+        1903: ["IT", "VA"],
+      },
+      function: {
+        1903: "Präfekt der Kongregation für die Bischöfe",
+      },
+      rank: {
+        1903: "priest",
+      },
+    },
+    {
+      latin: "Petrus",
       firstName: "Pedro",
       lastName: "Rubiano Sáenz",
       birthday: "1932-09-13",
@@ -234,6 +247,22 @@ export const Petrus: FirstName = {
       },
     },
     {
+      latin: "Petrus Hector",
+      firstName: "Pierre-Hector",
+      lastName: "Couillié",
+      birthday: "1829-03-14",
+      deathday: "1912-09-12",
+      nation: {
+        1903: ["FR"],
+      },
+      function: {
+        1903: "Erzbischof von Lyon",
+      },
+      rank: {
+        1903: "priest",
+      },
+    },
+    {
       latin: "Petrus Kodwo Appiah",
       firstName: "Peter Kudwo Appiah",
       lastName: "Turkson",
@@ -255,6 +284,22 @@ export const Petrus: FirstName = {
       },
     },
     {
+      latin: "Petrus Lambertus",
+      firstName: "Pierre-Lambert",
+      lastName: "Goossens",
+      birthday: "1827-07-18",
+      deathday: "1906-01-25",
+      nation: {
+        1903: ["BE"],
+      },
+      function: {
+        1903: "Erzbischof von Mecheln",
+      },
+      rank: {
+        1903: "priest",
+      },
+    },
+    {
       latin: "Petrus Maria",
       firstName: "Pierre-Marie",
       lastName: "Gerlier",
@@ -266,9 +311,9 @@ export const Petrus: FirstName = {
         1963: ["FR"],
       },
       function: {
-        1939: Lyon,
-        1958: Lyon,
-        1963: Lyon,
+        1939: "Erzbischof von Lyon",
+        1958: "Erzbischof von Lyon",
+        1963: "Erzbischof von Lyon",
       },
       rank: {
         1939: "priest",

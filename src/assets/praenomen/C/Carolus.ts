@@ -138,6 +138,22 @@ export const Carolus: FirstName = {
     },
     {
       latin: "Carolus",
+      firstName: "Carlo",
+      lastName: "Nocella",
+      birthday: "1826-11-25",
+      deathday: "1908-07-22",
+      nation: {
+        1903: ["IT", "SY", "TR"],
+      },
+      function: {
+        1903: "Patriarch von Antiochien, Patriarch von Konstantinopel",
+      },
+      rank: {
+        1903: "priest",
+      },
+    },
+    {
+      latin: "Carolus",
       firstName: "Carlos",
       lastName: "Osoro Sierra",
       birthday: "1945-05-16",

@@ -1,7 +1,5 @@
 import { FirstName } from "@mytypes/types";
 
-const Verona = "Bischof von Verona";
-
 export const Bartholomaeus: FirstName = {
   name: "Bartholomaeus",
   data: [
@@ -17,9 +15,9 @@ export const Bartholomaeus: FirstName = {
         1922: ["IT"],
       },
       function: {
-        1903: Verona,
-        1914: Verona,
-        1922: Verona,
+        1903: "Bischof von Verona",
+        1914: "Bischof von Verona",
+        1922: "Bischof von Verona",
       },
       rank: {
         1903: "priest",

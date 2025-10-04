@@ -5,6 +5,22 @@ export const Casimirus: FirstName = {
   data: [
     {
       latin: "Casimirus",
+      firstName: "Casimiro",
+      lastName: "Gennari",
+      birthday: "1839-12-29",
+      deathday: "1914-01-31",
+      nation: {
+        1903: ["IT", "VA"],
+      },
+      function: {
+        1903: "Assessor bei der Kongregation für die römische und allgemeine Inquisition",
+      },
+      rank: {
+        1903: "priest",
+      },
+    },
+    {
+      latin: "Casimirus",
       firstName: "Kazimierz",
       lastName: "Nycz",
       birthday: "1950-02-01",

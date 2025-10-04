@@ -6,6 +6,22 @@ export const Alphonsus: FirstName = {
     {
       latin: "Alphonsus",
       firstName: "Alfonso",
+      lastName: "Capecelatro",
+      birthday: "1824-02-05",
+      deathday: "1912-11-14",
+      nation: {
+        1903: ["IT", "VA"],
+      },
+      function: {
+        1903: "Bischof von Capua, Bibliothekar der Vatikanischen Bibliothek",
+      },
+      rank: {
+        1903: "priest",
+      },
+    },
+    {
+      latin: "Alphonsus",
+      firstName: "Alfonso",
       lastName: "Castaldo",
       birthday: "1890-11-06",
       deathday: "1966-03-03",

@@ -5,6 +5,22 @@ export const Beniaminus: FirstName = {
   data: [
     {
       latin: "Beniaminus",
+      firstName: "Beniamino",
+      lastName: "Cavicchioni",
+      birthday: "1836-12-27",
+      deathday: "1911-04-17",
+      nation: {
+        1903: ["IT", "VA"],
+      },
+      function: {
+        1903: "Sekretär der Konzilskongregation",
+      },
+      rank: {
+        1903: "priest",
+      },
+    },
+    {
+      latin: "Beniaminus",
       firstName: "Benjamín",
       lastName: "de Arriba y Castro",
       birthday: "1886-04-08",

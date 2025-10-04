@@ -53,5 +53,21 @@ export const Victor: FirstName = {
         2025: "deacon",
       },
     },
+    {
+      latin: "Victor Lucianus Sulpicius",
+      firstName: "Victor-Lucien-Sulpice",
+      lastName: "Lécot",
+      birthday: "1831-01-08",
+      deathday: "1908-12-19",
+      nation: {
+        1903: ["FR"],
+      },
+      function: {
+        1903: "Erzbischof von Bordeaux",
+      },
+      rank: {
+        1903: "priest",
+      },
+    },
   ],
 };

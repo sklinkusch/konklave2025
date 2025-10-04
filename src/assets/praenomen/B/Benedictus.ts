@@ -38,5 +38,21 @@ export const Benedictus: FirstName = {
         1914: "priest",
       },
     },
+    {
+      latin: "Benedictus Maria",
+      firstName: "Benoît-Marie",
+      lastName: "Langénieux",
+      birthday: "1824-10-16",
+      deathday: "1905-01-01",
+      nation: {
+        1903: ["FR"],
+      },
+      function: {
+        1903: "Erzbischof von Reims",
+      },
+      rank: {
+        1903: "priest",
+      },
+    },
   ],
 };

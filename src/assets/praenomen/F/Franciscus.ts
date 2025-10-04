@@ -1,7 +1,5 @@
 import type { FirstName } from "@mytypes/types";
 
-const Wien = "Erzbischof von Wien";
-
 export const Franciscus: FirstName = {
   name: "Franciscus",
   data: [
@@ -98,9 +96,9 @@ export const Franciscus: FirstName = {
         1978.2: ["AT"],
       },
       function: {
-        1963: Wien,
-        1978.1: Wien,
-        1978.2: Wien,
+        1963: "Erzbischof von Wien",
+        1978.1: "Erzbischof von Wien",
+        1978.2: "Erzbischof von Wien",
       },
       rank: {
         1963: "priest",
@@ -284,6 +282,22 @@ export const Franciscus: FirstName = {
     },
     {
       latin: "Franciscus",
+      firstName: "Francesco",
+      lastName: "Segna",
+      birthday: "1836-08-31",
+      deathday: "1911-01-04",
+      nation: {
+        1903: ["IT", "VA"],
+      },
+      function: {
+        1903: "Archivar des Vatikanischen Geheimarchivs",
+      },
+      rank: {
+        1903: "deacon",
+      },
+    },
+    {
+      latin: "Franciscus",
       firstName: "Franjo",
       lastName: "Šeper",
       birthday: "1905-10-02",
@@ -413,6 +427,38 @@ export const Franciscus: FirstName = {
       },
     },
     {
+      latin: "Franciscus de Paulo",
+      firstName: "Francesco di Paolo",
+      lastName: "Satolli",
+      birthday: "1839-07-21",
+      deathday: "1910-01-08",
+      nation: {
+        1903: ["IT", "VA"],
+      },
+      function: {
+        1903: "Präfekt der Studienkongregation",
+      },
+      rank: {
+        1903: "bishop",
+      },
+    },
+    {
+      latin: "Franciscus Desiderius",
+      firstName: "François-Désiré",
+      lastName: "Mathieu",
+      birthday: "1839-05-28",
+      deathday: "1908-10-26",
+      nation: {
+        1903: ["FR"],
+      },
+      function: {
+        1903: "emeritierter Erzbischof von Toulouse",
+      },
+      rank: {
+        1903: "priest",
+      },
+    },
+    {
       latin: "Franciscus Eugenius",
       firstName: "Francis Eugene",
       lastName: "George",
@@ -464,6 +510,22 @@ export const Franciscus: FirstName = {
       },
       rank: {
         1914: "priest",
+      },
+    },
+    {
+      latin: "Franciscus Maria Beniaminus",
+      firstName: "François-Marie-Benjamin",
+      lastName: "Richard de la Vergne",
+      birthday: "1819-03-01",
+      deathday: "1908-01-28",
+      nation: {
+        1903: ["FR"],
+      },
+      function: {
+        1903: "Erzbischof von Paris",
+      },
+      rank: {
+        1903: "priest",
       },
     },
     {

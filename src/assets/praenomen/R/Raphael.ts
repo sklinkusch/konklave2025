@@ -40,6 +40,22 @@ export const Raphael: FirstName = {
     {
       latin: "Raphael",
       firstName: "Raffaele",
+      lastName: "Pierotti",
+      birthday: "1836-01-01",
+      deathday: "1905-09-07",
+      nation: {
+        1903: ["IT", "VA"],
+      },
+      function: {
+        1903: "Meister des Apostolischen Palasts",
+      },
+      rank: {
+        1903: "deacon",
+      },
+    },
+    {
+      latin: "Raphael",
+      firstName: "Raffaele",
       lastName: "Rossi",
       birthday: "1876-10-28",
       deathday: "1948-09-17",
