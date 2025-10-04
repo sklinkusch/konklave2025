@@ -19,22 +19,72 @@ export enum ConclaveYears {
   current = "curr",
 }
 
-enum Month {
-  Jan = "01",
-  Feb = "02",
-  Mar = "03",
-  Apr = "04",
-  May = "05",
-  Jun = "06",
-  Jul = "07",
-  Aug = "08",
-  Sep = "09",
-  Oct = "10",
-  Nov = "11",
-  Dec = "12",
+enum TwentyNineDay {
+  One = "01",
+  Two = "02",
+  Three = "03",
+  Four = "04",
+  Five = "05",
+  Six = "06",
+  Seven = "07",
+  Eight = "08",
+  Nine = "09",
+  Ten = "10",
+  Eleven = "11",
+  Twelve = "12",
+  Thirteen = "13",
+  Fourteen = "14",
+  Fifteen = "15",
+  Sixteen = "16",
+  Seventeen = "17",
+  Eighteen = "18",
+  Nineteen = "19",
+  Twenty = "20",
+  Twentyone = "21",
+  Twentytwo = "22",
+  Twentythree = "23",
+  Twentyfour = "24",
+  Twentyfive = "25",
+  Twentysix = "26",
+  Twentyseven = "27",
+  Twentyeight = "28",
+  Twentynine = "29",
 }
 
-enum Day {
+enum ThirtyDay {
+  One = "01",
+  Two = "02",
+  Three = "03",
+  Four = "04",
+  Five = "05",
+  Six = "06",
+  Seven = "07",
+  Eight = "08",
+  Nine = "09",
+  Ten = "10",
+  Eleven = "11",
+  Twelve = "12",
+  Thirteen = "13",
+  Fourteen = "14",
+  Fifteen = "15",
+  Sixteen = "16",
+  Seventeen = "17",
+  Eighteen = "18",
+  Nineteen = "19",
+  Twenty = "20",
+  Twentyone = "21",
+  Twentytwo = "22",
+  Twentythree = "23",
+  Twentyfour = "24",
+  Twentyfive = "25",
+  Twentysix = "26",
+  Twentyseven = "27",
+  Twentyeight = "28",
+  Twentynine = "29",
+  Thirty = "30",
+}
+
+enum ThirtyOneDay {
   One = "01",
   Two = "02",
   Three = "03",
@@ -68,7 +118,19 @@ enum Day {
   Thirtyeight = "31",
 }
 
-export type DateString = `${number}-${Month}-${Day}`;
+export type DateString =
+  | `${number}-01-${ThirtyOneDay}`
+  | `${number}-02-${TwentyNineDay}`
+  | `${number}-03-${ThirtyOneDay}`
+  | `${number}-04-${ThirtyDay}`
+  | `${number}-05-${ThirtyOneDay}`
+  | `${number}-06-${ThirtyDay}`
+  | `${number}-07-${ThirtyOneDay}`
+  | `${number}-08-${ThirtyOneDay}`
+  | `${number}-09-${ThirtyDay}`
+  | `${number}-10-${ThirtyOneDay}`
+  | `${number}-11-${ThirtyDay}`
+  | `${number}-12-${ThirtyOneDay}`;
 
 export type DateOptions = {
   year?: "numeric" | "2-digit";
