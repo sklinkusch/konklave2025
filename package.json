@@ -11,7 +11,9 @@
     "dev:open": "concurrently \"next dev\" \"xdg-open http://localhost:3000\"",
     "build": "next build",
     "start": "next start",
-    "start:open": "concurrently \"next start\" \"xdg-open http://localhost:3000\""
+    "start:open": "concurrently \"next start\" \"xdg-open http://localhost:3000\"",
+    "test": "jest",
+    "test:watch": "jest --watch"
   },
   "dependencies": {
     "@mui/icons-material": "^7.3.2",
@@ -29,6 +31,10 @@
     "@eslint/compat": "^1.4.0",
     "@eslint/js": "^9.36.0",
     "@next/eslint-plugin-next": "^15.5.4",
+    "@testing-library/dom": "^10.4.1",
+    "@testing-library/jest-dom": "^6.9.1",
+    "@testing-library/react": "^16.3.0",
+    "@types/jest": "^30.0.0",
     "@types/moment": "^2.13.0",
     "@types/moment-duration-format": "^2.2.6",
     "@types/node": "^24.5.2",
@@ -48,8 +54,12 @@
     "eslint-plugin-react-hooks": "^5.2.0",
     "eslint-plugin-react-refresh": "^0.4.22",
     "globals": "^16.4.0",
+    "jest": "^30.2.0",
+    "jest-environment-jsdom": "^30.2.0",
     "next": "^15.5.4",
     "prettier": "^3.6.2",
+    "ts-jest": "^29.4.4",
+    "ts-node": "^10.9.2",
     "typescript": "~5.9.2",
     "typescript-eslint": "^8.44.1"
   }

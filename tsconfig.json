@@ -1,20 +1,13 @@
 {
   "compilerOptions": {
-    "target": "es2022",
+    "target": "esnext",
     "useDefineForClassFields": true,
-    "types": [
-      "next",
-      "node"
-    ],
-    "lib": [
-      "ES2020",
-      "DOM",
-      "DOM.Iterable"
-    ],
+    "types": ["next", "node"],
+    "lib": ["ES2020", "DOM", "DOM.Iterable"],
     "module": "esnext",
     "skipLibCheck": true,
     /* Bundler mode */
-    "moduleResolution": "node",
+    "moduleResolution": "bundler",
     "isolatedModules": true,
     "noEmit": true,
     "jsx": "preserve",
@@ -26,17 +19,11 @@
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true,
     "noUncheckedSideEffectImports": true,
-    "baseUrl": ".",
+    "baseUrl": "./",
     "paths": {
-      "@assets/*": [
-        "src/assets/*"
-      ],
-      "@components/*": [
-        "src/components/*"
-      ],
-      "@mytypes/*": [
-        "src/types/*"
-      ]
+      "@assets/*": ["src/assets/*"],
+      "@components/*": ["src/components/*"],
+      "@mytypes/*": ["src/types/*"]
     },
     "allowJs": true,
     "incremental": true,
@@ -48,11 +35,7 @@
       }
     ]
   },
-  "include": [
-    "**/*.ts",
-    "**/*.tsx",
-    ".next/types/**/*.ts"
-  ],
+  "include": ["**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
   "exclude": [
     "node_modules",
     ".next/types/**",
