@@ -23,6 +23,11 @@ export default function Home() {
             Liste der aktuell wahlberechtigten Kardinäle
           </Link>
         </ListItem>
+        <ListItem key="non-eligible">
+          <Link href="/non-eligible" underline="none">
+            Liste der nicht mehr wahlberechtigten Kardinäle
+          </Link>
+        </ListItem>
         {allYears.reverse().map((year) => {
           const conclave = conclaves.find((conclave) => conclave.key === year);
           return (
