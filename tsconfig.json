@@ -2,15 +2,22 @@
   "compilerOptions": {
     "target": "esnext",
     "useDefineForClassFields": true,
-    "types": ["next", "node"],
-    "lib": ["ES2020", "DOM", "DOM.Iterable"],
+    "types": [
+      "next",
+      "node"
+    ],
+    "lib": [
+      "ES2020",
+      "DOM",
+      "DOM.Iterable"
+    ],
     "module": "esnext",
     "skipLibCheck": true,
     /* Bundler mode */
     "moduleResolution": "bundler",
     "isolatedModules": true,
     "noEmit": true,
-    "jsx": "preserve",
+    "jsx": "react-jsx",
     /* Linting */
     "strict": true,
     "strictNullChecks": true,
@@ -21,9 +28,15 @@
     "noUncheckedSideEffectImports": true,
     "baseUrl": "./",
     "paths": {
-      "@assets/*": ["src/assets/*"],
-      "@components/*": ["src/components/*"],
-      "@mytypes/*": ["src/types/*"]
+      "@assets/*": [
+        "src/assets/*"
+      ],
+      "@components/*": [
+        "src/components/*"
+      ],
+      "@mytypes/*": [
+        "src/types/*"
+      ]
     },
     "allowJs": true,
     "incremental": true,
@@ -35,11 +48,16 @@
       }
     ]
   },
-  "include": ["**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
+  "include": [
+    "**/*.ts",
+    "**/*.tsx",
+    ".next/types/**/*.ts",
+    ".next/dev/types/**/*.ts"
+  ],
   "exclude": [
     "node_modules",
     ".next/types/**",
     "next-env.d.ts",
-    "next.config.js"
+    "next.config.ts"
   ]
 }
