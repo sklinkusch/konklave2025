@@ -8,7 +8,6 @@ import tsParser from "@typescript-eslint/parser";
 import path from "node:path";
 import imp from "eslint-plugin-import";
 import promise from "eslint-plugin-promise";
-import next from "@next/eslint-plugin-next";
 import { fileURLToPath } from "node:url";
 import js from "@eslint/js";
 import { FlatCompat } from "@eslint/eslintrc";
@@ -48,7 +47,6 @@ export default [
       "plugin:react-hooks/recommended",
       "plugin:jsx-a11y/recommended",
       "plugin:import/recommended",
-      "plugin:@next/next/recommended",
       "prettier",
     ),
   ),
@@ -60,7 +58,6 @@ export default [
       "@typescript-eslint": fixupPluginRules(typescriptEslint),
       "jsx-a11y": fixupPluginRules(jsxA11Y),
       import: fixupPluginRules(imp),
-      next: fixupPluginRules(next),
       promises: fixupPluginRules(promise),
       prettier: fixupPluginRules(prettier),
     },
