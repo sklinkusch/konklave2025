@@ -8,6 +8,7 @@ export const Polycarpus: FirstName = {
       firstName: "Polycarp",
       lastName: "Pengo",
       birthday: "1944-08-05",
+      deathday: "2026-02-19",
       nation: {
         2005: ["TZ"],
         2013: ["TZ"],

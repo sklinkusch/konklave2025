@@ -136,6 +136,7 @@ export const Dominicus: FirstName = {
       firstName: "Dominik Jaroslav",
       lastName: "Duka",
       birthday: "1943-04-26",
+      deathday: "2025-11-04",
       nation: {
         2013: ["CZ"],
       },

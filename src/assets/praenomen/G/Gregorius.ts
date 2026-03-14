@@ -13,6 +13,7 @@ export const Gregorius: FirstName = {
       },
       function: {
         2025: "Erzbischof von Łódź",
+        curr: "Erzbischof von Krakau",
       },
       rank: {
         2025: "priest",

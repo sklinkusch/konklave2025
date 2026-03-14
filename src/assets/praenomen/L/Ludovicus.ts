@@ -5,6 +5,25 @@ export const Ludovicus: FirstName = {
   data: [
     {
       latin: "Ludovicus",
+      firstName: "Luigi",
+      lastName: "Amat di San Filippo e Sorso",
+      birthday: "1796-06-20",
+      deathday: "1878-03-30",
+      nation: {
+        1846: ["IT", "VA"],
+        1878: ["IT", "VA"],
+      },
+      function: {
+        1846: "emeritierter Nuntius in Spanien",
+        1878: "Erzpriester der Basilika Santa Maria Maggiore, Kardinaldekan",
+      },
+      rank: {
+        1846: "priest",
+        1878: "bishop",
+      },
+    },
+    {
+      latin: "Ludovicus",
       firstName: "Luis",
       lastName: "Aponte Martínez",
       birthday: "1922-08-04",
@@ -131,7 +150,7 @@ export const Ludovicus: FirstName = {
         1903: ["IT", "VA"],
       },
       function: {
-        1878: "Präfekt der KOngregation für Ablässe und Reliquien",
+        1878: "Präfekt der Kongregation für Ablässe und Reliquien",
         1903: "Kardinaldekan, Camerlengo, Präfekt der Kongregation für Zeremonien",
       },
       rank: {

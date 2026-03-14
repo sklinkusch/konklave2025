@@ -440,7 +440,7 @@ export const Iosephus: FirstName = {
       function: {
         1978.1: "Erzbischof von München und Freising",
         1978.2: "Erzbischof von München und Freising",
-        2005: "Präfekt der Kongregation für die Glaubenslehre, Dekan des Kardinalskollegiums, Papst Benedikt XVI.",
+        2005: "Präfekt der Kongregation für die Glaubenslehre, Kardinaldekan, Papst Benedikt XVI.",
       },
       rank: {
         1978.1: "priest",

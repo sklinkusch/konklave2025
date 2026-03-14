@@ -34,6 +34,7 @@ export const Timotheus: FirstName = {
       function: {
         2013: "Erzbischof von New York",
         2025: "Erzbischof von New York",
+        curr: "emeritierter Erzbischof von New York",
       },
       rank: {
         2013: "priest",
