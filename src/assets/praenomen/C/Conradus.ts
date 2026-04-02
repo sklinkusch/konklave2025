@@ -7,7 +7,7 @@ export const Conradus: FirstName = {
       latin: "Conradus",
       firstName: "Kurt",
       lastName: "Koch",
-      birthday: "1934-08-08",
+      birthday: "1950-03-15",
       nation: {
         2013: ["CH", "VA"],
         2025: ["CH", "VA"],
