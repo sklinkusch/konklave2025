@@ -384,6 +384,7 @@ export const Ioannes: FirstName = {
       firstName: "Jean-Baptiste",
       lastName: "Phạm Minh Mẫn",
       birthday: "1934-03-05",
+      deathday: "2026-03-22",
       nation: {
         2005: ["VN"],
         2013: ["VN"],
