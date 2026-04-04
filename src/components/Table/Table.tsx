@@ -10,7 +10,7 @@ import Flag from "react-world-flags";
 import moment from "moment";
 import { countries } from "@assets/countries";
 import { Circle } from "@components/Circle/Circle";
-import type { CustomTableProps } from "@mytypes/types";
+import type { CustomTableProps, DateString } from "@mytypes/types";
 
 const calculateDateDifference = (start: string, end: string): string => {
   const startDate = moment(start);
@@ -58,45 +58,85 @@ type TableData = {
     | "firstName"
     | "lastName"
     | "age"
+    | "birthday"
+    | "deathday"
     | "nation"
     | "function";
   width: string | string[];
 };
 
-const CustomTable = ({ data, startDate }: CustomTableProps) => {
-  const tableData: TableData[] = [
-    {
-      title: "Rang",
-      property: "rank",
-      width: ["0rem", "5vw"],
-    },
-    {
-      title: "Lateinischer Vorname",
-      property: "latin",
-      width: ["100%", "15vw"],
-    },
-    {
-      title: "Vorname",
-      property: "firstName",
-      width: ["100%", "15vw"],
-    },
-    {
-      title: "Nachname",
-      property: "lastName",
-      width: ["100%", "15vw"],
-    },
-    { title: "Alter", property: "age", width: ["100%", "15vw"] },
-    {
-      title: "Nationalität",
-      property: "nation",
-      width: ["100%", "15vw"],
-    },
-    {
-      title: "Funktion",
-      property: "function",
-      width: ["100%", "20vw"],
-    },
-  ];
+const CustomTable = ({ data, startDate, deceased }: CustomTableProps) => {
+  const tableData: TableData[] = deceased
+    ? [
+        {
+          title: "Rang",
+          property: "rank",
+          width: ["0rem", "5vw"],
+        },
+        {
+          title: "Lateinischer Vorname",
+          property: "latin",
+          width: ["100%", "15vw"],
+        },
+        {
+          title: "Vorname",
+          property: "firstName",
+          width: ["100%", "15vw"],
+        },
+        {
+          title: "Nachname",
+          property: "lastName",
+          width: ["100%", "15vw"],
+        },
+        {
+          title: "Geburtstag",
+          property: "birthday",
+          width: ["100%", "15vw"],
+        },
+        {
+          title: "Todestag",
+          property: "deathday",
+          width: ["100%", "15vw"],
+        },
+        {
+          title: "Nationalität",
+          property: "nation",
+          width: ["100%", "15vw"],
+        },
+      ]
+    : [
+        {
+          title: "Rang",
+          property: "rank",
+          width: ["0rem", "5vw"],
+        },
+        {
+          title: "Lateinischer Vorname",
+          property: "latin",
+          width: ["100%", "15vw"],
+        },
+        {
+          title: "Vorname",
+          property: "firstName",
+          width: ["100%", "15vw"],
+        },
+        {
+          title: "Nachname",
+          property: "lastName",
+          width: ["100%", "15vw"],
+        },
+        { title: "Alter", property: "age", width: ["100%", "15vw"] },
+        {
+          title: "Nationalität",
+          property: "nation",
+          width: ["100%", "15vw"],
+        },
+        {
+          title: "Funktion",
+          property: "function",
+          width: ["100%", "20vw"],
+        },
+      ];
   return (
     <Table>
       <TableHead sx={{ display: ["none", "none", "table-header-group"] }}>
@@ -181,6 +221,21 @@ const CustomTable = ({ data, startDate }: CustomTableProps) => {
                         key={`${index}-${cell.property}`}
                         sx={{ ...sxCell, width: cell.width, hyphens: "auto" }}>
                         {row[cell.property]}
+                      </TableCell>
+                    );
+                  case "birthday":
+                  case "deathday":
+                    return (
+                      <TableCell
+                        key={`${index}-${cell.property}`}
+                        sx={{ ...sxCell, width: cell.width, hyphens: "auto" }}>
+                        {new Date(
+                          row[cell.property] as DateString,
+                        ).toLocaleDateString("de", {
+                          day: "numeric",
+                          month: "numeric",
+                          year: "numeric",
+                        })}
                       </TableCell>
                     );
                   default:

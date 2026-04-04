@@ -179,6 +179,7 @@ export type CustomTableProps = {
     elected?: boolean;
   }[];
   startDate: DateString;
+  deceased?: boolean;
 };
 
 export type FirstNameProps = {
@@ -195,6 +196,7 @@ export type FirstNameProps = {
     elected?: boolean;
   }[];
   startDate: DateString;
+  deceased?: boolean;
 };
 
 export interface NewCardinal {

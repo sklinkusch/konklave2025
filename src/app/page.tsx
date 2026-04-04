@@ -28,6 +28,11 @@ export default function Home() {
             Liste der nicht mehr wahlberechtigten Kardinäle
           </Link>
         </ListItem>
+        <ListItem key="deceased">
+          <Link href="/deceased" underline="none">
+            Liste der verstorbenen Kardinäle
+          </Link>
+        </ListItem>
         {allYears.reverse().map((year) => {
           const conclave = conclaves.find((conclave) => conclave.key === year);
           return (
