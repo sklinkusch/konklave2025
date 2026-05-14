@@ -8,6 +8,7 @@ export const Emilius: FirstName = {
       firstName: "Emil Paul",
       lastName: "Tscherrig",
       birthday: "1947-02-03",
+      deathday: "2026-05-12",
       nation: {
         2025: ["CH", "VA"],
       },
